@@ -1,0 +1,251 @@
+{
+  "id": "c1-u02-politik",
+  "level": "C1",
+  "order": 2,
+  "slug": "politik-diskurs",
+  "title": "Politik und öffentlicher Diskurs",
+  "titleVi": "Chính trị và diễn ngôn công cộng",
+  "description": "Đọc hiểu bình luận chính trị và tham gia tranh luận. Trọng tâm: nhận diện chiến lược lập luận và các sắc thái hàm ẩn của ngôn ngữ.",
+  "goals": [
+    "Nhận diện chiến lược lập luận trong bài bình luận",
+    "Phản biện lịch sự nhưng dứt khoát",
+    "Nhận ra sắc thái đánh giá ẩn trong lựa chọn từ ngữ"
+  ],
+  "vocabulary": [
+    {
+      "id": "c1-u02-v-debatte",
+      "de": "Debatte",
+      "article": "die",
+      "plural": "Debatten",
+      "pos": "noun",
+      "vi": "cuộc tranh luận",
+      "example": { "de": "Die Debatte wird emotional geführt.", "vi": "Cuộc tranh luận đang diễn ra đầy cảm tính." },
+      "tags": ["chinh-tri"]
+    },
+    {
+      "id": "c1-u02-v-massnahme",
+      "de": "Maßnahme",
+      "article": "die",
+      "plural": "Maßnahmen",
+      "pos": "noun",
+      "vi": "biện pháp",
+      "example": { "de": "Die Maßnahmen greifen zu kurz.", "vi": "Các biện pháp chưa đủ tầm." },
+      "tags": ["chinh-tri"]
+    },
+    {
+      "id": "c1-u02-v-kompromiss",
+      "de": "Kompromiss",
+      "article": "der",
+      "plural": "Kompromisse",
+      "pos": "noun",
+      "vi": "sự thoả hiệp",
+      "example": { "de": "Man einigte sich auf einen Kompromiss.", "vi": "Các bên đã thống nhất một thoả hiệp." },
+      "tags": ["chinh-tri"]
+    },
+    {
+      "id": "c1-u02-v-polarisierung",
+      "de": "Polarisierung",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự phân cực",
+      "example": { "de": "Die Polarisierung der Gesellschaft nimmt zu.", "vi": "Sự phân cực trong xã hội đang tăng." },
+      "tags": ["chinh-tri"]
+    },
+    {
+      "id": "c1-u02-v-sachlich",
+      "de": "sachlich",
+      "pos": "adjective",
+      "vi": "khách quan, đi vào bản chất",
+      "example": { "de": "Lassen Sie uns sachlich bleiben.", "vi": "Chúng ta hãy giữ thái độ khách quan." },
+      "tags": ["chinh-tri", "lap-luan"]
+    },
+    {
+      "id": "c1-u02-v-untermauern",
+      "de": "untermauern",
+      "pos": "verb",
+      "vi": "củng cố bằng luận cứ",
+      "example": { "de": "Er untermauerte seine Position mit Zahlen.", "vi": "Ông ấy củng cố lập trường bằng số liệu." },
+      "tags": ["lap-luan"]
+    },
+    {
+      "id": "c1-u02-v-entkraeften",
+      "de": "entkräften",
+      "pos": "verb",
+      "vi": "bác bỏ, làm suy yếu (luận điểm)",
+      "example": { "de": "Dieses Argument lässt sich leicht entkräften.", "vi": "Luận điểm này dễ bị bác bỏ." },
+      "tags": ["lap-luan"]
+    },
+    {
+      "id": "c1-u02-v-tragweite",
+      "de": "Tragweite",
+      "article": "die",
+      "pos": "noun",
+      "vi": "tầm ảnh hưởng, hệ quả sâu rộng",
+      "example": { "de": "Die Tragweite der Entscheidung ist enorm.", "vi": "Tầm ảnh hưởng của quyết định này là rất lớn." },
+      "tags": ["chinh-tri"]
+    },
+    {
+      "id": "c1-u02-v-zwangslaeufig",
+      "de": "zwangsläufig",
+      "pos": "adjective",
+      "vi": "tất yếu, không tránh khỏi",
+      "example": { "de": "Das führt nicht zwangsläufig zu Konflikten.", "vi": "Điều đó không tất yếu dẫn tới xung đột." },
+      "tags": ["lap-luan"]
+    },
+    {
+      "id": "c1-u02-v-vereinnahmen",
+      "de": "vereinnahmen",
+      "pos": "verb",
+      "vi": "chiếm dụng (khái niệm, phong trào) cho mục đích riêng",
+      "example": { "de": "Der Begriff wurde politisch vereinnahmt.", "vi": "Khái niệm này đã bị chiếm dụng về mặt chính trị." },
+      "tags": ["chinh-tri"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "c1-u02-g-argumentationsstrategien",
+      "title": "Argumentationsstrategien erkennen",
+      "titleVi": "Nhận diện chiến lược lập luận",
+      "summary": "Ngôn ngữ chính trị Đức có những khuôn mẫu cố định để nhượng bộ, phản biện và chuyển hướng — nhận ra chúng là chìa khoá đọc hiểu C1.",
+      "explanation": "Ở C1, đọc hiểu không còn là hiểu từ mà là **nhận ra người viết đang làm gì với người đọc**.\n\n**Nhượng bộ rồi lật lại** (concessio) — khuôn mẫu phổ biến nhất trong bình luận Đức:\n\n> `**Zwar** ist die Kritik berechtigt, **doch** übersieht sie einen wesentlichen Punkt.`\n\nVế `zwar` thừa nhận một phần để tăng độ tin cậy, vế `doch` mới là luận điểm thật.\n\n**Các khuôn mẫu khác cần nhận diện:**\n\n- Đặt câu hỏi tu từ: `Wer **wollte** ernsthaft bestreiten, dass …?` — thực chất là khẳng định.\n- Giảm nhẹ (Understatement): `Das ist **nicht unproblematisch**.` = đây là vấn đề nghiêm trọng.\n- Chuyển gánh nặng chứng minh: `Es bleibt **abzuwarten**, ob die Kritiker recht behalten.`\n- Khái quát hoá: `Es ist **allgemein bekannt**, dass …` — thường dùng khi thiếu dẫn chứng cụ thể.\n\n**Litotes** (phủ định của phủ định) rất phổ biến trong tiếng Đức trang trọng và người học hay hiểu sai:\n\n- `nicht unwahrscheinlich` = khá có khả năng\n- `nicht ohne Grund` = hoàn toàn có lý do\n- `nicht zuletzt` = nhất là, đặc biệt là",
+      "examples": [
+        { "de": "Zwar ist die Kritik berechtigt, doch übersieht sie einen wesentlichen Punkt.", "vi": "Lời phê bình tuy có lý, nhưng nó bỏ qua một điểm cốt yếu." },
+        { "de": "Das ist nicht unproblematisch.", "vi": "Chuyện này khá có vấn đề.", "note": "Litotes — nói giảm nhưng ý nặng." },
+        { "de": "Es bleibt abzuwarten, ob die Maßnahmen greifen.", "vi": "Còn phải chờ xem các biện pháp có hiệu quả không." },
+        { "de": "Nicht zuletzt deshalb wurde die Reform verschoben.", "vi": "Nhất là vì vậy mà cuộc cải cách bị hoãn." }
+      ],
+      "tables": [
+        {
+          "title": "Khuôn mẫu lập luận",
+          "headers": ["Khuôn mẫu", "Hình thức", "Ý thật sự"],
+          "rows": [
+            ["nhượng bộ rồi lật", "Zwar …, doch …", "vế sau là luận điểm chính"],
+            ["câu hỏi tu từ", "Wer wollte bestreiten, dass …?", "khẳng định mạnh"],
+            ["litotes", "nicht unwahrscheinlich", "khá có khả năng"],
+            ["hoãn kết luận", "Es bleibt abzuwarten, ob …", "tránh cam kết"],
+            ["khái quát hoá", "Es ist allgemein bekannt, dass …", "thường thiếu dẫn chứng"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Hiểu litotes theo nghĩa đen: \"nicht unproblematisch\" không phải \"không có vấn đề\".",
+        "Coi vế \"zwar\" là quan điểm của tác giả — quan điểm thật nằm ở vế \"doch\".",
+        "Bỏ qua câu hỏi tu từ như câu hỏi thật."
+      ],
+      "tags": ["connectors", "vocabulary"]
+    },
+    {
+      "id": "c1-u02-g-konnotation",
+      "title": "Konnotation und Wortwahl",
+      "titleVi": "Sắc thái ẩn trong lựa chọn từ",
+      "summary": "Cùng một sự việc, chọn từ khác nhau là đã đánh giá khác nhau — công cụ chính của diễn ngôn chính trị.",
+      "explanation": "Ở C1, bạn cần đọc được **thái độ ẩn sau lựa chọn từ**. Các cặp từ dưới đây mô tả cùng một hiện tượng nhưng mang đánh giá trái ngược:\n\n| Trung lập / tích cực | Tiêu cực |\n|---|---|\n| die Reform | der Eingriff (sự can thiệp) |\n| die Regulierung | die Bevormundung (sự áp đặt) |\n| sparsam (tiết kiệm) | geizig (keo kiệt) |\n| selbstbewusst (tự tin) | arrogant |\n| die Fachkraft | die Arbeitskraft (hạ xuống thành sức lao động) |\n\n**Hậu tố cũng mang sắc thái:**\n\n- `-erei` thường mang nghĩa chê: `die Streiterei` (chuyện cãi cọ lằng nhằng), `die Fragerei` (hỏi han phiền phức)\n- `-ling` thường tiêu cực hoặc hạ thấp: `der Schreiberling` (kẻ viết lách quèn)\n\n**Danh hoá làm mờ chủ thể** — một thủ pháp chính trị:\n\n- `Es kam zu Entlassungen.` (Đã xảy ra các vụ sa thải — không ai chịu trách nhiệm)\n- so với: `Das Unternehmen entließ 200 Mitarbeiter.` (Công ty đã sa thải 200 người — rõ chủ thể)\n\nKhi đọc văn bản chính trị Đức, hãy tự hỏi: **ai biến mất khỏi câu này?**",
+      "examples": [
+        { "de": "Es kam zu Entlassungen.", "vi": "Đã xảy ra các vụ sa thải.", "note": "Chủ thể bị xoá khỏi câu." },
+        { "de": "Der Begriff wurde politisch vereinnahmt.", "vi": "Khái niệm này đã bị chiếm dụng về mặt chính trị." },
+        { "de": "Man spricht von Regulierung, meint aber Bevormundung.", "vi": "Người ta nói là điều tiết, nhưng thật ra là áp đặt." }
+      ],
+      "tables": [
+        {
+          "title": "Công cụ tạo sắc thái",
+          "headers": ["Công cụ", "Ví dụ", "Hiệu ứng"],
+          "rows": [
+            ["chọn từ đồng nghĩa", "Reform / Eingriff", "khen hoặc chê"],
+            ["danh hoá", "Es kam zu Entlassungen.", "xoá chủ thể trách nhiệm"],
+            ["bị động không tác nhân", "Fehler wurden gemacht.", "né trách nhiệm"],
+            ["hậu tố -erei", "die Diskutiererei", "hạ thấp, mỉa mai"],
+            ["litotes", "nicht unerheblich", "nhấn mạnh kín đáo"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Chỉ đọc nội dung mà bỏ qua sắc thái — ở C1 sắc thái chính là nội dung.",
+        "Dùng từ mang sắc thái tiêu cực trong bài viết trung lập.",
+        "Lạm dụng bị động không tác nhân trong bài viết học thuật — bị coi là né tránh."
+      ],
+      "tags": ["vocabulary", "passive"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "\"Das ist nicht unproblematisch.\" nghĩa thực sự là gì?",
+      "options": [
+        "Đây là chuyện khá có vấn đề",
+        "Đây hoàn toàn không phải vấn đề",
+        "Đây là chuyện nhỏ nhặt",
+        "Đây là vấn đề đã được giải quyết"
+      ],
+      "answerIndex": 0,
+      "explanation": "Litotes: phủ định của một từ tiêu cực dùng để nhấn mạnh kín đáo, không phải để phủ nhận.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c1-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "Trong câu \"Zwar ist die Kritik berechtigt, doch übersieht sie einen wesentlichen Punkt\", quan điểm THẬT của tác giả là gì?",
+      "options": [
+        "Lời phê bình bỏ sót một điểm cốt yếu",
+        "Lời phê bình hoàn toàn có lý",
+        "Tác giả không có quan điểm rõ ràng",
+        "Tác giả đồng ý hoàn toàn với người phê bình"
+      ],
+      "answerIndex": 0,
+      "explanation": "Trong khuôn mẫu \"zwar … doch …\", vế đầu chỉ là nhượng bộ chiến thuật; luận điểm thật nằm ở vế \"doch\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c1-u02-e-03",
+      "type": "multiple_choice",
+      "prompt": "Câu nào XOÁ chủ thể chịu trách nhiệm rõ nhất?",
+      "options": [
+        "Es kam zu Entlassungen.",
+        "Das Unternehmen entließ 200 Mitarbeiter.",
+        "Der Vorstand hat 200 Stellen gestrichen.",
+        "Die Geschäftsführung kündigte 200 Verträge."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Es kam zu …\" là cấu trúc không tác nhân — không ai được nêu tên là người chịu trách nhiệm.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "c1-u02-e-04",
+      "type": "matching",
+      "instruction": "Nối từ trung lập với biến thể mang sắc thái tiêu cực",
+      "pairs": [
+        { "left": "die Reform", "right": "der Eingriff" },
+        { "left": "die Regulierung", "right": "die Bevormundung" },
+        { "left": "sparsam", "right": "geizig" },
+        { "left": "selbstbewusst", "right": "arrogant" }
+      ],
+      "explanation": "Cùng một sự việc, cách gọi tên đã là một hành động đánh giá.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c1-u02-e-05",
+      "type": "fill_blank",
+      "sentence": "___ ist die Maßnahme umstritten, ___ hat sie messbare Wirkung gezeigt.",
+      "blanks": [
+        { "answers": ["Zwar"], "hint": "vế nhượng bộ" },
+        { "answers": ["doch", "aber", "dennoch"], "hint": "vế luận điểm chính" }
+      ],
+      "translation": "Biện pháp này tuy gây tranh cãi, nhưng nó đã cho thấy hiệu quả đo được.",
+      "explanation": "Khuôn mẫu \"zwar … doch …\": vế sau mới là điều tác giả muốn khẳng định.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c1-u02-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Es bleibt abzuwarten, ob die beschlossenen Maßnahmen die erhoffte Wirkung entfalten.",
+      "answers": [
+        "Còn phải chờ xem các biện pháp đã thông qua có phát huy tác dụng như mong đợi hay không.",
+        "Vẫn phải đợi xem những biện pháp được thông qua có mang lại hiệu quả mong muốn không.",
+        "Còn phải chờ xem liệu các biện pháp đã quyết có đạt hiệu quả kỳ vọng hay không."
+      ],
+      "explanation": "Câu chứa \"sein + zu + Infinitiv\", định ngữ phân từ (\"die beschlossenen Maßnahmen\") và mệnh đề phụ với \"ob\".",
+      "skillTag": "translation"
+    }
+  ]
+}

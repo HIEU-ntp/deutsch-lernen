@@ -1,0 +1,281 @@
+{
+  "id": "a1-1-u02-begruessung",
+  "level": "A1.1",
+  "order": 2,
+  "slug": "begruessung",
+  "title": "Begrüßung und Verabschiedung",
+  "titleVi": "Chào hỏi và tạm biệt",
+  "description": "Chào đúng người, đúng lúc, đúng mức độ trang trọng — và biết phân biệt du với Sie, thứ mà tiếng Việt không có tương đương trực tiếp.",
+  "goals": [
+    "Chào và tạm biệt theo từng thời điểm trong ngày",
+    "Phân biệt xưng hô thân mật (du) và trang trọng (Sie)",
+    "Hỏi thăm sức khoẻ và đáp lại"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u02-v-hallo",
+      "de": "Hallo",
+      "pos": "interjection",
+      "vi": "xin chào (thân mật, dùng cả ngày)",
+      "example": { "de": "Hallo, ich bin Linh.", "vi": "Chào, tôi là Linh." },
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-guten-morgen",
+      "de": "Guten Morgen",
+      "pos": "phrase",
+      "vi": "chào buổi sáng",
+      "example": { "de": "Guten Morgen, Frau Schmidt!", "vi": "Chào buổi sáng, bà Schmidt!" },
+      "note": "Dùng tới khoảng 10-11 giờ sáng.",
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-guten-tag",
+      "de": "Guten Tag",
+      "pos": "phrase",
+      "vi": "chào (ban ngày, trang trọng)",
+      "example": { "de": "Guten Tag, mein Name ist Nguyen.", "vi": "Xin chào, tôi tên là Nguyễn." },
+      "note": "Câu chào an toàn nhất khi gặp người lạ hoặc trong công việc.",
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-guten-abend",
+      "de": "Guten Abend",
+      "pos": "phrase",
+      "vi": "chào buổi tối",
+      "example": { "de": "Guten Abend! Wie geht es Ihnen?", "vi": "Chào buổi tối! Ông/bà khoẻ không?" },
+      "note": "Từ khoảng 18 giờ trở đi.",
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-gute-nacht",
+      "de": "Gute Nacht",
+      "pos": "phrase",
+      "vi": "chúc ngủ ngon",
+      "example": { "de": "Gute Nacht, schlaf gut!", "vi": "Ngủ ngon nhé, ngủ ngon!" },
+      "note": "KHÔNG dùng để chào khi gặp mặt buổi tối — chỉ dùng khi đi ngủ hoặc chia tay khuya.",
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-tschuess",
+      "de": "Tschüss",
+      "pos": "interjection",
+      "vi": "tạm biệt (thân mật)",
+      "example": { "de": "Tschüss, bis morgen!", "vi": "Tạm biệt, mai gặp lại!" },
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-auf-wiedersehen",
+      "de": "Auf Wiedersehen",
+      "pos": "phrase",
+      "vi": "tạm biệt (trang trọng)",
+      "example": { "de": "Auf Wiedersehen, Herr Müller.", "vi": "Tạm biệt, ông Müller." },
+      "note": "Qua điện thoại thì nói \"Auf Wiederhören\" (hören = nghe).",
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-bis-bald",
+      "de": "Bis bald",
+      "pos": "phrase",
+      "vi": "hẹn sớm gặp lại",
+      "example": { "de": "Bis bald! Ich rufe dich an.", "vi": "Hẹn sớm gặp lại! Tôi sẽ gọi cho bạn." },
+      "tags": ["chao-hoi"]
+    },
+    {
+      "id": "a1-1-u02-v-danke",
+      "de": "danke",
+      "pos": "adverb",
+      "vi": "cảm ơn",
+      "example": { "de": "Danke schön!", "vi": "Cảm ơn nhiều!" },
+      "tags": ["lich-su"]
+    },
+    {
+      "id": "a1-1-u02-v-bitte",
+      "de": "bitte",
+      "pos": "adverb",
+      "vi": "làm ơn / không có gì / xin mời",
+      "example": { "de": "Danke! — Bitte!", "vi": "Cảm ơn! — Không có gì!" },
+      "note": "Một từ ba nghĩa: \"làm ơn\" khi nhờ vả, \"không có gì\" khi đáp lời cảm ơn, \"xin mời\" khi đưa đồ cho ai.",
+      "tags": ["lich-su"]
+    },
+    {
+      "id": "a1-1-u02-v-entschuldigung",
+      "de": "Entschuldigung",
+      "article": "die",
+      "plural": "Entschuldigungen",
+      "pos": "noun",
+      "vi": "xin lỗi / cho hỏi",
+      "example": { "de": "Entschuldigung, wo ist der Bahnhof?", "vi": "Xin lỗi cho hỏi, nhà ga ở đâu ạ?" },
+      "tags": ["lich-su"]
+    },
+    {
+      "id": "a1-1-u02-v-frau",
+      "de": "Frau",
+      "article": "die",
+      "plural": "Frauen",
+      "pos": "noun",
+      "vi": "bà / chị (kèm họ) — cũng nghĩa là phụ nữ",
+      "example": { "de": "Guten Tag, Frau Weber!", "vi": "Xin chào, bà Weber!" },
+      "note": "Luôn đi với HỌ, không đi với tên riêng: Frau Weber, không phải Frau Anna.",
+      "tags": ["xung-ho"]
+    },
+    {
+      "id": "a1-1-u02-v-herr",
+      "de": "Herr",
+      "article": "der",
+      "plural": "Herren",
+      "pos": "noun",
+      "vi": "ông / anh (kèm họ)",
+      "example": { "de": "Wie geht es Ihnen, Herr Klein?", "vi": "Ông Klein khoẻ không ạ?" },
+      "tags": ["xung-ho"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u02-g-du-sie",
+      "title": "du oder Sie? — Die Anrede",
+      "titleVi": "Xưng hô: du hay Sie?",
+      "summary": "Tiếng Đức có hai kiểu \"bạn\": du thân mật và Sie trang trọng. Chọn sai có thể bị coi là bất lịch sự.",
+      "explanation": "**du** dùng với: bạn bè, người thân, trẻ em, đồng nghiệp thân, và trong hầu hết các trường đại học giữa sinh viên với nhau.\n\n**Sie** dùng với: người lạ, người lớn tuổi, khách hàng, cấp trên, nhân viên hành chính, bác sĩ. `Sie` luôn viết HOA khi mang nghĩa xưng hô trang trọng, để phân biệt với `sie` (cô ấy / họ).\n\nĐộng từ chia khác nhau:\n\n- du kommst / Sie kommen\n- du heißt / Sie heißen\n- Wie geht es dir? / Wie geht es Ihnen?\n\nQuy tắc thực dụng cho người mới: **cứ dùng Sie với người lớn không quen**. Người Đức sẽ chủ động mời bạn chuyển sang du bằng câu \"Wir können uns duzen\" (Mình xưng du đi).",
+      "examples": [
+        { "de": "Wie heißt du? — Ich heiße Minh.", "vi": "Bạn tên gì? — Tôi tên Minh.", "note": "Với bạn cùng lứa." },
+        { "de": "Wie heißen Sie? — Mein Name ist Nguyen.", "vi": "Ông/bà tên gì ạ? — Tên tôi là Nguyễn.", "note": "Với người lạ, trong công việc." },
+        { "de": "Woher kommst du? / Woher kommen Sie?", "vi": "Bạn / ông bà đến từ đâu?" }
+      ],
+      "tables": [
+        {
+          "title": "So sánh hai kiểu xưng hô",
+          "headers": ["", "Thân mật (du)", "Trang trọng (Sie)"],
+          "rows": [
+            ["Chào", "Hallo", "Guten Tag"],
+            ["Tạm biệt", "Tschüss", "Auf Wiedersehen"],
+            ["Hỏi tên", "Wie heißt du?", "Wie heißen Sie?"],
+            ["Hỏi thăm", "Wie geht es dir?", "Wie geht es Ihnen?"],
+            ["Gọi tên", "Anna, Minh", "Frau Weber, Herr Klein"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"du\" với người lạ lớn tuổi — bị coi là suồng sã.",
+        "Gọi \"Frau Anna\" (Frau + tên riêng) — phải là Frau + họ.",
+        "Viết \"sie\" thường khi muốn nói \"ông/bà\" — phải viết hoa \"Sie\"."
+      ],
+      "tags": ["articles", "vocabulary"]
+    },
+    {
+      "id": "a1-1-u02-g-wie-geht-es",
+      "title": "Wie geht es dir/Ihnen?",
+      "titleVi": "Hỏi thăm và đáp lại",
+      "summary": "Câu hỏi thăm chuẩn và thang trả lời từ rất tốt tới rất tệ.",
+      "explanation": "Câu đầy đủ: `Wie geht es dir?` (thân mật) hoặc `Wie geht es Ihnen?` (trang trọng). Trong nói chuyện hằng ngày người Đức hay rút gọn thành `Wie geht's?`.\n\nKhác với tiếng Anh \"How are you?\" chỉ là lời chào xã giao, người Đức thường trả lời **thật**. Nếu bạn nói \"Nicht so gut\", người ta sẽ hỏi tiếp vì sao.\n\nCấu trúc trả lời thường gặp: `Danke, gut. Und dir?` — nhớ hỏi ngược lại, nếu không sẽ bị coi là thiếu quan tâm.",
+      "examples": [
+        { "de": "Wie geht's? — Danke, sehr gut!", "vi": "Khoẻ không? — Cảm ơn, rất khoẻ!" },
+        { "de": "Wie geht es Ihnen? — Danke, gut. Und Ihnen?", "vi": "Ông/bà khoẻ không? — Cảm ơn, tôi khoẻ. Còn ông/bà?" },
+        { "de": "Nicht so gut, ich bin müde.", "vi": "Không tốt lắm, tôi mệt." }
+      ],
+      "tables": [
+        {
+          "title": "Thang trả lời, từ tốt nhất tới tệ nhất",
+          "headers": ["Tiếng Đức", "Nghĩa"],
+          "rows": [
+            ["Sehr gut!", "Rất tốt!"],
+            ["Gut, danke.", "Tốt, cảm ơn."],
+            ["Es geht.", "Cũng tạm."],
+            ["Nicht so gut.", "Không tốt lắm."],
+            ["Schlecht.", "Tệ."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Quên hỏi lại \"Und dir? / Und Ihnen?\" sau khi trả lời.",
+        "Trả lời \"Ich bin gut\" — câu này nghĩa là \"tôi giỏi\", phải nói \"Mir geht es gut\"."
+      ],
+      "tags": ["vocabulary", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Bạn gặp giám đốc công ty lúc 9 giờ sáng. Chào thế nào là phù hợp nhất?",
+      "options": ["Guten Morgen, Herr Braun!", "Hallo Braun!", "Gute Nacht, Herr Braun!", "Tschüss, Herr Braun!"],
+      "answerIndex": 0,
+      "explanation": "Buổi sáng + trang trọng → \"Guten Morgen\" + Herr/Frau + họ.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "Wie geht es ___? (bạn đang nói chuyện với một người lạ lớn tuổi)",
+      "options": ["Ihnen", "dir", "du", "sie"],
+      "answerIndex": 0,
+      "explanation": "Với người lạ dùng thể trang trọng: Wie geht es Ihnen?",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-1-u02-e-03",
+      "type": "fill_blank",
+      "sentence": "___ Tag, Frau Weber! Wie geht es ___?",
+      "blanks": [
+        { "answers": ["Guten"], "hint": "chào ban ngày" },
+        { "answers": ["Ihnen"], "hint": "thể trang trọng" }
+      ],
+      "translation": "Xin chào, bà Weber! Bà khoẻ không ạ?",
+      "explanation": "\"Frau Weber\" cho biết đây là tình huống trang trọng nên phải dùng Ihnen chứ không phải dir.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-1-u02-e-04",
+      "type": "matching",
+      "instruction": "Nối câu thân mật với câu trang trọng tương ứng",
+      "pairs": [
+        { "left": "Hallo", "right": "Guten Tag" },
+        { "left": "Tschüss", "right": "Auf Wiedersehen" },
+        { "left": "Wie geht es dir?", "right": "Wie geht es Ihnen?" },
+        { "left": "Wie heißt du?", "right": "Wie heißen Sie?" }
+      ],
+      "explanation": "Cột trái là thể du, cột phải là thể Sie.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u02-e-05",
+      "type": "listening",
+      "audioText": "Guten Abend! Wie geht es Ihnen?",
+      "mode": "choice",
+      "question": "Đây là lời chào vào lúc nào và với ai?",
+      "options": [
+        "Buổi tối, với người cần xưng hô trang trọng",
+        "Buổi sáng, với bạn thân",
+        "Buổi tối, với trẻ con",
+        "Lúc đi ngủ, với người trong nhà"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Guten Abend\" = buổi tối; \"Ihnen\" cho thấy đang dùng thể trang trọng Sie.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u02-e-06",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi thăm trang trọng",
+      "answer": ["Wie", "geht", "es", "Ihnen"],
+      "translation": "Ông/bà khoẻ không ạ?",
+      "explanation": "Động từ \"geht\" đứng vị trí thứ hai, ngay sau từ để hỏi \"Wie\".",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u02-e-07",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Entschuldigung, wie heißen Sie?",
+      "answers": [
+        "Xin lỗi, ông/bà tên là gì?",
+        "Xin lỗi, ông tên là gì?",
+        "Xin lỗi, bà tên là gì?",
+        "Xin lỗi, anh/chị tên là gì?",
+        "Xin lỗi cho hỏi, ông/bà tên là gì?"
+      ],
+      "explanation": "\"Entschuldigung\" ở đầu câu thường mang nghĩa \"xin lỗi cho hỏi\" chứ không phải xin lỗi vì đã làm sai.",
+      "skillTag": "translation"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "a1-1-u07-verben",
+  "level": "A1.1",
+  "order": 7,
+  "slug": "verben-praesens",
+  "title": "Regelmäßige Verben im Präsens",
+  "titleVi": "Chia động từ thường ở thì hiện tại",
+  "description": "Một bộ sáu đuôi duy nhất áp dụng cho hàng nghìn động từ. Học xong bài này bạn chia được phần lớn động từ tiếng Đức.",
+  "goals": [
+    "Chia động từ đều đặn theo sáu ngôi",
+    "Xử lý các động từ cần thêm -e- cho dễ đọc",
+    "Biết vị trí bắt buộc của động từ trong câu kể"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u07-v-arbeiten",
+      "de": "arbeiten",
+      "pos": "verb",
+      "vi": "làm việc",
+      "example": { "de": "Ich arbeite in einem Büro.", "vi": "Tôi làm việc trong một văn phòng." },
+      "note": "Gốc kết thúc bằng -t nên phải thêm -e- : du arbeit**e**st.",
+      "tags": ["dong-tu-thuong-dung", "cong-viec"]
+    },
+    {
+      "id": "a1-1-u07-v-machen",
+      "de": "machen",
+      "pos": "verb",
+      "vi": "làm",
+      "example": { "de": "Was machst du heute?", "vi": "Hôm nay bạn làm gì?" },
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u07-v-spielen",
+      "de": "spielen",
+      "pos": "verb",
+      "vi": "chơi",
+      "example": { "de": "Wir spielen Fußball.", "vi": "Chúng tôi chơi bóng đá." },
+      "tags": ["dong-tu-thuong-dung", "so-thich"]
+    },
+    {
+      "id": "a1-1-u07-v-trinken",
+      "de": "trinken",
+      "pos": "verb",
+      "vi": "uống",
+      "principalParts": "trinken, trank, hat getrunken",
+      "example": { "de": "Ich trinke Kaffee.", "vi": "Tôi uống cà phê." },
+      "tags": ["dong-tu-thuong-dung", "an-uong"]
+    },
+    {
+      "id": "a1-1-u07-v-kaufen",
+      "de": "kaufen",
+      "pos": "verb",
+      "vi": "mua",
+      "example": { "de": "Sie kauft ein Buch.", "vi": "Cô ấy mua một quyển sách." },
+      "tags": ["dong-tu-thuong-dung", "mua-sam"]
+    },
+    {
+      "id": "a1-1-u07-v-finden",
+      "de": "finden",
+      "pos": "verb",
+      "vi": "tìm thấy; cho rằng",
+      "principalParts": "finden, fand, hat gefunden",
+      "example": { "de": "Ich finde Deutsch schwer.", "vi": "Tôi thấy tiếng Đức khó." },
+      "note": "Gốc kết thúc bằng -d nên thêm -e-: du find**e**st.",
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u07-v-hoeren",
+      "de": "hören",
+      "pos": "verb",
+      "vi": "nghe",
+      "example": { "de": "Hörst du Musik?", "vi": "Bạn có nghe nhạc không?" },
+      "tags": ["dong-tu-thuong-dung", "so-thich"]
+    },
+    {
+      "id": "a1-1-u07-v-heissen-2",
+      "de": "reisen",
+      "pos": "verb",
+      "vi": "đi du lịch",
+      "example": { "de": "Du reist gern.", "vi": "Bạn thích đi du lịch." },
+      "note": "Gốc kết thúc bằng -s nên ngôi du chỉ thêm -t: du reis**t** (không phải reisst).",
+      "tags": ["dong-tu-thuong-dung", "du-lich"]
+    },
+    {
+      "id": "a1-1-u07-v-warten",
+      "de": "warten",
+      "pos": "verb",
+      "vi": "đợi",
+      "example": { "de": "Er wartet auf den Bus.", "vi": "Anh ấy đợi xe buýt." },
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u07-v-gern",
+      "de": "gern",
+      "pos": "adverb",
+      "vi": "thích (làm gì đó)",
+      "example": { "de": "Ich trinke gern Tee.", "vi": "Tôi thích uống trà." },
+      "note": "Tiếng Đức không có động từ \"thích làm gì\" — dùng động từ chính + \"gern\".",
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-1-u07-v-heute",
+      "de": "heute",
+      "pos": "adverb",
+      "vi": "hôm nay",
+      "example": { "de": "Heute arbeite ich nicht.", "vi": "Hôm nay tôi không làm việc." },
+      "note": "Khi \"heute\" đứng đầu câu, động từ vẫn phải ở vị trí thứ hai → đảo chủ ngữ ra sau.",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-1-u07-v-immer",
+      "de": "immer",
+      "pos": "adverb",
+      "vi": "luôn luôn",
+      "example": { "de": "Sie kommt immer zu spät.", "vi": "Cô ấy luôn đến muộn." },
+      "tags": ["thoi-gian"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u07-g-praesens",
+      "title": "Präsens der regelmäßigen Verben",
+      "titleVi": "Sáu đuôi chia động từ ở hiện tại",
+      "summary": "Bỏ đuôi -en của nguyên thể để lấy gốc, rồi gắn sáu đuôi cố định.",
+      "explanation": "Động từ nguyên thể tiếng Đức luôn kết thúc bằng `-en` (hoặc `-n`). Bỏ phần đó đi được **gốc động từ** (Verbstamm), rồi gắn đuôi theo ngôi:\n\n`lernen` → gốc `lern-` → ich lern**e**, du lern**st**, er lern**t**…\n\nHai lưu ý về chính tả:\n\n1. **Gốc kết thúc bằng -t, -d, -ffn, -chn**: thêm `-e-` cho dễ đọc.\n   - arbeiten → du arbeit**e**st, er arbeit**e**t\n   - finden → du find**e**st, er find**e**t\n\n2. **Gốc kết thúc bằng -s, -ss, -ß, -z, -x**: ngôi `du` chỉ thêm `-t` (vì đã có sẵn âm s).\n   - heißen → du heiß**t** (không phải heißst)\n   - reisen → du reis**t**\n\nMột điểm khác biệt lớn với tiếng Việt: **thì hiện tại tiếng Đức bao gồm cả tương lai gần**. `Ich fahre morgen nach Berlin` = \"Mai tôi sẽ đi Berlin\" — không cần thì tương lai.",
+      "examples": [
+        { "de": "Ich lerne Deutsch, du lernst Englisch.", "vi": "Tôi học tiếng Đức, bạn học tiếng Anh." },
+        { "de": "Er arbeitet viel und wir spielen Fußball.", "vi": "Anh ấy làm việc nhiều còn chúng tôi chơi bóng đá." },
+        { "de": "Wie heißt du?", "vi": "Bạn tên gì?", "note": "heißen + du → heißt, chỉ một chữ t." }
+      ],
+      "tables": [
+        {
+          "title": "Đuôi chia và ví dụ",
+          "headers": ["Ngôi", "Đuôi", "lernen", "arbeiten", "heißen"],
+          "rows": [
+            ["ich", "-e", "lerne", "arbeite", "heiße"],
+            ["du", "-st", "lernst", "arbeitest", "heißt"],
+            ["er / sie / es", "-t", "lernt", "arbeitet", "heißt"],
+            ["wir", "-en", "lernen", "arbeiten", "heißen"],
+            ["ihr", "-t", "lernt", "arbeitet", "heißt"],
+            ["sie / Sie", "-en", "lernen", "arbeiten", "heißen"]
+          ],
+          "footnote": "Cột arbeiten cho thấy chèn -e-; cột heißen cho thấy ngôi du chỉ thêm -t."
+        }
+      ],
+      "commonMistakes": [
+        "Quên chèn -e-: \"du arbeitst\" rất khó phát âm và bị coi là sai.",
+        "Viết \"du heißst\" với hai chữ s liền — chỉ cần \"heißt\".",
+        "Dùng thì tương lai cho kế hoạch gần: người Đức nói \"Ich komme morgen\", không cần \"werde kommen\"."
+      ],
+      "tags": ["verb-conjugation", "tenses"]
+    },
+    {
+      "id": "a1-1-u07-g-verb-position",
+      "title": "Das Verb steht an Position 2",
+      "titleVi": "Động từ luôn ở vị trí thứ hai",
+      "summary": "Quy tắc quan trọng nhất về trật tự từ trong câu kể tiếng Đức.",
+      "explanation": "Trong câu kể (Aussagesatz), **động từ chia luôn đứng ở vị trí thứ hai** — không phải từ thứ hai, mà là **thành phần** thứ hai.\n\nNếu bạn đưa một thành phần khác lên đầu câu (thời gian, địa điểm…), chủ ngữ phải nhảy ra sau động từ:\n\n| Vị trí 1 | Vị trí 2 (động từ) | Phần còn lại |\n|---|---|---|\n| Ich | lerne | heute Deutsch. |\n| Heute | lerne | ich Deutsch. |\n| Deutsch | lerne | ich heute. |\n\nCả ba câu đều đúng và cùng nghĩa; chỉ khác chỗ nhấn mạnh. Điều **không** được phép là: `Heute ich lerne Deutsch` ❌ — vì lúc đó động từ nằm ở vị trí thứ ba.\n\nĐây là lỗi phổ biến nhất của người Việt học tiếng Đức, vì tiếng Việt cho phép \"Hôm nay tôi học\" giữ nguyên trật tự.",
+      "examples": [
+        { "de": "Ich trinke morgens Kaffee.", "vi": "Buổi sáng tôi uống cà phê." },
+        { "de": "Morgens trinke ich Kaffee.", "vi": "Buổi sáng tôi uống cà phê.", "note": "Đảo chủ ngữ ra sau động từ." },
+        { "de": "In Berlin wohnt meine Schwester.", "vi": "Chị tôi sống ở Berlin." }
+      ],
+      "tables": [
+        {
+          "title": "Đúng và sai",
+          "headers": ["Câu", "Đánh giá"],
+          "rows": [
+            ["Heute lerne ich Deutsch.", "✅ động từ ở vị trí 2"],
+            ["Heute ich lerne Deutsch.", "❌ động từ ở vị trí 3"],
+            ["Ich lerne heute Deutsch.", "✅"],
+            ["Lerne ich heute Deutsch?", "✅ nhưng đây là câu hỏi Ja/Nein"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Giữ nguyên trật tự \"Hôm nay tôi học\" thành \"Heute ich lerne\" — sai.",
+        "Nghĩ rằng vị trí 2 là từ thứ hai: \"Mein kleiner Bruder\" là MỘT thành phần, động từ vẫn đứng ngay sau nó."
+      ],
+      "tags": ["word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u07-e-01",
+      "type": "conjugation",
+      "verb": "arbeiten",
+      "verbVi": "làm việc",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "arbeite", "prefilled": true },
+        { "pronoun": "du", "answer": "arbeitest" },
+        { "pronoun": "er/sie/es", "answer": "arbeitet" },
+        { "pronoun": "wir", "answer": "arbeiten" },
+        { "pronoun": "ihr", "answer": "arbeitet" },
+        { "pronoun": "sie/Sie", "answer": "arbeiten" }
+      ],
+      "note": "Gốc \"arbeit-\" kết thúc bằng -t nên cần chèn thêm -e- ở ngôi du, er/sie/es và ihr.",
+      "explanation": "arbeitest / arbeitet — nếu không chèn -e- thì không phát âm được.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u07-e-02",
+      "type": "conjugation",
+      "verb": "spielen",
+      "verbVi": "chơi",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "spiele" },
+        { "pronoun": "du", "answer": "spielst" },
+        { "pronoun": "er/sie/es", "answer": "spielt" },
+        { "pronoun": "wir", "answer": "spielen" },
+        { "pronoun": "ihr", "answer": "spielt" },
+        { "pronoun": "sie/Sie", "answer": "spielen" }
+      ],
+      "explanation": "Động từ đều đặn hoàn toàn: gốc spiel- + sáu đuôi -e/-st/-t/-en/-t/-en.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u07-e-03",
+      "type": "multiple_choice",
+      "prompt": "Câu nào ĐÚNG về trật tự từ?",
+      "options": [
+        "Heute arbeite ich nicht.",
+        "Heute ich arbeite nicht.",
+        "Ich heute arbeite nicht.",
+        "Heute nicht ich arbeite."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Heute\" chiếm vị trí 1, nên động từ \"arbeite\" phải ở vị trí 2 và chủ ngữ \"ich\" đẩy ra sau.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u07-e-04",
+      "type": "fill_blank",
+      "sentence": "Du ___ gern Musik und dein Bruder ___ Fußball.",
+      "blanks": [
+        { "answers": ["hörst"], "hint": "hören" },
+        { "answers": ["spielt"], "hint": "spielen" }
+      ],
+      "translation": "Bạn thích nghe nhạc còn anh trai bạn chơi bóng đá.",
+      "explanation": "du + hören → hörst; \"dein Bruder\" là ngôi thứ ba số ít → spielt.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u07-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp: bắt đầu bằng \"Morgen\"",
+      "answer": ["Morgen", "kaufe", "ich", "ein", "Wörterbuch"],
+      "translation": "Ngày mai tôi sẽ mua một cuốn từ điển.",
+      "explanation": "Morgen ở vị trí 1 → động từ kaufe ở vị trí 2 → chủ ngữ ich đứng sau. Thì hiện tại diễn tả cả tương lai gần.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u07-e-06",
+      "type": "multiple_choice",
+      "prompt": "Dạng nào của \"heißen\" ở ngôi du là ĐÚNG?",
+      "options": ["du heißt", "du heißst", "du heißest", "du heiß"],
+      "answerIndex": 0,
+      "explanation": "Gốc kết thúc bằng ß nên ngôi du chỉ thêm -t chứ không thêm -st.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u07-e-07",
+      "type": "listening",
+      "audioText": "Am Wochenende arbeite ich nicht. Ich spiele Fußball und höre Musik.",
+      "mode": "choice",
+      "question": "Người nói làm gì vào cuối tuần?",
+      "options": [
+        "Chơi bóng đá và nghe nhạc",
+        "Làm việc và nghe nhạc",
+        "Học tiếng Đức",
+        "Đi du lịch"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"arbeite ich nicht\" = không làm việc; sau đó là spiele Fußball và höre Musik.",
+      "skillTag": "listening"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "b1-2-u02-gesellschaft",
+  "level": "B1.2",
+  "order": 2,
+  "slug": "gesellschaft",
+  "title": "Gesellschaft und Integration",
+  "titleVi": "Xã hội và hội nhập",
+  "description": "Chủ đề trung tâm của kỳ thi B1: sống ở nước ngoài, khác biệt văn hoá, hoà nhập. Ngữ pháp: lời nói gián tiếp và liên từ đôi.",
+  "goals": [
+    "Tường thuật lời người khác bằng Konjunktiv I",
+    "Dùng liên từ đôi để câu văn mạch lạc hơn",
+    "Trình bày trải nghiệm sống ở môi trường mới"
+  ],
+  "vocabulary": [
+    {
+      "id": "b1-2-u02-v-gesellschaft",
+      "de": "Gesellschaft",
+      "article": "die",
+      "plural": "Gesellschaften",
+      "pos": "noun",
+      "vi": "xã hội",
+      "example": { "de": "Unsere Gesellschaft verändert sich schnell.", "vi": "Xã hội chúng ta đang thay đổi nhanh." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-integration",
+      "de": "Integration",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự hoà nhập",
+      "example": { "de": "Sprache ist der Schlüssel zur Integration.", "vi": "Ngôn ngữ là chìa khoá để hoà nhập." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-vorurteil",
+      "de": "Vorurteil",
+      "article": "das",
+      "plural": "Vorurteile",
+      "pos": "noun",
+      "vi": "định kiến",
+      "example": { "de": "Man sollte Vorurteile abbauen.", "vi": "Nên xoá bỏ định kiến." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-herkunft",
+      "de": "Herkunft",
+      "article": "die",
+      "pos": "noun",
+      "vi": "nguồn gốc, xuất thân",
+      "example": { "de": "Seine Herkunft spielt keine Rolle.", "vi": "Xuất thân của anh ấy không quan trọng." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-anerkennung",
+      "de": "Anerkennung",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự công nhận (bằng cấp)",
+      "example": { "de": "Die Anerkennung meines Abschlusses dauert lange.", "vi": "Việc công nhận bằng của tôi mất nhiều thời gian." },
+      "note": "Từ khoá quan trọng với người Việt sang Đức làm việc.",
+      "tags": ["xa-hoi", "hanh-chinh"]
+    },
+    {
+      "id": "b1-2-u02-v-sich-anpassen",
+      "de": "sich anpassen",
+      "pos": "verb",
+      "vi": "thích nghi",
+      "example": { "de": "Man muss sich an die neue Kultur anpassen.", "vi": "Người ta phải thích nghi với văn hoá mới." },
+      "note": "Động từ tách + phản thân: sich an etwas anpassen.",
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-ehrenamt",
+      "de": "Ehrenamt",
+      "article": "das",
+      "plural": "Ehrenämter",
+      "pos": "noun",
+      "vi": "công việc tình nguyện",
+      "example": { "de": "Viele Deutsche haben ein Ehrenamt.", "vi": "Nhiều người Đức làm công việc tình nguyện." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-behoerde",
+      "de": "Behörde",
+      "article": "die",
+      "plural": "Behörden",
+      "pos": "noun",
+      "vi": "cơ quan hành chính",
+      "example": { "de": "Der Gang zur Behörde war kompliziert.", "vi": "Việc lên cơ quan hành chính khá rắc rối." },
+      "tags": ["xa-hoi", "hanh-chinh"]
+    },
+    {
+      "id": "b1-2-u02-v-toleranz",
+      "de": "Toleranz",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự khoan dung",
+      "example": { "de": "Toleranz ist wichtig für das Zusammenleben.", "vi": "Khoan dung là điều quan trọng để chung sống." },
+      "tags": ["xa-hoi"]
+    },
+    {
+      "id": "b1-2-u02-v-heimat",
+      "de": "Heimat",
+      "article": "die",
+      "pos": "noun",
+      "vi": "quê hương",
+      "example": { "de": "Vietnam bleibt meine Heimat.", "vi": "Việt Nam vẫn là quê hương của tôi." },
+      "note": "Từ mang sắc thái tình cảm mạnh, không hoàn toàn giống \"Land\" hay \"Herkunft\".",
+      "tags": ["xa-hoi"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1-2-u02-g-indirekte-rede",
+      "title": "Indirekte Rede mit Konjunktiv I",
+      "titleVi": "Lời nói gián tiếp với Konjunktiv I",
+      "summary": "Báo chí và văn viết dùng Konjunktiv I để tường thuật mà không cam kết về tính đúng sai của lời nói.",
+      "explanation": "Khi thuật lại lời người khác trong **văn viết trang trọng** (báo chí, biên bản), tiếng Đức dùng **Konjunktiv I**:\n\n- Trực tiếp: `Er sagt: \"Ich **habe** keine Zeit.\"`\n- Gián tiếp: `Er sagt, er **habe** keine Zeit.`\n\nÝ nghĩa tinh tế: dùng Konjunktiv I nghĩa là \"đây là lời anh ta nói, tôi không xác nhận đúng sai\". Nếu dùng Indikativ (`er hat`), người đọc hiểu là bạn cũng tin điều đó.\n\n**Cách tạo:** lấy gốc nguyên thể + đuôi `-e, -est, -e, -en, -et, -en`.\n\nDạng dùng nhiều nhất là ngôi thứ ba số ít: `haben → habe`, `kommen → komme`, `sein → sei` (bất quy tắc).\n\n**Quy tắc thực dụng:** nếu dạng Konjunktiv I **trùng với Indikativ** (thường ở ngôi ich, wir, sie số nhiều) thì chuyển sang **Konjunktiv II** để người đọc nhận ra.\n\n- `Sie sagen, sie **hätten** keine Zeit.` (vì \"haben\" trùng với Indikativ)\n\nTrong **văn nói** hằng ngày, người Đức thường chỉ dùng `dass` + Indikativ: `Er sagt, dass er keine Zeit hat.`",
+      "examples": [
+        { "de": "Der Minister sagte, die Lage sei stabil.", "vi": "Bộ trưởng nói tình hình ổn định." },
+        { "de": "Sie erklärte, sie komme aus Vietnam.", "vi": "Cô ấy giải thích rằng cô đến từ Việt Nam." },
+        { "de": "Er behauptet, er habe nichts gewusst.", "vi": "Anh ta khẳng định là anh ta không biết gì." },
+        { "de": "Sie sagen, sie hätten keine Zeit.", "vi": "Họ nói họ không có thời gian.", "note": "Chuyển sang Konjunktiv II vì Konjunktiv I trùng Indikativ." }
+      ],
+      "tables": [
+        {
+          "title": "Konjunktiv I của các động từ quan trọng",
+          "headers": ["Ngôi", "sein", "haben", "werden", "können"],
+          "rows": [
+            ["ich", "sei", "habe", "werde", "könne"],
+            ["du", "sei(e)st", "habest", "werdest", "könnest"],
+            ["er/sie/es", "sei", "habe", "werde", "könne"],
+            ["wir", "seien", "haben", "werden", "können"],
+            ["ihr", "seiet", "habet", "werdet", "könnet"],
+            ["sie/Sie", "seien", "haben", "werden", "können"]
+          ],
+          "footnote": "\"sein\" là động từ duy nhất có Konjunktiv I khác biệt rõ ở mọi ngôi."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Konjunktiv I trong hội thoại thường ngày — nghe rất cứng, nên dùng \"dass\" + Indikativ.",
+        "Quên chuyển sang Konjunktiv II khi dạng Konjunktiv I trùng với Indikativ.",
+        "Giữ nguyên đại từ ngôi thứ nhất: \"Er sagt, ich habe keine Zeit\" đổi hẳn nghĩa."
+      ],
+      "tags": ["subjunctive", "tenses"]
+    },
+    {
+      "id": "b1-2-u02-g-doppelkonnektoren",
+      "title": "Zweiteilige Konnektoren",
+      "titleVi": "Liên từ đôi",
+      "summary": "nicht nur … sondern auch, entweder … oder, weder … noch, sowohl … als auch.",
+      "explanation": "Liên từ đôi giúp câu văn chặt chẽ hơn và là dấu hiệu trình độ B1+ trong bài thi viết.\n\n**Các cặp thông dụng:**\n\n- `nicht nur … sondern auch` — không chỉ… mà còn\n- `sowohl … als auch` — vừa… vừa\n- `entweder … oder` — hoặc… hoặc\n- `weder … noch` — không… cũng không (bản thân đã mang nghĩa phủ định, **không thêm nicht**)\n- `zwar … aber` — tuy… nhưng\n- `je … desto` — càng… càng\n\n**Lưu ý trật tự từ** với `je … desto`: mệnh đề `je` là mệnh đề phụ (động từ cuối), mệnh đề `desto` đảo chủ ngữ:\n\n`**Je** länger ich hier **lebe**, **desto** besser **verstehe** ich die Kultur.`\n\nVới `weder … noch`, mệnh đề thứ hai đảo chủ ngữ:\n\n`Er spricht **weder** Deutsch **noch spricht er** Englisch.`",
+      "examples": [
+        { "de": "Sprache ist nicht nur ein Werkzeug, sondern auch ein Teil der Identität.", "vi": "Ngôn ngữ không chỉ là công cụ mà còn là một phần bản sắc." },
+        { "de": "Je länger ich hier lebe, desto wohler fühle ich mich.", "vi": "Càng sống ở đây lâu tôi càng thấy thoải mái." },
+        { "de": "Sowohl die Sprache als auch die Kultur sind wichtig.", "vi": "Cả ngôn ngữ lẫn văn hoá đều quan trọng." },
+        { "de": "Er hat weder Zeit noch Lust.", "vi": "Anh ta không có thời gian mà cũng chẳng có hứng." }
+      ],
+      "tables": [
+        {
+          "title": "Liên từ đôi",
+          "headers": ["Cặp liên từ", "Nghĩa", "Lưu ý"],
+          "rows": [
+            ["nicht nur … sondern auch", "không chỉ… mà còn", "sondern luôn đi sau phủ định"],
+            ["sowohl … als auch", "vừa… vừa", "động từ chia số nhiều"],
+            ["entweder … oder", "hoặc… hoặc", ""],
+            ["weder … noch", "không… cũng không", "KHÔNG thêm nicht"],
+            ["zwar … aber", "tuy… nhưng", ""],
+            ["je … desto", "càng… càng", "je = mệnh đề phụ, desto đảo chủ ngữ"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Thêm \"nicht\" vào \"weder … noch\": \"Er hat weder nicht Zeit\" — thừa phủ định.",
+        "Dùng \"aber\" thay \"sondern\" sau phủ định: sau \"nicht\" phải là \"sondern\".",
+        "Quên đảo động từ trong mệnh đề \"desto\"."
+      ],
+      "tags": ["connectors", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-2-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Er sagte, er ___ keine Zeit. (lời nói gián tiếp, văn viết)",
+      "options": ["habe", "hat", "hätte gehabt", "haben"],
+      "answerIndex": 0,
+      "explanation": "Konjunktiv I ngôi thứ ba số ít của haben là \"habe\".",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "b1-2-u02-e-02",
+      "type": "fill_blank",
+      "sentence": "Sprache ist nicht nur ein Werkzeug, ___ auch ein Teil der Identität.",
+      "blanks": [{ "answers": ["sondern"], "hint": "sau phủ định dùng từ nào?" }],
+      "translation": "Ngôn ngữ không chỉ là công cụ mà còn là một phần bản sắc.",
+      "explanation": "Sau \"nicht nur\" bắt buộc là \"sondern auch\", không phải \"aber auch\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b1-2-u02-e-03",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu với je … desto",
+      "answer": ["Je", "länger", "ich", "hier", "lebe", "desto", "besser", "verstehe", "ich", "die", "Kultur"],
+      "translation": "Càng sống ở đây lâu tôi càng hiểu văn hoá hơn.",
+      "explanation": "Mệnh đề \"je\" là mệnh đề phụ nên \"lebe\" ở cuối; mệnh đề \"desto\" đảo chủ ngữ ra sau động từ.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b1-2-u02-e-04",
+      "type": "multiple_choice",
+      "prompt": "Câu nào ĐÚNG?",
+      "options": [
+        "Er hat weder Zeit noch Lust.",
+        "Er hat weder nicht Zeit noch Lust.",
+        "Er hat weder Zeit oder Lust.",
+        "Er hat nicht weder Zeit noch Lust."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"weder … noch\" đã mang sẵn nghĩa phủ định nên không được thêm \"nicht\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b1-2-u02-e-05",
+      "type": "matching",
+      "instruction": "Nối liên từ đôi với nghĩa",
+      "pairs": [
+        { "left": "nicht nur … sondern auch", "right": "không chỉ… mà còn" },
+        { "left": "entweder … oder", "right": "hoặc… hoặc" },
+        { "left": "weder … noch", "right": "không… cũng không" },
+        { "left": "je … desto", "right": "càng… càng" }
+      ],
+      "explanation": "Dùng thành thạo bộ này là dấu hiệu rõ của trình độ B1+.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b1-2-u02-e-06",
+      "type": "listening",
+      "audioText": "Die Sprecherin erklärte, Sprache sei der Schlüssel zur Integration.",
+      "mode": "choice",
+      "question": "Đây là kiểu câu gì?",
+      "options": [
+        "Lời nói gián tiếp dùng Konjunktiv I",
+        "Câu điều kiện không có thật",
+        "Câu bị động",
+        "Câu mệnh lệnh"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"sei\" là Konjunktiv I của sein — dấu hiệu của lời nói gián tiếp trong văn viết.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b1-2-u02-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Người ta phải thích nghi với văn hoá mới.",
+      "answers": [
+        "Man muss sich an die neue Kultur anpassen.",
+        "Man muss sich an die neue Kultur anpassen",
+        "Man muss sich der neuen Kultur anpassen."
+      ],
+      "hint": "sich an etwas (Akkusativ) anpassen",
+      "explanation": "Động từ vừa phản thân vừa tách: sich … anpassen, với giới từ \"an\" + Akkusativ.",
+      "skillTag": "translation"
+    }
+  ]
+}

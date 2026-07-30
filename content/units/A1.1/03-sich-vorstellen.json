@@ -1,0 +1,292 @@
+{
+  "id": "a1-1-u03-vorstellen",
+  "level": "A1.1",
+  "order": 3,
+  "slug": "sich-vorstellen",
+  "title": "Sich vorstellen",
+  "titleVi": "Giới thiệu bản thân",
+  "description": "Bốn động từ quan trọng nhất khi mới học: sein, heißen, kommen, wohnen. Sau bài này bạn tự giới thiệu được trọn vẹn về mình.",
+  "goals": [
+    "Chia đúng động từ sein ở thì hiện tại",
+    "Nói tên, quê quán, nơi ở, tuổi và nghề nghiệp",
+    "Đặt câu hỏi tương ứng để hỏi người khác"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u03-v-sein",
+      "de": "sein",
+      "pos": "verb",
+      "vi": "thì, là, ở",
+      "principalParts": "sein, war, ist gewesen",
+      "example": { "de": "Ich bin Student.", "vi": "Tôi là sinh viên." },
+      "note": "Động từ bất quy tắc quan trọng nhất tiếng Đức — phải thuộc lòng.",
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u03-v-heissen",
+      "de": "heißen",
+      "pos": "verb",
+      "vi": "tên là",
+      "example": { "de": "Ich heiße Mai.", "vi": "Tôi tên là Mai." },
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u03-v-kommen",
+      "de": "kommen",
+      "pos": "verb",
+      "vi": "đến, tới",
+      "principalParts": "kommen, kam, ist gekommen",
+      "example": { "de": "Ich komme aus Vietnam.", "vi": "Tôi đến từ Việt Nam." },
+      "note": "\"kommen aus\" = đến từ (quê quán, quốc tịch).",
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u03-v-wohnen",
+      "de": "wohnen",
+      "pos": "verb",
+      "vi": "sống, cư trú",
+      "example": { "de": "Ich wohne in Berlin.", "vi": "Tôi sống ở Berlin." },
+      "note": "\"wohnen in\" = sống tại (nơi ở hiện tại), khác với \"kommen aus\" (nơi xuất thân).",
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u03-v-jahr",
+      "de": "Jahr",
+      "article": "das",
+      "plural": "Jahre",
+      "pos": "noun",
+      "vi": "năm, tuổi",
+      "example": { "de": "Ich bin 25 Jahre alt.", "vi": "Tôi 25 tuổi." },
+      "tags": ["ca-nhan", "thoi-gian"]
+    },
+    {
+      "id": "a1-1-u03-v-beruf",
+      "de": "Beruf",
+      "article": "der",
+      "plural": "Berufe",
+      "pos": "noun",
+      "vi": "nghề nghiệp",
+      "example": { "de": "Was sind Sie von Beruf?", "vi": "Ông/bà làm nghề gì?" },
+      "tags": ["ca-nhan", "cong-viec"]
+    },
+    {
+      "id": "a1-1-u03-v-student",
+      "de": "Student",
+      "article": "der",
+      "plural": "Studenten",
+      "pos": "noun",
+      "vi": "sinh viên (nam)",
+      "example": { "de": "Mein Bruder ist Student.", "vi": "Anh trai tôi là sinh viên." },
+      "note": "Nữ là \"die Studentin\". Khi nói nghề nghiệp thì KHÔNG dùng mạo từ: \"Ich bin Student\", không phải \"ein Student\".",
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a1-1-u03-v-lehrer",
+      "de": "Lehrer",
+      "article": "der",
+      "plural": "Lehrer",
+      "pos": "noun",
+      "vi": "giáo viên (nam)",
+      "example": { "de": "Herr Klein ist Lehrer.", "vi": "Ông Klein là giáo viên." },
+      "note": "Nữ: die Lehrerin. Số nhiều giống số ít — chỉ khác ở mạo từ (der Lehrer / die Lehrer).",
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a1-1-u03-v-arzt",
+      "de": "Arzt",
+      "article": "der",
+      "plural": "Ärzte",
+      "pos": "noun",
+      "vi": "bác sĩ (nam)",
+      "example": { "de": "Meine Mutter ist Ärztin.", "vi": "Mẹ tôi là bác sĩ." },
+      "note": "Nữ: die Ärztin — chú ý đổi a thành ä.",
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a1-1-u03-v-verheiratet",
+      "de": "verheiratet",
+      "pos": "adjective",
+      "vi": "đã kết hôn",
+      "example": { "de": "Ich bin verheiratet.", "vi": "Tôi đã kết hôn." },
+      "tags": ["ca-nhan"]
+    },
+    {
+      "id": "a1-1-u03-v-ledig",
+      "de": "ledig",
+      "pos": "adjective",
+      "vi": "độc thân",
+      "example": { "de": "Sie ist ledig.", "vi": "Cô ấy độc thân." },
+      "tags": ["ca-nhan"]
+    },
+    {
+      "id": "a1-1-u03-v-alt",
+      "de": "alt",
+      "pos": "adjective",
+      "vi": "già, cũ; (trong \"Jahre alt\") tuổi",
+      "example": { "de": "Wie alt bist du?", "vi": "Bạn bao nhiêu tuổi?" },
+      "tags": ["ca-nhan"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u03-g-sein",
+      "title": "Das Verb „sein\" im Präsens",
+      "titleVi": "Chia động từ sein ở hiện tại",
+      "summary": "Động từ bất quy tắc dùng nhiều nhất trong tiếng Đức — không có quy luật, phải học thuộc.",
+      "explanation": "`sein` tương ứng với \"là / thì / ở\" trong tiếng Việt. Nó bất quy tắc hoàn toàn, không suy ra được từ dạng nguyên thể.\n\nĐiều người Việt hay bỏ sót: **trong tiếng Đức không được lược bỏ động từ**. Tiếng Việt nói \"Tôi 25 tuổi\" không cần \"là\", nhưng tiếng Đức bắt buộc phải có: `Ich **bin** 25 Jahre alt`.\n\nKhi nói nghề nghiệp hay quốc tịch, **không dùng mạo từ**:\n\n- ✅ Ich bin Lehrer.\n- ❌ Ich bin ein Lehrer.",
+      "examples": [
+        { "de": "Ich bin Minh und ich bin 25 Jahre alt.", "vi": "Tôi là Minh và tôi 25 tuổi." },
+        { "de": "Wir sind aus Vietnam.", "vi": "Chúng tôi đến từ Việt Nam." },
+        { "de": "Sind Sie Frau Weber?", "vi": "Bà là bà Weber phải không ạ?" }
+      ],
+      "tables": [
+        {
+          "title": "sein — Präsens",
+          "headers": ["Ngôi", "Chia", "Nghĩa"],
+          "rows": [
+            ["ich", "bin", "tôi là"],
+            ["du", "bist", "bạn là"],
+            ["er / sie / es", "ist", "anh ấy / cô ấy / nó là"],
+            ["wir", "sind", "chúng tôi là"],
+            ["ihr", "seid", "các bạn là"],
+            ["sie / Sie", "sind", "họ là / ông bà là"]
+          ],
+          "footnote": "Chú ý: \"ihr seid\" viết là seid, không phải seit (seit = từ khi)."
+        }
+      ],
+      "commonMistakes": [
+        "Bỏ động từ như trong tiếng Việt: \"Ich 25 Jahre alt\" — thiếu \"bin\".",
+        "Thêm mạo từ vào nghề nghiệp: \"Ich bin ein Student\".",
+        "Viết \"ihr seit\" thay vì \"ihr seid\"."
+      ],
+      "tags": ["verb-conjugation", "tenses"]
+    },
+    {
+      "id": "a1-1-u03-g-vorstellen-fragen",
+      "title": "Fragen zur Person",
+      "titleVi": "Bộ câu hỏi về bản thân",
+      "summary": "Sáu câu hỏi cơ bản và mẫu trả lời — thuộc bộ này là tự giới thiệu được trọn vẹn.",
+      "explanation": "Khác biệt cần nhớ giữa hai giới từ:\n\n- `kommen **aus**` + nơi xuất thân → Ich komme aus Vietnam.\n- `wohnen **in**` + nơi đang sống → Ich wohne in Hanoi.\n\nMột người có thể `aus Vietnam kommen` nhưng `in Deutschland wohnen`.\n\nVới thành phố và hầu hết quốc gia, không dùng mạo từ: `aus Vietnam`, `in Berlin`. Nhưng một số nước có mạo từ bắt buộc: `aus **der** Schweiz`, `aus **der** Türkei`, `aus **den** USA`.",
+      "examples": [
+        { "de": "Wie heißen Sie? — Ich heiße Mai Nguyen.", "vi": "Bà tên gì ạ? — Tôi tên Nguyễn Mai." },
+        { "de": "Woher kommst du? — Ich komme aus Hue.", "vi": "Bạn quê ở đâu? — Tôi đến từ Huế." },
+        { "de": "Wo wohnst du? — Ich wohne jetzt in München.", "vi": "Bạn sống ở đâu? — Giờ tôi sống ở München." },
+        { "de": "Was sind Sie von Beruf? — Ich bin Ärztin.", "vi": "Bà làm nghề gì? — Tôi là bác sĩ." }
+      ],
+      "tables": [
+        {
+          "title": "Hỏi và đáp",
+          "headers": ["Câu hỏi", "Nghĩa", "Mẫu trả lời"],
+          "rows": [
+            ["Wie heißt du?", "Bạn tên gì?", "Ich heiße Minh."],
+            ["Woher kommst du?", "Bạn từ đâu tới?", "Ich komme aus Vietnam."],
+            ["Wo wohnst du?", "Bạn sống ở đâu?", "Ich wohne in Berlin."],
+            ["Wie alt bist du?", "Bạn bao nhiêu tuổi?", "Ich bin 25 Jahre alt."],
+            ["Was bist du von Beruf?", "Bạn làm nghề gì?", "Ich bin Student."],
+            ["Bist du verheiratet?", "Bạn kết hôn chưa?", "Nein, ich bin ledig."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm \"woher\" (từ đâu) với \"wo\" (ở đâu).",
+        "Nói \"Ich komme in Vietnam\" — phải là \"aus Vietnam\".",
+        "Quên mạo từ với các nước đặc biệt: \"aus Schweiz\" phải là \"aus der Schweiz\"."
+      ],
+      "tags": ["prepositions", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u03-e-01",
+      "type": "conjugation",
+      "verb": "sein",
+      "verbVi": "thì, là, ở",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "bin", "prefilled": true },
+        { "pronoun": "du", "answer": "bist" },
+        { "pronoun": "er/sie/es", "answer": "ist" },
+        { "pronoun": "wir", "answer": "sind" },
+        { "pronoun": "ihr", "answer": "seid" },
+        { "pronoun": "sie/Sie", "answer": "sind" }
+      ],
+      "note": "Dòng \"ich\" đã điền sẵn làm mẫu.",
+      "explanation": "sein bất quy tắc hoàn toàn: bin – bist – ist – sind – seid – sind.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u03-e-02",
+      "type": "fill_blank",
+      "sentence": "Ich ___ aus Vietnam, aber ich ___ jetzt in Berlin.",
+      "blanks": [
+        { "answers": ["komme"], "hint": "kommen" },
+        { "answers": ["wohne"], "hint": "wohnen" }
+      ],
+      "translation": "Tôi đến từ Việt Nam, nhưng giờ tôi sống ở Berlin.",
+      "explanation": "kommen aus = nơi xuất thân; wohnen in = nơi đang sống.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u03-e-03",
+      "type": "multiple_choice",
+      "prompt": "Câu nào ĐÚNG?",
+      "options": [
+        "Ich bin Lehrerin.",
+        "Ich bin eine Lehrerin.",
+        "Ich Lehrerin.",
+        "Ich bin die Lehrerin von Beruf."
+      ],
+      "answerIndex": 0,
+      "explanation": "Khi nói nghề nghiệp, tiếng Đức không dùng mạo từ, và không được lược bỏ động từ sein.",
+      "skillTag": "articles"
+    },
+    {
+      "id": "a1-1-u03-e-04",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu giới thiệu hoàn chỉnh",
+      "answer": ["Ich", "bin", "25", "Jahre", "alt"],
+      "translation": "Tôi 25 tuổi.",
+      "explanation": "Cấu trúc cố định: Person + sein + số + \"Jahre alt\". Không được bỏ \"bin\".",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u03-e-05",
+      "type": "matching",
+      "instruction": "Nối câu hỏi với câu trả lời hợp lý",
+      "pairs": [
+        { "left": "Wie heißen Sie?", "right": "Ich heiße Mai." },
+        { "left": "Woher kommen Sie?", "right": "Aus Vietnam." },
+        { "left": "Wo wohnen Sie?", "right": "In Hamburg." },
+        { "left": "Was sind Sie von Beruf?", "right": "Ich bin Ärztin." }
+      ],
+      "explanation": "Chú ý cặp woher/aus và wo/in luôn đi với nhau.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-1-u03-e-06",
+      "type": "listening",
+      "audioText": "Ich heiße Thomas Berger. Ich komme aus Österreich und wohne in Wien.",
+      "mode": "choice",
+      "question": "Thomas sống ở đâu?",
+      "options": ["Wien", "Berlin", "Österreich thành phố Salzburg", "Không nói tới"],
+      "answerIndex": 0,
+      "explanation": "\"wohne in Wien\" — Österreich là nơi anh ấy đến từ (kommen aus), Wien là nơi anh ấy sống.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u03-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi tên là Lan. Tôi đến từ Việt Nam.",
+      "answers": [
+        "Ich heiße Lan. Ich komme aus Vietnam.",
+        "Ich heiße Lan, ich komme aus Vietnam.",
+        "Mein Name ist Lan. Ich komme aus Vietnam."
+      ],
+      "hint": "heißen … / kommen aus …",
+      "explanation": "Có thể nói \"Ich heiße Lan\" hoặc \"Mein Name ist Lan\" — cả hai đều đúng.",
+      "skillTag": "translation"
+    }
+  ]
+}

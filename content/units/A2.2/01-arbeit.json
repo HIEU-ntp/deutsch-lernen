@@ -1,0 +1,260 @@
+{
+  "id": "a2-2-u01-arbeit",
+  "level": "A2.2",
+  "order": 1,
+  "slug": "arbeit-bewerbung",
+  "title": "Arbeit und Bewerbung",
+  "titleVi": "Công việc và xin việc",
+  "description": "Nói về công việc, kinh nghiệm và viết đơn xin việc ngắn. Ngữ pháp: thì Präteritum và câu phụ với weil / dass.",
+  "goals": [
+    "Mô tả công việc và kinh nghiệm làm việc",
+    "Dùng Präteritum của các động từ thường gặp",
+    "Nêu lý do bằng weil và dẫn ý bằng dass"
+  ],
+  "vocabulary": [
+    {
+      "id": "a2-2-u01-v-stelle",
+      "de": "Stelle",
+      "article": "die",
+      "plural": "Stellen",
+      "pos": "noun",
+      "vi": "vị trí công việc",
+      "example": { "de": "Ich suche eine neue Stelle.", "vi": "Tôi đang tìm một vị trí mới." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-bewerbung",
+      "de": "Bewerbung",
+      "article": "die",
+      "plural": "Bewerbungen",
+      "pos": "noun",
+      "vi": "đơn xin việc",
+      "example": { "de": "Ich schicke meine Bewerbung per E-Mail.", "vi": "Tôi gửi đơn xin việc qua email." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-lebenslauf",
+      "de": "Lebenslauf",
+      "article": "der",
+      "plural": "Lebensläufe",
+      "pos": "noun",
+      "vi": "sơ yếu lý lịch, CV",
+      "example": { "de": "Der Lebenslauf ist tabellarisch.", "vi": "CV được trình bày dạng bảng." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-erfahrung",
+      "de": "Erfahrung",
+      "article": "die",
+      "plural": "Erfahrungen",
+      "pos": "noun",
+      "vi": "kinh nghiệm",
+      "example": { "de": "Ich habe drei Jahre Erfahrung.", "vi": "Tôi có ba năm kinh nghiệm." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-gehalt",
+      "de": "Gehalt",
+      "article": "das",
+      "plural": "Gehälter",
+      "pos": "noun",
+      "vi": "lương",
+      "example": { "de": "Das Gehalt ist verhandelbar.", "vi": "Mức lương có thể thương lượng." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-kollege",
+      "de": "Kollege",
+      "article": "der",
+      "plural": "Kollegen",
+      "pos": "noun",
+      "vi": "đồng nghiệp (nam)",
+      "example": { "de": "Meine Kollegen sind sehr nett.", "vi": "Đồng nghiệp của tôi rất tử tế." },
+      "note": "Danh từ yếu (n-Deklination): den Kollegen, dem Kollegen. Nữ: die Kollegin.",
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-vorstellungsgespraech",
+      "de": "Vorstellungsgespräch",
+      "article": "das",
+      "plural": "Vorstellungsgespräche",
+      "pos": "noun",
+      "vi": "buổi phỏng vấn xin việc",
+      "example": { "de": "Ich habe morgen ein Vorstellungsgespräch.", "vi": "Mai tôi có buổi phỏng vấn." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-verdienen",
+      "de": "verdienen",
+      "pos": "verb",
+      "vi": "kiếm được (tiền), xứng đáng",
+      "example": { "de": "Sie verdient gut.", "vi": "Cô ấy kiếm được khá." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-kuendigen",
+      "de": "kündigen",
+      "pos": "verb",
+      "vi": "nghỉ việc, sa thải",
+      "example": { "de": "Ich habe letzten Monat gekündigt.", "vi": "Tháng trước tôi đã xin nghỉ việc." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a2-2-u01-v-teilzeit",
+      "de": "Teilzeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "làm bán thời gian",
+      "example": { "de": "Ich arbeite in Teilzeit.", "vi": "Tôi làm việc bán thời gian." },
+      "note": "Trái nghĩa: die Vollzeit (toàn thời gian).",
+      "tags": ["cong-viec"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a2-2-u01-g-praeteritum",
+      "title": "Das Präteritum",
+      "titleVi": "Thì quá khứ đơn Präteritum",
+      "summary": "Thì quá khứ của văn viết. Trong văn nói chỉ dùng với sein, haben và động từ khuyết thiếu.",
+      "explanation": "Tiếng Đức có hai thì quá khứ với **phân công vai trò rõ ràng**:\n\n- **Perfekt** — dùng khi nói chuyện (đã học ở A1.2)\n- **Präteritum** — dùng khi viết: báo chí, truyện, báo cáo, thư trang trọng\n\nNgoại lệ quan trọng: `sein`, `haben` và động từ khuyết thiếu dùng Präteritum **cả khi nói**, vì dạng Perfekt của chúng nghe nặng nề.\n\n- ✅ `Ich **war** gestern krank.` (không ai nói \"Ich bin krank gewesen\" trong hội thoại)\n- ✅ `Ich **musste** arbeiten.`\n\n**Cách tạo:**\n\n- Động từ đều: gốc + `-te` + đuôi ngôi → arbeiten → arbeit**ete**\n- Động từ bất quy tắc: đổi nguyên âm gốc, ngôi `ich` và `er/sie/es` **không có đuôi** → gehen → ich **ging**, er **ging**",
+      "examples": [
+        { "de": "Letztes Jahr arbeitete ich in München.", "vi": "Năm ngoái tôi làm việc ở München." },
+        { "de": "Ich hatte damals keine Erfahrung.", "vi": "Hồi đó tôi chưa có kinh nghiệm." },
+        { "de": "Er konnte nicht zum Gespräch kommen.", "vi": "Anh ấy không đến buổi phỏng vấn được." },
+        { "de": "Das Unternehmen suchte einen neuen Mitarbeiter.", "vi": "Công ty đã tìm một nhân viên mới." }
+      ],
+      "tables": [
+        {
+          "title": "Präteritum của các động từ quan trọng",
+          "headers": ["Ngôi", "sein", "haben", "können", "müssen", "gehen"],
+          "rows": [
+            ["ich", "war", "hatte", "konnte", "musste", "ging"],
+            ["du", "warst", "hattest", "konntest", "musstest", "gingst"],
+            ["er/sie/es", "war", "hatte", "konnte", "musste", "ging"],
+            ["wir", "waren", "hatten", "konnten", "mussten", "gingen"],
+            ["ihr", "wart", "hattet", "konntet", "musstet", "gingt"],
+            ["sie/Sie", "waren", "hatten", "konnten", "mussten", "gingen"]
+          ],
+          "footnote": "Chú ý: ich và er/sie/es luôn giống nhau ở Präteritum."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Perfekt cho sein khi nói: \"Ich bin krank gewesen\" nghe nặng nề, nên nói \"Ich war krank\".",
+        "Thêm đuôi cho ngôi ich: \"ich ginge\" — đó là Konjunktiv II, không phải Präteritum.",
+        "Dùng Präteritum trong hội thoại thường ngày với động từ khác — nghe như đang đọc truyện."
+      ],
+      "tags": ["tenses", "verb-conjugation"]
+    },
+    {
+      "id": "a2-2-u01-g-nebensatz",
+      "title": "Nebensätze mit weil und dass",
+      "titleVi": "Mệnh đề phụ với weil và dass",
+      "summary": "Trong mệnh đề phụ, động từ chia bị đẩy xuống VỊ TRÍ CUỐI — khác hẳn mệnh đề chính.",
+      "explanation": "Đây là bước ngoặt lớn về trật tự từ. Trong mệnh đề phụ (Nebensatz), **động từ chia đi xuống cuối cùng**:\n\n`Ich lerne Deutsch, **weil** ich in Deutschland arbeiten **will**.`\n\nSo sánh với mệnh đề chính: `Ich **will** in Deutschland arbeiten.`\n\n**Các liên từ đẩy động từ xuống cuối:** `weil, dass, wenn, obwohl, damit, ob, während, bevor, nachdem`\n\n**Cẩn thận với `denn`** — cũng nghĩa \"vì\" nhưng KHÔNG đẩy động từ:\n\n- `Ich lerne Deutsch, **weil** ich hier **arbeite**.` (động từ cuối)\n- `Ich lerne Deutsch, **denn** ich **arbeite** hier.` (trật tự bình thường)\n\nKhi mệnh đề phụ đứng **trước**, nó chiếm vị trí 1 của cả câu, nên mệnh đề chính bắt đầu ngay bằng động từ:\n\n`**Weil ich krank bin**, gehe ich heute nicht zur Arbeit.`\n\nVới động từ tách trong mệnh đề phụ, tiền tố **dính lại** với gốc: `…, weil ich früh **aufstehe**.`",
+      "examples": [
+        { "de": "Ich habe gekündigt, weil das Gehalt zu niedrig war.", "vi": "Tôi đã nghỉ việc vì lương quá thấp." },
+        { "de": "Ich denke, dass die Stelle interessant ist.", "vi": "Tôi nghĩ rằng vị trí này thú vị." },
+        { "de": "Weil ich Erfahrung habe, bekomme ich den Job.", "vi": "Vì tôi có kinh nghiệm nên tôi được nhận việc." },
+        { "de": "Er sagt, dass er morgen anfängt.", "vi": "Anh ấy nói rằng mai anh ấy bắt đầu.", "note": "Động từ tách dính lại: anfängt." }
+      ],
+      "tables": [
+        {
+          "title": "Vị trí động từ",
+          "headers": ["Loại mệnh đề", "Vị trí động từ", "Ví dụ"],
+          "rows": [
+            ["chính", "vị trí 2", "Ich bin müde."],
+            ["phụ (weil/dass/…)", "cuối cùng", "…, weil ich müde bin."],
+            ["nối bằng denn/und/aber", "vị trí 2 (không đổi)", "…, denn ich bin müde."],
+            ["phụ đứng trước", "cuối, rồi động từ chính", "Weil ich müde bin, gehe ich."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Giữ trật tự mệnh đề chính sau weil: \"weil ich bin müde\" — phải là \"weil ich müde bin\".",
+        "Nhầm denn với weil về trật tự từ.",
+        "Quên dấu phẩy trước weil/dass — tiếng Đức bắt buộc có dấu phẩy trước mệnh đề phụ."
+      ],
+      "tags": ["subordinate-clauses", "word-order", "connectors"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-2-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Ich lerne Deutsch, weil ich in Deutschland ___.",
+      "options": ["arbeiten will", "will arbeiten", "arbeite will", "will ich arbeiten"],
+      "answerIndex": 0,
+      "explanation": "Trong mệnh đề phụ, động từ chia (\"will\") đi xuống cuối cùng, sau cả nguyên thể.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "a2-2-u01-e-02",
+      "type": "reorder",
+      "instruction": "Sắp xếp mệnh đề phụ cho đúng",
+      "answer": ["Ich", "denke", "dass", "die", "Stelle", "interessant", "ist"],
+      "translation": "Tôi nghĩ rằng vị trí này thú vị.",
+      "explanation": "Sau \"dass\", động từ \"ist\" phải đứng ở vị trí cuối cùng.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "a2-2-u01-e-03",
+      "type": "conjugation",
+      "verb": "haben (Präteritum)",
+      "verbVi": "có — dạng quá khứ",
+      "tense": "praeteritum",
+      "tenseLabel": "Präteritum (quá khứ đơn)",
+      "rows": [
+        { "pronoun": "ich", "answer": "hatte", "prefilled": true },
+        { "pronoun": "du", "answer": "hattest" },
+        { "pronoun": "er/sie/es", "answer": "hatte" },
+        { "pronoun": "wir", "answer": "hatten" },
+        { "pronoun": "ihr", "answer": "hattet" },
+        { "pronoun": "sie/Sie", "answer": "hatten" }
+      ],
+      "explanation": "hatte – hattest – hatte – hatten – hattet – hatten.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a2-2-u01-e-04",
+      "type": "fill_blank",
+      "sentence": "Ich habe gekündigt, ___ das Gehalt zu niedrig ___.",
+      "blanks": [
+        { "answers": ["weil"], "hint": "liên từ chỉ lý do, đẩy động từ xuống cuối" },
+        { "answers": ["war"], "hint": "sein ở Präteritum" }
+      ],
+      "translation": "Tôi đã nghỉ việc vì lương quá thấp.",
+      "explanation": "weil đẩy \"war\" xuống cuối mệnh đề.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "a2-2-u01-e-05",
+      "type": "listening",
+      "audioText": "Ich habe drei Jahre Erfahrung und suche jetzt eine Stelle in Teilzeit.",
+      "mode": "choice",
+      "question": "Người nói muốn gì?",
+      "options": [
+        "Một công việc bán thời gian",
+        "Một công việc toàn thời gian",
+        "Tăng lương",
+        "Nghỉ việc"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"eine Stelle in Teilzeit\" = vị trí bán thời gian.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-2-u01-e-06",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi nghĩ rằng công việc này rất thú vị.",
+      "answers": [
+        "Ich denke, dass diese Arbeit sehr interessant ist.",
+        "Ich glaube, dass diese Arbeit sehr interessant ist.",
+        "Ich denke, dass die Arbeit sehr interessant ist."
+      ],
+      "hint": "dass + động từ ở cuối",
+      "explanation": "Nhớ dấu phẩy trước \"dass\" và động từ \"ist\" ở cuối câu.",
+      "skillTag": "translation"
+    }
+  ]
+}

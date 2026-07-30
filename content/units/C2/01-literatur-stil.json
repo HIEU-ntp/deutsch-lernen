@@ -1,0 +1,247 @@
+{
+  "id": "c2-u01-literatur",
+  "level": "C2",
+  "order": 1,
+  "slug": "literatur-stil",
+  "title": "Literatur und Stil",
+  "titleVi": "Văn học và phong cách",
+  "description": "Đọc văn học Đức và nhận diện thủ pháp phong cách. Trọng tâm: sắc thái tinh vi, biện pháp tu từ và các tầng nghĩa ẩn.",
+  "goals": [
+    "Nhận diện và gọi tên biện pháp tu từ trong văn bản",
+    "Phân biệt các tầng phong cách từ trang trọng tới suồng sã",
+    "Hiểu mỉa mai và ẩn ý mà không cần chú giải"
+  ],
+  "vocabulary": [
+    {
+      "id": "c2-u01-v-stilmittel",
+      "de": "Stilmittel",
+      "article": "das",
+      "plural": "Stilmittel",
+      "pos": "noun",
+      "vi": "biện pháp tu từ",
+      "example": { "de": "Der Autor setzt gezielt Stilmittel ein.", "vi": "Tác giả sử dụng biện pháp tu từ có chủ đích." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-metapher",
+      "de": "Metapher",
+      "article": "die",
+      "plural": "Metaphern",
+      "pos": "noun",
+      "vi": "ẩn dụ",
+      "example": { "de": "Die Metapher zieht sich durch den gesamten Text.", "vi": "Ẩn dụ này xuyên suốt toàn bộ văn bản." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-ironie",
+      "de": "Ironie",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự mỉa mai",
+      "example": { "de": "Die Ironie erschließt sich erst beim zweiten Lesen.", "vi": "Sự mỉa mai chỉ lộ ra ở lần đọc thứ hai." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-erzaehlperspektive",
+      "de": "Erzählperspektive",
+      "article": "die",
+      "plural": "Erzählperspektiven",
+      "pos": "noun",
+      "vi": "ngôi kể, điểm nhìn trần thuật",
+      "example": { "de": "Die Erzählperspektive wechselt mehrfach.", "vi": "Điểm nhìn trần thuật thay đổi nhiều lần." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-anspielung",
+      "de": "Anspielung",
+      "article": "die",
+      "plural": "Anspielungen",
+      "pos": "noun",
+      "vi": "sự ám chỉ",
+      "example": { "de": "Der Titel enthält eine literarische Anspielung.", "vi": "Nhan đề chứa một ám chỉ văn học." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-lakonisch",
+      "de": "lakonisch",
+      "pos": "adjective",
+      "vi": "ngắn gọn đến lạnh lùng",
+      "example": { "de": "Sein Stil ist lakonisch und unterkühlt.", "vi": "Văn phong của ông ngắn gọn và lạnh lùng." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-verdichten",
+      "de": "verdichten",
+      "pos": "verb",
+      "vi": "cô đọng lại",
+      "example": { "de": "Die Handlung verdichtet sich zum Schluss.", "vi": "Cốt truyện cô đọng lại về phía cuối." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-doppeldeutig",
+      "de": "doppeldeutig",
+      "pos": "adjective",
+      "vi": "hai nghĩa, nước đôi",
+      "example": { "de": "Der Schluss bleibt bewusst doppeldeutig.", "vi": "Đoạn kết cố ý để ngỏ hai nghĩa." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-beilaeufig",
+      "de": "beiläufig",
+      "pos": "adjective",
+      "vi": "thoáng qua, như thể tình cờ",
+      "example": { "de": "Beiläufig erwähnt er das entscheidende Detail.", "vi": "Ông thoáng nhắc tới chi tiết mang tính quyết định." },
+      "tags": ["van-hoc"]
+    },
+    {
+      "id": "c2-u01-v-nuance",
+      "de": "Nuance",
+      "article": "die",
+      "plural": "Nuancen",
+      "pos": "noun",
+      "vi": "sắc thái tinh tế",
+      "example": { "de": "Es kommt hier auf feinste Nuancen an.", "vi": "Ở đây những sắc thái tinh tế nhất mới là điều quyết định." },
+      "tags": ["van-hoc"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "c2-u01-g-stilebenen",
+      "title": "Stilebenen",
+      "titleVi": "Các tầng phong cách",
+      "summary": "Cùng một ý có thể diễn đạt ở năm tầng phong cách khác nhau; chọn sai tầng là lỗi nặng nhất ở C2.",
+      "explanation": "Ở C2, lỗi ngữ pháp gần như không còn — lỗi thật sự là **dùng sai tầng phong cách**.\n\nMột ví dụ, cùng nghĩa \"anh ta chết\":\n\n| Tầng | Diễn đạt |\n|---|---|\n| trang trọng cao | Er ist **verschieden**. / Er **verstarb**. |\n| trung tính | Er ist **gestorben**. |\n| thân mật | Er ist **von uns gegangen**. |\n| suồng sã | Er hat **den Löffel abgegeben**. |\n| thô | (không dùng trong văn viết) |\n\nTừ điển Đức đánh dấu tầng phong cách bằng các nhãn: `geh.` (gehoben — trang trọng), `ugs.` (umgangssprachlich — khẩu ngữ), `salopp` (suồng sã), `derb` (thô), `veraltet` (cổ), `abwertend` (mang nghĩa chê).\n\n**Dấu hiệu của tầng trang trọng (gehoben):**\n\n- Genitiv thay vì `von`: `die Ergebnisse **der Studie**` chứ không phải \"von der Studie\"\n- Konjunktiv I trong trích dẫn\n- Danh hoá dày đặc\n- Từ gốc Latinh/Hy Lạp thay từ gốc Đức: `konstatieren` thay `feststellen`\n\n**Dấu hiệu của khẩu ngữ:**\n\n- `weil` + trật tự câu chính (`weil ich hab keine Zeit`) — phổ biến trong nói nhưng sai trong viết\n- Rút gọn: `nen` (einen), `is` (ist), `ham` (haben)\n- Modalpartikeln dày đặc\n\nMột văn bản trộn lẫn hai tầng mà không có chủ đích sẽ bị đánh giá là vụng — trừ khi việc trộn đó chính là thủ pháp mỉa mai.",
+      "examples": [
+        { "de": "Er verstarb im Alter von 82 Jahren.", "vi": "Ông qua đời ở tuổi 82.", "note": "gehoben — cáo phó, báo chí trang trọng" },
+        { "de": "Ich hab keine Zeit, weil ich muss noch arbeiten.", "vi": "Tôi không có thời gian, vì tôi còn phải làm việc.", "note": "ugs. — chỉ dùng khi nói" },
+        { "de": "Diesbezüglich sei angemerkt, dass …", "vi": "Về việc này xin lưu ý rằng…", "note": "gehoben, văn bản hành chính" }
+      ],
+      "tables": [
+        {
+          "title": "Nhãn phong cách trong từ điển Đức",
+          "headers": ["Nhãn", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["geh.", "trang trọng", "das Antlitz (khuôn mặt)"],
+            ["ugs.", "khẩu ngữ", "das Zeug (đồ đạc)"],
+            ["salopp", "suồng sã", "die Kohle (tiền)"],
+            ["derb", "thô", "—"],
+            ["abwertend", "mang nghĩa chê", "der Schreiberling"],
+            ["veraltet", "cổ", "der Backfisch (thiếu nữ)"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng từ \"gehoben\" trong hội thoại đời thường — nghe kiểu cách, xa cách.",
+        "Dùng cấu trúc khẩu ngữ (weil + trật tự câu chính) trong bài viết.",
+        "Bỏ qua nhãn \"abwertend\" trong từ điển và dùng từ mang nghĩa chê một cách vô tình."
+      ],
+      "tags": ["vocabulary"]
+    },
+    {
+      "id": "c2-u01-g-rhetorik",
+      "title": "Rhetorische Figuren",
+      "titleVi": "Biện pháp tu từ",
+      "summary": "Bộ thuật ngữ để gọi tên thủ pháp — cần cho phân tích văn bản và cho bài thi C2.",
+      "explanation": "Ở C2 bạn cần **gọi tên** được thủ pháp, không chỉ cảm nhận nó.\n\n**Các biện pháp cốt lõi:**\n\n- **Metapher** — chuyển nghĩa: `ein Meer von Möglichkeiten`\n- **Personifikation** — nhân hoá: `Die Zeit heilt Wunden.`\n- **Hyperbel** — cường điệu: `Ich habe dir tausendmal gesagt …`\n- **Litotes** — nói giảm bằng phủ định kép: `nicht schlecht` = khá tốt\n- **Euphemismus** — nói tránh: `Personalabbau` thay cho `Entlassungen`\n- **Anapher** — lặp đầu câu: `Wir werden … Wir werden … Wir werden …`\n- **Klimax** — tăng tiến: `Ich kam, sah, siegte.`\n- **Rhetorische Frage** — hỏi mà không cần trả lời\n- **Chiasmus** — đối xứng chéo: `Der Einsatz war groß, groß war auch der Gewinn.`\n\n**Mỉa mai trong tiếng Đức** khó nhận ra hơn tiếng Anh vì ít được đánh dấu bằng ngữ điệu trong văn viết. Ba dấu hiệu thường gặp:\n\n1. Khen quá mức trong ngữ cảnh rõ ràng tiêu cực: `Das hast du ja **wunderbar** hingekriegt.`\n2. Trộn tầng phong cách có chủ đích: dùng từ trang trọng cho chuyện tầm thường.\n3. Tiểu từ `ja`, `wohl`, `doch` đặt vào chỗ bất thường.",
+      "examples": [
+        { "de": "Die Zeit heilt alle Wunden.", "vi": "Thời gian chữa lành mọi vết thương.", "note": "Personifikation" },
+        { "de": "Das ist nicht schlecht geworden.", "vi": "Cái này làm cũng khá đấy.", "note": "Litotes — thực chất là khen" },
+        { "de": "Man spricht von Personalabbau, gemeint sind Entlassungen.", "vi": "Người ta nói là tinh giản nhân sự, ý là sa thải.", "note": "Euphemismus" },
+        { "de": "Das hast du ja wunderbar hingekriegt.", "vi": "Cậu làm ăn hay lắm đấy nhỉ.", "note": "Ironie — khen để chê" }
+      ],
+      "tables": [
+        {
+          "title": "Biện pháp tu từ",
+          "headers": ["Thuật ngữ", "Định nghĩa", "Ví dụ"],
+          "rows": [
+            ["Metapher", "chuyển nghĩa", "ein Meer von Daten"],
+            ["Personifikation", "nhân hoá", "Die Zeit heilt Wunden."],
+            ["Hyperbel", "cường điệu", "tausendmal gesagt"],
+            ["Litotes", "phủ định kép nói giảm", "nicht unwichtig"],
+            ["Euphemismus", "nói tránh", "Personalabbau"],
+            ["Anapher", "lặp đầu câu", "Wir werden … Wir werden …"],
+            ["Chiasmus", "đối xứng chéo", "Groß war die Mühe, die Mühe war groß."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm Metapher với Vergleich — so sánh có \"wie\", ẩn dụ thì không.",
+        "Bỏ lỡ mỉa mai vì đọc theo nghĩa đen.",
+        "Gọi mọi hình ảnh là \"Metapher\" mà không phân biệt Symbol, Allegorie."
+      ],
+      "tags": ["vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "\"Die Zeit heilt alle Wunden.\" là biện pháp tu từ nào?",
+      "options": ["Personifikation", "Hyperbel", "Litotes", "Euphemismus"],
+      "answerIndex": 0,
+      "explanation": "Thời gian — một khái niệm trừu tượng — được gán hành động của con người (chữa lành).",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "\"Personalabbau\" thay cho \"Entlassungen\" là ví dụ của gì?",
+      "options": ["Euphemismus", "Metapher", "Anapher", "Chiasmus"],
+      "answerIndex": 0,
+      "explanation": "Nói tránh: dùng từ trung tính hơn để làm nhẹ một sự việc khó chịu.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u01-e-03",
+      "type": "multiple_choice",
+      "prompt": "Câu nào thuộc tầng phong cách \"gehoben\" (trang trọng)?",
+      "options": [
+        "Er verstarb im Alter von 82 Jahren.",
+        "Er ist mit 82 gestorben.",
+        "Er hat den Löffel abgegeben.",
+        "Er ist weg."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"versterben\" là dạng trang trọng của \"sterben\", dùng trong cáo phó và báo chí trang trọng.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u01-e-04",
+      "type": "matching",
+      "instruction": "Nối thuật ngữ tu từ với ví dụ",
+      "pairs": [
+        { "left": "Litotes", "right": "nicht unerheblich" },
+        { "left": "Hyperbel", "right": "Ich habe es tausendmal gesagt." },
+        { "left": "Anapher", "right": "Wir kämpfen. Wir hoffen. Wir gewinnen." },
+        { "left": "Metapher", "right": "ein Meer von Daten" }
+      ],
+      "explanation": "Litotes nói giảm, Hyperbel nói quá — hai hướng ngược nhau của cùng một trục.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u01-e-05",
+      "type": "fill_blank",
+      "sentence": "Der Schluss bleibt bewusst ___, und gerade darin liegt die ___ des Textes.",
+      "blanks": [
+        { "answers": ["doppeldeutig", "offen", "ambivalent"], "hint": "để ngỏ hai nghĩa" },
+        { "answers": ["Stärke", "Qualität"], "hint": "điểm mạnh" }
+      ],
+      "translation": "Đoạn kết cố ý để ngỏ hai nghĩa, và chính ở đó nằm sức mạnh của văn bản.",
+      "explanation": "\"gerade darin liegt …\" là cấu trúc nhấn mạnh rất thông dụng trong phê bình văn học Đức.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u01-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Beiläufig erwähnt der Erzähler jenes Detail, das rückblickend alles verändert.",
+      "answers": [
+        "Người kể chuyện thoáng nhắc tới chi tiết mà nhìn lại đã làm thay đổi tất cả.",
+        "Người trần thuật nhắc qua chi tiết ấy, chi tiết mà khi nhìn lại đã thay đổi mọi thứ.",
+        "Người kể thoáng qua nhắc đến chi tiết mà nhìn lại làm đảo lộn tất cả."
+      ],
+      "explanation": "\"jenes\" là dạng chỉ định trang trọng (thay \"das\"); \"rückblickend\" là phân từ dùng như trạng từ.",
+      "skillTag": "translation"
+    }
+  ]
+}

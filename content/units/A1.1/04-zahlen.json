@@ -1,0 +1,282 @@
+{
+  "id": "a1-1-u04-zahlen",
+  "level": "A1.1",
+  "order": 4,
+  "slug": "zahlen",
+  "title": "Zahlen von 0 bis 100",
+  "titleVi": "Số đếm từ 0 đến 100",
+  "description": "Số đếm tiếng Đức có một đặc điểm khiến người mới học luôn nghe nhầm: hàng đơn vị đọc TRƯỚC hàng chục. 21 đọc là \"một-và-hai-mươi\".",
+  "goals": [
+    "Đọc và viết số từ 0 đến 100",
+    "Hiểu quy tắc đảo ngược hàng đơn vị / hàng chục",
+    "Nói số điện thoại và giá tiền"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u04-v-null",
+      "de": "null",
+      "pos": "numeral",
+      "vi": "số 0",
+      "example": { "de": "Meine Nummer beginnt mit null.", "vi": "Số của tôi bắt đầu bằng số 0." },
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-eins",
+      "de": "eins",
+      "pos": "numeral",
+      "vi": "số 1",
+      "example": { "de": "Eins, zwei, drei — los!", "vi": "Một, hai, ba — bắt đầu!" },
+      "note": "Khi đứng trước danh từ thì đổi thành \"ein/eine\": ein Buch, chứ không phải \"eins Buch\".",
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-zwei",
+      "de": "zwei",
+      "pos": "numeral",
+      "vi": "số 2",
+      "example": { "de": "Ich habe zwei Kinder.", "vi": "Tôi có hai đứa con." },
+      "note": "Qua điện thoại người Đức hay đọc \"zwo\" thay cho \"zwei\" để khỏi nhầm với \"drei\".",
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-drei",
+      "de": "drei",
+      "pos": "numeral",
+      "vi": "số 3",
+      "example": { "de": "Es ist drei Uhr.", "vi": "Bây giờ là ba giờ." },
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-sieben",
+      "de": "sieben",
+      "pos": "numeral",
+      "vi": "số 7",
+      "example": { "de": "Eine Woche hat sieben Tage.", "vi": "Một tuần có bảy ngày." },
+      "note": "Là số duy nhất từ 1-12 có hai âm tiết; ở dạng ghép \"siebzehn\", \"siebzig\" thì mất chữ -en.",
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-zehn",
+      "de": "zehn",
+      "pos": "numeral",
+      "vi": "số 10",
+      "example": { "de": "Das kostet zehn Euro.", "vi": "Cái đó giá mười euro." },
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-elf",
+      "de": "elf",
+      "pos": "numeral",
+      "vi": "số 11",
+      "example": { "de": "Elf Spieler sind in einer Mannschaft.", "vi": "Một đội có mười một cầu thủ." },
+      "note": "11 và 12 (elf, zwölf) không theo quy tắc — phải học thuộc riêng.",
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-zwanzig",
+      "de": "zwanzig",
+      "pos": "numeral",
+      "vi": "số 20",
+      "example": { "de": "Ich bin zwanzig Jahre alt.", "vi": "Tôi hai mươi tuổi." },
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-hundert",
+      "de": "hundert",
+      "pos": "numeral",
+      "vi": "một trăm",
+      "example": { "de": "Das Buch hat hundert Seiten.", "vi": "Cuốn sách có một trăm trang." },
+      "tags": ["so-dem"]
+    },
+    {
+      "id": "a1-1-u04-v-nummer",
+      "de": "Nummer",
+      "article": "die",
+      "plural": "Nummern",
+      "pos": "noun",
+      "vi": "số (điện thoại, nhà)",
+      "example": { "de": "Wie ist deine Telefonnummer?", "vi": "Số điện thoại của bạn là gì?" },
+      "tags": ["lien-lac"]
+    },
+    {
+      "id": "a1-1-u04-v-euro",
+      "de": "Euro",
+      "article": "der",
+      "plural": "Euro",
+      "pos": "noun",
+      "vi": "đồng euro",
+      "example": { "de": "Das macht zwölf Euro fünfzig.", "vi": "Tất cả là mười hai euro năm mươi cent." },
+      "note": "Số nhiều vẫn là \"Euro\", không thêm -s: \"zehn Euro\".",
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-1-u04-v-kosten",
+      "de": "kosten",
+      "pos": "verb",
+      "vi": "có giá là",
+      "example": { "de": "Was kostet das?", "vi": "Cái này giá bao nhiêu?" },
+      "tags": ["mua-sam", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u04-v-telefonnummer",
+      "de": "Telefonnummer",
+      "article": "die",
+      "plural": "Telefonnummern",
+      "pos": "noun",
+      "vi": "số điện thoại",
+      "example": { "de": "Meine Telefonnummer ist 0176 3345 210.", "vi": "Số điện thoại của tôi là 0176 3345 210." },
+      "tags": ["lien-lac"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u04-g-zahlen",
+      "title": "Zahlen bilden — die verdrehte Reihenfolge",
+      "titleVi": "Cách ghép số và quy tắc đảo ngược",
+      "summary": "Từ 21 trở đi, tiếng Đức đọc hàng đơn vị trước rồi mới tới hàng chục, nối bằng \"und\".",
+      "explanation": "Đây là điểm khiến người mới học nghe nhầm nhiều nhất.\n\n**Quy tắc:** đơn vị + `und` + chục, viết **liền một từ**.\n\n- 21 = ein**und**zwanzig (một-và-hai-mươi)\n- 47 = sieben**und**vierzig (bảy-và-bốn-mươi)\n- 99 = neun**und**neunzig\n\nSo sánh: tiếng Việt \"bốn mươi bảy\" đọc theo thứ tự 4-7, tiếng Đức đọc 7-4. Khi nghe số 47, bạn nghe \"sieben\" trước — rất dễ ghi nhầm thành 7 hoặc 74.\n\n**Các trường hợp bất quy tắc cần thuộc riêng:**\n\n- 1 đứng một mình là `eins`, nhưng trong số ghép là `ein`: einundzwanzig.\n- 16 = `sechzehn` (mất chữ -s của sechs), 17 = `siebzehn` (mất -en).\n- 60 = `sechzig`, 70 = `siebzig` — cũng rút gọn như trên.\n- 30 = `dreißig` (viết ß, không phải -zig).",
+      "examples": [
+        { "de": "dreiundsiebzig", "vi": "73 (ba-và-bảy-mươi)" },
+        { "de": "achtundvierzig", "vi": "48" },
+        { "de": "einundzwanzig", "vi": "21" },
+        { "de": "Das kostet neunzehn Euro.", "vi": "Cái đó giá 19 euro." }
+      ],
+      "tables": [
+        {
+          "title": "Số cơ bản",
+          "headers": ["Số", "Tiếng Đức", "Số", "Tiếng Đức"],
+          "rows": [
+            ["0", "null", "13", "dreizehn"],
+            ["1", "eins", "14", "vierzehn"],
+            ["2", "zwei", "15", "fünfzehn"],
+            ["3", "drei", "16", "sechzehn ⚠"],
+            ["4", "vier", "17", "siebzehn ⚠"],
+            ["5", "fünf", "18", "achtzehn"],
+            ["6", "sechs", "19", "neunzehn"],
+            ["7", "sieben", "20", "zwanzig"],
+            ["8", "acht", "30", "dreißig ⚠"],
+            ["9", "neun", "40", "vierzig"],
+            ["10", "zehn", "50", "fünfzig"],
+            ["11", "elf ⚠", "60", "sechzig ⚠"],
+            ["12", "zwölf ⚠", "70", "siebzig ⚠"],
+            ["", "", "80", "achtzig"],
+            ["", "", "90", "neunzig"],
+            ["", "", "100", "(ein)hundert"]
+          ],
+          "footnote": "⚠ = trường hợp bất quy tắc, cần học thuộc riêng."
+        }
+      ],
+      "commonMistakes": [
+        "Nghe 47 rồi viết thành 74 — hãy tập nghe phần \"und\" để biết đâu là hàng chục.",
+        "Viết tách rời \"ein und zwanzig\" — số dưới một triệu luôn viết liền.",
+        "Nói \"sechszehn\" thay vì \"sechzehn\", \"siebenzig\" thay vì \"siebzig\"."
+      ],
+      "tags": ["numbers"]
+    },
+    {
+      "id": "a1-1-u04-g-telefon-preis",
+      "title": "Telefonnummern und Preise",
+      "titleVi": "Đọc số điện thoại và giá tiền",
+      "summary": "Số điện thoại đọc từng chữ số một; giá tiền đọc phần euro rồi phần cent.",
+      "explanation": "**Số điện thoại** đọc rời từng chữ số, không ghép thành số lớn:\n\n0176 334 52 10 → `null - eins - sieben - sechs - drei - drei - vier - fünf - zwei - eins - null`\n\nNgười Đức cũng hay đọc theo cặp: `null-eins-sieben-sechs, drei-drei-vier, ...`. Qua điện thoại, `zwei` thường được đọc thành **zwo** để khỏi nghe nhầm thành `drei`.\n\n**Giá tiền:** dấu phẩy là dấu thập phân (không phải dấu chấm như tiếng Việt).\n\n- 12,50 € → `zwölf Euro fünfzig` (dạng nói tắt thông dụng)\n- 12,50 € → `zwölf Euro fünfzig Cent` (dạng đầy đủ)\n- 3,99 € → `drei neunundneunzig`",
+      "examples": [
+        { "de": "Was kostet das? — Das macht 8,40 €.", "vi": "Cái này bao nhiêu? — Tất cả 8,40 euro.", "note": "\"acht Euro vierzig\"" },
+        { "de": "Meine Nummer ist null-eins-sieben-null …", "vi": "Số của tôi là 0170…" },
+        { "de": "Das kostet einundzwanzig Euro neunzig.", "vi": "Cái đó giá 21,90 euro." }
+      ],
+      "tables": [
+        {
+          "title": "Dấu số trong tiếng Đức vs tiếng Việt",
+          "headers": ["Ý nghĩa", "Viết theo kiểu Đức", "Đọc"],
+          "rows": [
+            ["Mười hai phẩy năm", "12,5", "zwölf Komma fünf"],
+            ["Một nghìn", "1.000", "eintausend"],
+            ["Giá 3,99 euro", "3,99 €", "drei Euro neunundneunzig"]
+          ],
+          "footnote": "Dấu chấm và dấu phẩy đảo ngược so với tiếng Anh: 1.000,50 chứ không phải 1,000.50."
+        }
+      ],
+      "commonMistakes": [
+        "Đọc số điện thoại thành số lớn (\"dreihundertvierunddreißig\") thay vì đọc rời từng chữ số.",
+        "Viết giá tiền bằng dấu chấm thập phân: 12.50 € — kiểu Đức phải là 12,50 €."
+      ],
+      "tags": ["numbers"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u04-e-01",
+      "type": "multiple_choice",
+      "prompt": "Số 47 viết bằng chữ là gì?",
+      "options": ["siebenundvierzig", "vierzigsieben", "vierundsiebzig", "sieben und vierzig"],
+      "answerIndex": 0,
+      "explanation": "Đơn vị (sieben) trước, \"und\", rồi hàng chục (vierzig), viết liền: siebenundvierzig. Lưu ý \"vierundsiebzig\" là 74.",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-1-u04-e-02",
+      "type": "multiple_choice",
+      "prompt": "Từ nào viết SAI chính tả?",
+      "options": ["siebenzig", "sechzehn", "dreißig", "zwölf"],
+      "answerIndex": 0,
+      "explanation": "70 là \"siebzig\" — mất phần \"-en\" của sieben. Ba từ còn lại đều đúng.",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-1-u04-e-03",
+      "type": "fill_blank",
+      "sentence": "Ich bin ___ Jahre alt und wohne in Haus Nummer ___.",
+      "blanks": [
+        { "answers": ["einunddreißig", "31"], "hint": "31" },
+        { "answers": ["sechzehn", "16"], "hint": "16" }
+      ],
+      "translation": "Tôi 31 tuổi và sống ở nhà số 16.",
+      "explanation": "31 = einunddreißig (chú ý dreißig viết ß). 16 = sechzehn (mất chữ s của sechs).",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-1-u04-e-04",
+      "type": "listening",
+      "audioText": "Das macht dreiundzwanzig Euro fünfzig.",
+      "mode": "choice",
+      "question": "Tổng số tiền là bao nhiêu?",
+      "options": ["23,50 €", "32,50 €", "23,15 €", "13,50 €"],
+      "answerIndex": 0,
+      "explanation": "\"dreiundzwanzig\" = ba-và-hai-mươi = 23. Nếu nghe nhầm thành 32 là đã bỏ qua quy tắc đảo ngược.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u04-e-05",
+      "type": "matching",
+      "instruction": "Nối chữ số với cách viết bằng chữ",
+      "pairs": [
+        { "left": "12", "right": "zwölf" },
+        { "left": "30", "right": "dreißig" },
+        { "left": "68", "right": "achtundsechzig" },
+        { "left": "91", "right": "einundneunzig" }
+      ],
+      "explanation": "68 = acht + und + sechzig; 91 = ein + und + neunzig.",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-1-u04-e-06",
+      "type": "listening",
+      "audioText": "Meine Telefonnummer ist null eins sieben sechs, vier vier zwei, neun eins.",
+      "mode": "dictation",
+      "question": "Gõ lại dãy số bạn nghe được (chỉ gõ chữ số, ví dụ 0176 442 91)",
+      "answers": ["0176 442 91", "017644291", "0176 44291", "0176442 91"],
+      "explanation": "Số điện thoại đọc rời từng chữ số: 0176 442 91.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u04-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Cái này giá bao nhiêu?",
+      "answers": ["Was kostet das?", "Wie viel kostet das?", "Was kostet das", "Wie viel kostet das"],
+      "hint": "kosten",
+      "explanation": "Hai cách hỏi giá thông dụng: \"Was kostet das?\" và \"Wie viel kostet das?\".",
+      "skillTag": "translation"
+    }
+  ]
+}

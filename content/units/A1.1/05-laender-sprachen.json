@@ -1,0 +1,295 @@
+{
+  "id": "a1-1-u05-laender",
+  "level": "A1.1",
+  "order": 5,
+  "slug": "laender-sprachen",
+  "title": "Länder, Sprachen und Nationalitäten",
+  "titleVi": "Quốc gia, ngôn ngữ và quốc tịch",
+  "description": "Nói bạn từ nước nào, nói được ngôn ngữ gì, và làm quen với ba nước nói tiếng Đức: Đức, Áo, Thuỵ Sĩ.",
+  "goals": [
+    "Gọi tên các quốc gia và ngôn ngữ thông dụng",
+    "Nói quốc tịch đúng dạng nam/nữ",
+    "Dùng đúng động từ sprechen khi nói về ngôn ngữ"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u05-v-deutschland",
+      "de": "Deutschland",
+      "article": "das",
+      "pos": "noun",
+      "vi": "nước Đức",
+      "example": { "de": "Deutschland liegt in Europa.", "vi": "Nước Đức nằm ở châu Âu." },
+      "note": "Hầu hết tên nước là giống trung và KHÔNG dùng mạo từ khi nói: \"Ich komme aus Deutschland\".",
+      "tags": ["quoc-gia"]
+    },
+    {
+      "id": "a1-1-u05-v-oesterreich",
+      "de": "Österreich",
+      "article": "das",
+      "pos": "noun",
+      "vi": "nước Áo",
+      "example": { "de": "In Österreich spricht man auch Deutsch.", "vi": "Ở Áo người ta cũng nói tiếng Đức." },
+      "tags": ["quoc-gia"]
+    },
+    {
+      "id": "a1-1-u05-v-schweiz",
+      "de": "Schweiz",
+      "article": "die",
+      "pos": "noun",
+      "vi": "Thuỵ Sĩ",
+      "example": { "de": "Ich komme aus der Schweiz.", "vi": "Tôi đến từ Thuỵ Sĩ." },
+      "note": "Một trong số ít tên nước BẮT BUỘC có mạo từ: die Schweiz → aus der Schweiz.",
+      "tags": ["quoc-gia"]
+    },
+    {
+      "id": "a1-1-u05-v-vietnam",
+      "de": "Vietnam",
+      "article": "das",
+      "pos": "noun",
+      "vi": "Việt Nam",
+      "example": { "de": "Ich komme aus Vietnam.", "vi": "Tôi đến từ Việt Nam." },
+      "tags": ["quoc-gia"]
+    },
+    {
+      "id": "a1-1-u05-v-land",
+      "de": "Land",
+      "article": "das",
+      "plural": "Länder",
+      "pos": "noun",
+      "vi": "đất nước",
+      "example": { "de": "Welche Länder kennst du?", "vi": "Bạn biết những nước nào?" },
+      "tags": ["quoc-gia"]
+    },
+    {
+      "id": "a1-1-u05-v-sprache",
+      "de": "Sprache",
+      "article": "die",
+      "plural": "Sprachen",
+      "pos": "noun",
+      "vi": "ngôn ngữ",
+      "example": { "de": "Wie viele Sprachen sprichst du?", "vi": "Bạn nói được mấy thứ tiếng?" },
+      "tags": ["ngon-ngu"]
+    },
+    {
+      "id": "a1-1-u05-v-sprechen",
+      "de": "sprechen",
+      "pos": "verb",
+      "vi": "nói (một ngôn ngữ)",
+      "principalParts": "sprechen, sprach, hat gesprochen",
+      "example": { "de": "Ich spreche ein bisschen Deutsch.", "vi": "Tôi nói được một chút tiếng Đức." },
+      "note": "Động từ đổi nguyên âm: ich spreche nhưng du sprichst, er spricht (e → i).",
+      "tags": ["ngon-ngu", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u05-v-lernen",
+      "de": "lernen",
+      "pos": "verb",
+      "vi": "học",
+      "example": { "de": "Ich lerne Deutsch seit drei Monaten.", "vi": "Tôi học tiếng Đức được ba tháng rồi." },
+      "tags": ["ngon-ngu", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u05-v-verstehen",
+      "de": "verstehen",
+      "pos": "verb",
+      "vi": "hiểu",
+      "principalParts": "verstehen, verstand, hat verstanden",
+      "example": { "de": "Ich verstehe das nicht.", "vi": "Tôi không hiểu cái đó." },
+      "note": "Câu \"Ich verstehe nur Bahnhof\" là thành ngữ nghĩa là \"tôi chẳng hiểu gì cả\".",
+      "tags": ["ngon-ngu", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u05-v-ein-bisschen",
+      "de": "ein bisschen",
+      "pos": "phrase",
+      "vi": "một chút",
+      "example": { "de": "Ich spreche nur ein bisschen Deutsch.", "vi": "Tôi chỉ nói được một chút tiếng Đức." },
+      "tags": ["ngon-ngu"]
+    },
+    {
+      "id": "a1-1-u05-v-muttersprache",
+      "de": "Muttersprache",
+      "article": "die",
+      "plural": "Muttersprachen",
+      "pos": "noun",
+      "vi": "tiếng mẹ đẻ",
+      "example": { "de": "Meine Muttersprache ist Vietnamesisch.", "vi": "Tiếng mẹ đẻ của tôi là tiếng Việt." },
+      "tags": ["ngon-ngu"]
+    },
+    {
+      "id": "a1-1-u05-v-hauptstadt",
+      "de": "Hauptstadt",
+      "article": "die",
+      "plural": "Hauptstädte",
+      "pos": "noun",
+      "vi": "thủ đô",
+      "example": { "de": "Berlin ist die Hauptstadt von Deutschland.", "vi": "Berlin là thủ đô của nước Đức." },
+      "tags": ["quoc-gia"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u05-g-nationalitaet",
+      "title": "Land, Sprache, Nationalität",
+      "titleVi": "Phân biệt tên nước, tên ngôn ngữ và quốc tịch",
+      "summary": "Ba khái niệm dùng ba từ khác nhau, và quốc tịch còn chia dạng nam / nữ.",
+      "explanation": "Trong tiếng Việt ta nói \"người Đức\", \"tiếng Đức\", \"nước Đức\" — đều dùng chữ \"Đức\". Tiếng Đức dùng ba từ khác nhau:\n\n- Nước: `Deutschland`\n- Ngôn ngữ: `Deutsch`\n- Người: `der Deutsche` (nam) / `die Deutsche` (nữ)\n\nDạng nữ của quốc tịch **hầu hết** thêm đuôi `-in`:\n\n- der Vietnamese → die Vietnames**in**\n- der Österreicher → die Österreicher**in**\n\nTên ngôn ngữ luôn viết hoa và không có mạo từ khi đi với `sprechen`:\n\n- ✅ Ich spreche Deutsch.\n- ❌ Ich spreche das Deutsch.",
+      "examples": [
+        { "de": "Ich komme aus Vietnam. Ich bin Vietnamesin und spreche Vietnamesisch.", "vi": "Tôi đến từ Việt Nam. Tôi là người Việt (nữ) và nói tiếng Việt." },
+        { "de": "Er ist Österreicher, aber er wohnt in Berlin.", "vi": "Anh ấy là người Áo, nhưng sống ở Berlin." },
+        { "de": "Sprechen Sie Englisch? — Ja, ein bisschen.", "vi": "Ông/bà nói tiếng Anh không? — Có, một chút." }
+      ],
+      "tables": [
+        {
+          "title": "Nước – Ngôn ngữ – Quốc tịch",
+          "headers": ["Nước", "Ngôn ngữ", "Nam", "Nữ"],
+          "rows": [
+            ["Deutschland", "Deutsch", "der Deutsche", "die Deutsche"],
+            ["Österreich", "Deutsch", "der Österreicher", "die Österreicherin"],
+            ["die Schweiz", "Deutsch/Französisch", "der Schweizer", "die Schweizerin"],
+            ["Vietnam", "Vietnamesisch", "der Vietnamese", "die Vietnamesin"],
+            ["England", "Englisch", "der Engländer", "die Engländerin"],
+            ["Frankreich", "Französisch", "der Franzose", "die Französin"],
+            ["Japan", "Japanisch", "der Japaner", "die Japanerin"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nói \"Ich spreche Deutschland\" — Deutschland là nước, ngôn ngữ là Deutsch.",
+        "Quên đuôi -in khi nói về nữ: một phụ nữ Việt là \"Vietnamesin\".",
+        "Viết thường tên ngôn ngữ: phải là \"Deutsch\", không phải \"deutsch\" (deutsch thường là tính từ)."
+      ],
+      "tags": ["vocabulary", "articles"]
+    },
+    {
+      "id": "a1-1-u05-g-sprechen",
+      "title": "Verben mit Vokalwechsel: sprechen",
+      "titleVi": "Động từ đổi nguyên âm gốc",
+      "summary": "Một nhóm động từ đổi nguyên âm ở ngôi du và er/sie/es — sprechen là ví dụ điển hình.",
+      "explanation": "Đa số động từ tiếng Đức chia đều đặn (xem unit \"Regelmäßige Verben\"). Nhưng một nhóm quan trọng **đổi nguyên âm gốc** ở hai ngôi `du` và `er/sie/es`:\n\n- `e → i`: sprechen → du spr**i**chst, er spr**i**cht\n- `e → ie`: sehen → du s**ie**hst, er s**ie**ht\n- `a → ä`: fahren → du f**ä**hrst, er f**ä**hrt\n\nChỉ hai ngôi này đổi, các ngôi còn lại giữ nguyên nguyên âm gốc. Từ điển thường đánh dấu bằng ghi chú `(spricht)` bên cạnh nguyên thể.",
+      "examples": [
+        { "de": "Ich spreche Vietnamesisch, aber du sprichst Deutsch.", "vi": "Tôi nói tiếng Việt, còn bạn nói tiếng Đức." },
+        { "de": "Er spricht sehr schnell.", "vi": "Anh ấy nói rất nhanh." },
+        { "de": "Wir sprechen langsam, ihr sprecht schnell.", "vi": "Chúng tôi nói chậm, các bạn nói nhanh." }
+      ],
+      "tables": [
+        {
+          "title": "sprechen — Präsens",
+          "headers": ["Ngôi", "Chia", "Ghi chú"],
+          "rows": [
+            ["ich", "spreche", ""],
+            ["du", "sprichst", "e → i"],
+            ["er / sie / es", "spricht", "e → i"],
+            ["wir", "sprechen", ""],
+            ["ihr", "sprecht", ""],
+            ["sie / Sie", "sprechen", ""]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Chia đều \"du sprechst\" — phải là \"du sprichst\".",
+        "Đổi nguyên âm ở cả ngôi wir/ihr: \"wir sprichen\" là sai."
+      ],
+      "tags": ["verb-conjugation"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u05-e-01",
+      "type": "conjugation",
+      "verb": "sprechen",
+      "verbVi": "nói (một ngôn ngữ)",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "spreche", "prefilled": true },
+        { "pronoun": "du", "answer": "sprichst" },
+        { "pronoun": "er/sie/es", "answer": "spricht" },
+        { "pronoun": "wir", "answer": "sprechen" },
+        { "pronoun": "ihr", "answer": "sprecht" },
+        { "pronoun": "sie/Sie", "answer": "sprechen" }
+      ],
+      "note": "Chỉ du và er/sie/es đổi e thành i.",
+      "explanation": "sprechen thuộc nhóm đổi nguyên âm e → i ở ngôi thứ hai và thứ ba số ít.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u05-e-02",
+      "type": "multiple_choice",
+      "prompt": "Chọn câu ĐÚNG:",
+      "options": [
+        "Ich komme aus der Schweiz.",
+        "Ich komme aus Schweiz.",
+        "Ich komme aus die Schweiz.",
+        "Ich komme von der Schweiz."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"die Schweiz\" là tên nước bắt buộc có mạo từ; sau giới từ \"aus\" (đi với Dativ) thì die → der.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-1-u05-e-03",
+      "type": "fill_blank",
+      "sentence": "Mai kommt aus Vietnam. Sie ist ___ und spricht ___.",
+      "blanks": [
+        { "answers": ["Vietnamesin"], "hint": "quốc tịch, dạng nữ" },
+        { "answers": ["Vietnamesisch"], "hint": "tên ngôn ngữ" }
+      ],
+      "translation": "Mai đến từ Việt Nam. Cô ấy là người Việt và nói tiếng Việt.",
+      "explanation": "Quốc tịch nữ có đuôi -in (Vietnamesin); tên ngôn ngữ là Vietnamesisch.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u05-e-04",
+      "type": "matching",
+      "instruction": "Nối quốc gia với ngôn ngữ chính",
+      "pairs": [
+        { "left": "Frankreich", "right": "Französisch" },
+        { "left": "Japan", "right": "Japanisch" },
+        { "left": "Österreich", "right": "Deutsch" },
+        { "left": "England", "right": "Englisch" }
+      ],
+      "explanation": "Ở Áo người ta nói tiếng Đức — đây là điểm nhiều người học hay bất ngờ.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u05-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi",
+      "answer": ["Welche", "Sprachen", "sprichst", "du"],
+      "translation": "Bạn nói được những thứ tiếng nào?",
+      "explanation": "\"Welche Sprachen\" là một cụm đứng vị trí đầu, động từ \"sprichst\" đứng ngay sau đó ở vị trí thứ hai.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u05-e-06",
+      "type": "listening",
+      "audioText": "Ich bin Österreicherin und spreche Deutsch und Englisch.",
+      "mode": "choice",
+      "question": "Người nói là ai?",
+      "options": [
+        "Một phụ nữ người Áo nói được hai thứ tiếng",
+        "Một người đàn ông Áo nói được ba thứ tiếng",
+        "Một phụ nữ Đức nói tiếng Anh",
+        "Một người Thuỵ Sĩ"
+      ],
+      "answerIndex": 0,
+      "explanation": "Đuôi -in trong \"Österreicherin\" cho biết đó là nữ; hai ngôn ngữ được nhắc tới là Deutsch và Englisch.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u05-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi chỉ nói được một chút tiếng Đức.",
+      "answers": [
+        "Ich spreche nur ein bisschen Deutsch.",
+        "Ich spreche nur ein bisschen Deutsch",
+        "Ich spreche ein bisschen Deutsch."
+      ],
+      "hint": "nur ein bisschen …",
+      "explanation": "Câu cửa miệng rất hữu ích khi mới học — nói câu này người Đức thường sẽ nói chậm lại giúp bạn.",
+      "skillTag": "translation"
+    }
+  ]
+}

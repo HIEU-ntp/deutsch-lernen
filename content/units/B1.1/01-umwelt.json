@@ -1,0 +1,264 @@
+{
+  "id": "b1-1-u01-umwelt",
+  "level": "B1.1",
+  "order": 1,
+  "slug": "umwelt",
+  "title": "Umwelt und Nachhaltigkeit",
+  "titleVi": "Môi trường và phát triển bền vững",
+  "description": "Chủ đề quen thuộc trong mọi kỳ thi B1. Ngữ pháp trọng tâm: câu bị động và biến đuôi tính từ.",
+  "goals": [
+    "Trình bày quan điểm về vấn đề môi trường",
+    "Dùng câu bị động ở hiện tại và quá khứ",
+    "Biến đuôi tính từ đứng trước danh từ"
+  ],
+  "vocabulary": [
+    {
+      "id": "b1-1-u01-v-umwelt",
+      "de": "Umwelt",
+      "article": "die",
+      "pos": "noun",
+      "vi": "môi trường",
+      "example": { "de": "Wir müssen die Umwelt schützen.", "vi": "Chúng ta phải bảo vệ môi trường." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-klimawandel",
+      "de": "Klimawandel",
+      "article": "der",
+      "pos": "noun",
+      "vi": "biến đổi khí hậu",
+      "example": { "de": "Der Klimawandel betrifft uns alle.", "vi": "Biến đổi khí hậu ảnh hưởng tới tất cả chúng ta." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-muell",
+      "de": "Müll",
+      "article": "der",
+      "pos": "noun",
+      "vi": "rác",
+      "example": { "de": "Der Müll wird getrennt gesammelt.", "vi": "Rác được thu gom phân loại." },
+      "note": "Ở Đức phân loại rác là bắt buộc và khá nghiêm ngặt.",
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-verschmutzung",
+      "de": "Verschmutzung",
+      "article": "die",
+      "plural": "Verschmutzungen",
+      "pos": "noun",
+      "vi": "sự ô nhiễm",
+      "example": { "de": "Die Verschmutzung der Luft nimmt zu.", "vi": "Ô nhiễm không khí đang gia tăng." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-erneuerbar",
+      "de": "erneuerbar",
+      "pos": "adjective",
+      "vi": "tái tạo được",
+      "example": { "de": "Erneuerbare Energien sind die Zukunft.", "vi": "Năng lượng tái tạo là tương lai." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-nachhaltig",
+      "de": "nachhaltig",
+      "pos": "adjective",
+      "vi": "bền vững",
+      "example": { "de": "Wir leben nicht nachhaltig genug.", "vi": "Chúng ta sống chưa đủ bền vững." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-verbrauch",
+      "de": "Verbrauch",
+      "article": "der",
+      "pos": "noun",
+      "vi": "mức tiêu thụ",
+      "example": { "de": "Der Verbrauch an Wasser ist zu hoch.", "vi": "Mức tiêu thụ nước quá cao." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-vermeiden",
+      "de": "vermeiden",
+      "pos": "verb",
+      "vi": "tránh, hạn chế",
+      "principalParts": "vermeiden, vermied, hat vermieden",
+      "example": { "de": "Plastik sollte vermieden werden.", "vi": "Nên hạn chế dùng nhựa." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-schuetzen",
+      "de": "schützen",
+      "pos": "verb",
+      "vi": "bảo vệ",
+      "example": { "de": "Wälder schützen das Klima.", "vi": "Rừng bảo vệ khí hậu." },
+      "tags": ["moi-truong"]
+    },
+    {
+      "id": "b1-1-u01-v-massnahme",
+      "de": "Maßnahme",
+      "article": "die",
+      "plural": "Maßnahmen",
+      "pos": "noun",
+      "vi": "biện pháp",
+      "example": { "de": "Die Regierung hat neue Maßnahmen beschlossen.", "vi": "Chính phủ đã thông qua các biện pháp mới." },
+      "tags": ["moi-truong", "xa-hoi"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1-1-u01-g-passiv",
+      "title": "Das Passiv",
+      "titleVi": "Câu bị động",
+      "summary": "werden + Partizip II. Dùng khi hành động quan trọng hơn người thực hiện — rất phổ biến trong văn viết trang trọng.",
+      "explanation": "Câu bị động chuyển trọng tâm từ **người làm** sang **hành động**:\n\n- Chủ động: `Die Firma **produziert** Autos.`\n- Bị động: `Autos **werden produziert**.`\n\n**Cấu trúc:** `werden` (chia) + `Partizip II` (cuối câu)\n\nTân ngữ Akkusativ của câu chủ động trở thành chủ ngữ của câu bị động.\n\n**Ở quá khứ (Perfekt bị động)** dùng `worden` chứ không phải `geworden`:\n\n`Das Gesetz **ist** 2020 **beschlossen worden**.`\n\nMuốn nêu người thực hiện thì thêm:\n\n- `von` + Dativ (người, tổ chức): `Das Gesetz wurde **von der Regierung** beschlossen.`\n- `durch` + Akkusativ (phương tiện, nguyên nhân): `Die Stadt wurde **durch ein Erdbeben** zerstört.`\n\nVăn bản hành chính và khoa học tiếng Đức dùng bị động dày đặc — đây là kỹ năng bắt buộc từ B1.",
+      "examples": [
+        { "de": "Der Müll wird jede Woche abgeholt.", "vi": "Rác được thu gom hằng tuần." },
+        { "de": "Neue Maßnahmen werden diskutiert.", "vi": "Các biện pháp mới đang được thảo luận." },
+        { "de": "Das Kraftwerk wurde 2019 geschlossen.", "vi": "Nhà máy điện đã bị đóng cửa năm 2019." },
+        { "de": "Plastik kann durch Papier ersetzt werden.", "vi": "Nhựa có thể được thay bằng giấy.", "note": "Bị động với động từ khuyết thiếu." }
+      ],
+      "tables": [
+        {
+          "title": "Câu bị động ở các thì",
+          "headers": ["Thì", "Cấu trúc", "Ví dụ"],
+          "rows": [
+            ["Präsens", "wird + Partizip II", "Der Müll wird getrennt."],
+            ["Präteritum", "wurde + Partizip II", "Der Müll wurde getrennt."],
+            ["Perfekt", "ist + Partizip II + worden", "Der Müll ist getrennt worden."],
+            ["với Modalverb", "kann/muss + Partizip II + werden", "Der Müll muss getrennt werden."]
+          ],
+          "footnote": "Ở Perfekt bị động dùng \"worden\", không phải \"geworden\"."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"geworden\" trong bị động Perfekt — phải là \"worden\".",
+        "Dùng \"sein\" thay \"werden\": \"Das ist gemacht\" là trạng thái, \"Das wird gemacht\" mới là hành động.",
+        "Nhầm von với durch: von cho người, durch cho phương tiện/nguyên nhân."
+      ],
+      "tags": ["passive", "tenses"]
+    },
+    {
+      "id": "b1-1-u01-g-adjektivdeklination",
+      "title": "Adjektivdeklination",
+      "titleVi": "Biến đuôi tính từ",
+      "summary": "Tính từ đứng trước danh từ phải biến đuôi. Đuôi phụ thuộc vào mạo từ đi kèm, giống và cách.",
+      "explanation": "Tính từ **đứng sau động từ** thì không biến đuôi:\n\n`Das Auto ist **neu**.`\n\nNhưng tính từ **đứng trước danh từ** thì bắt buộc biến đuôi:\n\n`das **neue** Auto`\n\nNguyên tắc cốt lõi: **thông tin về giống và cách phải xuất hiện đúng một lần**.\n\n- Nếu mạo từ đã mang thông tin đó (der, die, das…) → tính từ dùng đuôi \"yếu\": `-e` hoặc `-en`\n- Nếu không có mạo từ → tính từ phải tự mang thông tin, dùng đuôi \"mạnh\" giống mạo từ xác định: `großer Erfolg`, `kaltes Wasser`\n\n**Mẹo thực dụng cho B1:** với mạo từ xác định (der/die/das), ở Nominativ và Akkusativ chỉ có hai đuôi khả dĩ là `-e` và `-en`. Cụ thể: **chỉ 5 ô dùng -e**, tất cả các ô còn lại dùng -en.",
+      "examples": [
+        { "de": "Der neue Plan ist besser.", "vi": "Kế hoạch mới thì tốt hơn." },
+        { "de": "Wir brauchen erneuerbare Energien.", "vi": "Chúng ta cần năng lượng tái tạo.", "note": "Không mạo từ → đuôi mạnh -e (số nhiều)." },
+        { "de": "Ich trinke kaltes Wasser.", "vi": "Tôi uống nước lạnh.", "note": "Không mạo từ, das Wasser → kaltes." },
+        { "de": "Sie hat einen guten Vorschlag gemacht.", "vi": "Cô ấy đã đưa ra một đề xuất hay." }
+      ],
+      "tables": [
+        {
+          "title": "Sau mạo từ xác định (der/die/das)",
+          "headers": ["Cách", "đực", "cái", "trung", "số nhiều"],
+          "rows": [
+            ["Nominativ", "der neue", "die neue", "das neue", "die neuen"],
+            ["Akkusativ", "den neuen", "die neue", "das neue", "die neuen"],
+            ["Dativ", "dem neuen", "der neuen", "dem neuen", "den neuen"]
+          ],
+          "footnote": "Chỉ 5 ô dùng -e; toàn bộ phần còn lại là -en."
+        },
+        {
+          "title": "Sau mạo từ không xác định (ein/kein/mein)",
+          "headers": ["Cách", "đực", "cái", "trung", "số nhiều"],
+          "rows": [
+            ["Nominativ", "ein neuer", "eine neue", "ein neues", "keine neuen"],
+            ["Akkusativ", "einen neuen", "eine neue", "ein neues", "keine neuen"],
+            ["Dativ", "einem neuen", "einer neuen", "einem neuen", "keinen neuen"]
+          ],
+          "footnote": "Ba ô in đậm (neuer, neues) là chỗ tính từ phải \"gánh\" thông tin thay mạo từ."
+        }
+      ],
+      "commonMistakes": [
+        "Quên biến đuôi hoàn toàn: \"der neu Plan\".",
+        "Dùng -e ở Akkusativ giống đực: \"den neue Plan\" — phải là \"den neuen Plan\".",
+        "Biến đuôi tính từ đứng sau động từ: \"Das Auto ist neues\" — sai."
+      ],
+      "tags": ["adjective-endings", "cases"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-1-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Der Müll ___ jede Woche abgeholt.",
+      "options": ["wird", "ist", "hat", "werden"],
+      "answerIndex": 0,
+      "explanation": "Bị động ở hiện tại: werden (chia theo chủ ngữ số ít → wird) + Partizip II.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b1-1-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "Das Gesetz ist 2020 beschlossen ___.",
+      "options": ["worden", "geworden", "werden", "gewesen"],
+      "answerIndex": 0,
+      "explanation": "Perfekt bị động dùng \"worden\" — \"geworden\" chỉ dùng khi werden là động từ chính (trở thành).",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b1-1-u01-e-03",
+      "type": "fill_blank",
+      "sentence": "Wir brauchen ein ___ Konzept für den Verkehr und ___ Ideen für die Zukunft.",
+      "blanks": [
+        { "answers": ["neues"], "hint": "neu + das Konzept" },
+        { "answers": ["neue"], "hint": "neu + die Ideen (số nhiều, không mạo từ)" }
+      ],
+      "translation": "Chúng ta cần một ý tưởng mới cho giao thông và những ý tưởng mới cho tương lai.",
+      "explanation": "\"das Konzept\" giống trung sau \"ein\" → tính từ gánh thông tin: neues. Số nhiều không mạo từ → đuôi mạnh: neue Ideen.",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "b1-1-u01-e-04",
+      "type": "reorder",
+      "instruction": "Chuyển thành câu bị động và sắp xếp",
+      "answer": ["Neue", "Maßnahmen", "werden", "von", "der", "Regierung", "diskutiert"],
+      "translation": "Các biện pháp mới đang được chính phủ thảo luận.",
+      "explanation": "Bị động: chủ ngữ mới + werden (vị trí 2) + von + Dativ + Partizip II ở cuối.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b1-1-u01-e-05",
+      "type": "matching",
+      "instruction": "Nối câu chủ động với câu bị động tương ứng",
+      "pairs": [
+        { "left": "Man trennt den Müll.", "right": "Der Müll wird getrennt." },
+        { "left": "Die Stadt baute das Kraftwerk.", "right": "Das Kraftwerk wurde gebaut." },
+        { "left": "Man muss Plastik vermeiden.", "right": "Plastik muss vermieden werden." }
+      ],
+      "explanation": "Câu có \"man\" là ứng viên tự nhiên nhất để chuyển sang bị động.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b1-1-u01-e-06",
+      "type": "listening",
+      "audioText": "In Deutschland wird der Müll seit vielen Jahren getrennt gesammelt.",
+      "mode": "choice",
+      "question": "Câu này nói gì?",
+      "options": [
+        "Ở Đức rác được thu gom phân loại từ nhiều năm nay",
+        "Ở Đức người ta sắp bắt đầu phân loại rác",
+        "Ở Đức rác không được phân loại",
+        "Ở Đức việc phân loại rác đã bị bỏ"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"wird … gesammelt\" là bị động hiện tại; \"seit vielen Jahren\" = từ nhiều năm nay.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b1-1-u01-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Chúng ta phải bảo vệ môi trường.",
+      "answers": [
+        "Wir müssen die Umwelt schützen.",
+        "Wir müssen die Umwelt schützen",
+        "Die Umwelt muss geschützt werden."
+      ],
+      "hint": "müssen + nguyên thể ở cuối",
+      "explanation": "Cả câu chủ động và câu bị động (\"Die Umwelt muss geschützt werden\") đều được chấp nhận.",
+      "skillTag": "translation"
+    }
+  ]
+}

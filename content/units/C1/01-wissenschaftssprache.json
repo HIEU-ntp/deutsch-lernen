@@ -1,0 +1,238 @@
+{
+  "id": "c1-u01-wissenschaftssprache",
+  "level": "C1",
+  "order": 1,
+  "slug": "wissenschaftssprache",
+  "title": "Wissenschaftliches Schreiben",
+  "titleVi": "Viết học thuật",
+  "description": "Văn phong tiểu luận và bài nghiên cứu tiếng Đức: cách trích dẫn, giữ khoảng cách khách quan, và cấu trúc câu phức hợp nhiều tầng.",
+  "goals": [
+    "Viết đoạn văn học thuật có trích dẫn đúng chuẩn",
+    "Dùng cấu trúc câu phức nhiều tầng mà vẫn rõ ràng",
+    "Diễn đạt khoảng cách khách quan với nguồn được trích"
+  ],
+  "vocabulary": [
+    {
+      "id": "c1-u01-v-these",
+      "de": "These",
+      "article": "die",
+      "plural": "Thesen",
+      "pos": "noun",
+      "vi": "luận điểm",
+      "example": { "de": "Die zentrale These der Arbeit lautet wie folgt.", "vi": "Luận điểm trung tâm của bài viết như sau." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-beleg",
+      "de": "Beleg",
+      "article": "der",
+      "plural": "Belege",
+      "pos": "noun",
+      "vi": "bằng chứng, dẫn chứng",
+      "example": { "de": "Für diese Annahme fehlen empirische Belege.", "vi": "Giả định này thiếu bằng chứng thực nghiệm." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-eroertern",
+      "de": "erörtern",
+      "pos": "verb",
+      "vi": "bàn luận, phân tích kỹ",
+      "example": { "de": "Im Folgenden wird die Frage erörtert.", "vi": "Phần dưới đây sẽ bàn luận câu hỏi này." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-hinsichtlich",
+      "de": "hinsichtlich",
+      "pos": "preposition",
+      "vi": "về mặt, xét theo",
+      "example": { "de": "Hinsichtlich der Methodik bestehen Zweifel.", "vi": "Xét về phương pháp thì vẫn còn nghi vấn." },
+      "note": "Đi với Genitiv. Rất đặc trưng văn phong học thuật.",
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-gleichwohl",
+      "de": "gleichwohl",
+      "pos": "adverb",
+      "vi": "tuy vậy, dẫu thế",
+      "example": { "de": "Die Daten sind begrenzt; gleichwohl lassen sich Tendenzen erkennen.", "vi": "Dữ liệu có hạn; tuy vậy vẫn nhận ra được xu hướng." },
+      "tags": ["hoc-thuat", "lien-tu"]
+    },
+    {
+      "id": "c1-u01-v-plausibel",
+      "de": "plausibel",
+      "pos": "adjective",
+      "vi": "hợp lý, có sức thuyết phục",
+      "example": { "de": "Die Erklärung erscheint plausibel.", "vi": "Cách giải thích này có vẻ hợp lý." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-relativieren",
+      "de": "relativieren",
+      "pos": "verb",
+      "vi": "làm giảm mức tuyệt đối, đặt lại trong tương quan",
+      "example": { "de": "Diese Aussage ist zu relativieren.", "vi": "Nhận định này cần được đặt lại trong tương quan." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-zugrunde-liegen",
+      "de": "zugrunde liegen",
+      "pos": "verb",
+      "vi": "làm cơ sở cho",
+      "example": { "de": "Der Untersuchung liegt ein qualitatives Design zugrunde.", "vi": "Nghiên cứu này dựa trên thiết kế định tính." },
+      "note": "Đi với Dativ: einer Sache zugrunde liegen.",
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-ausschlaggebend",
+      "de": "ausschlaggebend",
+      "pos": "adjective",
+      "vi": "mang tính quyết định",
+      "example": { "de": "Ausschlaggebend war die Datenlage.", "vi": "Yếu tố quyết định là tình trạng dữ liệu." },
+      "tags": ["hoc-thuat"]
+    },
+    {
+      "id": "c1-u01-v-vorbehalt",
+      "de": "Vorbehalt",
+      "article": "der",
+      "plural": "Vorbehalte",
+      "pos": "noun",
+      "vi": "sự dè dặt, điều kiện bảo lưu",
+      "example": { "de": "Die Ergebnisse sind unter Vorbehalt zu betrachten.", "vi": "Kết quả cần được nhìn nhận một cách dè dặt." },
+      "tags": ["hoc-thuat"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "c1-u01-g-satzgefuege",
+      "title": "Komplexe Satzgefüge",
+      "titleVi": "Câu phức hợp nhiều tầng",
+      "summary": "Lồng mệnh đề trong mệnh đề mà không làm câu sụp đổ — kỹ năng phân biệt B2 với C1.",
+      "explanation": "Câu học thuật tiếng Đức thường có **nhiều tầng mệnh đề lồng nhau**. Vấn đề với người học không phải là tạo ra chúng, mà là **giữ cho câu vẫn đọc được**.\n\nVí dụ ba tầng:\n\n> `Da die Ergebnisse, **die auf einer kleinen Stichprobe beruhen**, nur begrenzt aussagekräftig sind, sollte man die Schlussfolgerungen, **die daraus gezogen wurden**, kritisch prüfen.`\n\nPhân tích: mệnh đề `da…` (tầng 1) chứa mệnh đề quan hệ `die auf einer…` (tầng 2); mệnh đề chính chứa mệnh đề quan hệ thứ hai.\n\n**Ba nguyên tắc giữ câu rõ ràng:**\n\n1. **Không quá hai tầng lồng** trong cùng một câu.\n2. Đặt mệnh đề quan hệ **ngay sau danh từ nó bổ nghĩa** — càng xa càng khó hiểu.\n3. Nếu Mittelfeld (phần giữa) quá dài, hãy tách câu hoặc chuyển sang **danh hoá**.\n\n**Klammer (khung câu)** là lý do câu tiếng Đức dài vẫn đọc được: phần cuối câu luôn là động từ, nên người đọc biết chờ đợi điều gì. Đừng phá khung này bằng cách đẩy quá nhiều thông tin ra sau động từ (Nachfeld) — chỉ nên đưa vào Nachfeld các cụm so sánh (`als …`, `wie …`) hoặc mệnh đề phụ dài.",
+      "examples": [
+        { "de": "Die Studie, deren Ergebnisse umstritten sind, wurde mehrfach zitiert.", "vi": "Nghiên cứu mà kết quả còn gây tranh cãi đã được trích dẫn nhiều lần.", "note": "Mệnh đề quan hệ Genitiv \"deren\"." },
+        { "de": "Es ist davon auszugehen, dass sich der Trend fortsetzen wird.", "vi": "Có thể giả định rằng xu hướng này sẽ tiếp diễn." },
+        { "de": "Obwohl die Datenlage dünn ist, lassen sich Tendenzen erkennen, die weiterer Untersuchung bedürfen.", "vi": "Dù dữ liệu ít ỏi, vẫn nhận ra được các xu hướng cần nghiên cứu thêm." }
+      ],
+      "tables": [
+        {
+          "title": "Cấu trúc không ngôi thường dùng trong bài học thuật",
+          "headers": ["Cấu trúc", "Nghĩa", "Sắc thái"],
+          "rows": [
+            ["Es ist davon auszugehen, dass …", "Có thể giả định rằng…", "khách quan, thận trọng"],
+            ["Es lässt sich feststellen, dass …", "Có thể xác định rằng…", "kết luận có cơ sở"],
+            ["Daraus folgt, dass …", "Từ đó suy ra rằng…", "suy luận logic"],
+            ["Es bleibt zu klären, ob …", "Vẫn còn phải làm rõ liệu…", "để ngỏ"],
+            ["Dabei ist zu berücksichtigen, dass …", "Cần lưu ý rằng…", "bổ sung điều kiện"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Lồng ba tầng trở lên — đúng ngữ pháp nhưng người đọc mất mạch.",
+        "Đặt mệnh đề quan hệ xa danh từ nó bổ nghĩa, gây hiểu nhầm đối tượng.",
+        "Dùng \"ich\" trong bài học thuật tiếng Đức — truyền thống Đức ưu tiên dạng không ngôi hoặc bị động."
+      ],
+      "tags": ["subordinate-clauses", "word-order"]
+    },
+    {
+      "id": "c1-u01-g-distanz",
+      "title": "Distanz und Zitieren",
+      "titleVi": "Giữ khoảng cách khách quan và trích dẫn",
+      "summary": "Konjunktiv I, động từ tường thuật và trạng từ tình thái giúp tách quan điểm của bạn khỏi quan điểm được trích.",
+      "explanation": "Trong văn học thuật Đức, việc **phân biệt rạch ròi ai nói điều gì** là yêu cầu bắt buộc. Có ba công cụ:\n\n**1. Konjunktiv I** — dấu hiệu chuẩn mực của lời trích gián tiếp:\n`Müller (2020) argumentiert, der Effekt **sei** überschätzt.`\nDùng Indikativ (`ist`) ở đây sẽ ngầm cho biết bạn cũng đồng ý.\n\n**2. Động từ tường thuật có sắc thái** — chọn từ đã là một hành động đánh giá:\n\n- Trung lập: `feststellen`, `darlegen`, `beschreiben`\n- Có khoảng cách: `behaupten` (khẳng định, hàm ý chưa chứng minh), `unterstellen` (quy kết)\n- Đồng tình: `zeigen`, `belegen`, `nachweisen`\n\n**3. Trạng từ tình thái** đánh dấu mức độ chắc chắn: `offenbar` (rõ ràng là), `vermutlich` (có lẽ), `angeblich` (theo lời đồn — hàm ý nghi ngờ), `zweifellos` (không nghi ngờ gì).\n\nSo sánh sắc thái:\n\n- `Die Studie **zeigt**, dass …` → bạn coi đó là bằng chứng vững.\n- `Die Studie **behauptet**, dass …` → bạn giữ khoảng cách.\n- `Die Ergebnisse sind **angeblich** eindeutig.` → bạn ngờ vực rõ ràng.",
+      "examples": [
+        { "de": "Müller (2020) argumentiert, der Effekt sei überschätzt worden.", "vi": "Müller (2020) lập luận rằng hiệu ứng đó đã bị đánh giá quá cao." },
+        { "de": "Die Autorin belegt ihre These anhand umfangreicher Daten.", "vi": "Tác giả chứng minh luận điểm bằng dữ liệu phong phú." },
+        { "de": "Kritiker unterstellen der Studie methodische Schwächen.", "vi": "Giới phê bình quy cho nghiên cứu này những điểm yếu về phương pháp." },
+        { "de": "Diese Aussage ist angesichts der Datenlage zu relativieren.", "vi": "Nhận định này cần được đặt lại trong tương quan dữ liệu hiện có." }
+      ],
+      "tables": [
+        {
+          "title": "Động từ tường thuật theo sắc thái",
+          "headers": ["Động từ", "Sắc thái", "Hàm ý của người viết"],
+          "rows": [
+            ["feststellen", "trung lập", "ghi nhận"],
+            ["darlegen", "trung lập", "trình bày"],
+            ["zeigen / belegen", "tích cực", "tôi coi đây là bằng chứng"],
+            ["behaupten", "dè dặt", "chưa được chứng minh"],
+            ["unterstellen", "phê phán", "quy kết không có cơ sở"],
+            ["einräumen", "nhượng bộ", "tác giả tự thừa nhận"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Indikativ khi trích dẫn — người đọc hiểu là bạn đồng tình với nguồn.",
+        "Dùng \"sagen\" cho mọi trích dẫn — quá nghèo nàn ở trình độ C1.",
+        "Dùng \"angeblich\" khi không có ý nghi ngờ — từ này luôn mang sắc thái hoài nghi."
+      ],
+      "tags": ["subjunctive", "connectors"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c1-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Müller argumentiert, der Effekt ___ überschätzt worden.",
+      "options": ["sei", "ist", "wäre gewesen", "war"],
+      "answerIndex": 0,
+      "explanation": "Trích dẫn gián tiếp trong văn học thuật dùng Konjunktiv I: sein → sei.",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "c1-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "Động từ nào thể hiện rõ nhất rằng người viết GIỮ KHOẢNG CÁCH với nguồn trích?",
+      "options": ["behaupten", "belegen", "nachweisen", "zeigen"],
+      "answerIndex": 0,
+      "explanation": "\"behaupten\" hàm ý điều đó mới chỉ được khẳng định chứ chưa được chứng minh.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c1-u01-e-03",
+      "type": "fill_blank",
+      "sentence": "___ der Methodik bestehen Zweifel; ___ lassen sich Tendenzen erkennen.",
+      "blanks": [
+        { "answers": ["Hinsichtlich"], "hint": "về mặt, xét theo (+ Genitiv)" },
+        { "answers": ["gleichwohl", "dennoch", "trotzdem"], "hint": "tuy vậy" }
+      ],
+      "translation": "Xét về phương pháp thì vẫn còn nghi vấn; tuy vậy vẫn nhận ra được các xu hướng.",
+      "explanation": "\"hinsichtlich\" + Genitiv là giới từ đặc trưng văn học thuật; \"gleichwohl\" là dạng trang trọng của \"trotzdem\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c1-u01-e-04",
+      "type": "matching",
+      "instruction": "Nối cấu trúc học thuật với chức năng",
+      "pairs": [
+        { "left": "Es ist davon auszugehen, dass …", "right": "đưa ra giả định thận trọng" },
+        { "left": "Daraus folgt, dass …", "right": "rút ra kết luận logic" },
+        { "left": "Es bleibt zu klären, ob …", "right": "để ngỏ câu hỏi" },
+        { "left": "Dabei ist zu berücksichtigen, dass …", "right": "bổ sung điều kiện cần lưu ý" }
+      ],
+      "explanation": "Đây là bộ khung câu cố định của bài viết học thuật tiếng Đức.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c1-u01-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu học thuật",
+      "answer": ["Die", "Studie", "deren", "Ergebnisse", "umstritten", "sind", "wurde", "mehrfach", "zitiert"],
+      "translation": "Nghiên cứu mà kết quả còn gây tranh cãi đã được trích dẫn nhiều lần.",
+      "explanation": "Mệnh đề quan hệ Genitiv \"deren\" chen vào giữa chủ ngữ và động từ của mệnh đề chính.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "c1-u01-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Die Ergebnisse sind angesichts der schmalen Datenbasis unter Vorbehalt zu betrachten.",
+      "answers": [
+        "Trước cơ sở dữ liệu ít ỏi, kết quả cần được nhìn nhận một cách dè dặt.",
+        "Xét cơ sở dữ liệu hạn hẹp, các kết quả cần được xem xét dè dặt.",
+        "Do dữ liệu hạn chế, kết quả cần được nhìn nhận một cách thận trọng.",
+        "Với nền dữ liệu mỏng, kết quả phải được xem xét có bảo lưu."
+      ],
+      "explanation": "Câu gồm giới từ học thuật \"angesichts\" + Genitiv và cấu trúc \"sein + zu + Infinitiv\" mang nghĩa bắt buộc.",
+      "skillTag": "translation"
+    }
+  ]
+}

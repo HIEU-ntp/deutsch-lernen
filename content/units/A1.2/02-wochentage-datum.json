@@ -1,0 +1,305 @@
+{
+  "id": "a1-2-u02-datum",
+  "level": "A1.2",
+  "order": 2,
+  "slug": "wochentage-datum",
+  "title": "Wochentage, Monate und Datum",
+  "titleVi": "Thứ, tháng và ngày tháng",
+  "description": "Đọc và viết ngày tháng kiểu Đức, kèm số thứ tự (der erste, der zweite…) — thứ mà bạn cần mỗi khi điền biểu mẫu hay hẹn lịch.",
+  "goals": [
+    "Gọi tên bảy thứ trong tuần và mười hai tháng",
+    "Đọc và viết ngày tháng đúng chuẩn Đức",
+    "Dùng số thứ tự để nói sinh nhật, ngày hẹn"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u02-v-montag",
+      "de": "Montag",
+      "article": "der",
+      "plural": "Montage",
+      "pos": "noun",
+      "vi": "thứ Hai",
+      "example": { "de": "Am Montag habe ich Deutschkurs.", "vi": "Thứ Hai tôi có lớp tiếng Đức." },
+      "note": "Tuần của người Đức bắt đầu từ thứ Hai, không phải Chủ nhật.",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-mittwoch",
+      "de": "Mittwoch",
+      "article": "der",
+      "plural": "Mittwoche",
+      "pos": "noun",
+      "vi": "thứ Tư",
+      "example": { "de": "Der Mittwoch ist die Wochenmitte.", "vi": "Thứ Tư là giữa tuần." },
+      "note": "Nghĩa đen: Mitte + Woche = giữa tuần. Đây là thứ duy nhất không có đuôi -tag.",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-samstag",
+      "de": "Samstag",
+      "article": "der",
+      "plural": "Samstage",
+      "pos": "noun",
+      "vi": "thứ Bảy",
+      "example": { "de": "Am Samstag gehe ich einkaufen.", "vi": "Thứ Bảy tôi đi mua sắm." },
+      "note": "Miền bắc Đức còn gọi là \"Sonnabend\".",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-sonntag",
+      "de": "Sonntag",
+      "article": "der",
+      "plural": "Sonntage",
+      "pos": "noun",
+      "vi": "Chủ nhật",
+      "example": { "de": "Am Sonntag sind die Geschäfte zu.", "vi": "Chủ nhật các cửa hàng đóng cửa." },
+      "note": "Ở Đức hầu hết cửa hàng đóng cửa Chủ nhật — điều bất ngờ với nhiều người mới sang.",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-woche",
+      "de": "Woche",
+      "article": "die",
+      "plural": "Wochen",
+      "pos": "noun",
+      "vi": "tuần",
+      "example": { "de": "Nächste Woche fahre ich nach Berlin.", "vi": "Tuần sau tôi đi Berlin." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-wochenende",
+      "de": "Wochenende",
+      "article": "das",
+      "plural": "Wochenenden",
+      "pos": "noun",
+      "vi": "cuối tuần",
+      "example": { "de": "Schönes Wochenende!", "vi": "Chúc cuối tuần vui vẻ!" },
+      "note": "Giới từ đặc biệt: \"AM Wochenende\", không phải \"im\".",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-monat",
+      "de": "Monat",
+      "article": "der",
+      "plural": "Monate",
+      "pos": "noun",
+      "vi": "tháng",
+      "example": { "de": "Ich lerne seit drei Monaten Deutsch.", "vi": "Tôi học tiếng Đức được ba tháng." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-januar",
+      "de": "Januar",
+      "article": "der",
+      "pos": "noun",
+      "vi": "tháng Một",
+      "example": { "de": "Im Januar ist es kalt.", "vi": "Tháng Một trời lạnh." },
+      "note": "Ở Áo gọi là \"Jänner\".",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-geburtstag",
+      "de": "Geburtstag",
+      "article": "der",
+      "plural": "Geburtstage",
+      "pos": "noun",
+      "vi": "sinh nhật",
+      "example": { "de": "Mein Geburtstag ist am dritten Mai.", "vi": "Sinh nhật tôi là ngày 3 tháng Năm." },
+      "tags": ["thoi-gian", "ca-nhan"]
+    },
+    {
+      "id": "a1-2-u02-v-datum",
+      "de": "Datum",
+      "article": "das",
+      "plural": "Daten",
+      "pos": "noun",
+      "vi": "ngày tháng",
+      "example": { "de": "Welches Datum haben wir heute?", "vi": "Hôm nay là ngày mấy?" },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-gestern",
+      "de": "gestern",
+      "pos": "adverb",
+      "vi": "hôm qua",
+      "example": { "de": "Gestern war ich zu Hause.", "vi": "Hôm qua tôi ở nhà." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u02-v-uebermorgen",
+      "de": "übermorgen",
+      "pos": "adverb",
+      "vi": "ngày kia",
+      "example": { "de": "Übermorgen habe ich einen Termin.", "vi": "Ngày kia tôi có hẹn." },
+      "note": "Ngược lại là \"vorgestern\" = hôm kia.",
+      "tags": ["thoi-gian"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u02-g-ordinalzahlen",
+      "title": "Ordinalzahlen und Datum",
+      "titleVi": "Số thứ tự và cách viết ngày tháng",
+      "summary": "Số thứ tự thêm -te (đến 19) hoặc -ste (từ 20), và luôn viết kèm dấu chấm khi dùng chữ số.",
+      "explanation": "**Quy tắc tạo số thứ tự:**\n\n- Từ 1 đến 19: số đếm + `-te` → viert**e**, fünf**te**, zehn**te**\n- Từ 20 trở lên: số đếm + `-ste` → zwanzig**ste**, einunddreißig**ste**\n\n**Ba trường hợp bất quy tắc** phải học thuộc:\n\n- 1. → `erste` (không phải \"einste\")\n- 3. → `dritte` (không phải \"dreite\")\n- 7. → `siebte` (mất -en)\n\n**Viết ngày tháng:** người Đức viết ngày trước, tháng sau, và **luôn có dấu chấm** sau chữ số thứ tự:\n\n- `3.5.2026` = ngày 3 tháng 5 năm 2026\n\nCẩn thận: kiểu Mỹ `5/3/2026` sẽ bị hiểu là tháng 5 ngày 3 — đọc nhầm ngày hẹn là chuyện có thật.\n\n**Khi nói:**\n\n- Hôm nay là ngày mấy? → `Heute ist der dritte Mai.` (dùng `der` + đuôi `-e`)\n- Vào ngày nào? → `Am dritten Mai.` (dùng `am` + đuôi `-en`)",
+      "examples": [
+        { "de": "Heute ist der 15. März.", "vi": "Hôm nay là ngày 15 tháng Ba.", "note": "Đọc: der fünfzehnte März." },
+        { "de": "Mein Geburtstag ist am 1. Juli.", "vi": "Sinh nhật tôi là ngày 1 tháng Bảy.", "note": "Đọc: am ersten Juli." },
+        { "de": "Der Kurs beginnt am 21. September.", "vi": "Khoá học bắt đầu ngày 21 tháng Chín.", "note": "am einundzwanzigsten September." }
+      ],
+      "tables": [
+        {
+          "title": "Số thứ tự",
+          "headers": ["Số", "Số thứ tự", "Ghi chú"],
+          "rows": [
+            ["1.", "erste", "bất quy tắc"],
+            ["2.", "zweite", ""],
+            ["3.", "dritte", "bất quy tắc"],
+            ["4.", "vierte", ""],
+            ["7.", "siebte", "bất quy tắc"],
+            ["10.", "zehnte", ""],
+            ["19.", "neunzehnte", "hết nhóm -te"],
+            ["20.", "zwanzigste", "bắt đầu nhóm -ste"],
+            ["31.", "einunddreißigste", ""]
+          ]
+        },
+        {
+          "title": "Các thứ trong tuần",
+          "headers": ["Tiếng Đức", "Tiếng Việt", "Viết tắt"],
+          "rows": [
+            ["Montag", "thứ Hai", "Mo"],
+            ["Dienstag", "thứ Ba", "Di"],
+            ["Mittwoch", "thứ Tư", "Mi"],
+            ["Donnerstag", "thứ Năm", "Do"],
+            ["Freitag", "thứ Sáu", "Fr"],
+            ["Samstag", "thứ Bảy", "Sa"],
+            ["Sonntag", "Chủ nhật", "So"]
+          ],
+          "footnote": "Tất cả đều là giống der, và đi với giới từ \"am\": am Montag."
+        }
+      ],
+      "commonMistakes": [
+        "Viết ngày kiểu Mỹ (tháng/ngày) — ở Đức luôn là ngày.tháng.năm.",
+        "Quên dấu chấm: viết \"3 Mai\" thay vì \"3. Mai\".",
+        "Nói \"am dritte Mai\" — sau \"am\" phải là đuôi -en: am dritt**en** Mai."
+      ],
+      "tags": ["numbers", "time"]
+    },
+    {
+      "id": "a1-2-u02-g-am-im",
+      "title": "am, im, nächst-, letzt-",
+      "titleVi": "Nói về thời điểm trong tuần, tháng, năm",
+      "summary": "am cho thứ và ngày, im cho tháng và mùa, và bộ từ chỉ tuần trước / tuần này / tuần sau.",
+      "explanation": "**Giới từ:**\n\n- `am` + thứ, ngày cụ thể, buổi trong ngày: am Montag, am 5. Mai, am Abend\n- `im` + tháng, mùa, năm: im Mai, im Sommer\n- `am Wochenende` (ngoại lệ — dùng am chứ không phải im)\n\n**Không dùng giới từ** với: heute, morgen, gestern, jeden Tag.\n\n- ❌ am heute → ✅ heute\n\n**Nói về tuần/tháng gần kề** — cũng không cần giới từ:\n\n- `letzte Woche` (tuần trước), `diese Woche` (tuần này), `nächste Woche` (tuần sau)\n- `letzten Monat`, `nächsten Monat`\n\nVới năm, tiếng Đức khác tiếng Anh: nói `1990` hoặc `im Jahr 1990`, **không** nói \"in 1990\".",
+      "examples": [
+        { "de": "Am Freitag gehe ich ins Kino.", "vi": "Thứ Sáu tôi đi xem phim." },
+        { "de": "Im August fahre ich nach Vietnam.", "vi": "Tháng Tám tôi về Việt Nam." },
+        { "de": "Nächste Woche beginnt der neue Kurs.", "vi": "Tuần sau khoá mới bắt đầu." },
+        { "de": "Ich bin 1998 geboren.", "vi": "Tôi sinh năm 1998.", "note": "Không nói \"in 1998\"." }
+      ],
+      "tables": [
+        {
+          "title": "Chọn giới từ",
+          "headers": ["Thời gian", "Giới từ", "Ví dụ"],
+          "rows": [
+            ["thứ trong tuần", "am", "am Dienstag"],
+            ["ngày cụ thể", "am", "am 12. Juni"],
+            ["buổi trong ngày", "am", "am Morgen, am Abend"],
+            ["ban đêm", "in der", "in der Nacht"],
+            ["tháng", "im", "im Oktober"],
+            ["mùa", "im", "im Winter"],
+            ["cuối tuần", "am", "am Wochenende"],
+            ["hôm nay/mai/qua", "— (không có)", "heute, morgen, gestern"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nói \"in Montag\" — phải là \"am Montag\".",
+        "Thêm giới từ vào \"heute\": \"am heute\" là sai.",
+        "Dịch \"in 2026\" từ tiếng Anh — tiếng Đức nói \"2026\" hoặc \"im Jahr 2026\"."
+      ],
+      "tags": ["prepositions", "time"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u02-e-01",
+      "type": "fill_blank",
+      "sentence": "___ Montag habe ich Deutschkurs, aber ___ August habe ich Ferien.",
+      "blanks": [
+        { "answers": ["Am"], "hint": "thứ trong tuần" },
+        { "answers": ["im"], "hint": "tháng" }
+      ],
+      "translation": "Thứ Hai tôi có lớp tiếng Đức, nhưng tháng Tám tôi được nghỉ.",
+      "explanation": "am + thứ; im + tháng.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-2-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "Mein Geburtstag ist am ___ Juli.",
+      "promptVi": "Sinh nhật tôi là ngày 1 tháng Bảy.",
+      "options": ["ersten", "eins", "erste", "einten"],
+      "answerIndex": 0,
+      "explanation": "Số thứ tự của 1 là \"erste\" (bất quy tắc), và sau \"am\" phải thêm đuôi -n → ersten.",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-2-u02-e-03",
+      "type": "matching",
+      "instruction": "Nối thứ tiếng Đức với tiếng Việt",
+      "pairs": [
+        { "left": "Dienstag", "right": "thứ Ba" },
+        { "left": "Mittwoch", "right": "thứ Tư" },
+        { "left": "Donnerstag", "right": "thứ Năm" },
+        { "left": "Sonntag", "right": "Chủ nhật" }
+      ],
+      "explanation": "Mittwoch là thứ duy nhất không có đuôi -tag vì nghĩa gốc là \"giữa tuần\".",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u02-e-04",
+      "type": "multiple_choice",
+      "prompt": "Ngày \"3.5.2026\" viết theo kiểu Đức nghĩa là gì?",
+      "options": ["Ngày 3 tháng 5 năm 2026", "Ngày 5 tháng 3 năm 2026", "Tháng 3 năm 2026", "Không xác định được"],
+      "answerIndex": 0,
+      "explanation": "Kiểu Đức luôn là ngày.tháng.năm — khác kiểu Mỹ (tháng/ngày/năm).",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "a1-2-u02-e-05",
+      "type": "listening",
+      "audioText": "Der Termin ist am siebten Oktober um zehn Uhr.",
+      "mode": "choice",
+      "question": "Cuộc hẹn diễn ra khi nào?",
+      "options": ["7 tháng 10, lúc 10 giờ", "17 tháng 10, lúc 10 giờ", "7 tháng 8, lúc 10 giờ", "10 tháng 7, lúc 7 giờ"],
+      "answerIndex": 0,
+      "explanation": "\"siebten\" = ngày 7 (số thứ tự bất quy tắc siebte), \"Oktober\" = tháng 10.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u02-e-06",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi",
+      "answer": ["Wann", "hast", "du", "Geburtstag"],
+      "translation": "Sinh nhật bạn là khi nào?",
+      "explanation": "Trong tiếng Đức người ta nói \"Geburtstag haben\" chứ không phải \"sein\": Ich habe am 5. Mai Geburtstag.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u02-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Cuối tuần tôi không làm việc.",
+      "answers": [
+        "Am Wochenende arbeite ich nicht.",
+        "Ich arbeite am Wochenende nicht.",
+        "Am Wochenende arbeite ich nicht",
+        "Ich arbeite nicht am Wochenende."
+      ],
+      "hint": "am Wochenende",
+      "explanation": "Nếu đặt \"Am Wochenende\" ở đầu, động từ phải ở vị trí 2 nên chủ ngữ \"ich\" đứng sau.",
+      "skillTag": "word-order"
+    }
+  ]
+}

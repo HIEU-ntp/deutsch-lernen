@@ -1,0 +1,281 @@
+{
+  "id": "a1-2-u01-uhrzeit",
+  "level": "A1.2",
+  "order": 1,
+  "slug": "uhrzeit",
+  "title": "Die Uhrzeit",
+  "titleVi": "Xem giờ và nói giờ",
+  "description": "Tiếng Đức có hai cách nói giờ: kiểu chính thức (13:45) và kiểu đời thường (\"viertel vor zwei\"). Người Đức dùng cả hai, nên phải quen cả hai.",
+  "goals": [
+    "Nói giờ theo cả cách chính thức và cách đời thường",
+    "Dùng đúng giới từ um, von … bis, ab",
+    "Hỏi và hẹn giờ gặp"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u01-v-uhr",
+      "de": "Uhr",
+      "article": "die",
+      "plural": "Uhren",
+      "pos": "noun",
+      "vi": "đồng hồ; giờ",
+      "example": { "de": "Es ist acht Uhr.", "vi": "Bây giờ là tám giờ." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-zeit",
+      "de": "Zeit",
+      "article": "die",
+      "plural": "Zeiten",
+      "pos": "noun",
+      "vi": "thời gian",
+      "example": { "de": "Hast du morgen Zeit?", "vi": "Mai bạn có thời gian không?" },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-stunde",
+      "de": "Stunde",
+      "article": "die",
+      "plural": "Stunden",
+      "pos": "noun",
+      "vi": "tiếng (khoảng thời gian 60 phút)",
+      "example": { "de": "Der Kurs dauert zwei Stunden.", "vi": "Khoá học kéo dài hai tiếng." },
+      "note": "Phân biệt: \"Uhr\" là điểm giờ (8 giờ), \"Stunde\" là khoảng thời lượng (2 tiếng).",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-minute",
+      "de": "Minute",
+      "article": "die",
+      "plural": "Minuten",
+      "pos": "noun",
+      "vi": "phút",
+      "example": { "de": "Warte fünf Minuten, bitte.", "vi": "Đợi năm phút nhé." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-halb",
+      "de": "halb",
+      "pos": "adjective",
+      "vi": "rưỡi, một nửa",
+      "example": { "de": "Es ist halb acht.", "vi": "Bây giờ là bảy giờ rưỡi." },
+      "note": "BẪY LỚN: \"halb acht\" = 7:30, tức là rưỡi ĐỂ TỚI tám giờ, không phải tám rưỡi.",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-viertel",
+      "de": "Viertel",
+      "article": "das",
+      "plural": "Viertel",
+      "pos": "noun",
+      "vi": "một phần tư, 15 phút",
+      "example": { "de": "Viertel nach drei.", "vi": "Ba giờ mười lăm." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-vor",
+      "de": "vor",
+      "pos": "preposition",
+      "vi": "trước (khi nói giờ: kém)",
+      "example": { "de": "zehn vor neun", "vi": "chín giờ kém mười (8:50)" },
+      "tags": ["thoi-gian", "gioi-tu"]
+    },
+    {
+      "id": "a1-2-u01-v-nach",
+      "de": "nach",
+      "pos": "preposition",
+      "vi": "sau (khi nói giờ: hơn)",
+      "example": { "de": "zehn nach neun", "vi": "chín giờ mười (9:10)" },
+      "tags": ["thoi-gian", "gioi-tu"]
+    },
+    {
+      "id": "a1-2-u01-v-morgens",
+      "de": "morgens",
+      "pos": "adverb",
+      "vi": "vào buổi sáng (thường xuyên)",
+      "example": { "de": "Morgens trinke ich Kaffee.", "vi": "Buổi sáng tôi uống cà phê." },
+      "note": "\"morgens\" = mỗi sáng; \"morgen\" (không s) = ngày mai. Rất dễ nhầm!",
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-abends",
+      "de": "abends",
+      "pos": "adverb",
+      "vi": "vào buổi tối (thường xuyên)",
+      "example": { "de": "Abends sehe ich fern.", "vi": "Buổi tối tôi xem TV." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-frueh",
+      "de": "früh",
+      "pos": "adjective",
+      "vi": "sớm",
+      "example": { "de": "Ich stehe früh auf.", "vi": "Tôi dậy sớm." },
+      "tags": ["thoi-gian"]
+    },
+    {
+      "id": "a1-2-u01-v-spaet",
+      "de": "spät",
+      "pos": "adjective",
+      "vi": "muộn",
+      "example": { "de": "Wie spät ist es?", "vi": "Mấy giờ rồi?" },
+      "note": "\"Wie spät ist es?\" là cách hỏi giờ thông dụng nhất, nghĩa đen là \"muộn thế nào rồi?\".",
+      "tags": ["thoi-gian"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u01-g-uhrzeit",
+      "title": "Offizielle und inoffizielle Uhrzeit",
+      "titleVi": "Hai cách nói giờ",
+      "summary": "Cách chính thức dùng số 0-24, cách đời thường dùng vor/nach/halb/viertel với số 1-12.",
+      "explanation": "**Cách chính thức** (lịch tàu, TV, hẹn công việc): đọc đúng con số theo đồng hồ 24 giờ.\n\n- 13:45 → `dreizehn Uhr fünfundvierzig`\n- 07:05 → `sieben Uhr fünf`\n\n**Cách đời thường** (nói chuyện hằng ngày): dùng số 1-12 kèm các từ mô tả.\n\n- 3:15 → `Viertel nach drei` (một phần tư SAU ba)\n- 3:45 → `Viertel vor vier` (một phần tư TRƯỚC bốn)\n- 3:30 → `halb vier` ⚠️\n\n**Bẫy lớn nhất với người Việt:** `halb vier` KHÔNG phải \"bốn rưỡi\" mà là **3:30**. Người Đức đếm hướng tới giờ kế tiếp: \"nửa đường tới bốn giờ\".\n\nMẹo nhớ: khi nghe `halb X`, hãy trừ đi 1 rồi thêm 30 phút. `halb acht` → 8 - 1 = 7 → **7:30**.\n\nỞ miền nam Đức và Áo còn có `viertel vier` (3:15) và `dreiviertel vier` (3:45), nhưng người mới học chưa cần dùng.",
+      "examples": [
+        { "de": "Wie spät ist es? — Es ist halb neun.", "vi": "Mấy giờ rồi? — 8 giờ rưỡi (8:30)." },
+        { "de": "Der Zug fährt um vierzehn Uhr dreißig.", "vi": "Tàu chạy lúc 14:30." },
+        { "de": "Wir treffen uns um Viertel vor sieben.", "vi": "Chúng ta gặp nhau lúc 6:45." }
+      ],
+      "tables": [
+        {
+          "title": "Bảng quy đổi",
+          "headers": ["Đồng hồ", "Cách chính thức", "Cách đời thường", "Tiếng Việt"],
+          "rows": [
+            ["8:00", "acht Uhr", "acht", "8 giờ"],
+            ["8:05", "acht Uhr fünf", "fünf nach acht", "8 giờ 5"],
+            ["8:15", "acht Uhr fünfzehn", "Viertel nach acht", "8 giờ 15"],
+            ["8:30", "acht Uhr dreißig", "halb neun ⚠", "8 giờ 30"],
+            ["8:45", "acht Uhr fünfundvierzig", "Viertel vor neun", "9 giờ kém 15"],
+            ["8:50", "acht Uhr fünfzig", "zehn vor neun", "9 giờ kém 10"],
+            ["20:00", "zwanzig Uhr", "acht (abends)", "8 giờ tối"]
+          ],
+          "footnote": "⚠ halb neun = 8:30, KHÔNG phải 9:30."
+        }
+      ],
+      "commonMistakes": [
+        "Hiểu \"halb acht\" là 8:30 — thực ra là 7:30.",
+        "Dùng cách đời thường cho lịch tàu: người Đức luôn dùng giờ chính thức trong ngữ cảnh này.",
+        "Nhầm \"morgen\" (ngày mai) với \"morgens\" (mỗi buổi sáng)."
+      ],
+      "tags": ["time", "numbers"]
+    },
+    {
+      "id": "a1-2-u01-g-zeitpraepositionen",
+      "title": "Zeitpräpositionen: um, von … bis, ab",
+      "titleVi": "Giới từ chỉ thời gian",
+      "summary": "um cho điểm giờ, am cho ngày, im cho tháng/mùa — mỗi loại thời gian có giới từ riêng.",
+      "explanation": "Không thể dịch từng chữ từ tiếng Việt — mỗi đơn vị thời gian đi với một giới từ cố định:\n\n- `um` + giờ chính xác: um 8 Uhr\n- `am` + thứ / buổi trong ngày: am Montag, am Abend (ngoại lệ: **in der Nacht**)\n- `im` + tháng / mùa: im Januar, im Sommer\n- `von … bis …` + khoảng: von 9 bis 17 Uhr\n- `ab` + mốc bắt đầu: ab 18 Uhr (từ 18 giờ trở đi)\n- `gegen` + giờ ước chừng: gegen 8 Uhr (khoảng 8 giờ)\n\nKhi hỏi giờ hẹn dùng `Wann?` hoặc `Um wie viel Uhr?`.",
+      "examples": [
+        { "de": "Der Kurs beginnt um neun Uhr.", "vi": "Khoá học bắt đầu lúc 9 giờ." },
+        { "de": "Ich arbeite von acht bis siebzehn Uhr.", "vi": "Tôi làm việc từ 8 đến 17 giờ." },
+        { "de": "Ab morgen habe ich Urlaub.", "vi": "Từ mai tôi được nghỉ phép." },
+        { "de": "Wir kommen gegen sieben.", "vi": "Chúng tôi sẽ đến khoảng bảy giờ." }
+      ],
+      "tables": [
+        {
+          "title": "Giới từ theo loại thời gian",
+          "headers": ["Giới từ", "Dùng với", "Ví dụ"],
+          "rows": [
+            ["um", "giờ chính xác", "um 14 Uhr"],
+            ["gegen", "giờ ước chừng", "gegen 14 Uhr"],
+            ["am", "thứ, ngày, buổi", "am Montag, am Nachmittag"],
+            ["im", "tháng, mùa, năm", "im Mai, im Winter"],
+            ["von … bis", "khoảng thời gian", "von 9 bis 17 Uhr"],
+            ["ab", "mốc bắt đầu", "ab 18 Uhr"],
+            ["in der", "ban đêm (ngoại lệ)", "in der Nacht"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"in\" cho giờ: \"in 8 Uhr\" — phải là \"um 8 Uhr\".",
+        "Nói \"am Nacht\" — ngoại lệ duy nhất là \"in der Nacht\".",
+        "Quên \"Uhr\" khi nói giờ chính thức: \"um vierzehn dreißig\" nghe thiếu."
+      ],
+      "tags": ["prepositions", "time"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "\"Es ist halb sieben.\" Bây giờ là mấy giờ?",
+      "options": ["6:30", "7:30", "7:00", "6:00"],
+      "answerIndex": 0,
+      "explanation": "\"halb sieben\" = nửa đường TỚI bảy giờ = 6:30. Nhớ mẹo: trừ 1 rồi thêm 30 phút.",
+      "skillTag": "time"
+    },
+    {
+      "id": "a1-2-u01-e-02",
+      "type": "matching",
+      "instruction": "Nối giờ trên đồng hồ với cách nói đời thường",
+      "pairs": [
+        { "left": "9:15", "right": "Viertel nach neun" },
+        { "left": "9:30", "right": "halb zehn" },
+        { "left": "9:45", "right": "Viertel vor zehn" },
+        { "left": "9:50", "right": "zehn vor zehn" }
+      ],
+      "explanation": "Từ phút 31 trở đi, người Đức đếm ngược tới giờ kế tiếp bằng \"vor\".",
+      "skillTag": "time"
+    },
+    {
+      "id": "a1-2-u01-e-03",
+      "type": "fill_blank",
+      "sentence": "Der Kurs beginnt ___ neun Uhr und dauert ___ neun ___ zwölf.",
+      "blanks": [
+        { "answers": ["um"], "hint": "giờ chính xác" },
+        { "answers": ["von"], "hint": "từ…" },
+        { "answers": ["bis"], "hint": "…đến" }
+      ],
+      "translation": "Khoá học bắt đầu lúc 9 giờ và kéo dài từ 9 đến 12 giờ.",
+      "explanation": "um + điểm giờ; von … bis … cho khoảng thời gian.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-2-u01-e-04",
+      "type": "listening",
+      "audioText": "Der Zug nach Hamburg fährt um sechzehn Uhr fünfundvierzig.",
+      "mode": "choice",
+      "question": "Tàu chạy lúc mấy giờ?",
+      "options": ["16:45", "16:55", "15:45", "6:45"],
+      "answerIndex": 0,
+      "explanation": "sechzehn Uhr = 16 giờ; fünfundvierzig = 45 (năm-và-bốn-mươi).",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u01-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi hẹn giờ",
+      "answer": ["Um", "wie", "viel", "Uhr", "treffen", "wir", "uns"],
+      "translation": "Mấy giờ chúng ta gặp nhau?",
+      "explanation": "\"Um wie viel Uhr\" là một cụm hỏi đứng ở vị trí 1, động từ \"treffen\" ở vị trí 2.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u01-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Ich stehe morgens um halb sechs auf.",
+      "answers": [
+        "Buổi sáng tôi dậy lúc 5 giờ rưỡi.",
+        "Buổi sáng tôi dậy lúc 5h30.",
+        "Mỗi sáng tôi dậy lúc 5 giờ 30.",
+        "Sáng tôi dậy lúc năm giờ rưỡi."
+      ],
+      "explanation": "halb sechs = 5:30; \"morgens\" nghĩa là thói quen mỗi sáng, không phải \"sáng mai\".",
+      "skillTag": "translation"
+    },
+    {
+      "id": "a1-2-u01-e-07",
+      "type": "multiple_choice",
+      "prompt": "\"Morgen\" và \"morgens\" khác nhau thế nào?",
+      "options": [
+        "morgen = ngày mai; morgens = vào mỗi buổi sáng",
+        "Hai từ hoàn toàn giống nhau",
+        "morgen = buổi sáng; morgens = sáng mai",
+        "morgen = sáng sớm; morgens = trước bình minh"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chữ -s biến từ chỉ thời điểm thành trạng từ chỉ thói quen lặp lại.",
+      "skillTag": "time"
+    }
+  ]
+}

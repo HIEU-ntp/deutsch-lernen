@@ -1,0 +1,149 @@
+{
+  "_huong_dan": [
+    "File này là MẪU — loader bỏ qua mọi file bắt đầu bằng dấu gạch dưới.",
+    "Cách thêm bài học mới: copy file này sang content/units/<CẤP ĐỘ>/<NN>-<slug>.json,",
+    "ví dụ content/units/A2.1/03-wetter.json, rồi sửa nội dung và xoá các khoá _huong_dan.",
+    "Sau đó chạy: npm run content:check",
+    "Bài học sẽ tự xuất hiện trên web, KHÔNG cần sửa code và KHÔNG cần migrate database.",
+    "Mọi id phải là duy nhất trong toàn hệ thống — quy ước: <cấp>-u<số>-<loại>-<tên>."
+  ],
+
+  "id": "a2-1-u03-wetter",
+  "level": "A2.1",
+  "order": 3,
+  "slug": "wetter",
+  "title": "Tiêu đề tiếng Đức",
+  "titleVi": "Tiêu đề tiếng Việt",
+  "description": "Một hai câu mô tả unit, hiện ở đầu trang bài học.",
+  "goals": ["Mục tiêu 1", "Mục tiêu 2"],
+
+  "vocabulary": [
+    {
+      "id": "a2-1-u03-v-wetter",
+      "de": "Wetter",
+      "article": "das",
+      "plural": "—",
+      "pos": "noun",
+      "vi": "thời tiết",
+      "ipa": "ˈvɛtɐ",
+      "principalParts": "(chỉ dùng cho động từ bất quy tắc: fahren, fuhr, ist gefahren)",
+      "example": { "de": "Wie ist das Wetter heute?", "vi": "Hôm nay thời tiết thế nào?" },
+      "note": "Ghi chú tuỳ chọn: mẹo nhớ, lỗi hay gặp, khác biệt vùng miền.",
+      "tags": ["thoi-tiet"]
+    }
+  ],
+
+  "grammar": [
+    {
+      "id": "a2-1-u03-g-beispiel",
+      "title": "Tên tiếng Đức của điểm ngữ pháp",
+      "titleVi": "Tên tiếng Việt",
+      "summary": "Tóm tắt một câu, hiện ở trang Ngữ pháp tra cứu.",
+      "explanation": "Giải thích chi tiết. Hỗ trợ markdown tối giản:\n\n**đậm**, *nghiêng*, `mã`.\n\n- dòng bắt đầu bằng '- ' thành gạch đầu dòng\n- dòng trống ngăn đoạn văn",
+      "examples": [
+        { "de": "Câu ví dụ tiếng Đức.", "vi": "Bản dịch tiếng Việt.", "note": "Ghi chú tuỳ chọn" }
+      ],
+      "tables": [
+        {
+          "title": "Tiêu đề bảng",
+          "headers": ["Cột 1", "Cột 2"],
+          "rows": [["ô 1", "ô 2"]],
+          "footnote": "Chú thích dưới bảng, tuỳ chọn"
+        }
+      ],
+      "commonMistakes": ["Lỗi người Việt hay mắc với điểm ngữ pháp này"],
+      "tags": ["cases", "word-order"]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "a2-1-u03-e-01",
+      "type": "multiple_choice",
+      "prompt": "Câu hỏi",
+      "promptVi": "Diễn giải tiếng Việt (tuỳ chọn)",
+      "options": ["A", "B", "C", "D"],
+      "answerIndex": 0,
+      "explanation": "Giải thích hiện sau khi trả lời",
+      "skillTag": "vocabulary",
+      "points": 10
+    },
+    {
+      "id": "a2-1-u03-e-02",
+      "type": "fill_blank",
+      "sentence": "Dùng ___ để đánh dấu mỗi ô trống, số ô phải khớp số phần tử blanks.",
+      "blanks": [{ "answers": ["đáp án chuẩn", "đáp án khác cũng chấp nhận"], "hint": "gợi ý" }],
+      "translation": "Bản dịch cả câu",
+      "explanation": "Giải thích",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a2-1-u03-e-03",
+      "type": "matching",
+      "instruction": "Hướng dẫn ngắn",
+      "pairs": [
+        { "left": "vế trái", "right": "vế phải" },
+        { "left": "vế trái 2", "right": "vế phải 2" }
+      ],
+      "explanation": "Giải thích",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a2-1-u03-e-04",
+      "type": "reorder",
+      "instruction": "Hướng dẫn ngắn",
+      "answer": ["Thứ", "tự", "đúng", "của", "câu"],
+      "alternatives": [["Của", "câu", "thứ", "tự", "đúng"]],
+      "translation": "Bản dịch",
+      "explanation": "Giao diện tự xáo trộn; alternatives phải dùng đúng các từ như answer.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a2-1-u03-e-05",
+      "type": "listening",
+      "audioText": "Câu tiếng Đức sẽ được đọc bằng Text-to-Speech. Người học KHÔNG nhìn thấy chuỗi này.",
+      "mode": "choice",
+      "question": "Câu hỏi sau khi nghe",
+      "options": ["A", "B", "C", "D"],
+      "answerIndex": 0,
+      "explanation": "Giải thích",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-1-u03-e-06",
+      "type": "listening",
+      "audioText": "Dạng chép chính tả: người học gõ lại câu vừa nghe.",
+      "mode": "dictation",
+      "question": "Gõ lại câu bạn nghe được",
+      "answers": ["Dạng chép chính tả: người học gõ lại câu vừa nghe."],
+      "explanation": "Bộ chấm điểm bỏ qua hoa/thường và chấp nhận ae/oe/ue/ss thay ä/ö/ü/ß.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-1-u03-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Câu nguồn (tiếng Việt nếu direction là vi-de)",
+      "answers": ["Đáp án mẫu", "Cách diễn đạt khác cũng đúng"],
+      "hint": "Gợi ý tuỳ chọn",
+      "explanation": "Nên liệt kê nhiều biến thể đúng để không chấm oan.",
+      "skillTag": "translation"
+    },
+    {
+      "id": "a2-1-u03-e-08",
+      "type": "conjugation",
+      "verb": "regnen",
+      "verbVi": "mưa",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "regne", "prefilled": true },
+        { "pronoun": "du", "answer": "regnest" },
+        { "pronoun": "er/sie/es", "answer": "regnet", "alternatives": [] }
+      ],
+      "note": "Ghi chú tuỳ chọn dưới bảng",
+      "explanation": "prefilled: true để điền sẵn làm mẫu; phải còn ít nhất một dòng chưa prefilled.",
+      "skillTag": "verb-conjugation"
+    }
+  ]
+}

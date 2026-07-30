@@ -1,0 +1,317 @@
+{
+  "id": "a1-2-u06-modalverben",
+  "level": "A1.2",
+  "order": 6,
+  "slug": "modalverben",
+  "title": "Modalverben",
+  "titleVi": "Động từ khuyết thiếu",
+  "description": "können, müssen, wollen, dürfen, sollen, möchten — sáu động từ mở ra khả năng diễn đạt: có thể, phải, muốn, được phép, nên.",
+  "goals": [
+    "Chia đúng sáu động từ khuyết thiếu",
+    "Đặt động từ nguyên thể ở cuối câu (khung động từ)",
+    "Phân biệt müssen/dürfen ở dạng phủ định"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u06-v-koennen",
+      "de": "können",
+      "pos": "verb",
+      "vi": "có thể, biết làm",
+      "example": { "de": "Ich kann Deutsch sprechen.", "vi": "Tôi có thể nói tiếng Đức." },
+      "note": "Ngôi ich và er/sie/es đều là \"kann\".",
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-muessen",
+      "de": "müssen",
+      "pos": "verb",
+      "vi": "phải",
+      "example": { "de": "Ich muss arbeiten.", "vi": "Tôi phải làm việc." },
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-wollen",
+      "de": "wollen",
+      "pos": "verb",
+      "vi": "muốn (ý chí mạnh)",
+      "example": { "de": "Wir wollen nach Berlin fahren.", "vi": "Chúng tôi muốn đi Berlin." },
+      "note": "Trực tiếp hơn \"möchten\" — khi đề nghị lịch sự nên dùng \"möchten\".",
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-duerfen",
+      "de": "dürfen",
+      "pos": "verb",
+      "vi": "được phép",
+      "example": { "de": "Hier darf man nicht rauchen.", "vi": "Ở đây không được hút thuốc." },
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-sollen",
+      "de": "sollen",
+      "pos": "verb",
+      "vi": "nên, được yêu cầu",
+      "example": { "de": "Du sollst mehr schlafen.", "vi": "Bạn nên ngủ nhiều hơn." },
+      "note": "Diễn tả lời khuyên hoặc mệnh lệnh từ người khác, không phải ý muốn của bản thân.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-moechten",
+      "de": "möchten",
+      "pos": "verb",
+      "vi": "muốn (lịch sự)",
+      "example": { "de": "Ich möchte einen Kaffee, bitte.", "vi": "Cho tôi một cà phê ạ." },
+      "tags": ["modal"]
+    },
+    {
+      "id": "a1-2-u06-v-rauchen",
+      "de": "rauchen",
+      "pos": "verb",
+      "vi": "hút thuốc",
+      "example": { "de": "Rauchen ist hier verboten.", "vi": "Ở đây cấm hút thuốc." },
+      "tags": ["hang-ngay"]
+    },
+    {
+      "id": "a1-2-u06-v-verboten",
+      "de": "verboten",
+      "pos": "adjective",
+      "vi": "bị cấm",
+      "example": { "de": "Parken verboten!", "vi": "Cấm đỗ xe!" },
+      "tags": ["hang-ngay"]
+    },
+    {
+      "id": "a1-2-u06-v-helfen",
+      "de": "helfen",
+      "pos": "verb",
+      "vi": "giúp đỡ",
+      "principalParts": "helfen, half, hat geholfen",
+      "example": { "de": "Kann ich Ihnen helfen?", "vi": "Tôi có thể giúp gì cho ông/bà?" },
+      "note": "Đi với Dativ: helfen + jemandem (không phải jemanden).",
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u06-v-schwimmen",
+      "de": "schwimmen",
+      "pos": "verb",
+      "vi": "bơi",
+      "principalParts": "schwimmen, schwamm, ist geschwommen",
+      "example": { "de": "Ich kann nicht schwimmen.", "vi": "Tôi không biết bơi." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u06-v-fuehrerschein",
+      "de": "Führerschein",
+      "article": "der",
+      "plural": "Führerscheine",
+      "pos": "noun",
+      "vi": "bằng lái xe",
+      "example": { "de": "Ich habe keinen Führerschein.", "vi": "Tôi không có bằng lái." },
+      "tags": ["hang-ngay"]
+    },
+    {
+      "id": "a1-2-u06-v-leider",
+      "de": "leider",
+      "pos": "adverb",
+      "vi": "tiếc là, đáng tiếc",
+      "example": { "de": "Ich kann leider nicht kommen.", "vi": "Tiếc là tôi không đến được." },
+      "tags": ["lich-su"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u06-g-modalverben",
+      "title": "Die Modalverben und die Satzklammer",
+      "titleVi": "Động từ khuyết thiếu và khung động từ",
+      "summary": "Động từ khuyết thiếu được chia ở vị trí 2, còn động từ chính giữ nguyên thể và bị đẩy xuống cuối câu.",
+      "explanation": "Động từ khuyết thiếu (Modalverben) không đứng một mình mà đi kèm một động từ khác. Kết quả là câu có **hai đầu**, gọi là khung động từ (Satzklammer):\n\n`Ich **kann** gut Deutsch **sprechen**.`\n\n- Vị trí 2: động từ khuyết thiếu đã chia (`kann`)\n- Cuối câu: động từ chính ở dạng **nguyên thể** (`sprechen`)\n\nMọi thứ khác nằm gọn giữa hai đầu này. Câu càng dài, hai đầu càng xa nhau:\n\n`Ich **muss** morgen früh mit dem Zug nach München **fahren**.`\n\n**Kiểu chia đặc biệt:** cả sáu động từ khuyết thiếu đều có hai đặc điểm chung:\n\n1. Ngôi `ich` và `er/sie/es` **giống hệt nhau và không có đuôi**.\n2. Số ít đổi nguyên âm gốc (trừ `sollen`): können → ich **kann**, müssen → ich **muss**.",
+      "examples": [
+        { "de": "Kannst du mir helfen?", "vi": "Bạn giúp tôi được không?" },
+        { "de": "Ich muss heute lange arbeiten.", "vi": "Hôm nay tôi phải làm việc muộn." },
+        { "de": "Hier darf man nicht parken.", "vi": "Ở đây không được đỗ xe." },
+        { "de": "Was möchten Sie trinken?", "vi": "Ông/bà muốn uống gì ạ?" }
+      ],
+      "tables": [
+        {
+          "title": "Chia sáu động từ khuyết thiếu",
+          "headers": ["Ngôi", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"],
+          "rows": [
+            ["ich", "kann", "muss", "will", "darf", "soll", "möchte"],
+            ["du", "kannst", "musst", "willst", "darfst", "sollst", "möchtest"],
+            ["er/sie/es", "kann", "muss", "will", "darf", "soll", "möchte"],
+            ["wir", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"],
+            ["ihr", "könnt", "müsst", "wollt", "dürft", "sollt", "möchtet"],
+            ["sie/Sie", "können", "müssen", "wollen", "dürfen", "sollen", "möchten"]
+          ],
+          "footnote": "Nhìn hàng ich và er/sie/es: luôn giống nhau và không có đuôi."
+        },
+        {
+          "title": "Khung động từ",
+          "headers": ["Vị trí 1", "Vị trí 2 (modal)", "Giữa câu", "Cuối câu (nguyên thể)"],
+          "rows": [
+            ["Ich", "kann", "gut Deutsch", "sprechen."],
+            ["Morgen", "muss", "ich früh", "aufstehen."],
+            ["Wir", "wollen", "am Wochenende ins Kino", "gehen."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Chia cả hai động từ: \"Ich kann spreche Deutsch\" — động từ chính phải giữ nguyên thể.",
+        "Đặt nguyên thể ở giữa: \"Ich kann sprechen Deutsch\" — nguyên thể luôn ở cuối.",
+        "Thêm đuôi cho ngôi ich: \"ich kanne\" — sai, chỉ là \"kann\"."
+      ],
+      "tags": ["verb-conjugation", "word-order"]
+    },
+    {
+      "id": "a1-2-u06-g-bedeutung",
+      "title": "Bedeutungsunterschiede",
+      "titleVi": "Phân biệt ý nghĩa, đặc biệt khi phủ định",
+      "summary": "nicht müssen = không cần; nicht dürfen = không được phép. Nhầm hai cái này gây hiểu lầm nghiêm trọng.",
+      "explanation": "Ở dạng khẳng định thì dễ, nhưng **ở dạng phủ định ý nghĩa lệch hẳn**:\n\n- `Du **musst nicht** kommen.` = Bạn **không cần** đến (không bắt buộc, tuỳ bạn).\n- `Du **darfst nicht** kommen.` = Bạn **không được phép** đến (bị cấm).\n\nĐây là lỗi có thể gây hậu quả thật: nói nhầm với sếp hoặc bác sĩ là hiểu ngược ý.\n\nHai cặp dễ nhầm khác:\n\n- `wollen` (muốn — ý chí mạnh, có thể nghe hơi thô) và `möchten` (muốn — lịch sự). Khi gọi món, mua hàng, nhờ vả: luôn dùng `möchten`.\n- `sollen` là điều **người khác** yêu cầu bạn: `Der Arzt sagt, ich soll mehr schlafen.` (Bác sĩ bảo tôi nên ngủ nhiều hơn.)\n\nMột lưu ý nữa: `können` vừa nghĩa \"có khả năng\" vừa nghĩa \"biết làm\":\n\n- `Ich kann schwimmen.` = Tôi biết bơi.\n- `Ich kann heute nicht kommen.` = Hôm nay tôi không đến được.",
+      "examples": [
+        { "de": "Du musst nicht bezahlen, ich lade dich ein.", "vi": "Bạn không cần trả tiền, tôi mời." },
+        { "de": "Hier darf man nicht rauchen.", "vi": "Ở đây không được hút thuốc." },
+        { "de": "Ich möchte bitte die Rechnung.", "vi": "Cho tôi xin hoá đơn ạ.", "note": "Dùng möchten cho lịch sự, không dùng \"will\"." },
+        { "de": "Du sollst deine Hausaufgaben machen.", "vi": "Con phải làm bài tập về nhà đi." }
+      ],
+      "tables": [
+        {
+          "title": "Ý nghĩa của từng động từ",
+          "headers": ["Động từ", "Khẳng định", "Phủ định"],
+          "rows": [
+            ["können", "có thể / biết làm", "không thể / không biết"],
+            ["müssen", "bắt buộc phải", "KHÔNG CẦN ⚠"],
+            ["dürfen", "được phép", "BỊ CẤM ⚠"],
+            ["wollen", "muốn (mạnh)", "không muốn"],
+            ["möchten", "muốn (lịch sự)", "không muốn"],
+            ["sollen", "nên, được bảo", "không nên"]
+          ],
+          "footnote": "⚠ Hai dòng này là chỗ nhầm lẫn nguy hiểm nhất."
+        }
+      ],
+      "commonMistakes": [
+        "Hiểu \"Du musst nicht kommen\" là \"bạn không được đến\" — thực ra là \"không cần đến\".",
+        "Dùng \"Ich will einen Kaffee\" khi gọi món — nghe cộc lốc, nên nói \"Ich möchte\".",
+        "Dùng \"sollen\" cho ý muốn của bản thân — sollen luôn là yêu cầu từ bên ngoài."
+      ],
+      "tags": ["verb-conjugation", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u06-e-01",
+      "type": "conjugation",
+      "verb": "können",
+      "verbVi": "có thể, biết làm",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "kann", "prefilled": true },
+        { "pronoun": "du", "answer": "kannst" },
+        { "pronoun": "er/sie/es", "answer": "kann" },
+        { "pronoun": "wir", "answer": "können" },
+        { "pronoun": "ihr", "answer": "könnt" },
+        { "pronoun": "sie/Sie", "answer": "können" }
+      ],
+      "note": "Số ít mất Umlaut (kann), số nhiều giữ lại (können).",
+      "explanation": "Đặc trưng của Modalverben: ich và er/sie/es giống nhau, không có đuôi.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u06-e-02",
+      "type": "conjugation",
+      "verb": "müssen",
+      "verbVi": "phải",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "muss" },
+        { "pronoun": "du", "answer": "musst" },
+        { "pronoun": "er/sie/es", "answer": "muss" },
+        { "pronoun": "wir", "answer": "müssen" },
+        { "pronoun": "ihr", "answer": "müsst" },
+        { "pronoun": "sie/Sie", "answer": "müssen" }
+      ],
+      "explanation": "muss – musst – muss – müssen – müsst – müssen.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u06-e-03",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu đúng (chú ý khung động từ)",
+      "answer": ["Ich", "kann", "gut", "Deutsch", "sprechen"],
+      "translation": "Tôi có thể nói tiếng Đức khá tốt.",
+      "explanation": "Modalverb \"kann\" ở vị trí 2, động từ chính \"sprechen\" giữ nguyên thể ở cuối câu.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u06-e-04",
+      "type": "multiple_choice",
+      "prompt": "\"Du musst nicht kommen.\" nghĩa là gì?",
+      "options": [
+        "Bạn không cần đến (không bắt buộc)",
+        "Bạn không được phép đến",
+        "Bạn phải đến ngay",
+        "Bạn không muốn đến"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"müssen + nicht\" = không bắt buộc. Muốn nói \"không được phép\" phải dùng \"darfst nicht\".",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u06-e-05",
+      "type": "fill_blank",
+      "sentence": "Hier ___ man nicht rauchen, aber du ___ draußen rauchen.",
+      "blanks": [
+        { "answers": ["darf"], "hint": "dürfen — không được phép" },
+        { "answers": ["darfst", "kannst"], "hint": "dürfen/können, ngôi du" }
+      ],
+      "translation": "Ở đây không được hút thuốc, nhưng bạn có thể hút bên ngoài.",
+      "explanation": "\"man\" là ngôi thứ ba số ít → darf. Với \"du\" thì là darfst.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u06-e-06",
+      "type": "matching",
+      "instruction": "Nối động từ khuyết thiếu với nghĩa",
+      "pairs": [
+        { "left": "können", "right": "có thể, biết làm" },
+        { "left": "müssen", "right": "bắt buộc phải" },
+        { "left": "dürfen", "right": "được phép" },
+        { "left": "sollen", "right": "nên (người khác bảo)" },
+        { "left": "möchten", "right": "muốn (lịch sự)" }
+      ],
+      "explanation": "sollen khác wollen: sollen là yêu cầu từ bên ngoài, wollen là ý muốn của chính mình.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u06-e-07",
+      "type": "listening",
+      "audioText": "Entschuldigung, kann ich hier parken? — Nein, hier dürfen Sie leider nicht parken.",
+      "mode": "choice",
+      "question": "Câu trả lời có nghĩa gì?",
+      "options": [
+        "Ở đây không được phép đỗ xe",
+        "Ở đây đỗ xe phải trả tiền",
+        "Ở đây chỉ đỗ được buổi tối",
+        "Ở đây có thể đỗ xe thoải mái"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"dürfen … nicht\" = không được phép, tức là bị cấm.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u06-e-08",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi phải làm việc ngày mai.",
+      "answers": [
+        "Ich muss morgen arbeiten.",
+        "Morgen muss ich arbeiten.",
+        "Ich muss morgen arbeiten"
+      ],
+      "hint": "müssen + nguyên thể ở cuối",
+      "explanation": "\"muss\" ở vị trí 2, \"arbeiten\" nguyên thể ở cuối câu.",
+      "skillTag": "translation"
+    }
+  ]
+}

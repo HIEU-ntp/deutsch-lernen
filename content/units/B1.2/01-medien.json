@@ -1,0 +1,273 @@
+{
+  "id": "b1-2-u01-medien",
+  "level": "B1.2",
+  "order": 1,
+  "slug": "medien",
+  "title": "Medien und Digitalisierung",
+  "titleVi": "Truyền thông và số hoá",
+  "description": "Thảo luận về mạng xã hội, tin giả và đời sống số. Ngữ pháp trọng tâm: Konjunktiv II — thức giả định để đưa lời khuyên và nói điều không có thật.",
+  "goals": [
+    "Trình bày ưu và nhược điểm của một hiện tượng",
+    "Dùng Konjunktiv II cho lời khuyên và giả định",
+    "Diễn đạt lịch sự trong yêu cầu"
+  ],
+  "vocabulary": [
+    {
+      "id": "b1-2-u01-v-nachricht",
+      "de": "Nachricht",
+      "article": "die",
+      "plural": "Nachrichten",
+      "pos": "noun",
+      "vi": "tin nhắn; (số nhiều) bản tin",
+      "example": { "de": "Ich sehe abends die Nachrichten.", "vi": "Buổi tối tôi xem bản tin." },
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-quelle",
+      "de": "Quelle",
+      "article": "die",
+      "plural": "Quellen",
+      "pos": "noun",
+      "vi": "nguồn (tin)",
+      "example": { "de": "Man sollte die Quelle immer prüfen.", "vi": "Nên luôn kiểm tra nguồn tin." },
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-datenschutz",
+      "de": "Datenschutz",
+      "article": "der",
+      "pos": "noun",
+      "vi": "bảo vệ dữ liệu cá nhân",
+      "example": { "de": "Datenschutz ist in Deutschland sehr wichtig.", "vi": "Bảo vệ dữ liệu rất được coi trọng ở Đức." },
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-verbreiten",
+      "de": "verbreiten",
+      "pos": "verb",
+      "vi": "lan truyền",
+      "example": { "de": "Falschmeldungen verbreiten sich schnell.", "vi": "Tin giả lan truyền rất nhanh." },
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-abhaengig",
+      "de": "abhängig",
+      "pos": "adjective",
+      "vi": "phụ thuộc, nghiện",
+      "example": { "de": "Viele Jugendliche sind vom Handy abhängig.", "vi": "Nhiều bạn trẻ nghiện điện thoại." },
+      "note": "Cấu trúc: abhängig von + Dativ.",
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-vorteil",
+      "de": "Vorteil",
+      "article": "der",
+      "plural": "Vorteile",
+      "pos": "noun",
+      "vi": "ưu điểm",
+      "example": { "de": "Ein Vorteil ist die schnelle Kommunikation.", "vi": "Một ưu điểm là giao tiếp nhanh chóng." },
+      "note": "Trái nghĩa: der Nachteil (nhược điểm).",
+      "tags": ["truyen-thong", "lap-luan"]
+    },
+    {
+      "id": "b1-2-u01-v-einfluss",
+      "de": "Einfluss",
+      "article": "der",
+      "plural": "Einflüsse",
+      "pos": "noun",
+      "vi": "ảnh hưởng",
+      "example": { "de": "Medien haben großen Einfluss auf die Meinung.", "vi": "Truyền thông ảnh hưởng lớn tới dư luận." },
+      "tags": ["truyen-thong"]
+    },
+    {
+      "id": "b1-2-u01-v-behaupten",
+      "de": "behaupten",
+      "pos": "verb",
+      "vi": "khẳng định, cho rằng",
+      "example": { "de": "Viele behaupten, dass alles schlimmer wird.", "vi": "Nhiều người cho rằng mọi thứ đang tệ đi." },
+      "tags": ["lap-luan"]
+    },
+    {
+      "id": "b1-2-u01-v-zweifeln",
+      "de": "zweifeln",
+      "pos": "verb",
+      "vi": "nghi ngờ",
+      "example": { "de": "Ich zweifle an dieser Statistik.", "vi": "Tôi nghi ngờ số liệu này." },
+      "note": "Cấu trúc: zweifeln an + Dativ.",
+      "tags": ["lap-luan"]
+    },
+    {
+      "id": "b1-2-u01-v-bildschirmzeit",
+      "de": "Bildschirmzeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "thời gian dùng màn hình",
+      "example": { "de": "Meine Bildschirmzeit ist zu hoch.", "vi": "Thời gian dùng màn hình của tôi quá nhiều." },
+      "tags": ["truyen-thong"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1-2-u01-g-konjunktiv2",
+      "title": "Konjunktiv II",
+      "titleVi": "Thức giả định II",
+      "summary": "Dùng cho điều không có thật, lời khuyên và cách nói lịch sự. Hầu hết động từ dùng würde + nguyên thể.",
+      "explanation": "Konjunktiv II có ba công dụng chính:\n\n**1. Điều kiện không có thật:**\n`Wenn ich mehr Zeit **hätte**, **würde** ich mehr lesen.` (Nếu tôi có nhiều thời gian hơn thì tôi sẽ đọc nhiều hơn — nhưng thực tế là không có)\n\n**2. Lời khuyên:**\n`Du **solltest** weniger am Handy sein.` (Bạn nên bớt dùng điện thoại)\n\n**3. Lịch sự:**\n`**Könnten** Sie mir bitte helfen?` (lịch sự hơn nhiều so với \"Können Sie…?\")\n\n**Cách tạo:**\n\nVới **hầu hết động từ** dùng `würde` + nguyên thể ở cuối câu — đây là dạng an toàn và phổ biến nhất trong văn nói.\n\n`Ich **würde** gern nach Berlin **fahren**.`\n\nNhưng một nhóm nhỏ có **dạng riêng và phải dùng dạng riêng đó** (dùng würde nghe rất vụng):\n\n`sein → wäre`, `haben → hätte`, `werden → würde`, và các động từ khuyết thiếu: `können → könnte`, `müssen → müsste`, `sollen → sollte`, `dürfen → dürfte`, `mögen → möchte`\n\n- ✅ `Ich **hätte** gern einen Kaffee.`\n- ❌ `Ich würde gern einen Kaffee haben.` (đúng ngữ pháp nhưng nghe vụng)",
+      "examples": [
+        { "de": "An deiner Stelle würde ich das nicht posten.", "vi": "Nếu là bạn thì tôi sẽ không đăng cái đó." },
+        { "de": "Du solltest deine Bildschirmzeit reduzieren.", "vi": "Bạn nên giảm thời gian dùng màn hình." },
+        { "de": "Könnten Sie mir bitte die Quelle nennen?", "vi": "Ông/bà có thể cho tôi biết nguồn tin không ạ?" },
+        { "de": "Wenn es kein Internet gäbe, wäre alles anders.", "vi": "Nếu không có internet thì mọi thứ đã khác." }
+      ],
+      "tables": [
+        {
+          "title": "Dạng Konjunktiv II cần thuộc",
+          "headers": ["Động từ", "Präteritum", "Konjunktiv II", "Ví dụ"],
+          "rows": [
+            ["sein", "war", "wäre", "Das wäre gut."],
+            ["haben", "hatte", "hätte", "Ich hätte Zeit."],
+            ["werden", "wurde", "würde", "Ich würde gehen."],
+            ["können", "konnte", "könnte", "Könntest du helfen?"],
+            ["müssen", "musste", "müsste", "Ich müsste gehen."],
+            ["sollen", "sollte", "sollte", "Du solltest schlafen."],
+            ["geben", "gab", "gäbe", "Wenn es das gäbe…"]
+          ],
+          "footnote": "Quy tắc chung: lấy Präteritum rồi thêm Umlaut nếu có thể."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"würde\" với sein/haben: \"Ich würde froh sein\" nghe vụng, nên nói \"Ich wäre froh\".",
+        "Quên rằng cả hai vế câu điều kiện đều ở Konjunktiv II.",
+        "Nhầm \"sollte\" (Konjunktiv, lời khuyên) với \"sollte\" (Präteritum, được yêu cầu) — phải nhìn ngữ cảnh."
+      ],
+      "tags": ["subjunctive", "verb-conjugation"]
+    },
+    {
+      "id": "b1-2-u01-g-argumentieren",
+      "title": "Meinung äußern und argumentieren",
+      "titleVi": "Nêu ý kiến và lập luận",
+      "summary": "Bộ mẫu câu chuẩn cho phần thi nói và viết B1: nêu quan điểm, đưa lý lẽ, phản biện, kết luận.",
+      "explanation": "Bài thi B1 (nói và viết) đều yêu cầu trình bày quan điểm có cấu trúc. Nên học thuộc bộ mẫu câu:\n\n**Nêu quan điểm:**\n- `Meiner Meinung nach …` (theo ý tôi)\n- `Ich bin der Meinung, dass …`\n- `Ich finde es wichtig, dass …`\n\n**Đưa lý lẽ:**\n- `Ein Vorteil ist, dass …` / `Ein Nachteil ist, dass …`\n- `Einerseits … andererseits …` (một mặt… mặt khác…)\n- `Zum Beispiel …`\n\n**Phản biện:**\n- `Das stimmt zwar, aber …` (đúng là vậy, nhưng…)\n- `Ich sehe das anders.`\n- `Dagegen spricht, dass …`\n\n**Kết luận:**\n- `Zusammenfassend kann man sagen, dass …`\n- `Insgesamt finde ich, dass …`\n\nLưu ý trật tự từ: `Meiner Meinung nach` chiếm vị trí 1 nên động từ đứng ngay sau — `Meiner Meinung nach **sollte** man …`",
+      "examples": [
+        { "de": "Meiner Meinung nach sollte man soziale Medien kritisch nutzen.", "vi": "Theo tôi, nên dùng mạng xã hội một cách có phê phán." },
+        { "de": "Einerseits spart man Zeit, andererseits verliert man den persönlichen Kontakt.", "vi": "Một mặt tiết kiệm thời gian, mặt khác mất đi tiếp xúc cá nhân." },
+        { "de": "Das stimmt zwar, aber man darf die Risiken nicht vergessen.", "vi": "Đúng là vậy, nhưng không được quên các rủi ro." }
+      ],
+      "tables": [
+        {
+          "title": "Bộ mẫu câu theo chức năng",
+          "headers": ["Chức năng", "Mẫu câu"],
+          "rows": [
+            ["nêu ý kiến", "Meiner Meinung nach …"],
+            ["đồng ý", "Da stimme ich dir zu."],
+            ["không đồng ý", "Ich sehe das anders."],
+            ["cân nhắc hai mặt", "Einerseits … andererseits …"],
+            ["ví dụ", "Ein Beispiel dafür ist …"],
+            ["kết luận", "Zusammenfassend lässt sich sagen, dass …"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Quên đảo động từ sau \"Meiner Meinung nach\".",
+        "Dùng \"Ich denke so\" — không tự nhiên; nên là \"Das denke ich auch\".",
+        "Viết bài mà không có câu kết luận — giám khảo B1 trừ điểm phần cấu trúc."
+      ],
+      "tags": ["connectors", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-2-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Wenn ich mehr Zeit ___, würde ich mehr lesen.",
+      "options": ["hätte", "habe", "hatte", "haben würde"],
+      "answerIndex": 0,
+      "explanation": "Câu điều kiện không có thật dùng Konjunktiv II: haben → hätte.",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "b1-2-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "Cách nói nào LỊCH SỰ nhất?",
+      "options": [
+        "Könnten Sie mir bitte helfen?",
+        "Können Sie mir helfen?",
+        "Helfen Sie mir!",
+        "Sie müssen mir helfen."
+      ],
+      "answerIndex": 0,
+      "explanation": "Konjunktiv II (könnten) làm cho yêu cầu mềm và lịch sự hơn hẳn.",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "b1-2-u01-e-03",
+      "type": "conjugation",
+      "verb": "sein (Konjunktiv II)",
+      "verbVi": "thì, là — thức giả định",
+      "tense": "konjunktiv2",
+      "tenseLabel": "Konjunktiv II",
+      "rows": [
+        { "pronoun": "ich", "answer": "wäre", "prefilled": true },
+        { "pronoun": "du", "answer": "wärst" },
+        { "pronoun": "er/sie/es", "answer": "wäre" },
+        { "pronoun": "wir", "answer": "wären" },
+        { "pronoun": "ihr", "answer": "wärt" },
+        { "pronoun": "sie/Sie", "answer": "wären" }
+      ],
+      "note": "Lấy Präteritum \"war\" rồi thêm Umlaut và đuôi -e.",
+      "explanation": "wäre – wärst – wäre – wären – wärt – wären.",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "b1-2-u01-e-04",
+      "type": "fill_blank",
+      "sentence": "Du ___ weniger Zeit am Handy verbringen — an deiner Stelle ___ ich das ändern.",
+      "blanks": [
+        { "answers": ["solltest"], "hint": "lời khuyên" },
+        { "answers": ["würde"], "hint": "werden ở Konjunktiv II" }
+      ],
+      "translation": "Bạn nên dành ít thời gian cho điện thoại hơn — nếu là bạn thì tôi sẽ thay đổi điều đó.",
+      "explanation": "\"solltest\" đưa lời khuyên; \"an deiner Stelle würde ich\" là mẫu câu khuyên rất thông dụng.",
+      "skillTag": "subjunctive"
+    },
+    {
+      "id": "b1-2-u01-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu nêu ý kiến",
+      "answer": ["Meiner", "Meinung", "nach", "sollte", "man", "die", "Quelle", "prüfen"],
+      "translation": "Theo tôi, nên kiểm tra nguồn tin.",
+      "explanation": "\"Meiner Meinung nach\" chiếm vị trí 1 nên động từ \"sollte\" đứng ngay sau, rồi mới tới chủ ngữ \"man\".",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "b1-2-u01-e-06",
+      "type": "listening",
+      "audioText": "Einerseits spart man viel Zeit, andererseits verliert man den persönlichen Kontakt.",
+      "mode": "choice",
+      "question": "Người nói đang làm gì?",
+      "options": [
+        "Nêu cả ưu điểm lẫn nhược điểm",
+        "Chỉ nêu ưu điểm",
+        "Phản đối hoàn toàn",
+        "Kể một câu chuyện quá khứ"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Einerseits … andererseits …\" là cấu trúc cân nhắc hai mặt.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b1-2-u01-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Nếu tôi là bạn, tôi sẽ không đăng cái đó.",
+      "answers": [
+        "An deiner Stelle würde ich das nicht posten.",
+        "Wenn ich du wäre, würde ich das nicht posten.",
+        "An deiner Stelle würde ich das nicht posten"
+      ],
+      "hint": "An deiner Stelle … / Wenn ich du wäre …",
+      "explanation": "Hai cách diễn đạt đều rất tự nhiên trong tiếng Đức.",
+      "skillTag": "translation"
+    }
+  ]
+}

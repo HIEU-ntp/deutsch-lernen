@@ -1,0 +1,333 @@
+{
+  "id": "a1-2-u04-essen",
+  "level": "A1.2",
+  "order": 4,
+  "slug": "essen-trinken",
+  "title": "Essen und Trinken",
+  "titleVi": "Ăn và uống",
+  "description": "Từ vựng đồ ăn thức uống, cách gọi món trong quán, và động từ essen/nehmen với kiểu chia bất quy tắc riêng.",
+  "goals": [
+    "Gọi tên các món ăn và đồ uống thông dụng",
+    "Gọi món và thanh toán ở nhà hàng",
+    "Chia đúng động từ essen, nehmen, mögen"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u04-v-brot",
+      "de": "Brot",
+      "article": "das",
+      "plural": "Brote",
+      "pos": "noun",
+      "vi": "bánh mì",
+      "example": { "de": "Ich esse Brot mit Butter.", "vi": "Tôi ăn bánh mì với bơ." },
+      "note": "Đức có hơn 3000 loại bánh mì — \"Brot\" là ổ lớn, \"Brötchen\" là ổ nhỏ ăn sáng.",
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-wasser",
+      "de": "Wasser",
+      "article": "das",
+      "pos": "noun",
+      "vi": "nước",
+      "example": { "de": "Ein Wasser, bitte.", "vi": "Cho tôi một nước." },
+      "note": "Ở Đức khi gọi \"Wasser\" thường nhận được nước có ga. Muốn nước thường phải nói \"stilles Wasser\".",
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-kaffee",
+      "de": "Kaffee",
+      "article": "der",
+      "plural": "Kaffees",
+      "pos": "noun",
+      "vi": "cà phê",
+      "example": { "de": "Ich trinke morgens einen Kaffee.", "vi": "Buổi sáng tôi uống một cà phê." },
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-milch",
+      "de": "Milch",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sữa",
+      "example": { "de": "Kaffee mit Milch, bitte.", "vi": "Cho tôi cà phê sữa." },
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-obst",
+      "de": "Obst",
+      "article": "das",
+      "pos": "noun",
+      "vi": "hoa quả",
+      "example": { "de": "Obst ist gesund.", "vi": "Hoa quả tốt cho sức khoẻ." },
+      "note": "Không có số nhiều — là danh từ tập hợp giống \"trái cây\" trong tiếng Việt.",
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-gemuese",
+      "de": "Gemüse",
+      "article": "das",
+      "pos": "noun",
+      "vi": "rau củ",
+      "example": { "de": "Ich kaufe Gemüse auf dem Markt.", "vi": "Tôi mua rau ở chợ." },
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-fleisch",
+      "de": "Fleisch",
+      "article": "das",
+      "pos": "noun",
+      "vi": "thịt",
+      "example": { "de": "Ich esse kein Fleisch.", "vi": "Tôi không ăn thịt." },
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-essen",
+      "de": "essen",
+      "pos": "verb",
+      "vi": "ăn",
+      "principalParts": "essen, aß, hat gegessen",
+      "example": { "de": "Was isst du zum Frühstück?", "vi": "Bạn ăn gì vào bữa sáng?" },
+      "note": "Đổi nguyên âm e → i: du isst, er isst (cả hai đều là \"isst\").",
+      "tags": ["an-uong", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u04-v-nehmen",
+      "de": "nehmen",
+      "pos": "verb",
+      "vi": "lấy, gọi món",
+      "principalParts": "nehmen, nahm, hat genommen",
+      "example": { "de": "Ich nehme die Suppe.", "vi": "Tôi gọi món súp." },
+      "note": "Bất quy tắc mạnh: du nimmst, er nimmt (mất chữ h, thêm m).",
+      "tags": ["an-uong", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u04-v-moegen",
+      "de": "mögen",
+      "pos": "verb",
+      "vi": "thích",
+      "principalParts": "mögen, mochte, hat gemocht",
+      "example": { "de": "Ich mag Kaffee nicht.", "vi": "Tôi không thích cà phê." },
+      "note": "Ngôi ich và er/sie/es đều là \"mag\", không có đuôi -e hay -t.",
+      "tags": ["an-uong", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u04-v-rechnung",
+      "de": "Rechnung",
+      "article": "die",
+      "plural": "Rechnungen",
+      "pos": "noun",
+      "vi": "hoá đơn",
+      "example": { "de": "Die Rechnung, bitte!", "vi": "Cho tôi tính tiền!" },
+      "tags": ["an-uong", "mua-sam"]
+    },
+    {
+      "id": "a1-2-u04-v-lecker",
+      "de": "lecker",
+      "pos": "adjective",
+      "vi": "ngon",
+      "example": { "de": "Das schmeckt lecker!", "vi": "Món này ngon!" },
+      "tags": ["an-uong"]
+    },
+    {
+      "id": "a1-2-u04-v-hunger",
+      "de": "Hunger",
+      "article": "der",
+      "pos": "noun",
+      "vi": "cơn đói",
+      "example": { "de": "Ich habe Hunger.", "vi": "Tôi đói." },
+      "note": "Tiếng Đức nói \"CÓ cơn đói\" (Hunger haben), không nói \"tôi đói\" bằng tính từ.",
+      "tags": ["an-uong"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u04-g-unregelmaessig",
+      "title": "Unregelmäßige Verben: essen, nehmen, mögen",
+      "titleVi": "Ba động từ bất quy tắc quan trọng khi ăn uống",
+      "summary": "Ba kiểu bất quy tắc khác nhau — đổi nguyên âm, đổi cả phụ âm, và kiểu riêng của động từ khuyết thiếu.",
+      "explanation": "**essen** — đổi e → i ở du và er/sie/es. Vì gốc đã kết thúc bằng -ss nên ngôi du chỉ thêm -t: `du **isst**`, `er **isst**` (hai ngôi giống hệt nhau).\n\n**nehmen** — bất quy tắc mạnh hơn: mất chữ `h`, gấp đôi chữ `m`: `du **nimmst**`, `er **nimmt**`.\n\n**mögen** — thuộc nhóm động từ khuyết thiếu (Modalverben), có kiểu chia riêng: ngôi `ich` và `er/sie/es` **giống nhau và không có đuôi**: `ich **mag**`, `er **mag**`.\n\nLưu ý cách dùng `mögen`:\n\n- `Ich mag Kaffee.` = Tôi thích cà phê (nói về sở thích chung).\n- `Ich möchte einen Kaffee.` = Tôi muốn một tách cà phê (gọi món, lịch sự).\n\n`möchte` chính là dạng lịch sự của `mögen` và là từ bạn dùng nhiều nhất khi gọi món.",
+      "examples": [
+        { "de": "Was isst du gern? — Ich esse gern Fisch.", "vi": "Bạn thích ăn gì? — Tôi thích ăn cá." },
+        { "de": "Ich nehme die Suppe und du nimmst den Salat.", "vi": "Tôi gọi súp còn bạn gọi salad." },
+        { "de": "Ich möchte bitte einen Kaffee.", "vi": "Cho tôi một cà phê ạ." },
+        { "de": "Magst du Gemüse? — Nein, ich mag kein Gemüse.", "vi": "Bạn thích rau không? — Không, tôi không thích rau." }
+      ],
+      "tables": [
+        {
+          "title": "Ba động từ bất quy tắc",
+          "headers": ["Ngôi", "essen", "nehmen", "mögen", "möchte"],
+          "rows": [
+            ["ich", "esse", "nehme", "mag", "möchte"],
+            ["du", "isst", "nimmst", "magst", "möchtest"],
+            ["er/sie/es", "isst", "nimmt", "mag", "möchte"],
+            ["wir", "essen", "nehmen", "mögen", "möchten"],
+            ["ihr", "esst", "nehmt", "mögt", "möchtet"],
+            ["sie/Sie", "essen", "nehmen", "mögen", "möchten"]
+          ],
+          "footnote": "Chú ý cột mögen: ich và er/sie/es đều là \"mag\" — không đuôi."
+        }
+      ],
+      "commonMistakes": [
+        "Chia \"du esst\" — đó là ngôi ihr; ngôi du là \"du isst\".",
+        "Chia \"er nehmt\" — phải là \"er nimmt\".",
+        "Nói \"ich mage\" — mögen không có đuôi ở ngôi ich."
+      ],
+      "tags": ["verb-conjugation"]
+    },
+    {
+      "id": "a1-2-u04-g-kein-nicht",
+      "title": "kein oder nicht?",
+      "titleVi": "Phủ định: kein hay nicht?",
+      "summary": "kein phủ định danh từ, nicht phủ định mọi thứ còn lại. Chọn sai là lỗi kinh điển.",
+      "explanation": "Tiếng Đức có hai cách phủ định, chọn theo **thứ bị phủ định**:\n\n**`kein-`** — dùng trước danh từ đi với mạo từ không xác định (ein/eine) hoặc không có mạo từ:\n\n- Ich habe ein Auto. → Ich habe **kein** Auto.\n- Ich esse Fleisch. → Ich esse **kein** Fleisch.\n\n`kein` biến đuôi giống hệt `ein`: kein Mann, keine Frau, kein Kind, keine Kinder (số nhiều).\n\n**`nicht`** — dùng cho tất cả trường hợp còn lại: động từ, tính từ, trạng từ, và danh từ có mạo từ xác định:\n\n- Ich arbeite **nicht**.\n- Das Buch ist **nicht** teuer.\n- Ich kenne **den** Mann **nicht**.\n\n**Vị trí của nicht:** thường đứng cuối câu, nhưng đứng TRƯỚC tính từ, trạng từ chỉ nơi chốn, và trước tiền tố tách.\n\n- Ich stehe **nicht** früh **auf**.",
+      "examples": [
+        { "de": "Ich esse kein Fleisch.", "vi": "Tôi không ăn thịt.", "note": "Danh từ không mạo từ → kein." },
+        { "de": "Ich trinke keinen Kaffee.", "vi": "Tôi không uống cà phê.", "note": "Akkusativ giống đực → keinen." },
+        { "de": "Das Essen ist nicht lecker.", "vi": "Món ăn không ngon.", "note": "Phủ định tính từ → nicht." },
+        { "de": "Ich kenne das Restaurant nicht.", "vi": "Tôi không biết nhà hàng đó.", "note": "Có mạo từ xác định → nicht." }
+      ],
+      "tables": [
+        {
+          "title": "Chọn kein hay nicht",
+          "headers": ["Câu khẳng định", "Phủ định", "Vì sao"],
+          "rows": [
+            ["Ich habe Zeit.", "Ich habe keine Zeit.", "danh từ, không mạo từ"],
+            ["Ich habe ein Auto.", "Ich habe kein Auto.", "mạo từ không xác định"],
+            ["Ich habe das Buch.", "Ich habe das Buch nicht.", "mạo từ xác định"],
+            ["Er ist müde.", "Er ist nicht müde.", "tính từ"],
+            ["Sie kommt heute.", "Sie kommt heute nicht.", "động từ"]
+          ]
+        },
+        {
+          "title": "Biến đuôi của kein (Akkusativ)",
+          "headers": ["Giống", "Nominativ", "Akkusativ"],
+          "rows": [
+            ["der", "kein Kaffee", "keinen Kaffee"],
+            ["die", "keine Milch", "keine Milch"],
+            ["das", "kein Brot", "kein Brot"],
+            ["số nhiều", "keine Eier", "keine Eier"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng nicht cho danh từ không mạo từ: \"Ich esse nicht Fleisch\" — phải là \"kein Fleisch\".",
+        "Quên biến đuôi Akkusativ: \"Ich trinke kein Kaffee\" — phải là \"keinen Kaffee\".",
+        "Đặt nicht sai chỗ: \"Ich nicht arbeite\" — nicht không bao giờ đứng trước động từ chia."
+      ],
+      "tags": ["cases", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u04-e-01",
+      "type": "conjugation",
+      "verb": "essen",
+      "verbVi": "ăn",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "esse", "prefilled": true },
+        { "pronoun": "du", "answer": "isst" },
+        { "pronoun": "er/sie/es", "answer": "isst" },
+        { "pronoun": "wir", "answer": "essen" },
+        { "pronoun": "ihr", "answer": "esst" },
+        { "pronoun": "sie/Sie", "answer": "essen" }
+      ],
+      "note": "du và er/sie/es giống hệt nhau: isst.",
+      "explanation": "Đổi e → i ở hai ngôi; vì gốc có -ss nên ngôi du chỉ thêm -t.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u04-e-02",
+      "type": "conjugation",
+      "verb": "nehmen",
+      "verbVi": "lấy, gọi món",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "nehme" },
+        { "pronoun": "du", "answer": "nimmst" },
+        { "pronoun": "er/sie/es", "answer": "nimmt" },
+        { "pronoun": "wir", "answer": "nehmen" },
+        { "pronoun": "ihr", "answer": "nehmt" },
+        { "pronoun": "sie/Sie", "answer": "nehmen" }
+      ],
+      "explanation": "nehmen mất chữ h và gấp đôi m ở ngôi du, er/sie/es: nimmst, nimmt.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u04-e-03",
+      "type": "multiple_choice",
+      "prompt": "Ich trinke ___ Kaffee. (Tôi không uống cà phê)",
+      "options": ["keinen", "kein", "nicht", "keine"],
+      "answerIndex": 0,
+      "explanation": "\"der Kaffee\" là giống đực, ở Akkusativ sau \"trinken\" thành \"keinen Kaffee\".",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u04-e-04",
+      "type": "multiple_choice",
+      "prompt": "Câu nào ĐÚNG?",
+      "options": [
+        "Das Essen ist nicht lecker.",
+        "Das Essen ist kein lecker.",
+        "Das Essen nicht ist lecker.",
+        "Das Essen ist lecker nicht."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"lecker\" là tính từ nên phải dùng \"nicht\", và nicht đứng ngay trước tính từ.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u04-e-05",
+      "type": "fill_blank",
+      "sentence": "Was ___ du zum Frühstück? — Ich ___ ein Brötchen.",
+      "blanks": [
+        { "answers": ["isst"], "hint": "essen, ngôi du" },
+        { "answers": ["nehme", "esse"], "hint": "nehmen hoặc essen, ngôi ich" }
+      ],
+      "translation": "Bạn ăn gì vào bữa sáng? — Tôi ăn một cái bánh mì nhỏ.",
+      "explanation": "du isst (không phải \"du esst\"); câu trả lời có thể dùng \"nehme\" hoặc \"esse\".",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u04-e-06",
+      "type": "matching",
+      "instruction": "Nối câu tiếng Đức trong quán ăn với nghĩa",
+      "pairs": [
+        { "left": "Ich möchte bestellen.", "right": "Tôi muốn gọi món." },
+        { "left": "Die Rechnung, bitte!", "right": "Cho tôi tính tiền!" },
+        { "left": "Guten Appetit!", "right": "Chúc ngon miệng!" },
+        { "left": "Ich habe Hunger.", "right": "Tôi đói." }
+      ],
+      "explanation": "\"Guten Appetit\" luôn được nói trước khi bắt đầu ăn — bỏ qua bị coi là hơi thiếu lịch sự.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u04-e-07",
+      "type": "listening",
+      "audioText": "Ich möchte bitte eine Suppe und ein stilles Wasser.",
+      "mode": "choice",
+      "question": "Khách gọi những gì?",
+      "options": [
+        "Một món súp và một nước không ga",
+        "Một món súp và một nước có ga",
+        "Hai món súp",
+        "Một salad và một nước"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"stilles Wasser\" = nước không ga. Nếu chỉ nói \"Wasser\" ở Đức thường sẽ nhận nước có ga.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u04-e-08",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi không ăn thịt.",
+      "answers": ["Ich esse kein Fleisch.", "Ich esse kein Fleisch"],
+      "hint": "danh từ không mạo từ → kein",
+      "explanation": "\"das Fleisch\" giống trung nên ở Akkusativ vẫn là \"kein Fleisch\".",
+      "skillTag": "translation"
+    }
+  ]
+}

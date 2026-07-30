@@ -1,0 +1,293 @@
+{
+  "id": "a2-1-u02-weg",
+  "level": "A2.1",
+  "order": 2,
+  "slug": "wegbeschreibung",
+  "title": "Wegbeschreibung und Verkehr",
+  "titleVi": "Chỉ đường và giao thông",
+  "description": "Hỏi đường, mua vé, đi tàu xe. Ngữ pháp trọng tâm: Wechselpräpositionen — nhóm giới từ đi với hai cách tuỳ theo có di chuyển hay không.",
+  "goals": [
+    "Hỏi và chỉ đường bằng những mẫu câu chuẩn",
+    "Phân biệt wo? (Dativ) và wohin? (Akkusativ)",
+    "Mua vé và hiểu thông báo ở nhà ga"
+  ],
+  "vocabulary": [
+    {
+      "id": "a2-1-u02-v-bahnhof",
+      "de": "Bahnhof",
+      "article": "der",
+      "plural": "Bahnhöfe",
+      "pos": "noun",
+      "vi": "nhà ga",
+      "example": { "de": "Wie komme ich zum Bahnhof?", "vi": "Tôi đi tới nhà ga thế nào?" },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-haltestelle",
+      "de": "Haltestelle",
+      "article": "die",
+      "plural": "Haltestellen",
+      "pos": "noun",
+      "vi": "điểm dừng (xe buýt, tàu điện)",
+      "example": { "de": "Die Haltestelle ist gleich um die Ecke.", "vi": "Điểm dừng ngay chỗ góc phố." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-fahrkarte",
+      "de": "Fahrkarte",
+      "article": "die",
+      "plural": "Fahrkarten",
+      "pos": "noun",
+      "vi": "vé xe/tàu",
+      "example": { "de": "Eine Fahrkarte nach Köln, bitte.", "vi": "Cho tôi một vé đi Köln." },
+      "note": "Cũng gọi là \"das Ticket\".",
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-strasse",
+      "de": "Straße",
+      "article": "die",
+      "plural": "Straßen",
+      "pos": "noun",
+      "vi": "đường phố",
+      "example": { "de": "Gehen Sie die Straße entlang.", "vi": "Ông/bà đi dọc theo con phố." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-kreuzung",
+      "de": "Kreuzung",
+      "article": "die",
+      "plural": "Kreuzungen",
+      "pos": "noun",
+      "vi": "ngã tư",
+      "example": { "de": "An der Kreuzung links.", "vi": "Ở ngã tư thì rẽ trái." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-abbiegen",
+      "de": "abbiegen",
+      "pos": "verb",
+      "vi": "rẽ",
+      "principalParts": "abbiegen, bog ab, ist abgebogen",
+      "example": { "de": "Biegen Sie rechts ab.", "vi": "Ông/bà rẽ phải." },
+      "note": "Động từ tách.",
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-geradeaus",
+      "de": "geradeaus",
+      "pos": "adverb",
+      "vi": "thẳng phía trước",
+      "example": { "de": "Gehen Sie immer geradeaus.", "vi": "Ông/bà cứ đi thẳng." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-umsteigen",
+      "de": "umsteigen",
+      "pos": "verb",
+      "vi": "đổi tàu/xe",
+      "principalParts": "umsteigen, stieg um, ist umgestiegen",
+      "example": { "de": "Sie müssen in Frankfurt umsteigen.", "vi": "Ông/bà phải đổi tàu ở Frankfurt." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-verspaetung",
+      "de": "Verspätung",
+      "article": "die",
+      "plural": "Verspätungen",
+      "pos": "noun",
+      "vi": "sự trễ giờ",
+      "example": { "de": "Der Zug hat zehn Minuten Verspätung.", "vi": "Tàu trễ mười phút." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-gleis",
+      "de": "Gleis",
+      "article": "das",
+      "plural": "Gleise",
+      "pos": "noun",
+      "vi": "sân ga, đường ray",
+      "example": { "de": "Der Zug fährt von Gleis 7 ab.", "vi": "Tàu khởi hành từ sân ga số 7." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-entfernung",
+      "de": "Entfernung",
+      "article": "die",
+      "plural": "Entfernungen",
+      "pos": "noun",
+      "vi": "khoảng cách",
+      "example": { "de": "Die Entfernung beträgt zwei Kilometer.", "vi": "Khoảng cách là hai cây số." },
+      "tags": ["giao-thong"]
+    },
+    {
+      "id": "a2-1-u02-v-zu-fuss",
+      "de": "zu Fuß",
+      "pos": "phrase",
+      "vi": "đi bộ",
+      "example": { "de": "Ich gehe zu Fuß zur Arbeit.", "vi": "Tôi đi bộ đi làm." },
+      "note": "Không nói \"mit Fuß\" — cụm cố định là \"zu Fuß\".",
+      "tags": ["giao-thong"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a2-1-u02-g-wechselpraep",
+      "title": "Wechselpräpositionen: wo? oder wohin?",
+      "titleVi": "Chín giới từ đổi cách theo câu hỏi",
+      "summary": "Cùng một giới từ nhưng đi với Dativ khi trả lời \"wo?\" và Akkusativ khi trả lời \"wohin?\".",
+      "explanation": "Chín giới từ sau có thể đi với **hai cách khác nhau**:\n\n`in, an, auf, über, unter, vor, hinter, neben, zwischen`\n\nQuy tắc quyết định:\n\n- Trả lời `wo?` (vị trí tĩnh, không di chuyển) → **Dativ**\n- Trả lời `wohin?` (có di chuyển tới đó) → **Akkusativ**\n\nSo sánh trực tiếp:\n\n| Câu | Cách | Ý nghĩa |\n|---|---|---|\n| Ich bin **in der** Schule. | Dativ | Tôi đang ở trong trường |\n| Ich gehe **in die** Schule. | Akkusativ | Tôi đi đến trường |\n\nMẹo nhớ: nếu có **mũi tên di chuyển** (→) thì dùng Akkusativ, nếu chỉ là **dấu chấm đứng yên** (•) thì dùng Dativ.\n\nDạng rút gọn thông dụng:\n\n- in das → `ins` (ins Kino)\n- in dem → `im` (im Kino)\n- an das → `ans`, an dem → `am`\n- zu dem → `zum`, zu der → `zur`\n\nChú ý `zu` và `nach` **luôn** đi với Dativ dù có di chuyển — chúng không thuộc nhóm chín giới từ này.",
+      "examples": [
+        { "de": "Ich gehe ins Kino.", "vi": "Tôi đi xem phim.", "note": "wohin? → Akkusativ (in das = ins)" },
+        { "de": "Ich bin im Kino.", "vi": "Tôi đang ở rạp phim.", "note": "wo? → Dativ (in dem = im)" },
+        { "de": "Stellen Sie die Tasche auf den Tisch.", "vi": "Ông/bà đặt cái túi lên bàn.", "note": "có di chuyển → Akkusativ" },
+        { "de": "Die Tasche steht auf dem Tisch.", "vi": "Cái túi đang ở trên bàn.", "note": "đứng yên → Dativ" }
+      ],
+      "tables": [
+        {
+          "title": "So sánh wo? và wohin?",
+          "headers": ["Giới từ", "wo? + Dativ", "wohin? + Akkusativ"],
+          "rows": [
+            ["in", "in der Stadt", "in die Stadt"],
+            ["an", "am Fenster", "ans Fenster"],
+            ["auf", "auf dem Tisch", "auf den Tisch"],
+            ["neben", "neben dem Haus", "neben das Haus"],
+            ["zwischen", "zwischen den Häusern", "zwischen die Häuser"]
+          ]
+        },
+        {
+          "title": "Giới từ chỉ hướng KHÔNG đổi cách",
+          "headers": ["Giới từ", "Cách", "Dùng cho", "Ví dụ"],
+          "rows": [
+            ["zu", "Dativ", "người, địa điểm cụ thể", "zum Arzt, zur Post"],
+            ["nach", "Dativ", "thành phố, quốc gia, hướng", "nach Berlin, nach links"],
+            ["aus", "Dativ", "từ bên trong ra", "aus dem Haus"],
+            ["bei", "Dativ", "ở chỗ ai đó", "bei meiner Familie"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Dativ khi có di chuyển: \"Ich gehe in der Schule\" nghĩa là \"tôi đi bộ bên trong trường\".",
+        "Nhầm nach với zu: \"Ich gehe nach dem Arzt\" — với người phải dùng \"zum Arzt\".",
+        "Quên rút gọn: người Đức gần như luôn nói \"ins\" chứ không nói \"in das\"."
+      ],
+      "tags": ["prepositions", "cases"]
+    },
+    {
+      "id": "a2-1-u02-g-weg-fragen",
+      "title": "Nach dem Weg fragen",
+      "titleVi": "Mẫu câu hỏi và chỉ đường",
+      "summary": "Bộ câu hỏi chuẩn và các cụm chỉ đường thường nghe được trên phố.",
+      "explanation": "**Hỏi đường** — ba mẫu an toàn nhất:\n\n- `Entschuldigung, wie komme ich zum/zur …?`\n- `Wo ist … , bitte?`\n- `Ist es weit von hier?`\n\nChọn `zum` hay `zur` theo giống: `zum` cho der/das, `zur` cho die.\n\n- zum Bahnhof (der), zum Museum (das), zur Post (die)\n\n**Hiểu câu trả lời** — các cụm hay gặp:\n\n- `Gehen Sie geradeaus.` (đi thẳng)\n- `Biegen Sie links/rechts ab.` (rẽ trái/phải)\n- `an der Ampel` (ở đèn giao thông)\n- `Es ist gleich um die Ecke.` (ngay góc phố)\n- `Es sind etwa fünf Minuten zu Fuß.` (đi bộ khoảng 5 phút)",
+      "examples": [
+        { "de": "Entschuldigung, wie komme ich zum Hauptbahnhof?", "vi": "Xin lỗi, tôi đi tới ga trung tâm thế nào ạ?" },
+        { "de": "Gehen Sie geradeaus und dann an der Ampel links.", "vi": "Ông/bà đi thẳng rồi rẽ trái ở đèn giao thông." },
+        { "de": "Ist es weit? — Nein, etwa zehn Minuten zu Fuß.", "vi": "Có xa không ạ? — Không, khoảng mười phút đi bộ." },
+        { "de": "Sie müssen in Mannheim umsteigen.", "vi": "Ông/bà phải đổi tàu ở Mannheim." }
+      ],
+      "tables": [
+        {
+          "title": "zum hay zur?",
+          "headers": ["Danh từ", "Giống", "Dạng đúng"],
+          "rows": [
+            ["der Bahnhof", "đực", "zum Bahnhof"],
+            ["das Museum", "trung", "zum Museum"],
+            ["die Post", "cái", "zur Post"],
+            ["die Apotheke", "cái", "zur Apotheke"],
+            ["der Arzt", "đực", "zum Arzt"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"zu die\" thay vì \"zur\" — dạng rút gọn là bắt buộc trong văn nói.",
+        "Hỏi \"Wo ist der Weg zum …?\" — người Đức nói \"Wie komme ich zum …?\".",
+        "Quên tách tiền tố: \"Sie abbiegen links\" — phải là \"Biegen Sie links ab\"."
+      ],
+      "tags": ["prepositions", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-1-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Ich gehe ___ Kino. (Tôi đi xem phim)",
+      "options": ["ins", "im", "in dem", "zum das"],
+      "answerIndex": 0,
+      "explanation": "Có di chuyển (wohin?) → Akkusativ: in das = ins. \"im\" là dạng Dativ dùng cho vị trí tĩnh.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a2-1-u02-e-02",
+      "type": "fill_blank",
+      "sentence": "Das Buch liegt ___ dem Tisch, aber leg es bitte ___ das Regal.",
+      "blanks": [
+        { "answers": ["auf"], "hint": "vị trí tĩnh" },
+        { "answers": ["in", "auf"], "hint": "có di chuyển" }
+      ],
+      "translation": "Quyển sách nằm trên bàn, nhưng làm ơn đặt nó vào giá sách.",
+      "explanation": "Cùng nhóm Wechselpräpositionen, nhưng cách của danh từ đi sau khác nhau (dem = Dativ, das = Akkusativ).",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a2-1-u02-e-03",
+      "type": "multiple_choice",
+      "prompt": "Wie komme ich ___ Post?",
+      "options": ["zur", "zum", "nach", "in die"],
+      "answerIndex": 0,
+      "explanation": "\"die Post\" là giống cái → zu der = zur.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a2-1-u02-e-04",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu chỉ đường",
+      "answer": ["Biegen", "Sie", "an", "der", "Ampel", "links", "ab"],
+      "translation": "Ông/bà rẽ trái ở đèn giao thông.",
+      "explanation": "Imperativ dạng Sie + động từ tách: \"Biegen\" đầu câu, tiền tố \"ab\" cuối câu.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a2-1-u02-e-05",
+      "type": "listening",
+      "audioText": "Der Zug nach Hamburg fährt heute von Gleis sieben ab und hat zehn Minuten Verspätung.",
+      "mode": "choice",
+      "question": "Thông tin nào ĐÚNG?",
+      "options": [
+        "Tàu đi Hamburg khởi hành từ sân ga 7 và trễ 10 phút",
+        "Tàu đi Hamburg khởi hành từ sân ga 10",
+        "Tàu bị huỷ hôm nay",
+        "Tàu đi Hamburg đúng giờ"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"von Gleis sieben\" = sân ga 7; \"zehn Minuten Verspätung\" = trễ 10 phút.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-1-u02-e-06",
+      "type": "matching",
+      "instruction": "Nối cụm từ chỉ đường với nghĩa",
+      "pairs": [
+        { "left": "geradeaus", "right": "đi thẳng" },
+        { "left": "um die Ecke", "right": "ngay góc phố" },
+        { "left": "an der Ampel", "right": "ở đèn giao thông" },
+        { "left": "gegenüber", "right": "đối diện" }
+      ],
+      "explanation": "Đây là những cụm bạn sẽ nghe nhiều nhất khi hỏi đường ngoài phố.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a2-1-u02-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Xin lỗi, tôi đi tới nhà ga thế nào ạ?",
+      "answers": [
+        "Entschuldigung, wie komme ich zum Bahnhof?",
+        "Entschuldigung, wie komme ich zum Bahnhof",
+        "Entschuldigen Sie, wie komme ich zum Bahnhof?"
+      ],
+      "hint": "wie komme ich zum …?",
+      "explanation": "\"der Bahnhof\" giống đực → zum Bahnhof.",
+      "skillTag": "translation"
+    }
+  ]
+}

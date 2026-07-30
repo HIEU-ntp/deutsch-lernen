@@ -1,0 +1,290 @@
+{
+  "id": "a2-1-u01-gesundheit",
+  "level": "A2.1",
+  "order": 1,
+  "slug": "gesundheit",
+  "title": "Gesundheit und Körper",
+  "titleVi": "Sức khoẻ và cơ thể",
+  "description": "Mô tả triệu chứng, đặt lịch khám và hiểu lời dặn của bác sĩ. Ngữ pháp trọng tâm: cách Dativ và câu mệnh lệnh.",
+  "goals": [
+    "Gọi tên các bộ phận cơ thể và triệu chứng thường gặp",
+    "Dùng cấu trúc \"Mir tut … weh\" với Dativ",
+    "Hiểu và tạo câu mệnh lệnh (Imperativ)"
+  ],
+  "vocabulary": [
+    {
+      "id": "a2-1-u01-v-kopf",
+      "de": "Kopf",
+      "article": "der",
+      "plural": "Köpfe",
+      "pos": "noun",
+      "vi": "cái đầu",
+      "example": { "de": "Mein Kopf tut weh.", "vi": "Tôi đau đầu." },
+      "tags": ["co-the"]
+    },
+    {
+      "id": "a2-1-u01-v-bauch",
+      "de": "Bauch",
+      "article": "der",
+      "plural": "Bäuche",
+      "pos": "noun",
+      "vi": "bụng",
+      "example": { "de": "Ich habe Bauchschmerzen.", "vi": "Tôi bị đau bụng." },
+      "tags": ["co-the"]
+    },
+    {
+      "id": "a2-1-u01-v-hals",
+      "de": "Hals",
+      "article": "der",
+      "plural": "Hälse",
+      "pos": "noun",
+      "vi": "cổ, họng",
+      "example": { "de": "Mein Hals tut weh.", "vi": "Tôi đau họng." },
+      "tags": ["co-the"]
+    },
+    {
+      "id": "a2-1-u01-v-schmerzen",
+      "de": "Schmerzen",
+      "article": "die",
+      "plural": "Schmerzen",
+      "pos": "noun",
+      "vi": "cơn đau",
+      "example": { "de": "Ich habe starke Schmerzen.", "vi": "Tôi đau dữ dội." },
+      "note": "Thường dùng ở số nhiều và ghép với bộ phận: Kopfschmerzen, Rückenschmerzen.",
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-fieber",
+      "de": "Fieber",
+      "article": "das",
+      "pos": "noun",
+      "vi": "sốt",
+      "example": { "de": "Ich habe Fieber, 38,5 Grad.", "vi": "Tôi bị sốt 38,5 độ." },
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-erkaeltung",
+      "de": "Erkältung",
+      "article": "die",
+      "plural": "Erkältungen",
+      "pos": "noun",
+      "vi": "cảm lạnh",
+      "example": { "de": "Ich habe eine Erkältung.", "vi": "Tôi bị cảm." },
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-termin",
+      "de": "Termin",
+      "article": "der",
+      "plural": "Termine",
+      "pos": "noun",
+      "vi": "cuộc hẹn, lịch khám",
+      "example": { "de": "Ich möchte einen Termin vereinbaren.", "vi": "Tôi muốn đặt một lịch hẹn." },
+      "note": "Ở Đức hầu như mọi thứ đều cần Termin — kể cả đi khám bệnh thông thường.",
+      "tags": ["suc-khoe", "hanh-chinh"]
+    },
+    {
+      "id": "a2-1-u01-v-medikament",
+      "de": "Medikament",
+      "article": "das",
+      "plural": "Medikamente",
+      "pos": "noun",
+      "vi": "thuốc",
+      "example": { "de": "Nehmen Sie dieses Medikament dreimal täglich.", "vi": "Ông/bà uống thuốc này ba lần mỗi ngày." },
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-wehtun",
+      "de": "wehtun",
+      "pos": "verb",
+      "vi": "đau, làm đau",
+      "principalParts": "wehtun, tat weh, hat wehgetan",
+      "example": { "de": "Mir tut der Rücken weh.", "vi": "Tôi đau lưng." },
+      "note": "Động từ tách, đi với Dativ: MIR tut … weh.",
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-sich-fuehlen",
+      "de": "sich fühlen",
+      "pos": "verb",
+      "vi": "cảm thấy",
+      "example": { "de": "Ich fühle mich nicht gut.", "vi": "Tôi thấy không khoẻ." },
+      "note": "Động từ phản thân — luôn phải có mich/dich/sich.",
+      "tags": ["suc-khoe"]
+    },
+    {
+      "id": "a2-1-u01-v-krankenkasse",
+      "de": "Krankenkasse",
+      "article": "die",
+      "plural": "Krankenkassen",
+      "pos": "noun",
+      "vi": "bảo hiểm y tế",
+      "example": { "de": "Welche Krankenkasse haben Sie?", "vi": "Ông/bà dùng bảo hiểm y tế nào?" },
+      "tags": ["suc-khoe", "hanh-chinh"]
+    },
+    {
+      "id": "a2-1-u01-v-gesund",
+      "de": "gesund",
+      "pos": "adjective",
+      "vi": "khoẻ mạnh",
+      "example": { "de": "Obst und Gemüse sind gesund.", "vi": "Hoa quả và rau tốt cho sức khoẻ." },
+      "note": "Trái nghĩa: krank (ốm).",
+      "tags": ["suc-khoe"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a2-1-u01-g-dativ",
+      "title": "Der Dativ mit Personen",
+      "titleVi": "Dativ với người — tân ngữ gián tiếp",
+      "summary": "Dativ chỉ người nhận hành động. Nhiều động từ tiếng Đức bắt buộc đi với Dativ dù tiếng Việt không thấy lý do.",
+      "explanation": "Ngoài chức năng chỉ vị trí (đã học ở A1.2), Dativ còn là cách của **tân ngữ gián tiếp** — người nhận:\n\n`Ich gebe **dem Kind** ein Buch.` (Tôi đưa cho đứa trẻ một quyển sách)\n\nCâu hỏi kiểm tra: `Wem?` (cho ai).\n\n**Nhóm động từ luôn đi với Dativ** — phải học thuộc vì tiếng Việt không có dấu hiệu nào báo trước:\n\n`helfen, danken, gehören, gefallen, passen, schmecken, antworten, glauben, folgen, wehtun`\n\n- ✅ Ich helfe **dir**. (không phải \"dich\")\n- ✅ Das Buch gehört **mir**.\n- ✅ Der Film gefällt **mir**.\n\n**Cấu trúc nói về đau ốm** dùng Dativ với ngữ pháp \"ngược\" so với tiếng Việt:\n\n- `**Mir** tut der Kopf weh.` — nghĩa đen: \"cái đầu làm đau ĐỐI VỚI TÔI\"\n- Chủ ngữ là bộ phận cơ thể, còn người là tân ngữ Dativ.\n\nCách nói tương đương đơn giản hơn: `Ich habe Kopfschmerzen.`",
+      "examples": [
+        { "de": "Mir tut der Hals weh.", "vi": "Tôi đau họng.", "note": "der Hals là chủ ngữ, mir là Dativ." },
+        { "de": "Können Sie mir helfen?", "vi": "Ông/bà giúp tôi được không?" },
+        { "de": "Wie geht es Ihnen? — Mir geht es besser.", "vi": "Ông/bà thấy sao? — Tôi thấy đỡ hơn rồi." },
+        { "de": "Das Medikament hat mir geholfen.", "vi": "Thuốc đó đã giúp tôi." }
+      ],
+      "tables": [
+        {
+          "title": "Đại từ nhân xưng ở ba cách",
+          "headers": ["Nominativ", "Akkusativ", "Dativ"],
+          "rows": [
+            ["ich", "mich", "mir"],
+            ["du", "dich", "dir"],
+            ["er", "ihn", "ihm"],
+            ["sie", "sie", "ihr"],
+            ["es", "es", "ihm"],
+            ["wir", "uns", "uns"],
+            ["ihr", "euch", "euch"],
+            ["sie / Sie", "sie / Sie", "ihnen / Ihnen"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Akkusativ với helfen: \"Ich helfe dich\" — phải là \"dir\".",
+        "Dịch thẳng \"Tôi đau đầu\" thành \"Ich tue Kopf weh\" — phải là \"Mir tut der Kopf weh\".",
+        "Quên rằng gefallen đảo vai: \"Ich gefalle den Film\" nghĩa là bộ phim thích tôi."
+      ],
+      "tags": ["cases"]
+    },
+    {
+      "id": "a2-1-u01-g-imperativ",
+      "title": "Der Imperativ",
+      "titleVi": "Câu mệnh lệnh",
+      "summary": "Ba dạng mệnh lệnh cho du, ihr và Sie — dạng Sie giữ nguyên đại từ, hai dạng kia bỏ đi.",
+      "explanation": "Câu mệnh lệnh dùng để ra lệnh, đưa lời khuyên, chỉ dẫn — rất hay gặp ở phòng khám và biển báo.\n\n**Ba dạng:**\n\n1. `du`: bỏ đuôi `-st` và bỏ luôn đại từ → `Komm!`, `Nimm!`, `Geh!`\n2. `ihr`: giống dạng chia ihr, bỏ đại từ → `Kommt!`, `Nehmt!`\n3. `Sie`: động từ nguyên thể + **Sie** (giữ đại từ) → `Kommen Sie!`, `Nehmen Sie!`\n\nĐộng từ đổi nguyên âm `e → i` giữ nguyên biến đổi ở dạng du: `nehmen → Nimm!`, `essen → Iss!`. Nhưng động từ đổi `a → ä` thì KHÔNG đổi ở Imperativ: `fahren → Fahr!` (không phải \"Fähr\").\n\n`sein` bất quy tắc: `Sei!` / `Seid!` / `Seien Sie!`\n\nThêm `bitte` để mềm hoá: `Nehmen Sie bitte Platz.` (Xin mời ngồi.)",
+      "examples": [
+        { "de": "Nehmen Sie dieses Medikament dreimal täglich!", "vi": "Ông/bà uống thuốc này ba lần mỗi ngày!" },
+        { "de": "Trink viel Wasser und schlaf gut!", "vi": "Uống nhiều nước và ngủ cho ngon nhé!" },
+        { "de": "Bleiben Sie bitte im Bett.", "vi": "Xin ông/bà nằm nghỉ trên giường." },
+        { "de": "Seien Sie vorsichtig!", "vi": "Xin hãy cẩn thận!" }
+      ],
+      "tables": [
+        {
+          "title": "Ba dạng Imperativ",
+          "headers": ["Nguyên thể", "du", "ihr", "Sie"],
+          "rows": [
+            ["kommen", "Komm!", "Kommt!", "Kommen Sie!"],
+            ["nehmen", "Nimm!", "Nehmt!", "Nehmen Sie!"],
+            ["fahren", "Fahr!", "Fahrt!", "Fahren Sie!"],
+            ["sein", "Sei!", "Seid!", "Seien Sie!"],
+            ["haben", "Hab!", "Habt!", "Haben Sie!"]
+          ],
+          "footnote": "Chỉ dạng Sie giữ lại đại từ, và đại từ đứng SAU động từ."
+        }
+      ],
+      "commonMistakes": [
+        "Giữ đại từ ở dạng du: \"Du komm!\" — phải bỏ \"du\".",
+        "Quên Sie ở dạng trang trọng: \"Kommen!\" nghe như ra lệnh cộc lốc.",
+        "Đổi nguyên âm a → ä ở Imperativ: \"Fähr!\" là sai, đúng là \"Fahr!\"."
+      ],
+      "tags": ["verb-conjugation", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-1-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Können Sie ___ helfen?",
+      "options": ["mir", "mich", "ich", "meiner"],
+      "answerIndex": 0,
+      "explanation": "\"helfen\" luôn đi với Dativ → mir.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a2-1-u01-e-02",
+      "type": "fill_blank",
+      "sentence": "___ tut der Kopf weh und ich habe auch ___.",
+      "blanks": [
+        { "answers": ["Mir"], "hint": "Dativ của ich" },
+        { "answers": ["Fieber"], "hint": "sốt" }
+      ],
+      "translation": "Tôi đau đầu và còn bị sốt nữa.",
+      "explanation": "Cấu trúc \"jemandem tut etwas weh\": người ở Dativ, bộ phận cơ thể là chủ ngữ.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a2-1-u01-e-03",
+      "type": "multiple_choice",
+      "prompt": "Dạng Imperativ của \"nehmen\" với \"du\" là gì?",
+      "options": ["Nimm!", "Nehm!", "Nehme!", "Nimmst!"],
+      "answerIndex": 0,
+      "explanation": "Động từ đổi e → i giữ biến đổi ở Imperativ dạng du: Nimm!",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a2-1-u01-e-04",
+      "type": "matching",
+      "instruction": "Nối triệu chứng với bộ phận cơ thể",
+      "pairs": [
+        { "left": "Kopfschmerzen", "right": "der Kopf" },
+        { "left": "Halsschmerzen", "right": "der Hals" },
+        { "left": "Bauchschmerzen", "right": "der Bauch" },
+        { "left": "Rückenschmerzen", "right": "der Rücken" }
+      ],
+      "explanation": "Ghép bộ phận + Schmerzen là cách nói triệu chứng thông dụng nhất.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a2-1-u01-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu mệnh lệnh lịch sự",
+      "answer": ["Nehmen", "Sie", "bitte", "dieses", "Medikament"],
+      "translation": "Xin ông/bà uống thuốc này.",
+      "explanation": "Imperativ dạng Sie: động từ nguyên thể đứng đầu, \"Sie\" ngay sau đó.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a2-1-u01-e-06",
+      "type": "listening",
+      "audioText": "Guten Tag, ich möchte einen Termin vereinbaren. Ich habe seit drei Tagen Fieber.",
+      "mode": "choice",
+      "question": "Người gọi muốn gì?",
+      "options": [
+        "Đặt lịch khám vì bị sốt ba ngày",
+        "Hỏi giá khám bệnh",
+        "Hủy một cuộc hẹn",
+        "Mua thuốc hạ sốt"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"einen Termin vereinbaren\" = đặt lịch hẹn; \"seit drei Tagen Fieber\" = sốt ba ngày nay.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-1-u01-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tôi thấy không khoẻ.",
+      "answers": [
+        "Ich fühle mich nicht gut.",
+        "Ich fühle mich nicht wohl.",
+        "Mir geht es nicht gut.",
+        "Ich fühle mich nicht gut"
+      ],
+      "hint": "sich fühlen là động từ phản thân",
+      "explanation": "Không được bỏ \"mich\": \"Ich fühle nicht gut\" là sai ngữ pháp.",
+      "skillTag": "translation"
+    }
+  ]
+}

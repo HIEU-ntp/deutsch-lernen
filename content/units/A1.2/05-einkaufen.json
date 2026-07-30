@@ -1,0 +1,295 @@
+{
+  "id": "a1-2-u05-einkaufen",
+  "level": "A1.2",
+  "order": 5,
+  "slug": "einkaufen",
+  "title": "Einkaufen und der Akkusativ",
+  "titleVi": "Mua sắm và cách Akkusativ",
+  "description": "Akkusativ là cách đầu tiên bạn phải làm chủ. Tin tốt: chỉ giống đực đổi hình. Bài này gắn nó với tình huống đi chợ, đi siêu thị.",
+  "goals": [
+    "Dùng đúng mạo từ ở cách Akkusativ",
+    "Mua hàng, hỏi giá, hỏi tìm đồ trong siêu thị",
+    "Dùng đại từ nhân xưng ở Akkusativ (mich, dich, ihn…)"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u05-v-supermarkt",
+      "de": "Supermarkt",
+      "article": "der",
+      "plural": "Supermärkte",
+      "pos": "noun",
+      "vi": "siêu thị",
+      "example": { "de": "Ich gehe in den Supermarkt.", "vi": "Tôi đi siêu thị." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-geschaeft",
+      "de": "Geschäft",
+      "article": "das",
+      "plural": "Geschäfte",
+      "pos": "noun",
+      "vi": "cửa hàng",
+      "example": { "de": "Das Geschäft ist bis 20 Uhr geöffnet.", "vi": "Cửa hàng mở đến 20 giờ." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-preis",
+      "de": "Preis",
+      "article": "der",
+      "plural": "Preise",
+      "pos": "noun",
+      "vi": "giá",
+      "example": { "de": "Der Preis ist zu hoch.", "vi": "Giá cao quá." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-geld",
+      "de": "Geld",
+      "article": "das",
+      "pos": "noun",
+      "vi": "tiền",
+      "example": { "de": "Ich habe kein Geld dabei.", "vi": "Tôi không mang tiền theo." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-teuer",
+      "de": "teuer",
+      "pos": "adjective",
+      "vi": "đắt",
+      "example": { "de": "Das ist zu teuer.", "vi": "Cái này đắt quá." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-billig",
+      "de": "billig",
+      "pos": "adjective",
+      "vi": "rẻ",
+      "example": { "de": "Hier ist es billiger.", "vi": "Ở đây rẻ hơn." },
+      "note": "\"billig\" đôi khi hàm ý chất lượng kém; muốn khen giá tốt thì nói \"günstig\".",
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-brauchen",
+      "de": "brauchen",
+      "pos": "verb",
+      "vi": "cần",
+      "example": { "de": "Ich brauche einen Kugelschreiber.", "vi": "Tôi cần một cây bút." },
+      "note": "Luôn đi với Akkusativ.",
+      "tags": ["mua-sam", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u05-v-suchen",
+      "de": "suchen",
+      "pos": "verb",
+      "vi": "tìm",
+      "example": { "de": "Ich suche die Milch.", "vi": "Tôi đang tìm sữa." },
+      "tags": ["mua-sam", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u05-v-bezahlen",
+      "de": "bezahlen",
+      "pos": "verb",
+      "vi": "trả tiền",
+      "example": { "de": "Ich möchte bar bezahlen.", "vi": "Tôi muốn trả bằng tiền mặt." },
+      "note": "Tiền tố be- không tách.",
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-tuete",
+      "de": "Tüte",
+      "article": "die",
+      "plural": "Tüten",
+      "pos": "noun",
+      "vi": "túi (đựng đồ)",
+      "example": { "de": "Brauchen Sie eine Tüte?", "vi": "Ông/bà có cần túi không?" },
+      "note": "Ở Đức túi nilon phải mua, không được phát miễn phí.",
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-kasse",
+      "de": "Kasse",
+      "article": "die",
+      "plural": "Kassen",
+      "pos": "noun",
+      "vi": "quầy thu ngân",
+      "example": { "de": "Die Kasse ist dort hinten.", "vi": "Quầy thu ngân ở phía sau kia." },
+      "tags": ["mua-sam"]
+    },
+    {
+      "id": "a1-2-u05-v-kilo",
+      "de": "Kilo",
+      "article": "das",
+      "plural": "Kilo",
+      "pos": "noun",
+      "vi": "cân, kilôgam",
+      "example": { "de": "Ein Kilo Äpfel, bitte.", "vi": "Cho tôi một cân táo." },
+      "tags": ["mua-sam", "so-dem"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u05-g-akkusativ",
+      "title": "Der Akkusativ",
+      "titleVi": "Cách Akkusativ (tân ngữ trực tiếp)",
+      "summary": "Dùng cho đối tượng chịu tác động của hành động. Chỉ giống đực đổi hình: der→den, ein→einen.",
+      "explanation": "Tiếng Đức có bốn cách (Kasus). Akkusativ là cách của **tân ngữ trực tiếp** — thứ chịu tác động trực tiếp của động từ.\n\n`Ich kaufe **den Apfel**.` — quả táo là thứ bị mua.\n\nCách kiểm tra: đặt câu hỏi `Wen?` (ai) hoặc `Was?` (cái gì) sau động từ.\n\n**Tin tốt cho người mới học: chỉ giống đực thay đổi.**\n\n- der → **den**, ein → **einen**, mein → **meinen**, kein → **keinen**\n- die, das và số nhiều **giữ nguyên**\n\nĐộng từ hay dùng với Akkusativ: `haben, kaufen, brauchen, suchen, essen, trinken, nehmen, sehen, lesen, machen`.\n\nMột số **giới từ luôn đi với Akkusativ**, nhớ bằng câu \"FUDGO\": `für, um, durch, gegen, ohne`.\n\n- Ich kaufe das Buch **für meinen** Bruder.\n- Ich trinke Kaffee **ohne** Milch.",
+      "examples": [
+        { "de": "Ich kaufe einen Apfel, eine Banane und ein Brot.", "vi": "Tôi mua một quả táo, một quả chuối và một ổ bánh mì.", "note": "Chỉ \"einen Apfel\" đổi vì Apfel là giống đực." },
+        { "de": "Brauchst du den Kugelschreiber?", "vi": "Bạn cần cây bút này không?" },
+        { "de": "Ich suche die Milch.", "vi": "Tôi đang tìm sữa.", "note": "die không đổi." },
+        { "de": "Das Geschenk ist für meinen Vater.", "vi": "Món quà này dành cho bố tôi." }
+      ],
+      "tables": [
+        {
+          "title": "Mạo từ ở Nominativ và Akkusativ",
+          "headers": ["Giống", "Nominativ", "Akkusativ", "Đổi?"],
+          "rows": [
+            ["đực (der)", "der / ein / mein", "den / einen / meinen", "CÓ ⚠"],
+            ["cái (die)", "die / eine / meine", "die / eine / meine", "không"],
+            ["trung (das)", "das / ein / mein", "das / ein / mein", "không"],
+            ["số nhiều", "die / meine", "die / meine", "không"]
+          ],
+          "footnote": "Học thuộc một dòng duy nhất: giống đực der → den."
+        },
+        {
+          "title": "Giới từ luôn đi với Akkusativ",
+          "headers": ["Giới từ", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["für", "cho, dành cho", "für den Vater"],
+            ["um", "quanh, lúc", "um den Tisch"],
+            ["durch", "xuyên qua", "durch den Park"],
+            ["gegen", "chống lại, khoảng", "gegen den Wind"],
+            ["ohne", "không có", "ohne den Schlüssel"]
+          ],
+          "footnote": "Mẹo nhớ: FUDGO = für, um, durch, gegen, ohne."
+        }
+      ],
+      "commonMistakes": [
+        "Quên đổi der → den: \"Ich kaufe der Apfel\" — phải là \"den Apfel\".",
+        "Đổi cả die và das theo thói quen: \"Ich kaufe dem Buch\" — das không đổi ở Akkusativ.",
+        "Dùng Nominativ sau giới từ für: \"für mein Bruder\" — phải là \"für meinen Bruder\"."
+      ],
+      "tags": ["cases", "articles", "prepositions"]
+    },
+    {
+      "id": "a1-2-u05-g-personalpronomen-akk",
+      "title": "Personalpronomen im Akkusativ",
+      "titleVi": "Đại từ nhân xưng ở Akkusativ",
+      "summary": "mich, dich, ihn, sie, es, uns, euch, sie/Sie — dùng để thay thế danh từ đã nhắc tới.",
+      "explanation": "Khi không muốn lặp lại danh từ, ta thay bằng đại từ. Ở Akkusativ, đại từ có dạng riêng:\n\n`Kaufst du **den Apfel**?` → `Ja, ich kaufe **ihn**.`\n\nĐiểm quan trọng: **đại từ phải khớp giống của danh từ tiếng Đức, không theo nghĩa tiếng Việt**.\n\n- der Tisch (bàn) → `ihn` (dù bàn là vật)\n- die Lampe (đèn) → `sie`\n- das Buch (sách) → `es`\n\nNgười học hay dùng `es` cho mọi đồ vật vì trong tiếng Anh \"it\" dùng cho mọi vật — trong tiếng Đức thì không.",
+      "examples": [
+        { "de": "Wo ist der Schlüssel? — Ich habe ihn.", "vi": "Chìa khoá đâu? — Tôi cầm rồi.", "note": "der Schlüssel → ihn." },
+        { "de": "Kennst du die Frau? — Ja, ich kenne sie.", "vi": "Bạn biết người phụ nữ đó không? — Có, tôi biết cô ấy." },
+        { "de": "Ich rufe dich morgen an.", "vi": "Mai tôi gọi cho bạn." },
+        { "de": "Verstehst du mich?", "vi": "Bạn hiểu tôi không?" }
+      ],
+      "tables": [
+        {
+          "title": "Đại từ nhân xưng",
+          "headers": ["Nominativ", "Akkusativ", "Nghĩa"],
+          "rows": [
+            ["ich", "mich", "tôi"],
+            ["du", "dich", "bạn"],
+            ["er (der …)", "ihn", "anh ấy / nó (giống đực)"],
+            ["sie (die …)", "sie", "cô ấy / nó (giống cái)"],
+            ["es (das …)", "es", "nó (giống trung)"],
+            ["wir", "uns", "chúng tôi"],
+            ["ihr", "euch", "các bạn"],
+            ["sie / Sie", "sie / Sie", "họ / ông bà"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"es\" cho mọi đồ vật: \"Wo ist der Tisch? — Ich sehe es\" — phải là \"ihn\".",
+        "Nhầm \"mich\" với \"mir\" (mir là Dativ, sẽ học ở A2).",
+        "Quên rằng \"sie\" vừa là \"cô ấy\" vừa là \"họ\" — phải nhìn động từ để phân biệt."
+      ],
+      "tags": ["cases", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u05-e-01",
+      "type": "multiple_choice",
+      "prompt": "Ich brauche ___ Kugelschreiber.",
+      "options": ["einen", "ein", "eine", "einem"],
+      "answerIndex": 0,
+      "explanation": "\"der Kugelschreiber\" giống đực + động từ brauchen đi với Akkusativ → einen.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u05-e-02",
+      "type": "fill_blank",
+      "sentence": "Ich kaufe ___ Apfel, ___ Banane und ___ Brot.",
+      "blanks": [
+        { "answers": ["einen"], "hint": "der Apfel" },
+        { "answers": ["eine"], "hint": "die Banane" },
+        { "answers": ["ein"], "hint": "das Brot" }
+      ],
+      "translation": "Tôi mua một quả táo, một quả chuối và một ổ bánh mì.",
+      "explanation": "Chỉ giống đực đổi ein → einen; die và das giữ nguyên.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u05-e-03",
+      "type": "multiple_choice",
+      "prompt": "Wo ist der Schlüssel? — Ich habe ___.",
+      "options": ["ihn", "es", "sie", "ihm"],
+      "answerIndex": 0,
+      "explanation": "\"der Schlüssel\" là giống đực → đại từ Akkusativ là \"ihn\", không phải \"es\".",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u05-e-04",
+      "type": "matching",
+      "instruction": "Nối danh từ với đại từ Akkusativ thay thế nó",
+      "pairs": [
+        { "left": "der Tisch", "right": "ihn" },
+        { "left": "die Lampe", "right": "sie" },
+        { "left": "das Buch", "right": "es" },
+        { "left": "die Bücher", "right": "sie (số nhiều)" }
+      ],
+      "explanation": "Đại từ theo giống ngữ pháp của danh từ tiếng Đức, không theo nghĩa.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u05-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu đúng",
+      "answer": ["Ich", "kaufe", "ein", "Geschenk", "für", "meinen", "Bruder"],
+      "translation": "Tôi mua một món quà cho anh trai tôi.",
+      "explanation": "Giới từ \"für\" luôn đi với Akkusativ nên \"mein Bruder\" thành \"meinen Bruder\".",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-2-u05-e-06",
+      "type": "listening",
+      "audioText": "Entschuldigung, wo finde ich die Milch? — Die Milch ist gleich dort hinten links.",
+      "mode": "choice",
+      "question": "Người mua đang tìm gì?",
+      "options": ["Sữa", "Bánh mì", "Quầy thu ngân", "Túi đựng đồ"],
+      "answerIndex": 0,
+      "explanation": "\"die Milch\" = sữa; \"dort hinten links\" = phía sau bên trái.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u05-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Cái này đắt quá.",
+      "answers": ["Das ist zu teuer.", "Das ist zu teuer", "Es ist zu teuer."],
+      "hint": "zu + tính từ = quá …",
+      "explanation": "\"zu\" trước tính từ nghĩa là \"quá\" theo hướng tiêu cực; \"sehr teuer\" chỉ là \"rất đắt\".",
+      "skillTag": "translation"
+    },
+    {
+      "id": "a1-2-u05-e-08",
+      "type": "multiple_choice",
+      "prompt": "Giới từ nào KHÔNG luôn đi với Akkusativ?",
+      "options": ["mit", "für", "ohne", "durch"],
+      "answerIndex": 0,
+      "explanation": "\"mit\" luôn đi với Dativ. Nhóm Akkusativ là für, um, durch, gegen, ohne (FUDGO).",
+      "skillTag": "prepositions"
+    }
+  ]
+}

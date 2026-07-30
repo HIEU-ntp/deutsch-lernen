@@ -1,0 +1,322 @@
+{
+  "id": "a1-1-u09-familie",
+  "level": "A1.1",
+  "order": 9,
+  "slug": "familie",
+  "title": "Meine Familie",
+  "titleVi": "Gia đình tôi",
+  "description": "Từ vựng về gia đình cùng mạo từ sở hữu (mein, dein, sein…) và động từ haben — bộ công cụ để kể về người thân.",
+  "goals": [
+    "Gọi tên các thành viên trong gia đình",
+    "Dùng đúng mein/meine theo giống của danh từ",
+    "Chia động từ haben và nói về việc sở hữu"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u09-v-familie",
+      "de": "Familie",
+      "article": "die",
+      "plural": "Familien",
+      "pos": "noun",
+      "vi": "gia đình",
+      "example": { "de": "Meine Familie wohnt in Hue.", "vi": "Gia đình tôi sống ở Huế." },
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-vater",
+      "de": "Vater",
+      "article": "der",
+      "plural": "Väter",
+      "pos": "noun",
+      "vi": "bố",
+      "example": { "de": "Mein Vater ist Lehrer.", "vi": "Bố tôi là giáo viên." },
+      "note": "Cách gọi thân mật: der Papa / der Papi.",
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-mutter",
+      "de": "Mutter",
+      "article": "die",
+      "plural": "Mütter",
+      "pos": "noun",
+      "vi": "mẹ",
+      "example": { "de": "Meine Mutter kocht sehr gut.", "vi": "Mẹ tôi nấu ăn rất ngon." },
+      "note": "Thân mật: die Mama / die Mutti.",
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-eltern",
+      "de": "Eltern",
+      "article": "die",
+      "plural": "Eltern",
+      "pos": "noun",
+      "vi": "bố mẹ",
+      "example": { "de": "Meine Eltern sind in Vietnam.", "vi": "Bố mẹ tôi ở Việt Nam." },
+      "note": "Từ này CHỈ tồn tại ở số nhiều — không có \"das Eltern\".",
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-bruder",
+      "de": "Bruder",
+      "article": "der",
+      "plural": "Brüder",
+      "pos": "noun",
+      "vi": "anh/em trai",
+      "example": { "de": "Ich habe einen Bruder.", "vi": "Tôi có một người anh/em trai." },
+      "note": "Tiếng Đức không phân biệt anh và em như tiếng Việt — muốn rõ thì nói \"mein älterer/jüngerer Bruder\".",
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-schwester",
+      "de": "Schwester",
+      "article": "die",
+      "plural": "Schwestern",
+      "pos": "noun",
+      "vi": "chị/em gái",
+      "example": { "de": "Meine Schwester studiert in Berlin.", "vi": "Chị/em gái tôi học đại học ở Berlin." },
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-kind",
+      "de": "Kind",
+      "article": "das",
+      "plural": "Kinder",
+      "pos": "noun",
+      "vi": "đứa trẻ, con",
+      "example": { "de": "Wir haben zwei Kinder.", "vi": "Chúng tôi có hai đứa con." },
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-sohn",
+      "de": "Sohn",
+      "article": "der",
+      "plural": "Söhne",
+      "pos": "noun",
+      "vi": "con trai",
+      "example": { "de": "Ihr Sohn ist sechs Jahre alt.", "vi": "Con trai bà ấy sáu tuổi." },
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-tochter",
+      "de": "Tochter",
+      "article": "die",
+      "plural": "Töchter",
+      "pos": "noun",
+      "vi": "con gái",
+      "example": { "de": "Meine Tochter geht zur Schule.", "vi": "Con gái tôi đi học." },
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-grossmutter",
+      "de": "Großmutter",
+      "article": "die",
+      "plural": "Großmütter",
+      "pos": "noun",
+      "vi": "bà",
+      "example": { "de": "Meine Großmutter ist 80 Jahre alt.", "vi": "Bà tôi 80 tuổi." },
+      "note": "Thân mật: die Oma. Ông là der Großvater / der Opa.",
+      "tags": ["gia-dinh"]
+    },
+    {
+      "id": "a1-1-u09-v-haben",
+      "de": "haben",
+      "pos": "verb",
+      "vi": "có",
+      "principalParts": "haben, hatte, hat gehabt",
+      "example": { "de": "Ich habe eine Schwester.", "vi": "Tôi có một chị/em gái." },
+      "note": "Bất quy tắc ở ngôi du và er/sie/es: du hast, er hat (mất chữ b).",
+      "tags": ["gia-dinh", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u09-v-mann",
+      "de": "Mann",
+      "article": "der",
+      "plural": "Männer",
+      "pos": "noun",
+      "vi": "người đàn ông; chồng",
+      "example": { "de": "Mein Mann arbeitet bei Siemens.", "vi": "Chồng tôi làm ở Siemens." },
+      "note": "\"mein Mann\" = chồng tôi; \"meine Frau\" = vợ tôi.",
+      "tags": ["gia-dinh"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u09-g-possessiv",
+      "title": "Possessivartikel: mein, dein, sein …",
+      "titleVi": "Mạo từ sở hữu",
+      "summary": "Đuôi của mein/dein phụ thuộc vào GIỐNG của vật sở hữu, không phải giới tính người sở hữu.",
+      "explanation": "Đây là điểm ngược với trực giác của người học tiếng Anh.\n\nTrong tiếng Anh, \"his/her\" phụ thuộc vào **người sở hữu**. Trong tiếng Đức, đuôi của mạo từ sở hữu phụ thuộc vào **danh từ đứng sau nó**:\n\n- mein Vater (der Vater → không đuôi)\n- mein**e** Mutter (die Mutter → đuôi -e)\n- mein Kind (das Kind → không đuôi)\n- mein**e** Eltern (số nhiều → đuôi -e)\n\nQuy tắc đơn giản ở cách Nominativ: **der/das → không đuôi, die và số nhiều → thêm -e**.\n\nRiêng phần gốc từ thì phụ thuộc người sở hữu:\n\n- ich → mein, du → dein, er → sein, sie → ihr, wir → unser, ihr → euer, sie/Sie → ihr/Ihr\n\nVí dụ dễ nhầm: `sein Vater` = bố của ANH ẤY; `ihr Vater` = bố của CÔ ẤY.",
+      "examples": [
+        { "de": "Mein Bruder heißt Nam.", "vi": "Anh trai tôi tên Nam." },
+        { "de": "Meine Schwester ist Ärztin.", "vi": "Chị tôi là bác sĩ." },
+        { "de": "Ihr Mann arbeitet in Berlin.", "vi": "Chồng cô ấy làm việc ở Berlin." },
+        { "de": "Wie heißt deine Mutter?", "vi": "Mẹ bạn tên gì?" }
+      ],
+      "tables": [
+        {
+          "title": "Mạo từ sở hữu ở Nominativ",
+          "headers": ["Người sở hữu", "der / das + …", "die + … / số nhiều"],
+          "rows": [
+            ["ich", "mein Vater", "meine Mutter"],
+            ["du", "dein Vater", "deine Mutter"],
+            ["er / es", "sein Vater", "seine Mutter"],
+            ["sie (cô ấy)", "ihr Vater", "ihre Mutter"],
+            ["wir", "unser Vater", "unsere Mutter"],
+            ["ihr (các bạn)", "euer Vater", "eure Mutter"],
+            ["sie (họ) / Sie", "ihr / Ihr Vater", "ihre / Ihre Mutter"]
+          ],
+          "footnote": "\"euer\" bỏ chữ e khi thêm đuôi: euer → eure (không phải \"euere\")."
+        }
+      ],
+      "commonMistakes": [
+        "Chọn đuôi theo giới tính người sở hữu như tiếng Anh: \"meine Vater\" vì người nói là nữ — sai, phải là \"mein Vater\".",
+        "Quên -e trước danh từ giống cái: \"mein Mutter\".",
+        "Viết \"euere\" thay vì \"eure\"."
+      ],
+      "tags": ["articles", "noun-gender"]
+    },
+    {
+      "id": "a1-1-u09-g-haben",
+      "title": "Das Verb „haben\"",
+      "titleVi": "Động từ haben và cách Akkusativ",
+      "summary": "haben bất quy tắc ở hai ngôi, và luôn kéo theo tân ngữ ở cách Akkusativ.",
+      "explanation": "`haben` mất chữ **b** ở ngôi `du` và `er/sie/es`: du **hast**, er **hat**.\n\nQuan trọng hơn: `haben` là động từ đi với **Akkusativ**. Với danh từ giống đực, mạo từ đổi:\n\n- ein Bruder (Nominativ) → Ich habe **einen** Bruder (Akkusativ)\n- eine Schwester → Ich habe **eine** Schwester (không đổi)\n- ein Kind → Ich habe **ein** Kind (không đổi)\n\nChỉ giống đực đổi ở Akkusativ — đây là tin tốt cho người mới học. Bạn sẽ học kỹ Akkusativ ở cấp A1.2.\n\nĐể nói \"không có\", dùng `kein-`: `Ich habe **keinen** Bruder` (Tôi không có anh em trai).",
+      "examples": [
+        { "de": "Ich habe einen Bruder und eine Schwester.", "vi": "Tôi có một anh trai và một chị gái." },
+        { "de": "Hast du Kinder? — Nein, ich habe keine Kinder.", "vi": "Bạn có con chưa? — Chưa, tôi chưa có con." },
+        { "de": "Meine Eltern haben ein Haus in Hue.", "vi": "Bố mẹ tôi có một căn nhà ở Huế." }
+      ],
+      "tables": [
+        {
+          "title": "haben — Präsens",
+          "headers": ["Ngôi", "Chia"],
+          "rows": [
+            ["ich", "habe"],
+            ["du", "hast"],
+            ["er / sie / es", "hat"],
+            ["wir", "haben"],
+            ["ihr", "habt"],
+            ["sie / Sie", "haben"]
+          ]
+        },
+        {
+          "title": "Mạo từ sau haben (Akkusativ)",
+          "headers": ["Giống", "Nominativ", "Akkusativ"],
+          "rows": [
+            ["der (đực)", "ein Bruder", "einen Bruder ⚠"],
+            ["die (cái)", "eine Schwester", "eine Schwester"],
+            ["das (trung)", "ein Kind", "ein Kind"],
+            ["số nhiều", "Kinder", "Kinder"]
+          ],
+          "footnote": "⚠ Chỉ giống đực thay đổi ở Akkusativ."
+        }
+      ],
+      "commonMistakes": [
+        "Nói \"Ich habe ein Bruder\" — phải là \"einen Bruder\".",
+        "Chia \"du habst\" — phải là \"du hast\".",
+        "Dùng \"nicht\" thay vì \"kein\": \"Ich habe nicht einen Bruder\" — phải là \"keinen Bruder\"."
+      ],
+      "tags": ["verb-conjugation", "cases"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u09-e-01",
+      "type": "conjugation",
+      "verb": "haben",
+      "verbVi": "có",
+      "tense": "praesens",
+      "tenseLabel": "Präsens (hiện tại)",
+      "rows": [
+        { "pronoun": "ich", "answer": "habe", "prefilled": true },
+        { "pronoun": "du", "answer": "hast" },
+        { "pronoun": "er/sie/es", "answer": "hat" },
+        { "pronoun": "wir", "answer": "haben" },
+        { "pronoun": "ihr", "answer": "habt" },
+        { "pronoun": "sie/Sie", "answer": "haben" }
+      ],
+      "note": "Chú ý: ngôi du và er/sie/es mất chữ b.",
+      "explanation": "habe – hast – hat – haben – habt – haben.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-1-u09-e-02",
+      "type": "fill_blank",
+      "sentence": "___ Vater ist Lehrer und ___ Mutter ist Ärztin.",
+      "blanks": [
+        { "answers": ["Mein"], "hint": "der Vater" },
+        { "answers": ["meine"], "hint": "die Mutter" }
+      ],
+      "translation": "Bố tôi là giáo viên và mẹ tôi là bác sĩ.",
+      "explanation": "Đuôi phụ thuộc vào giống danh từ đứng sau: der Vater → mein; die Mutter → meine.",
+      "skillTag": "articles"
+    },
+    {
+      "id": "a1-1-u09-e-03",
+      "type": "multiple_choice",
+      "prompt": "Ich habe ___ Bruder.",
+      "options": ["einen", "ein", "eine", "einem"],
+      "answerIndex": 0,
+      "explanation": "\"haben\" đi với Akkusativ; \"der Bruder\" là giống đực nên ein → einen.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-1-u09-e-04",
+      "type": "multiple_choice",
+      "prompt": "Anna nói về bố của cô ấy. Câu nào ĐÚNG?",
+      "options": ["Ihr Vater ist Ingenieur.", "Sein Vater ist Ingenieur.", "Ihre Vater ist Ingenieur.", "Seine Vater ist Ingenieur."],
+      "answerIndex": 0,
+      "explanation": "Anna là \"sie\" → dùng \"ihr\"; \"der Vater\" giống đực nên không thêm đuôi → ihr Vater.",
+      "skillTag": "articles"
+    },
+    {
+      "id": "a1-1-u09-e-05",
+      "type": "matching",
+      "instruction": "Nối từ với nghĩa tiếng Việt",
+      "pairs": [
+        { "left": "die Eltern", "right": "bố mẹ" },
+        { "left": "die Großmutter", "right": "bà" },
+        { "left": "die Tochter", "right": "con gái" },
+        { "left": "der Sohn", "right": "con trai" },
+        { "left": "die Geschwister", "right": "anh chị em ruột" }
+      ],
+      "explanation": "\"die Eltern\" và \"die Geschwister\" chỉ tồn tại ở dạng số nhiều.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u09-e-06",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hoàn chỉnh",
+      "answer": ["Meine", "Schwester", "hat", "zwei", "Kinder"],
+      "translation": "Chị/em gái tôi có hai đứa con.",
+      "explanation": "\"Meine Schwester\" là MỘT thành phần ở vị trí 1, động từ \"hat\" ở vị trí 2.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u09-e-07",
+      "type": "listening",
+      "audioText": "Ich habe einen Bruder und zwei Schwestern. Meine Eltern wohnen in Hamburg.",
+      "mode": "choice",
+      "question": "Người nói có bao nhiêu anh chị em?",
+      "options": ["Ba người", "Hai người", "Một người", "Bốn người"],
+      "answerIndex": 0,
+      "explanation": "einen Bruder (1) + zwei Schwestern (2) = 3 anh chị em.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u09-e-08",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Bạn có anh chị em không?",
+      "answers": [
+        "Hast du Geschwister?",
+        "Haben Sie Geschwister?",
+        "Hast du Geschwister",
+        "Haben Sie Geschwister"
+      ],
+      "hint": "die Geschwister = anh chị em ruột",
+      "explanation": "Câu hỏi Ja/Nein nên động từ \"hast/haben\" đứng đầu câu.",
+      "skillTag": "translation"
+    }
+  ]
+}

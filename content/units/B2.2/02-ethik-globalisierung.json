@@ -1,0 +1,260 @@
+{
+  "id": "b2-2-u02-ethik",
+  "level": "B2.2",
+  "order": 2,
+  "slug": "ethik-globalisierung",
+  "title": "Ethik und Globalisierung",
+  "titleVi": "Đạo đức và toàn cầu hoá",
+  "description": "Tranh luận về những câu hỏi đạo đức không có lời giải dễ. Ngữ pháp: mệnh đề phụ nhiều tầng và bộ liên từ trình độ cao.",
+  "goals": [
+    "Xây dựng lập luận nhiều tầng có phản biện",
+    "Dùng liên từ nâng cao (indem, sofern, insofern als)",
+    "Diễn đạt mức độ chắc chắn khác nhau"
+  ],
+  "vocabulary": [
+    {
+      "id": "b2-2-u02-v-verantwortung",
+      "de": "Verantwortung",
+      "article": "die",
+      "pos": "noun",
+      "vi": "trách nhiệm",
+      "example": { "de": "Jeder trägt Verantwortung für sein Handeln.", "vi": "Ai cũng gánh trách nhiệm cho hành động của mình." },
+      "tags": ["dao-duc"]
+    },
+    {
+      "id": "b2-2-u02-v-gerechtigkeit",
+      "de": "Gerechtigkeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "công lý, công bằng",
+      "example": { "de": "Globale Gerechtigkeit bleibt ein Ideal.", "vi": "Công bằng toàn cầu vẫn là một lý tưởng." },
+      "tags": ["dao-duc"]
+    },
+    {
+      "id": "b2-2-u02-v-ausbeutung",
+      "de": "Ausbeutung",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự bóc lột",
+      "example": { "de": "Billige Kleidung beruht oft auf Ausbeutung.", "vi": "Quần áo giá rẻ thường dựa trên sự bóc lột." },
+      "tags": ["dao-duc"]
+    },
+    {
+      "id": "b2-2-u02-v-lieferkette",
+      "de": "Lieferkette",
+      "article": "die",
+      "plural": "Lieferketten",
+      "pos": "noun",
+      "vi": "chuỗi cung ứng",
+      "example": { "de": "Lieferketten sind kaum transparent.", "vi": "Chuỗi cung ứng gần như không minh bạch." },
+      "tags": ["dao-duc", "kinh-te"]
+    },
+    {
+      "id": "b2-2-u02-v-abwaegen",
+      "de": "abwägen",
+      "pos": "verb",
+      "vi": "cân nhắc, cân đo",
+      "principalParts": "abwägen, wog ab, hat abgewogen",
+      "example": { "de": "Man muss Vor- und Nachteile abwägen.", "vi": "Phải cân nhắc lợi và hại." },
+      "tags": ["dao-duc", "lap-luan"]
+    },
+    {
+      "id": "b2-2-u02-v-fragwuerdig",
+      "de": "fragwürdig",
+      "pos": "adjective",
+      "vi": "đáng ngờ, có vấn đề",
+      "example": { "de": "Diese Praxis ist ethisch fragwürdig.", "vi": "Cách làm này đáng ngờ về mặt đạo đức." },
+      "tags": ["dao-duc"]
+    },
+    {
+      "id": "b2-2-u02-v-zweischneidig",
+      "de": "zweischneidig",
+      "pos": "adjective",
+      "vi": "con dao hai lưỡi",
+      "example": { "de": "Globalisierung ist ein zweischneidiges Schwert.", "vi": "Toàn cầu hoá là con dao hai lưỡi." },
+      "tags": ["dao-duc"]
+    },
+    {
+      "id": "b2-2-u02-v-beruecksichtigen",
+      "de": "berücksichtigen",
+      "pos": "verb",
+      "vi": "tính đến, xét đến",
+      "example": { "de": "Man muss lokale Bedingungen berücksichtigen.", "vi": "Phải tính đến điều kiện địa phương." },
+      "tags": ["dao-duc", "lap-luan"]
+    },
+    {
+      "id": "b2-2-u02-v-wohlstand",
+      "de": "Wohlstand",
+      "article": "der",
+      "pos": "noun",
+      "vi": "sự thịnh vượng",
+      "example": { "de": "Wohlstand ist ungleich verteilt.", "vi": "Thịnh vượng được phân bổ không đồng đều." },
+      "tags": ["dao-duc", "kinh-te"]
+    },
+    {
+      "id": "b2-2-u02-v-nachvollziehbar",
+      "de": "nachvollziehbar",
+      "pos": "adjective",
+      "vi": "có thể hiểu được, hợp lý",
+      "example": { "de": "Seine Argumente sind durchaus nachvollziehbar.", "vi": "Lập luận của anh ấy hoàn toàn có thể hiểu được." },
+      "tags": ["lap-luan"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b2-2-u02-g-konnektoren",
+      "title": "Konnektoren für anspruchsvolle Texte",
+      "titleVi": "Liên từ cho văn bản trình độ cao",
+      "summary": "indem, sofern, insofern als, geschweige denn — bộ liên từ tạo nên chất lượng lập luận ở B2.2 và C1.",
+      "explanation": "Ở B2.2, việc chỉ dùng `weil`, `aber`, `deshalb` là chưa đủ. Bộ liên từ sau tạo ra những quan hệ logic tinh tế hơn:\n\n**`indem`** — chỉ *phương thức* (bằng cách nào):\n`Man kann etwas ändern, **indem** man bewusster konsumiert.` (bằng cách tiêu dùng có ý thức hơn)\n\n**`sofern` / `soweit`** — điều kiện hạn định (chừng nào mà):\n`**Sofern** die Bedingungen fair sind, ist Handel positiv.`\n\n**`insofern als`** — giới hạn phạm vi đúng của một nhận định:\n`Die Aussage stimmt **insofern**, **als** sie nur für Industrieländer gilt.`\n\n**`ohne dass` / `ohne … zu`** — mà không:\n`Sie profitieren, **ohne** Verantwortung **zu** übernehmen.`\n\n**`anstatt dass` / `anstatt … zu`** — thay vì:\n`**Anstatt zu** diskutieren, sollte man handeln.`\n\n**`geschweige denn`** — huống hồ (sau một phủ định):\n`Er spricht kaum Deutsch, **geschweige denn** Französisch.`\n\nQuy tắc dùng dạng rút gọn `ohne … zu` / `anstatt … zu`: chỉ được rút gọn khi **chủ ngữ hai vế giống nhau**.",
+      "examples": [
+        { "de": "Man kann viel bewirken, indem man lokal einkauft.", "vi": "Có thể tạo ra nhiều thay đổi bằng cách mua hàng địa phương." },
+        { "de": "Sofern die Löhne fair sind, spricht nichts gegen Globalisierung.", "vi": "Chừng nào lương công bằng thì không có gì phản đối toàn cầu hoá." },
+        { "de": "Unternehmen profitieren, ohne Verantwortung zu übernehmen.", "vi": "Doanh nghiệp hưởng lợi mà không nhận trách nhiệm." },
+        { "de": "Anstatt zu klagen, sollte man Alternativen suchen.", "vi": "Thay vì than phiền, nên tìm giải pháp thay thế." }
+      ],
+      "tables": [
+        {
+          "title": "Liên từ nâng cao",
+          "headers": ["Liên từ", "Quan hệ logic", "Vị trí động từ"],
+          "rows": [
+            ["indem", "phương thức", "cuối mệnh đề phụ"],
+            ["sofern / soweit", "điều kiện hạn định", "cuối mệnh đề phụ"],
+            ["insofern als", "giới hạn phạm vi", "cuối mệnh đề phụ"],
+            ["ohne dass", "mà không (chủ ngữ khác)", "cuối mệnh đề phụ"],
+            ["ohne … zu", "mà không (cùng chủ ngữ)", "nguyên thể cuối"],
+            ["anstatt … zu", "thay vì", "nguyên thể cuối"],
+            ["geschweige denn", "huống hồ", "không đổi trật tự"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng \"ohne … zu\" khi hai vế khác chủ ngữ — lúc đó phải dùng \"ohne dass\".",
+        "Nhầm \"indem\" (bằng cách) với \"in dem\" (trong cái mà) — viết liền hay tách rời đổi hẳn nghĩa.",
+        "Dùng \"geschweige denn\" sau câu khẳng định — nó chỉ đi sau phủ định."
+      ],
+      "tags": ["connectors", "subordinate-clauses"]
+    },
+    {
+      "id": "b2-2-u02-g-modalitaet",
+      "title": "Subjektive Modalverben",
+      "titleVi": "Động từ khuyết thiếu mang nghĩa phỏng đoán",
+      "summary": "Cùng những động từ đã biết, nhưng ở nghĩa thứ hai chúng diễn tả mức độ chắc chắn của người nói.",
+      "explanation": "Động từ khuyết thiếu có **hai lớp nghĩa**. Lớp thứ hai — nghĩa chủ quan — diễn tả **mức độ tin chắc của người nói**, và chỉ phân biệt được nhờ ngữ cảnh.\n\n**So sánh:**\n\n- Khách quan: `Er **muss** arbeiten.` = Anh ta phải làm việc (bắt buộc)\n- Chủ quan: `Er **muss** krank sein.` = Chắc chắn anh ta ốm (tôi rất tin vậy)\n\n**Thang mức độ chắc chắn:**\n\n| Cấu trúc | Mức chắc chắn |\n|---|---|\n| Er **muss** krank sein. | ~95% — gần như chắc chắn |\n| Er **dürfte** krank sein. | ~75% — nhiều khả năng |\n| Er **könnte** krank sein. | ~50% — có thể |\n| Er **kann** nicht krank sein. | loại trừ |\n\nNgoài ra `sollen` và `wollen` có nghĩa chủ quan riêng liên quan tới **nguồn tin**:\n\n- `Er **soll** reich sein.` = Nghe đồn anh ta giàu (người khác nói)\n- `Er **will** alles gewusst haben.` = Anh ta *tự nhận* là biết hết (người nói tỏ ý hoài nghi)\n\nĐể nói về quá khứ, dùng modal + Partizip II + `haben/sein`:\n`Er **muss** das **gewusst haben**.` (Chắc chắn anh ta đã biết điều đó.)",
+      "examples": [
+        { "de": "Die Zahlen müssen falsch sein.", "vi": "Số liệu chắc chắn là sai." },
+        { "de": "Das dürfte schwierig werden.", "vi": "Chuyện này chắc sẽ khó đây." },
+        { "de": "Er soll die Firma verlassen haben.", "vi": "Nghe nói anh ta đã rời công ty." },
+        { "de": "Sie will davon nichts gewusst haben.", "vi": "Cô ta tự nhận là chẳng biết gì về chuyện đó.", "note": "Hàm ý người nói không tin." }
+      ],
+      "tables": [
+        {
+          "title": "Hai lớp nghĩa",
+          "headers": ["Động từ", "Nghĩa khách quan", "Nghĩa chủ quan"],
+          "rows": [
+            ["müssen", "bắt buộc", "gần như chắc chắn"],
+            ["dürfen (dürfte)", "được phép", "nhiều khả năng"],
+            ["können (könnte)", "có thể làm", "có lẽ"],
+            ["sollen", "được yêu cầu", "nghe đồn rằng"],
+            ["wollen", "muốn", "tự nhận là (hoài nghi)"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Hiểu \"Er soll reich sein\" là \"anh ta nên giàu\" — thực ra là \"nghe nói anh ta giàu\".",
+        "Dùng \"dürfte\" như \"được phép\" trong ngữ cảnh phỏng đoán.",
+        "Quên rằng nghĩa chủ quan ở quá khứ cần \"Partizip II + haben/sein\"."
+      ],
+      "tags": ["verb-conjugation", "subjunctive"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-2-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Man kann etwas verändern, ___ man bewusster konsumiert.",
+      "options": ["indem", "in dem", "sofern", "obwohl"],
+      "answerIndex": 0,
+      "explanation": "\"indem\" chỉ phương thức: bằng cách tiêu dùng có ý thức hơn. \"in dem\" viết tách là đại từ quan hệ.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-2-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "\"Er soll die Firma verlassen haben.\" nghĩa là gì?",
+      "options": [
+        "Nghe nói anh ta đã rời công ty",
+        "Anh ta nên rời công ty",
+        "Anh ta buộc phải rời công ty",
+        "Anh ta muốn rời công ty"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"sollen\" ở nghĩa chủ quan = theo lời người khác, nghe đồn rằng.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "b2-2-u02-e-03",
+      "type": "multiple_choice",
+      "prompt": "Cách nào diễn tả mức chắc chắn CAO NHẤT?",
+      "options": [
+        "Die Zahlen müssen falsch sein.",
+        "Die Zahlen dürften falsch sein.",
+        "Die Zahlen könnten falsch sein.",
+        "Die Zahlen mögen falsch sein."
+      ],
+      "answerIndex": 0,
+      "explanation": "Thang mức độ: müssen (~95%) > dürfte (~75%) > könnte (~50%).",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "b2-2-u02-e-04",
+      "type": "fill_blank",
+      "sentence": "Unternehmen profitieren, ___ Verantwortung ___ übernehmen.",
+      "blanks": [
+        { "answers": ["ohne"], "hint": "mà không" },
+        { "answers": ["zu"], "hint": "trước nguyên thể" }
+      ],
+      "translation": "Doanh nghiệp hưởng lợi mà không nhận trách nhiệm.",
+      "explanation": "Hai vế cùng chủ ngữ nên được rút gọn thành \"ohne … zu + nguyên thể\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-2-u02-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu với anstatt … zu",
+      "answer": ["Anstatt", "zu", "klagen", "sollte", "man", "Alternativen", "suchen"],
+      "translation": "Thay vì than phiền, nên tìm giải pháp thay thế.",
+      "explanation": "Cụm \"Anstatt zu klagen\" chiếm vị trí 1, nên động từ \"sollte\" đứng ngay sau.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "b2-2-u02-e-06",
+      "type": "matching",
+      "instruction": "Nối liên từ với quan hệ logic",
+      "pairs": [
+        { "left": "indem", "right": "bằng cách nào" },
+        { "left": "sofern", "right": "chừng nào mà" },
+        { "left": "ohne dass", "right": "mà không" },
+        { "left": "geschweige denn", "right": "huống hồ là" }
+      ],
+      "explanation": "\"geschweige denn\" chỉ dùng sau một câu phủ định.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-2-u02-e-07",
+      "type": "listening",
+      "audioText": "Globalisierung ist ein zweischneidiges Schwert: Sie schafft Wohlstand, kann aber auch Ausbeutung fördern.",
+      "mode": "choice",
+      "question": "Quan điểm của người nói là gì?",
+      "options": [
+        "Toàn cầu hoá có cả mặt tốt lẫn mặt xấu",
+        "Toàn cầu hoá hoàn toàn tiêu cực",
+        "Toàn cầu hoá hoàn toàn tích cực",
+        "Toàn cầu hoá không ảnh hưởng gì"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"zweischneidiges Schwert\" = con dao hai lưỡi, theo sau là một mặt tốt và một mặt xấu.",
+      "skillTag": "listening"
+    }
+  ]
+}

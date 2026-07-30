@@ -1,0 +1,247 @@
+{
+  "id": "a2-2-u02-reisen",
+  "level": "A2.2",
+  "order": 2,
+  "slug": "reisen",
+  "title": "Reisen und Urlaub",
+  "titleVi": "Du lịch và kỳ nghỉ",
+  "description": "Kể lại chuyến đi, đặt phòng và so sánh các lựa chọn. Ngữ pháp: so sánh hơn và so sánh nhất.",
+  "goals": [
+    "Đặt phòng khách sạn và xử lý tình huống thường gặp",
+    "So sánh hai lựa chọn bằng Komparativ",
+    "Dùng Superlativ để nói \"nhất\""
+  ],
+  "vocabulary": [
+    {
+      "id": "a2-2-u02-v-urlaub",
+      "de": "Urlaub",
+      "article": "der",
+      "plural": "Urlaube",
+      "pos": "noun",
+      "vi": "kỳ nghỉ phép",
+      "example": { "de": "Ich fahre im August in Urlaub.", "vi": "Tháng Tám tôi đi nghỉ." },
+      "note": "Phân biệt: Urlaub = nghỉ phép của người đi làm; Ferien = nghỉ của học sinh.",
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-unterkunft",
+      "de": "Unterkunft",
+      "article": "die",
+      "plural": "Unterkünfte",
+      "pos": "noun",
+      "vi": "chỗ ở",
+      "example": { "de": "Die Unterkunft war sauber und günstig.", "vi": "Chỗ ở sạch sẽ và giá tốt." },
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-buchen",
+      "de": "buchen",
+      "pos": "verb",
+      "vi": "đặt (phòng, vé)",
+      "example": { "de": "Ich habe ein Doppelzimmer gebucht.", "vi": "Tôi đã đặt một phòng đôi." },
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-reservierung",
+      "de": "Reservierung",
+      "article": "die",
+      "plural": "Reservierungen",
+      "pos": "noun",
+      "vi": "sự đặt chỗ",
+      "example": { "de": "Ich habe eine Reservierung auf den Namen Nguyen.", "vi": "Tôi có đặt chỗ dưới tên Nguyễn." },
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-gepaeck",
+      "de": "Gepäck",
+      "article": "das",
+      "pos": "noun",
+      "vi": "hành lý",
+      "example": { "de": "Mein Gepäck ist noch nicht angekommen.", "vi": "Hành lý của tôi vẫn chưa tới." },
+      "note": "Không có số nhiều — là danh từ tập hợp.",
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-sehenswuerdigkeit",
+      "de": "Sehenswürdigkeit",
+      "article": "die",
+      "plural": "Sehenswürdigkeiten",
+      "pos": "noun",
+      "vi": "điểm tham quan",
+      "example": { "de": "Berlin hat viele Sehenswürdigkeiten.", "vi": "Berlin có nhiều điểm tham quan." },
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-besichtigen",
+      "de": "besichtigen",
+      "pos": "verb",
+      "vi": "tham quan",
+      "example": { "de": "Wir haben das Schloss besichtigt.", "vi": "Chúng tôi đã tham quan lâu đài." },
+      "note": "Tiền tố be- không tách → Partizip II không có ge-.",
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-guenstig",
+      "de": "günstig",
+      "pos": "adjective",
+      "vi": "giá phải chăng, thuận lợi",
+      "example": { "de": "Der Flug war sehr günstig.", "vi": "Chuyến bay có giá rất tốt." },
+      "note": "Lịch sự hơn \"billig\" — billig đôi khi hàm ý chất lượng kém.",
+      "tags": ["du-lich", "mua-sam"]
+    },
+    {
+      "id": "a2-2-u02-v-empfehlen",
+      "de": "empfehlen",
+      "pos": "verb",
+      "vi": "giới thiệu, khuyên dùng",
+      "principalParts": "empfehlen, empfahl, hat empfohlen",
+      "example": { "de": "Können Sie mir ein Restaurant empfehlen?", "vi": "Ông/bà giới thiệu cho tôi một nhà hàng được không?" },
+      "tags": ["du-lich"]
+    },
+    {
+      "id": "a2-2-u02-v-erlebnis",
+      "de": "Erlebnis",
+      "article": "das",
+      "plural": "Erlebnisse",
+      "pos": "noun",
+      "vi": "trải nghiệm",
+      "example": { "de": "Das war ein tolles Erlebnis.", "vi": "Đó là một trải nghiệm tuyệt vời." },
+      "tags": ["du-lich"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a2-2-u02-g-komparativ",
+      "title": "Komparativ und Superlativ",
+      "titleVi": "So sánh hơn và so sánh nhất",
+      "summary": "Thêm -er cho so sánh hơn, am …-sten cho so sánh nhất. Tính từ ngắn thường thêm cả Umlaut.",
+      "explanation": "**So sánh hơn (Komparativ):** tính từ + `-er`, dùng với `als`.\n\n`München ist **kleiner als** Berlin.`\n\nTính từ một âm tiết có a/o/u thường **thêm Umlaut**: alt → **ä**lter, groß → gr**ö**ßer, jung → j**ü**nger.\n\n**So sánh nhất (Superlativ):** hai dạng tuỳ vị trí\n\n- Đứng một mình (sau động từ): `am` + tính từ + `-sten` → `Der Zug ist **am schnellsten**.`\n- Đứng trước danh từ: mạo từ + tính từ + `-ste` → `der **schnellste** Zug`\n\n**So sánh bằng nhau:** `so … wie`\n\n`Der Flug ist **so teuer wie** der Zug.`\n\nLỗi kinh điển: dùng `wie` thay cho `als` khi so sánh hơn. `als` cho khác nhau, `wie` cho bằng nhau.\n\n**Bất quy tắc phải học thuộc:** gut → besser → am besten; viel → mehr → am meisten; gern → lieber → am liebsten; hoch → höher → am höchsten.",
+      "examples": [
+        { "de": "Der Zug ist billiger als das Flugzeug.", "vi": "Tàu rẻ hơn máy bay." },
+        { "de": "Das war der schönste Urlaub meines Lebens.", "vi": "Đó là kỳ nghỉ đẹp nhất đời tôi." },
+        { "de": "Im Sommer ist es hier am wärmsten.", "vi": "Mùa hè ở đây là nóng nhất." },
+        { "de": "Das Hotel ist so gut wie das andere.", "vi": "Khách sạn này tốt ngang khách sạn kia." }
+      ],
+      "tables": [
+        {
+          "title": "Ba bậc so sánh",
+          "headers": ["Nguyên cấp", "Komparativ", "Superlativ", "Ghi chú"],
+          "rows": [
+            ["billig", "billiger", "am billigsten", "đều"],
+            ["alt", "älter", "am ältesten", "thêm Umlaut"],
+            ["groß", "größer", "am größten", "thêm Umlaut"],
+            ["gut", "besser", "am besten", "bất quy tắc"],
+            ["viel", "mehr", "am meisten", "bất quy tắc"],
+            ["gern", "lieber", "am liebsten", "bất quy tắc"],
+            ["hoch", "höher", "am höchsten", "bất quy tắc"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng wie thay als: \"größer wie\" — phải là \"größer als\".",
+        "Quên Umlaut: \"alter als\" thay vì \"älter als\".",
+        "Dùng \"mehr schön\" theo kiểu tiếng Anh — tiếng Đức luôn thêm đuôi: \"schöner\"."
+      ],
+      "tags": ["adjective-endings", "vocabulary"]
+    },
+    {
+      "id": "a2-2-u02-g-perfekt-erzaehlen",
+      "title": "Eine Reise erzählen",
+      "titleVi": "Kể lại một chuyến đi",
+      "summary": "Kết hợp Perfekt, trạng ngữ thời gian và từ nối để kể chuyện mạch lạc.",
+      "explanation": "Khi kể chuyện quá khứ trong hội thoại, dùng **Perfekt** cho hành động và **Präteritum** cho `sein`, `haben`, động từ khuyết thiếu.\n\n`Wir **sind** nach Italien **gefahren**. Das Wetter **war** super und wir **hatten** viel Zeit.`\n\n**Từ nối để câu chuyện có mạch:**\n\n- Bắt đầu: `Zuerst …`, `Am ersten Tag …`\n- Tiếp diễn: `Dann …`, `Danach …`, `Außerdem …`\n- Đối lập: `Aber …`, `Trotzdem …`, `Leider …`\n- Kết luận: `Insgesamt …`, `Am Ende …`\n\nLưu ý `trotzdem` và `deshalb` chiếm vị trí 1 nên đẩy chủ ngữ ra sau động từ:\n\n`Es hat geregnet. **Trotzdem sind wir** spazieren gegangen.`",
+      "examples": [
+        { "de": "Zuerst sind wir nach Rom gefahren, dann haben wir Florenz besichtigt.", "vi": "Trước tiên chúng tôi đi Rome, sau đó tham quan Florence." },
+        { "de": "Das Hotel war teuer, deshalb haben wir nur drei Nächte gebucht.", "vi": "Khách sạn đắt nên chúng tôi chỉ đặt ba đêm." },
+        { "de": "Es hat viel geregnet. Trotzdem war der Urlaub schön.", "vi": "Trời mưa nhiều. Dù vậy kỳ nghỉ vẫn đẹp." }
+      ],
+      "tables": [
+        {
+          "title": "Từ nối và trật tự từ",
+          "headers": ["Từ nối", "Nghĩa", "Đảo chủ ngữ?"],
+          "rows": [
+            ["dann, danach", "sau đó", "có"],
+            ["deshalb, deswegen", "vì vậy", "có"],
+            ["trotzdem", "dù vậy", "có"],
+            ["aber, und, denn", "nhưng, và, vì", "không"],
+            ["außerdem", "ngoài ra", "có"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Quên đảo chủ ngữ sau deshalb/trotzdem: \"Deshalb wir haben …\" là sai.",
+        "Dùng Präteritum cho mọi động từ khi kể miệng — nghe như đang đọc sách."
+      ],
+      "tags": ["connectors", "tenses", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a2-2-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Der Zug ist ___ das Flugzeug.",
+      "promptVi": "Tàu rẻ hơn máy bay.",
+      "options": ["billiger als", "billiger wie", "am billigsten als", "billig als"],
+      "answerIndex": 0,
+      "explanation": "So sánh hơn dùng \"…-er als\". Dùng \"wie\" chỉ đúng khi so sánh bằng nhau (so … wie).",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "a2-2-u02-e-02",
+      "type": "fill_blank",
+      "sentence": "Das war der ___ Urlaub meines Lebens — noch besser als der letzte.",
+      "blanks": [{ "answers": ["schönste", "beste"], "hint": "Superlativ trước danh từ" }],
+      "translation": "Đó là kỳ nghỉ đẹp nhất đời tôi — còn hơn cả lần trước.",
+      "explanation": "Superlativ đứng trước danh từ dùng dạng \"der schönste\", không phải \"am schönsten\".",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "a2-2-u02-e-03",
+      "type": "matching",
+      "instruction": "Nối tính từ với dạng so sánh hơn",
+      "pairs": [
+        { "left": "gut", "right": "besser" },
+        { "left": "viel", "right": "mehr" },
+        { "left": "alt", "right": "älter" },
+        { "left": "gern", "right": "lieber" },
+        { "left": "hoch", "right": "höher" }
+      ],
+      "explanation": "Năm tính từ bất quy tắc này xuất hiện liên tục — cần thuộc lòng.",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "a2-2-u02-e-04",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu (chú ý \"deshalb\" đẩy chủ ngữ ra sau)",
+      "answer": ["Das", "Hotel", "war", "teuer", "deshalb", "haben", "wir", "umgebucht"],
+      "translation": "Khách sạn đắt nên chúng tôi đã đổi đặt phòng.",
+      "explanation": "Sau \"deshalb\", động từ \"haben\" đứng ngay, rồi mới tới chủ ngữ \"wir\".",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a2-2-u02-e-05",
+      "type": "listening",
+      "audioText": "Ich habe eine Reservierung auf den Namen Tran. Ein Doppelzimmer für drei Nächte.",
+      "mode": "choice",
+      "question": "Khách đặt gì?",
+      "options": ["Một phòng đôi trong ba đêm", "Một phòng đơn trong ba đêm", "Hai phòng đôi", "Một phòng đôi trong hai đêm"],
+      "answerIndex": 0,
+      "explanation": "\"ein Doppelzimmer\" = phòng đôi; \"für drei Nächte\" = ba đêm.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a2-2-u02-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Können Sie mir ein gutes Restaurant empfehlen?",
+      "answers": [
+        "Ông/bà giới thiệu cho tôi một nhà hàng ngon được không?",
+        "Bạn giới thiệu cho tôi một nhà hàng tốt được không?",
+        "Ông/bà có thể gợi ý cho tôi một nhà hàng ngon không?",
+        "Anh/chị giới thiệu giúp tôi một nhà hàng ngon được không?"
+      ],
+      "explanation": "\"empfehlen\" đi với Dativ chỉ người (mir) và Akkusativ chỉ vật (ein Restaurant).",
+      "skillTag": "translation"
+    }
+  ]
+}

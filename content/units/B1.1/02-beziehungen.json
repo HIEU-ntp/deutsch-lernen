@@ -1,0 +1,257 @@
+{
+  "id": "b1-1-u02-beziehungen",
+  "level": "B1.1",
+  "order": 2,
+  "slug": "beziehungen",
+  "title": "Beziehungen und Gefühle",
+  "titleVi": "Quan hệ và cảm xúc",
+  "description": "Nói về bạn bè, mâu thuẫn và cảm xúc. Ngữ pháp trọng tâm: mệnh đề quan hệ — công cụ để mô tả chi tiết mà không cần tách câu.",
+  "goals": [
+    "Diễn đạt cảm xúc và phản ứng phù hợp",
+    "Dùng mệnh đề quan hệ ở Nominativ, Akkusativ, Dativ",
+    "Viết một đoạn mô tả người quen"
+  ],
+  "vocabulary": [
+    {
+      "id": "b1-1-u02-v-freundschaft",
+      "de": "Freundschaft",
+      "article": "die",
+      "plural": "Freundschaften",
+      "pos": "noun",
+      "vi": "tình bạn",
+      "example": { "de": "Unsere Freundschaft hält schon zehn Jahre.", "vi": "Tình bạn của chúng tôi đã mười năm." },
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-vertrauen",
+      "de": "Vertrauen",
+      "article": "das",
+      "pos": "noun",
+      "vi": "sự tin tưởng",
+      "example": { "de": "Vertrauen ist die Basis jeder Beziehung.", "vi": "Tin tưởng là nền tảng của mọi mối quan hệ." },
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-streit",
+      "de": "Streit",
+      "article": "der",
+      "plural": "Streitigkeiten",
+      "pos": "noun",
+      "vi": "cuộc cãi vã",
+      "example": { "de": "Wir hatten einen kurzen Streit.", "vi": "Chúng tôi có một trận cãi vã ngắn." },
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-sich-streiten",
+      "de": "sich streiten",
+      "pos": "verb",
+      "vi": "cãi nhau",
+      "principalParts": "streiten, stritt, hat gestritten",
+      "example": { "de": "Wir streiten uns selten.", "vi": "Chúng tôi hiếm khi cãi nhau." },
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-sich-verstehen",
+      "de": "sich verstehen",
+      "pos": "verb",
+      "vi": "hợp nhau, hiểu nhau",
+      "example": { "de": "Wir verstehen uns gut.", "vi": "Chúng tôi hợp nhau." },
+      "note": "Khác với \"verstehen\" (hiểu điều gì) — bản phản thân nghĩa là hợp tính.",
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-enttaeuscht",
+      "de": "enttäuscht",
+      "pos": "adjective",
+      "vi": "thất vọng",
+      "example": { "de": "Ich war sehr enttäuscht von ihm.", "vi": "Tôi rất thất vọng về anh ấy." },
+      "tags": ["cam-xuc"]
+    },
+    {
+      "id": "b1-1-u02-v-eifersuechtig",
+      "de": "eifersüchtig",
+      "pos": "adjective",
+      "vi": "ghen tị, ghen tuông",
+      "example": { "de": "Er ist manchmal eifersüchtig.", "vi": "Anh ấy đôi khi ghen." },
+      "tags": ["cam-xuc"]
+    },
+    {
+      "id": "b1-1-u02-v-sich-entschuldigen",
+      "de": "sich entschuldigen",
+      "pos": "verb",
+      "vi": "xin lỗi",
+      "example": { "de": "Er hat sich bei mir entschuldigt.", "vi": "Anh ấy đã xin lỗi tôi." },
+      "note": "Cấu trúc: sich bei jemandem für etwas entschuldigen.",
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-ruecksicht",
+      "de": "Rücksicht",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự nể nang, quan tâm tới người khác",
+      "example": { "de": "Man muss Rücksicht auf andere nehmen.", "vi": "Người ta phải biết nghĩ cho người khác." },
+      "tags": ["quan-he"]
+    },
+    {
+      "id": "b1-1-u02-v-zuverlaessig",
+      "de": "zuverlässig",
+      "pos": "adjective",
+      "vi": "đáng tin cậy",
+      "example": { "de": "Sie ist eine zuverlässige Kollegin.", "vi": "Cô ấy là một đồng nghiệp đáng tin cậy." },
+      "tags": ["quan-he", "tinh-cach"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b1-1-u02-g-relativsatz",
+      "title": "Relativsätze",
+      "titleVi": "Mệnh đề quan hệ",
+      "summary": "Đại từ quan hệ lấy GIỐNG từ danh từ đứng trước, nhưng lấy CÁCH từ vai trò của nó trong mệnh đề phụ.",
+      "explanation": "Mệnh đề quan hệ giúp mô tả chi tiết mà không phải tách thành hai câu:\n\n`Das ist der Mann. Ich habe ihn gestern getroffen.`\n→ `Das ist der Mann, **den** ich gestern getroffen habe.`\n\n**Hai nguyên tắc quyết định hình thức của đại từ quan hệ:**\n\n1. **Giống và số** lấy từ danh từ đứng trước (Bezugswort).\n2. **Cách** lấy từ vai trò của nó **trong mệnh đề phụ**.\n\nVí dụ phân tích:\n\n- `der Mann, **der** hier wohnt` → der Mann (đực) + là chủ ngữ trong mệnh đề phụ (Nominativ) → **der**\n- `der Mann, **den** ich kenne` → der Mann (đực) + là tân ngữ (Akkusativ) → **den**\n- `der Mann, **dem** ich helfe` → der Mann (đực) + helfen đi với Dativ → **dem**\n\nĐại từ quan hệ **giống hệt mạo từ xác định**, trừ Dativ số nhiều (`denen`) và toàn bộ Genitiv (`dessen`, `deren`).\n\nVì đây là mệnh đề phụ nên **động từ luôn đi xuống cuối**.",
+      "examples": [
+        { "de": "Das ist die Frau, die neben mir wohnt.", "vi": "Đó là người phụ nữ sống cạnh tôi." },
+        { "de": "Der Freund, den ich seit zehn Jahren kenne, wohnt jetzt in Berlin.", "vi": "Người bạn mà tôi quen mười năm nay giờ sống ở Berlin." },
+        { "de": "Die Kollegin, der ich oft helfe, ist sehr nett.", "vi": "Cô đồng nghiệp mà tôi hay giúp thì rất tử tế." },
+        { "de": "Das ist das Buch, das mir gefällt.", "vi": "Đó là quyển sách mà tôi thích." }
+      ],
+      "tables": [
+        {
+          "title": "Đại từ quan hệ",
+          "headers": ["Cách", "đực", "cái", "trung", "số nhiều"],
+          "rows": [
+            ["Nominativ", "der", "die", "das", "die"],
+            ["Akkusativ", "den", "die", "das", "die"],
+            ["Dativ", "dem", "der", "dem", "denen ⚠"],
+            ["Genitiv", "dessen ⚠", "deren ⚠", "dessen ⚠", "deren ⚠"]
+          ],
+          "footnote": "⚠ = khác với mạo từ xác định thông thường."
+        }
+      ],
+      "commonMistakes": [
+        "Chọn cách theo danh từ đứng trước thay vì theo vai trò trong mệnh đề phụ.",
+        "Quên đẩy động từ xuống cuối: \"der Mann, den ich habe getroffen\" — phải là \"getroffen habe\".",
+        "Dùng \"den\" ở Dativ số nhiều — phải là \"denen\"."
+      ],
+      "tags": ["subordinate-clauses", "cases"]
+    },
+    {
+      "id": "b1-1-u02-g-reflexiv",
+      "title": "Reflexive Verben",
+      "titleVi": "Động từ phản thân",
+      "summary": "Nhiều động từ tiếng Đức bắt buộc có đại từ phản thân (mich, dich, sich…), dù tiếng Việt không có gì tương ứng.",
+      "explanation": "Động từ phản thân là động từ mà hành động quay lại chính chủ ngữ:\n\n`Ich wasche **mich**.` (Tôi tắm rửa)\n\nVấn đề với người học: nhiều động từ tiếng Đức **bắt buộc** có đại từ phản thân trong khi tiếng Việt không hề gợi ý điều đó:\n\n`sich freuen` (vui), `sich ärgern` (bực), `sich erinnern` (nhớ), `sich interessieren` (quan tâm), `sich entschuldigen` (xin lỗi), `sich beeilen` (vội)\n\n- ❌ `Ich freue über das Geschenk.`\n- ✅ `Ich freue **mich** über das Geschenk.`\n\n**Akkusativ hay Dativ?** Đa số dùng Akkusativ. Chỉ khi trong câu đã có một tân ngữ Akkusativ khác thì đại từ phản thân chuyển sang Dativ:\n\n- `Ich wasche **mich**.` (Akkusativ)\n- `Ich wasche **mir** die Hände.` (đã có \"die Hände\" ở Akkusativ → mir)\n\n**Giới từ đi kèm phải học thuộc cùng động từ:** sich freuen **über** (vui vì điều đã xảy ra), sich freuen **auf** (háo hức chờ điều sắp tới), sich interessieren **für**, sich ärgern **über**.",
+      "examples": [
+        { "de": "Ich freue mich auf das Wochenende.", "vi": "Tôi háo hức chờ cuối tuần." },
+        { "de": "Wir verstehen uns sehr gut.", "vi": "Chúng tôi rất hợp nhau." },
+        { "de": "Erinnerst du dich an ihn?", "vi": "Bạn còn nhớ anh ấy không?" },
+        { "de": "Ich muss mir die Hände waschen.", "vi": "Tôi phải rửa tay.", "note": "mir vì \"die Hände\" đã chiếm vị trí Akkusativ." }
+      ],
+      "tables": [
+        {
+          "title": "Đại từ phản thân",
+          "headers": ["Ngôi", "Akkusativ", "Dativ"],
+          "rows": [
+            ["ich", "mich", "mir"],
+            ["du", "dich", "dir"],
+            ["er/sie/es", "sich", "sich"],
+            ["wir", "uns", "uns"],
+            ["ihr", "euch", "euch"],
+            ["sie/Sie", "sich", "sich"]
+          ],
+          "footnote": "Chỉ ngôi ich và du có hai dạng khác nhau."
+        }
+      ],
+      "commonMistakes": [
+        "Bỏ đại từ phản thân vì tiếng Việt không có: \"Ich interessiere für Musik\" — thiếu \"mich\".",
+        "Nhầm über với auf: \"Ich freue mich über morgen\" — với việc tương lai phải là \"auf morgen\".",
+        "Dùng Akkusativ khi câu đã có tân ngữ Akkusativ khác."
+      ],
+      "tags": ["verb-conjugation", "cases", "prepositions"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b1-1-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Das ist der Freund, ___ ich seit zehn Jahren kenne.",
+      "options": ["den", "der", "dem", "dessen"],
+      "answerIndex": 0,
+      "explanation": "\"der Freund\" giống đực; trong mệnh đề phụ nó là tân ngữ của \"kennen\" (Akkusativ) → den.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "b1-1-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "Die Kollegin, ___ ich oft helfe, ist sehr nett.",
+      "options": ["der", "die", "den", "deren"],
+      "answerIndex": 0,
+      "explanation": "\"helfen\" đi với Dativ; \"die Kollegin\" giống cái ở Dativ → der.",
+      "skillTag": "cases"
+    },
+    {
+      "id": "b1-1-u02-e-03",
+      "type": "fill_blank",
+      "sentence": "Ich freue ___ sehr ___ das Wochenende.",
+      "blanks": [
+        { "answers": ["mich"], "hint": "đại từ phản thân" },
+        { "answers": ["auf"], "hint": "giới từ chỉ việc sắp tới" }
+      ],
+      "translation": "Tôi rất háo hức chờ cuối tuần.",
+      "explanation": "sich freuen auf = mong chờ điều sắp tới; sich freuen über = vui vì điều đã xảy ra.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "b1-1-u02-e-04",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu có mệnh đề quan hệ",
+      "answer": ["Das", "ist", "die", "Frau", "die", "neben", "mir", "wohnt"],
+      "translation": "Đó là người phụ nữ sống cạnh tôi.",
+      "explanation": "Đại từ quan hệ \"die\" (Nominativ giống cái) mở mệnh đề phụ, động từ \"wohnt\" ở cuối.",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "b1-1-u02-e-05",
+      "type": "matching",
+      "instruction": "Nối động từ phản thân với giới từ đi kèm",
+      "pairs": [
+        { "left": "sich freuen", "right": "auf / über" },
+        { "left": "sich interessieren", "right": "für" },
+        { "left": "sich ärgern", "right": "über" },
+        { "left": "sich erinnern", "right": "an" }
+      ],
+      "explanation": "Giới từ đi kèm phải học thuộc cùng động từ, không suy ra được từ nghĩa.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "b1-1-u02-e-06",
+      "type": "listening",
+      "audioText": "Wir haben uns gestritten, aber er hat sich bei mir entschuldigt.",
+      "mode": "choice",
+      "question": "Chuyện gì đã xảy ra?",
+      "options": [
+        "Họ cãi nhau, sau đó anh ấy xin lỗi",
+        "Họ cãi nhau và vẫn giận nhau",
+        "Cô ấy đã xin lỗi anh ta",
+        "Họ không cãi nhau lần nào"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"sich streiten\" = cãi nhau; \"sich bei jemandem entschuldigen\" = xin lỗi ai đó.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b1-1-u02-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Đó là người bạn mà tôi tin tưởng.",
+      "answers": [
+        "Das ist der Freund, dem ich vertraue.",
+        "Das ist die Freundin, der ich vertraue.",
+        "Das ist der Freund, dem ich vertraue"
+      ],
+      "hint": "vertrauen đi với Dativ",
+      "explanation": "\"vertrauen\" đi với Dativ nên đại từ quan hệ là \"dem\" (đực) hoặc \"der\" (cái).",
+      "skillTag": "translation"
+    }
+  ]
+}

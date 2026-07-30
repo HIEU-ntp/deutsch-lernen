@@ -1,0 +1,267 @@
+{
+  "id": "b2-1-u02-wissenschaft",
+  "level": "B2.1",
+  "order": 2,
+  "slug": "wissenschaft",
+  "title": "Wissenschaft und Forschung",
+  "titleVi": "Khoa học và nghiên cứu",
+  "description": "Ngôn ngữ của bài báo khoa học phổ thông. Ngữ pháp: định ngữ phân từ (Partizipialattribute) — cấu trúc nén thông tin đặc trưng của tiếng Đức học thuật.",
+  "goals": [
+    "Đọc hiểu đoạn văn khoa học phổ thông",
+    "Giải mã và tạo định ngữ phân từ",
+    "Mô tả số liệu và xu hướng"
+  ],
+  "vocabulary": [
+    {
+      "id": "b2-1-u02-v-forschung",
+      "de": "Forschung",
+      "article": "die",
+      "plural": "Forschungen",
+      "pos": "noun",
+      "vi": "nghiên cứu",
+      "example": { "de": "Die Forschung steckt noch in den Anfängen.", "vi": "Nghiên cứu vẫn đang ở giai đoạn đầu." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-studie",
+      "de": "Studie",
+      "article": "die",
+      "plural": "Studien",
+      "pos": "noun",
+      "vi": "công trình nghiên cứu, khảo sát",
+      "example": { "de": "Eine aktuelle Studie belegt den Zusammenhang.", "vi": "Một nghiên cứu mới chứng minh mối liên hệ này." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-erkenntnis",
+      "de": "Erkenntnis",
+      "article": "die",
+      "plural": "Erkenntnisse",
+      "pos": "noun",
+      "vi": "kết quả nhận thức, phát hiện",
+      "example": { "de": "Neue Erkenntnisse widersprechen der alten Theorie.", "vi": "Những phát hiện mới mâu thuẫn với lý thuyết cũ." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-hypothese",
+      "de": "Hypothese",
+      "article": "die",
+      "plural": "Hypothesen",
+      "pos": "noun",
+      "vi": "giả thuyết",
+      "example": { "de": "Die Hypothese wurde widerlegt.", "vi": "Giả thuyết đã bị bác bỏ." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-nachweisen",
+      "de": "nachweisen",
+      "pos": "verb",
+      "vi": "chứng minh, xác nhận bằng bằng chứng",
+      "principalParts": "nachweisen, wies nach, hat nachgewiesen",
+      "example": { "de": "Der Effekt konnte nicht nachgewiesen werden.", "vi": "Không chứng minh được hiệu ứng đó." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-zusammenhang",
+      "de": "Zusammenhang",
+      "article": "der",
+      "plural": "Zusammenhänge",
+      "pos": "noun",
+      "vi": "mối liên hệ",
+      "example": { "de": "Es besteht ein klarer Zusammenhang.", "vi": "Tồn tại một mối liên hệ rõ ràng." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-durchfuehren",
+      "de": "durchführen",
+      "pos": "verb",
+      "vi": "tiến hành, thực hiện",
+      "example": { "de": "Das Experiment wurde 2024 durchgeführt.", "vi": "Thí nghiệm được tiến hành năm 2024." },
+      "tags": ["khoa-hoc"]
+    },
+    {
+      "id": "b2-1-u02-v-anteil",
+      "de": "Anteil",
+      "article": "der",
+      "plural": "Anteile",
+      "pos": "noun",
+      "vi": "tỷ lệ, phần",
+      "example": { "de": "Der Anteil der Frauen liegt bei 45 Prozent.", "vi": "Tỷ lệ nữ ở mức 45 phần trăm." },
+      "tags": ["khoa-hoc", "so-lieu"]
+    },
+    {
+      "id": "b2-1-u02-v-zunahme",
+      "de": "Zunahme",
+      "article": "die",
+      "plural": "Zunahmen",
+      "pos": "noun",
+      "vi": "sự gia tăng",
+      "example": { "de": "Die Grafik zeigt eine deutliche Zunahme.", "vi": "Biểu đồ cho thấy mức tăng rõ rệt." },
+      "note": "Trái nghĩa: die Abnahme (sự giảm).",
+      "tags": ["khoa-hoc", "so-lieu"]
+    },
+    {
+      "id": "b2-1-u02-v-vorlaeufig",
+      "de": "vorläufig",
+      "pos": "adjective",
+      "vi": "tạm thời, sơ bộ",
+      "example": { "de": "Das sind nur vorläufige Ergebnisse.", "vi": "Đây mới chỉ là kết quả sơ bộ." },
+      "tags": ["khoa-hoc"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b2-1-u02-g-partizipialattribut",
+      "title": "Partizipialattribute",
+      "titleVi": "Định ngữ phân từ",
+      "summary": "Nén cả một mệnh đề quan hệ vào giữa mạo từ và danh từ — đặc sản của tiếng Đức học thuật.",
+      "explanation": "Đây là cấu trúc khiến câu tiếng Đức học thuật trở nên \"khó thở\" với người học, nhưng lại rất hệ thống một khi hiểu quy tắc.\n\nÝ tưởng: lấy một **mệnh đề quan hệ** và nén nó vào **giữa mạo từ và danh từ**.\n\n`die Studie, **die kürzlich veröffentlicht wurde**` → `die **kürzlich veröffentlichte** Studie`\n\n**Hai loại phân từ, hai ý nghĩa khác nhau:**\n\n- **Partizip I** (`động từ + -end`) → nghĩa **chủ động, đang diễn ra**\n  `die **steigenden** Preise` = giá đang tăng (= die Preise, die steigen)\n\n- **Partizip II** → nghĩa **bị động hoặc đã hoàn thành**\n  `die **gestiegenen** Preise` = giá đã tăng\n  `der **veröffentlichte** Artikel` = bài báo đã được công bố\n\nPhân từ **biến đuôi như tính từ** vì nó đứng trước danh từ.\n\n**Mẹo đọc:** khi gặp mạo từ mà mãi chưa thấy danh từ, hãy nhảy tới danh từ trước rồi đọc ngược lại phần ở giữa.\n\n`die [ von mehreren Universitäten gemeinsam durchgeführte ] **Studie**`\n→ nghiên cứu **được nhiều trường đại học cùng tiến hành**.",
+      "examples": [
+        { "de": "die kürzlich veröffentlichte Studie", "vi": "nghiên cứu vừa được công bố", "note": "= die Studie, die kürzlich veröffentlicht wurde" },
+        { "de": "die steigenden Energiepreise", "vi": "giá năng lượng đang tăng", "note": "Partizip I — chủ động, đang diễn ra" },
+        { "de": "das von der Regierung geförderte Projekt", "vi": "dự án được chính phủ tài trợ" },
+        { "de": "eine seit Jahren andauernde Diskussion", "vi": "một cuộc tranh luận kéo dài nhiều năm nay" }
+      ],
+      "tables": [
+        {
+          "title": "Partizip I và Partizip II",
+          "headers": ["", "Cách tạo", "Ý nghĩa", "Ví dụ"],
+          "rows": [
+            ["Partizip I", "nguyên thể + -d", "chủ động, đang xảy ra", "die steigenden Kosten"],
+            ["Partizip II", "dạng Partizip II", "bị động / đã hoàn thành", "die gestiegenen Kosten"],
+            ["Partizip II (nội động)", "dạng Partizip II", "đã hoàn thành, chủ động", "der angekommene Zug"]
+          ],
+          "footnote": "Cả hai đều biến đuôi như tính từ thường."
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm Partizip I với Partizip II: \"die gestiegenen Preise\" (đã tăng) khác \"die steigenden Preise\" (đang tăng).",
+        "Quên biến đuôi: \"die veröffentlicht Studie\" — phải là \"veröffentlichte\".",
+        "Cố dịch từng chữ theo thứ tự — nên tìm danh từ chính trước rồi mới đọc phần bổ nghĩa."
+      ],
+      "tags": ["adjective-endings", "subordinate-clauses"]
+    },
+    {
+      "id": "b2-1-u02-g-grafik",
+      "title": "Grafiken und Zahlen beschreiben",
+      "titleVi": "Mô tả biểu đồ và số liệu",
+      "summary": "Bộ động từ và cụm từ chuẩn để mô tả xu hướng — xuất hiện trong mọi đề thi B2 viết.",
+      "explanation": "Phần thi viết B2 gần như luôn có một biểu đồ cần mô tả. Bộ từ vựng dưới đây là bắt buộc.\n\n**Động từ chỉ xu hướng:**\n\n- Tăng: `steigen`, `zunehmen`, `sich erhöhen`, `wachsen`\n- Giảm: `sinken`, `abnehmen`, `zurückgehen`, `fallen`\n- Không đổi: `gleich bleiben`, `stagnieren`\n- Đạt đỉnh: `den Höhepunkt erreichen`\n\n**Mức độ:** `leicht` (nhẹ), `deutlich` (rõ rệt), `stark` (mạnh), `drastisch` (đột ngột)\n\n**Cụm chỉ số liệu:**\n\n- `um 10 Prozent steigen` — tăng **thêm** 10%\n- `auf 40 Prozent steigen` — tăng **lên đến** 40%\n\nSự khác nhau giữa `um` và `auf` là chỗ dễ mất điểm nhất: `um` là mức chênh, `auf` là mức đạt tới.\n\n**Mở bài chuẩn:** `Die Grafik zeigt / stellt dar, wie sich … zwischen 2010 und 2024 entwickelt hat.`",
+      "examples": [
+        { "de": "Der Anteil stieg um zehn Prozentpunkte.", "vi": "Tỷ lệ tăng thêm mười điểm phần trăm." },
+        { "de": "Die Zahl sank auf 1,2 Millionen.", "vi": "Con số giảm xuống còn 1,2 triệu." },
+        { "de": "Zwischen 2015 und 2020 blieb der Wert nahezu konstant.", "vi": "Giữa 2015 và 2020 giá trị gần như không đổi." },
+        { "de": "Die Grafik stellt die Entwicklung der Arbeitslosigkeit dar.", "vi": "Biểu đồ thể hiện diễn biến của tỷ lệ thất nghiệp." }
+      ],
+      "tables": [
+        {
+          "title": "um hay auf?",
+          "headers": ["Cụm", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["um + số", "chênh lệch (tăng/giảm thêm)", "um 5 % gestiegen"],
+            ["auf + số", "mức đạt tới", "auf 30 % gestiegen"],
+            ["von … auf …", "từ mức nào tới mức nào", "von 25 % auf 30 %"],
+            ["bei … liegen", "ở mức", "liegt bei 45 %"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm um với auf — \"um 30 % gestiegen\" và \"auf 30 % gestiegen\" khác hẳn nhau.",
+        "Nhầm \"Prozent\" với \"Prozentpunkte\" khi so sánh hai tỷ lệ.",
+        "Dùng thì hiện tại cho số liệu quá khứ trong bài mô tả biểu đồ."
+      ],
+      "tags": ["numbers", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-1-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "\"die kürzlich veröffentlichte Studie\" tương đương với mệnh đề nào?",
+      "options": [
+        "die Studie, die kürzlich veröffentlicht wurde",
+        "die Studie, die kürzlich veröffentlicht",
+        "die Studie, die kürzlich veröffentlichen wird",
+        "die Studie, die kürzlich veröffentlicht hat"
+      ],
+      "answerIndex": 0,
+      "explanation": "Partizip II trong định ngữ mang nghĩa bị động đã hoàn thành → \"veröffentlicht wurde\".",
+      "skillTag": "subordinate-clauses"
+    },
+    {
+      "id": "b2-1-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "\"die ___ Preise\" — giá ĐANG tăng",
+      "options": ["steigenden", "gestiegenen", "steigen", "gestiegen"],
+      "answerIndex": 0,
+      "explanation": "Partizip I (steigend + đuôi) mang nghĩa chủ động, đang diễn ra. \"gestiegenen\" nghĩa là đã tăng xong.",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "b2-1-u02-e-03",
+      "type": "multiple_choice",
+      "prompt": "Tỷ lệ từ 25% lên 30%. Câu nào ĐÚNG?",
+      "options": [
+        "Der Anteil stieg um fünf Prozentpunkte.",
+        "Der Anteil stieg auf fünf Prozentpunkte.",
+        "Der Anteil stieg um 30 Prozent.",
+        "Der Anteil sank auf 30 Prozent."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"um\" chỉ mức chênh (5 điểm), \"auf\" chỉ mức đạt tới (30%). Chênh giữa hai tỷ lệ gọi là Prozentpunkte.",
+      "skillTag": "numbers"
+    },
+    {
+      "id": "b2-1-u02-e-04",
+      "type": "matching",
+      "instruction": "Nối động từ với ý nghĩa xu hướng",
+      "pairs": [
+        { "left": "zunehmen", "right": "tăng lên" },
+        { "left": "zurückgehen", "right": "giảm xuống" },
+        { "left": "stagnieren", "right": "giậm chân tại chỗ" },
+        { "left": "sich verdoppeln", "right": "tăng gấp đôi" }
+      ],
+      "explanation": "Bộ động từ này xuất hiện trong hầu hết bài mô tả biểu đồ của kỳ thi B2.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "b2-1-u02-e-05",
+      "type": "fill_blank",
+      "sentence": "Das von der Regierung ___ Projekt läuft seit zwei Jahren.",
+      "blanks": [{ "answers": ["geförderte", "finanzierte", "unterstützte"], "hint": "Partizip II + đuôi tính từ" }],
+      "translation": "Dự án được chính phủ tài trợ đã chạy hai năm nay.",
+      "explanation": "\"das Projekt\" giống trung sau mạo từ xác định → đuôi -e: geförderte.",
+      "skillTag": "adjective-endings"
+    },
+    {
+      "id": "b2-1-u02-e-06",
+      "type": "listening",
+      "audioText": "Eine kürzlich durchgeführte Studie belegt einen deutlichen Zusammenhang.",
+      "mode": "choice",
+      "question": "Nội dung câu là gì?",
+      "options": [
+        "Một nghiên cứu vừa tiến hành chứng minh mối liên hệ rõ rệt",
+        "Một nghiên cứu sắp được tiến hành",
+        "Nghiên cứu không tìm ra mối liên hệ nào",
+        "Nghiên cứu đã bị bác bỏ"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"kürzlich durchgeführte\" là định ngữ phân từ = đã được tiến hành gần đây.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b2-1-u02-e-07",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Die Hypothese konnte bisher nicht nachgewiesen werden.",
+      "answers": [
+        "Cho đến nay giả thuyết vẫn chưa được chứng minh.",
+        "Giả thuyết cho đến nay chưa chứng minh được.",
+        "Tới giờ giả thuyết này vẫn chưa được chứng minh.",
+        "Đến nay vẫn chưa chứng minh được giả thuyết."
+      ],
+      "explanation": "Bị động với modal ở quá khứ: konnte … nachgewiesen werden.",
+      "skillTag": "translation"
+    }
+  ]
+}

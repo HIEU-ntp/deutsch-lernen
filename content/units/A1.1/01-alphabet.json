@@ -1,0 +1,305 @@
+{
+  "id": "a1-1-u01-alphabet",
+  "level": "A1.1",
+  "order": 1,
+  "slug": "alphabet-aussprache",
+  "title": "Das Alphabet und die Aussprache",
+  "titleVi": "Bảng chữ cái và phát âm",
+  "description": "Học 26 chữ cái, 3 nguyên âm biến âm (Umlaut) và chữ ß. Sau bài này bạn đánh vần được tên và địa chỉ email của mình.",
+  "goals": [
+    "Đọc đúng tên 26 chữ cái tiếng Đức",
+    "Phân biệt a/ä, o/ö, u/ü và đọc được ß",
+    "Đánh vần họ tên, email khi người khác hỏi"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u01-v-alphabet",
+      "de": "Alphabet",
+      "article": "das",
+      "plural": "Alphabete",
+      "pos": "noun",
+      "vi": "bảng chữ cái",
+      "ipa": "alfaˈbeːt",
+      "example": { "de": "Das deutsche Alphabet hat 26 Buchstaben.", "vi": "Bảng chữ cái tiếng Đức có 26 chữ cái." },
+      "tags": ["alphabet"]
+    },
+    {
+      "id": "a1-1-u01-v-buchstabe",
+      "de": "Buchstabe",
+      "article": "der",
+      "plural": "Buchstaben",
+      "pos": "noun",
+      "vi": "chữ cái",
+      "ipa": "ˈbuːxʃtaːbə",
+      "example": { "de": "Der erste Buchstabe ist ein A.", "vi": "Chữ cái đầu tiên là chữ A." },
+      "note": "Đây là danh từ yếu (n-Deklination): ở các cách khác der Buchstaben.",
+      "tags": ["alphabet"]
+    },
+    {
+      "id": "a1-1-u01-v-buchstabieren",
+      "de": "buchstabieren",
+      "pos": "verb",
+      "vi": "đánh vần",
+      "ipa": "buːxʃtaˈbiːʁən",
+      "example": { "de": "Buchstabieren Sie bitte Ihren Namen.", "vi": "Xin hãy đánh vần tên của bạn." },
+      "tags": ["alphabet", "hoi-dap"]
+    },
+    {
+      "id": "a1-1-u01-v-name",
+      "de": "Name",
+      "article": "der",
+      "plural": "Namen",
+      "pos": "noun",
+      "vi": "tên",
+      "ipa": "ˈnaːmə",
+      "example": { "de": "Mein Name ist Linh.", "vi": "Tên tôi là Linh." },
+      "tags": ["ca-nhan"]
+    },
+    {
+      "id": "a1-1-u01-v-vorname",
+      "de": "Vorname",
+      "article": "der",
+      "plural": "Vornamen",
+      "pos": "noun",
+      "vi": "tên (tên riêng, đứng trước)",
+      "ipa": "ˈfoːɐ̯naːmə",
+      "example": { "de": "Mein Vorname ist Minh.", "vi": "Tên riêng của tôi là Minh." },
+      "note": "Người Đức viết Vorname trước, Nachname sau — ngược với thứ tự tiếng Việt.",
+      "tags": ["ca-nhan"]
+    },
+    {
+      "id": "a1-1-u01-v-nachname",
+      "de": "Nachname",
+      "article": "der",
+      "plural": "Nachnamen",
+      "pos": "noun",
+      "vi": "họ",
+      "ipa": "ˈnaːxnaːmə",
+      "example": { "de": "Mein Nachname ist Nguyen.", "vi": "Họ của tôi là Nguyễn." },
+      "tags": ["ca-nhan"]
+    },
+    {
+      "id": "a1-1-u01-v-email",
+      "de": "E-Mail",
+      "article": "die",
+      "plural": "E-Mails",
+      "pos": "noun",
+      "vi": "email",
+      "ipa": "ˈiːmɛɪ̯l",
+      "example": { "de": "Wie ist deine E-Mail-Adresse?", "vi": "Địa chỉ email của bạn là gì?" },
+      "note": "Ký hiệu @ đọc là \"at\", dấu chấm đọc là \"Punkt\".",
+      "tags": ["ca-nhan", "lien-lac"]
+    },
+    {
+      "id": "a1-1-u01-v-adresse",
+      "de": "Adresse",
+      "article": "die",
+      "plural": "Adressen",
+      "pos": "noun",
+      "vi": "địa chỉ",
+      "ipa": "aˈdʁɛsə",
+      "example": { "de": "Meine Adresse ist Hauptstraße 5.", "vi": "Địa chỉ của tôi là Hauptstraße số 5." },
+      "tags": ["ca-nhan", "lien-lac"]
+    },
+    {
+      "id": "a1-1-u01-v-wort",
+      "de": "Wort",
+      "article": "das",
+      "plural": "Wörter",
+      "pos": "noun",
+      "vi": "từ",
+      "ipa": "vɔʁt",
+      "example": { "de": "Wie schreibt man dieses Wort?", "vi": "Từ này viết thế nào?" },
+      "note": "Số nhiều \"Wörter\" = các từ rời rạc; \"Worte\" = lời nói có ý nghĩa.",
+      "tags": ["alphabet"]
+    },
+    {
+      "id": "a1-1-u01-v-umlaut",
+      "de": "Umlaut",
+      "article": "der",
+      "plural": "Umlaute",
+      "pos": "noun",
+      "vi": "nguyên âm biến âm (ä, ö, ü)",
+      "ipa": "ˈʊmlaʊ̯t",
+      "example": { "de": "Ä, ö und ü sind Umlaute.", "vi": "Ä, ö và ü là các nguyên âm biến âm." },
+      "tags": ["alphabet"]
+    },
+    {
+      "id": "a1-1-u01-v-schreiben",
+      "de": "schreiben",
+      "pos": "verb",
+      "vi": "viết",
+      "ipa": "ˈʃʁaɪ̯bn̩",
+      "principalParts": "schreiben, schrieb, hat geschrieben",
+      "example": { "de": "Wie schreibt man das?", "vi": "Cái đó viết như thế nào?" },
+      "tags": ["dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-1-u01-v-langsam",
+      "de": "langsam",
+      "pos": "adjective",
+      "vi": "chậm",
+      "ipa": "ˈlaŋzaːm",
+      "example": { "de": "Sprechen Sie bitte langsam!", "vi": "Xin hãy nói chậm thôi!" },
+      "note": "Câu cửa miệng cực hữu ích khi mới học: \"Langsamer, bitte!\"",
+      "tags": ["lop-hoc"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u01-g-alphabet",
+      "title": "Das deutsche Alphabet",
+      "titleVi": "Bảng chữ cái tiếng Đức",
+      "summary": "26 chữ cái giống tiếng Anh, nhưng tên gọi khi đọc lên thì khác hẳn — đây là điều bắt buộc phải thuộc để đánh vần.",
+      "explanation": "Tiếng Đức dùng đúng 26 chữ cái Latinh như tiếng Anh, cộng thêm 3 Umlaut (ä, ö, ü) và chữ ß.\n\nĐiều quan trọng: **tên gọi của chữ cái khác tiếng Anh**. Ba chữ hay nhầm nhất với người từng học tiếng Anh:\n\n- **E** đọc là /eː/ (giống \"ê\"), còn **I** đọc là /iː/ (giống \"i\") — ngược với thói quen tiếng Anh.\n- **J** đọc là /jɔt/ (\"i-ốt\"), không phải \"jay\".\n- **V** đọc là /faʊ̯/ (\"phau\"), còn **W** đọc là /veː/ (\"vê\").\n\nKhi đánh vần, người Đức hay dùng cụm: `groß` = chữ hoa, `klein` = chữ thường.",
+      "examples": [
+        { "de": "Wie schreibt man das? — M wie Martha.", "vi": "Cái đó viết thế nào? — M như trong Martha.", "note": "Cách nói khi sợ người nghe không rõ chữ nào." },
+        { "de": "N-G-U-Y-E-N. Nguyen.", "vi": "N-G-U-Y-E-N. Nguyễn." },
+        { "de": "Mein Name ist Linh, L wie Ludwig.", "vi": "Tên tôi là Linh, chữ L như trong Ludwig." }
+      ],
+      "tables": [
+        {
+          "title": "Cách đọc 26 chữ cái",
+          "headers": ["Chữ", "Đọc là", "Chữ", "Đọc là"],
+          "rows": [
+            ["A a", "a (/aː/)", "N n", "en"],
+            ["B b", "bê (/beː/)", "O o", "ô (/oː/)"],
+            ["C c", "xê (/t͡seː/)", "P p", "pê (/peː/)"],
+            ["D d", "đê (/deː/)", "Q q", "ku (/kuː/)"],
+            ["E e", "ê (/eː/)", "R r", "e-rờ (/ɛʁ/)"],
+            ["F f", "ép (/ɛf/)", "S s", "ét (/ɛs/)"],
+            ["G g", "ghê (/ɡeː/)", "T t", "tê (/teː/)"],
+            ["H h", "ha (/haː/)", "U u", "u (/uː/)"],
+            ["I i", "i (/iː/)", "V v", "phau (/faʊ̯/)"],
+            ["J j", "i-ốt (/jɔt/)", "W w", "vê (/veː/)"],
+            ["K k", "ka (/kaː/)", "X x", "ích (/ɪks/)"],
+            ["L l", "eo (/ɛl/)", "Y y", "üp-xi-lon (/ˈʏpsilɔn/)"],
+            ["M m", "em (/ɛm/)", "Z z", "xét (/t͡sɛt/)"]
+          ],
+          "footnote": "Cột \"đọc là\" chỉ mô phỏng gần đúng bằng tiếng Việt — hãy bấm nút loa để nghe phát âm chuẩn."
+        }
+      ],
+      "commonMistakes": [
+        "Đọc J là \"jay\" theo thói quen tiếng Anh — phải là \"i-ốt\".",
+        "Đọc W là \"đắp-bờ-liu\" — trong tiếng Đức W đọc là \"vê\", còn V mới đọc là \"phau\".",
+        "Nhầm E (ê) với I (i) khi nghe người khác đánh vần."
+      ],
+      "tags": ["pronunciation", "alphabet"]
+    },
+    {
+      "id": "a1-1-u01-g-umlaut",
+      "title": "Umlaute und ß",
+      "titleVi": "Umlaut (ä, ö, ü) và chữ ß",
+      "summary": "Bốn ký tự riêng của tiếng Đức. Nếu bàn phím không gõ được, có cách viết thay thế được công nhận chính thức.",
+      "explanation": "**Ä, Ö, Ü** là ba nguyên âm biến âm. Chúng KHÔNG phải là a, o, u có dấu trang trí — chúng đổi hẳn nghĩa của từ:\n\n- `schon` (đã rồi) ≠ `schön` (đẹp)\n- `Mutter` (mẹ) ≠ `Mütter` (những người mẹ)\n\nMẹo phát âm cho người Việt:\n\n- **ä** ≈ \"e\" trong \"em\"\n- **ö** ≈ tròn môi như đọc \"ô\" nhưng lưỡi ở vị trí \"ê\"\n- **ü** ≈ tròn môi như đọc \"u\" nhưng lưỡi ở vị trí \"i\" (giống \"uy\" đọc nhanh)\n\n**ß** (Eszett / scharfes S) luôn đọc là /s/ và **không bao giờ đứng đầu từ**. Chữ này chỉ dùng sau nguyên âm dài hoặc nguyên âm đôi: `Straße`, `heiß`, `groß`. Ở Thuỵ Sĩ người ta bỏ hẳn ß và viết ss.\n\nKhi không gõ được ký tự đặc biệt, dùng cách viết thay thế: `ä→ae`, `ö→oe`, `ü→ue`, `ß→ss`. Ứng dụng này cũng chấp nhận cách gõ đó khi chấm bài.",
+      "examples": [
+        { "de": "Die Straße ist schön.", "vi": "Con phố thì đẹp." },
+        { "de": "Ich heiße Müller. M-Ü-L-L-E-R.", "vi": "Tôi tên là Müller. M-Ü-L-L-E-R." },
+        { "de": "Können Sie das buchstabieren?", "vi": "Bạn đánh vần cái đó được không?" }
+      ],
+      "tables": [
+        {
+          "title": "Ký tự đặc biệt",
+          "headers": ["Ký tự", "Tên gọi", "Gõ thay thế", "Ví dụ"],
+          "rows": [
+            ["ä / Ä", "a-Umlaut", "ae", "Mädchen (cô bé)"],
+            ["ö / Ö", "o-Umlaut", "oe", "schön (đẹp)"],
+            ["ü / Ü", "u-Umlaut", "ue", "Tschüss (tạm biệt)"],
+            ["ß", "Eszett / scharfes S", "ss", "Straße (đường phố)"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Viết \"Strasse\" trong bài thi tại Đức — không sai nhưng chuẩn chính tả Đức là \"Straße\".",
+        "Bỏ qua dấu Umlaut khi viết tay, làm đổi nghĩa từ (schon / schön).",
+        "Đặt ß ở đầu từ — điều này không tồn tại trong tiếng Đức."
+      ],
+      "tags": ["pronunciation", "orthography"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Chữ cái \"W\" trong tiếng Đức đọc là gì?",
+      "options": ["\"vê\" (/veː/)", "\"đắp-bờ-liu\"", "\"phau\" (/faʊ̯/)", "\"u kép\""],
+      "answerIndex": 0,
+      "explanation": "W đọc là \"vê\". Chữ đọc là \"phau\" chính là V — hai chữ này hay bị hoán đổi.",
+      "skillTag": "pronunciation"
+    },
+    {
+      "id": "a1-1-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "Từ nào viết ĐÚNG chính tả tiếng Đức?",
+      "options": ["ßtraße", "Straße", "Strasße", "straße"],
+      "answerIndex": 1,
+      "explanation": "ß không bao giờ đứng đầu từ, và danh từ tiếng Đức luôn viết hoa chữ đầu → \"Straße\".",
+      "skillTag": "pronunciation"
+    },
+    {
+      "id": "a1-1-u01-e-03",
+      "type": "fill_blank",
+      "sentence": "Mein ___ ist Minh und mein ___ ist Nguyen.",
+      "blanks": [
+        { "answers": ["Vorname"], "hint": "tên riêng" },
+        { "answers": ["Nachname", "Familienname"], "hint": "họ" }
+      ],
+      "translation": "Tên tôi là Minh và họ tôi là Nguyễn.",
+      "explanation": "Vorname đứng trước (vor = trước), Nachname đứng sau (nach = sau).",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u01-e-04",
+      "type": "matching",
+      "instruction": "Nối ký tự với cách gõ thay thế khi không có bàn phím tiếng Đức",
+      "pairs": [
+        { "left": "ä", "right": "ae" },
+        { "left": "ö", "right": "oe" },
+        { "left": "ü", "right": "ue" },
+        { "left": "ß", "right": "ss" }
+      ],
+      "explanation": "Đây là quy tắc chuyển tự chính thức, dùng được cả trong email và tên miền.",
+      "skillTag": "pronunciation"
+    },
+    {
+      "id": "a1-1-u01-e-05",
+      "type": "listening",
+      "audioText": "Buchstabieren Sie bitte Ihren Namen.",
+      "mode": "choice",
+      "question": "Người nói yêu cầu bạn làm gì?",
+      "options": [
+        "Đánh vần tên của bạn",
+        "Viết địa chỉ của bạn",
+        "Nói chậm lại",
+        "Nhắc lại câu hỏi"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Buchstabieren Sie bitte Ihren Namen.\" = Xin hãy đánh vần tên của bạn.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u01-e-06",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi đúng",
+      "answer": ["Wie", "schreibt", "man", "das"],
+      "translation": "Cái đó viết như thế nào?",
+      "explanation": "Trong câu hỏi có từ để hỏi (W-Frage), động từ luôn đứng ở vị trí thứ hai: Wie | schreibt | man | das.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u01-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Xin hãy nói chậm thôi!",
+      "answers": [
+        "Sprechen Sie bitte langsam!",
+        "Sprechen Sie bitte langsam",
+        "Bitte sprechen Sie langsam!",
+        "Sprich bitte langsam!"
+      ],
+      "hint": "Dùng thể lịch sự với \"Sie\"",
+      "explanation": "Câu mệnh lệnh lịch sự: động từ đứng đầu, theo sau là Sie. \"bitte\" có thể đặt ở nhiều vị trí.",
+      "skillTag": "word-order"
+    }
+  ]
+}

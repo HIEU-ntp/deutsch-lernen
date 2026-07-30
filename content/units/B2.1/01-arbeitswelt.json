@@ -1,0 +1,278 @@
+{
+  "id": "b2-1-u01-arbeitswelt",
+  "level": "B2.1",
+  "order": 1,
+  "slug": "arbeitswelt",
+  "title": "Arbeitswelt und Wirtschaft",
+  "titleVi": "Thế giới việc làm và kinh tế",
+  "description": "Ngôn ngữ của môi trường công sở và văn bản kinh tế. Ngữ pháp: văn phong danh hoá (Nominalstil) và câu bị động ở mọi thì.",
+  "goals": [
+    "Đọc hiểu bài báo kinh tế phổ thông",
+    "Chuyển đổi giữa văn phong động từ và văn phong danh hoá",
+    "Dùng câu bị động ở mọi thì và với động từ khuyết thiếu"
+  ],
+  "vocabulary": [
+    {
+      "id": "b2-1-u01-v-unternehmen",
+      "de": "Unternehmen",
+      "article": "das",
+      "plural": "Unternehmen",
+      "pos": "noun",
+      "vi": "doanh nghiệp",
+      "example": { "de": "Das Unternehmen expandiert nach Asien.", "vi": "Doanh nghiệp đang mở rộng sang châu Á." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-fachkraeftemangel",
+      "de": "Fachkräftemangel",
+      "article": "der",
+      "pos": "noun",
+      "vi": "tình trạng thiếu lao động lành nghề",
+      "example": { "de": "Der Fachkräftemangel betrifft viele Branchen.", "vi": "Thiếu lao động lành nghề ảnh hưởng tới nhiều ngành." },
+      "note": "Từ khoá xuất hiện liên tục trên báo Đức và trong đề thi B2.",
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-umsatz",
+      "de": "Umsatz",
+      "article": "der",
+      "plural": "Umsätze",
+      "pos": "noun",
+      "vi": "doanh thu",
+      "example": { "de": "Der Umsatz ist um zehn Prozent gestiegen.", "vi": "Doanh thu tăng mười phần trăm." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-branche",
+      "de": "Branche",
+      "article": "die",
+      "plural": "Branchen",
+      "pos": "noun",
+      "vi": "ngành, lĩnh vực",
+      "example": { "de": "Die IT-Branche wächst weiter.", "vi": "Ngành công nghệ thông tin tiếp tục tăng trưởng." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-arbeitslosigkeit",
+      "de": "Arbeitslosigkeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "tỷ lệ thất nghiệp",
+      "example": { "de": "Die Arbeitslosigkeit ist leicht gesunken.", "vi": "Tỷ lệ thất nghiệp giảm nhẹ." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-tarifvertrag",
+      "de": "Tarifvertrag",
+      "article": "der",
+      "plural": "Tarifverträge",
+      "pos": "noun",
+      "vi": "thoả ước lao động tập thể",
+      "example": { "de": "Der neue Tarifvertrag wurde ausgehandelt.", "vi": "Thoả ước lao động mới đã được thương lượng xong." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-einstellen",
+      "de": "einstellen",
+      "pos": "verb",
+      "vi": "tuyển dụng; ngừng lại",
+      "example": { "de": "Die Firma stellt 50 neue Mitarbeiter ein.", "vi": "Công ty tuyển 50 nhân viên mới." },
+      "note": "Đa nghĩa: \"jemanden einstellen\" = tuyển; \"die Produktion einstellen\" = ngừng sản xuất.",
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-steigern",
+      "de": "steigern",
+      "pos": "verb",
+      "vi": "làm tăng, nâng cao",
+      "example": { "de": "Das Unternehmen konnte die Produktivität steigern.", "vi": "Doanh nghiệp đã nâng được năng suất." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-rentabel",
+      "de": "rentabel",
+      "pos": "adjective",
+      "vi": "có lãi, sinh lời",
+      "example": { "de": "Das Projekt ist nicht rentabel.", "vi": "Dự án này không sinh lời." },
+      "tags": ["kinh-te"]
+    },
+    {
+      "id": "b2-1-u01-v-zunehmend",
+      "de": "zunehmend",
+      "pos": "adjective",
+      "vi": "ngày càng, gia tăng",
+      "example": { "de": "Zunehmend arbeiten Menschen im Homeoffice.", "vi": "Ngày càng nhiều người làm việc tại nhà." },
+      "tags": ["kinh-te", "lap-luan"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b2-1-u01-g-nominalstil",
+      "title": "Nominalstil und Verbalstil",
+      "titleVi": "Văn phong danh hoá và văn phong động từ",
+      "summary": "Văn bản hành chính, kinh tế và khoa học tiếng Đức nén thông tin bằng danh từ thay vì mệnh đề.",
+      "explanation": "Tiếng Đức trang trọng chuộng **danh hoá**: biến mệnh đề thành cụm danh từ. Đây là lý do văn bản chính thức đọc \"nặng\" nhưng lại rất súc tích.\n\n**So sánh trực tiếp:**\n\n- Văn phong động từ: `**Nachdem** die Preise **gestiegen sind**, ist die Nachfrage gesunken.`\n- Văn phong danh hoá: `**Nach dem Anstieg** der Preise ist die Nachfrage gesunken.`\n\n**Bảng chuyển đổi liên từ → giới từ:**\n\n| Mệnh đề | Cụm danh từ |\n|---|---|\n| weil / da | wegen + Genitiv |\n| obwohl | trotz + Genitiv |\n| wenn / falls | bei + Dativ |\n| nachdem | nach + Dativ |\n| bevor | vor + Dativ |\n| damit / um … zu | zu + Dativ, zwecks + Genitiv |\n\nĐể danh hoá một động từ, thường có ba cách:\n\n- Thêm đuôi `-ung`: steigen → der Anstieg / die Steigerung\n- Dùng nguyên thể làm danh từ: `das Arbeiten`, `das Wachsen`\n- Dùng danh từ gốc sẵn có: ankommen → die Ankunft\n\nỞ B2, bạn cần **đọc hiểu** văn phong này thành thạo và **viết được** ở mức cơ bản.",
+      "examples": [
+        { "de": "Wegen des starken Wettbewerbs mussten Stellen abgebaut werden.", "vi": "Vì cạnh tranh gay gắt, buộc phải cắt giảm việc làm.", "note": "= Weil der Wettbewerb stark war, …" },
+        { "de": "Trotz der Krise stieg der Umsatz.", "vi": "Bất chấp khủng hoảng, doanh thu vẫn tăng.", "note": "= Obwohl es eine Krise gab, …" },
+        { "de": "Bei Nichtzahlung wird der Vertrag gekündigt.", "vi": "Nếu không thanh toán, hợp đồng sẽ bị chấm dứt.", "note": "= Wenn nicht gezahlt wird, …" },
+        { "de": "Nach Abschluss des Projekts folgt eine Auswertung.", "vi": "Sau khi kết thúc dự án sẽ có phần đánh giá." }
+      ],
+      "tables": [
+        {
+          "title": "Chuyển đổi hai chiều",
+          "headers": ["Liên từ (mệnh đề)", "Giới từ (danh hoá)", "Cách"],
+          "rows": [
+            ["weil, da", "wegen / aufgrund", "Genitiv"],
+            ["obwohl", "trotz", "Genitiv"],
+            ["wenn, falls", "bei", "Dativ"],
+            ["nachdem", "nach", "Dativ"],
+            ["bevor", "vor", "Dativ"],
+            ["während", "während", "Genitiv"],
+            ["um … zu", "zu / zwecks", "Dativ / Genitiv"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng sai cách sau giới từ: \"wegen dem Wetter\" là văn nói; văn viết chuẩn là \"wegen des Wetters\".",
+        "Danh hoá quá đà làm câu khó hiểu — trong bài thi viết nên cân bằng hai văn phong.",
+        "Quên mạo từ khi danh hoá: \"Nach Abschluss\" (không mạo từ, cố định) khác \"nach dem Abschluss des Projekts\"."
+      ],
+      "tags": ["connectors", "cases"]
+    },
+    {
+      "id": "b2-1-u01-g-passiv-alle",
+      "title": "Passiv in allen Zeitformen",
+      "titleVi": "Câu bị động ở mọi thì",
+      "summary": "Nắm đủ sáu dạng bị động, kể cả bị động với động từ khuyết thiếu và bị động trạng thái.",
+      "explanation": "Ở B1 bạn đã học bị động hiện tại và quá khứ. Ở B2 cần dùng thành thạo cả bảng.\n\n**Phân biệt hai loại bị động — đây là điểm B2 hay bị bắt lỗi:**\n\n- **Vorgangspassiv** (bị động hành động): `werden` + Partizip II → nhấn mạnh **quá trình đang diễn ra**\n  `Die Tür **wird geöffnet**.` (Cửa đang được mở)\n\n- **Zustandspassiv** (bị động trạng thái): `sein` + Partizip II → nhấn mạnh **kết quả**\n  `Die Tür **ist geöffnet**.` (Cửa đang ở trạng thái mở)\n\n**Bị động với động từ khuyết thiếu:** modal (chia) + Partizip II + `werden`\n\n`Die Stellen **müssen** bis Juni **besetzt werden**.`\n\n**Bị động không có chủ thể** (unpersönliches Passiv) — dùng khi không có tân ngữ Akkusativ:\n\n`**Es wird** hier viel **gearbeitet**.` (Ở đây người ta làm việc nhiều)",
+      "examples": [
+        { "de": "Der Vertrag wird gerade geprüft.", "vi": "Hợp đồng đang được kiểm tra." },
+        { "de": "Der Vertrag wurde letzte Woche unterschrieben.", "vi": "Hợp đồng đã được ký tuần trước." },
+        { "de": "Der Vertrag ist bereits unterschrieben.", "vi": "Hợp đồng đã ở trạng thái được ký.", "note": "Zustandspassiv — nhấn mạnh kết quả." },
+        { "de": "Die Produktion musste eingestellt werden.", "vi": "Việc sản xuất đã buộc phải dừng lại." }
+      ],
+      "tables": [
+        {
+          "title": "Bảng bị động đầy đủ",
+          "headers": ["Thì / dạng", "Cấu trúc", "Ví dụ"],
+          "rows": [
+            ["Präsens", "wird + P2", "wird geprüft"],
+            ["Präteritum", "wurde + P2", "wurde geprüft"],
+            ["Perfekt", "ist + P2 + worden", "ist geprüft worden"],
+            ["Plusquamperfekt", "war + P2 + worden", "war geprüft worden"],
+            ["Futur I", "wird + P2 + werden", "wird geprüft werden"],
+            ["với Modalverb", "muss + P2 + werden", "muss geprüft werden"],
+            ["Zustandspassiv", "ist + P2", "ist geprüft"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nhầm Zustandspassiv với Vorgangspassiv — \"Das Geschäft ist geschlossen\" (đang đóng cửa) khác \"wird geschlossen\" (đang bị đóng lại).",
+        "Đặt sai thứ tự với modal: phải là \"besetzt werden\", không phải \"werden besetzt\".",
+        "Dùng \"geworden\" thay \"worden\" trong bị động Perfekt."
+      ],
+      "tags": ["passive", "tenses"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-1-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "Chuyển sang văn phong danh hoá: \"Weil die Preise gestiegen sind, …\"",
+      "options": [
+        "Wegen des Anstiegs der Preise …",
+        "Wegen dem Anstieg der Preise …",
+        "Trotz des Anstiegs der Preise …",
+        "Bei dem Anstieg der Preise …"
+      ],
+      "answerIndex": 0,
+      "explanation": "weil → wegen + Genitiv. \"wegen dem\" là dạng văn nói, không dùng trong văn viết chuẩn.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-1-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "Die Produktion musste ___.",
+      "promptVi": "Việc sản xuất đã buộc phải dừng lại.",
+      "options": [
+        "eingestellt werden",
+        "werden eingestellt",
+        "eingestellt worden",
+        "einstellen werden"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bị động với modal: Partizip II + werden, cả hai ở cuối câu theo đúng thứ tự đó.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-1-u01-e-03",
+      "type": "multiple_choice",
+      "prompt": "Câu nào diễn tả TRẠNG THÁI (kết quả), không phải quá trình?",
+      "options": [
+        "Das Geschäft ist geschlossen.",
+        "Das Geschäft wird geschlossen.",
+        "Das Geschäft wurde geschlossen.",
+        "Das Geschäft ist geschlossen worden."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"sein + Partizip II\" là Zustandspassiv — cửa hàng đang ở trạng thái đóng. Ba câu kia đều nói về hành động đóng cửa.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-1-u01-e-04",
+      "type": "matching",
+      "instruction": "Nối liên từ với giới từ tương ứng trong văn phong danh hoá",
+      "pairs": [
+        { "left": "weil", "right": "wegen + Genitiv" },
+        { "left": "obwohl", "right": "trotz + Genitiv" },
+        { "left": "wenn", "right": "bei + Dativ" },
+        { "left": "nachdem", "right": "nach + Dativ" }
+      ],
+      "explanation": "Nắm bảng này giúp đọc văn bản hành chính Đức nhanh hơn hẳn.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-1-u01-e-05",
+      "type": "fill_blank",
+      "sentence": "Der Vertrag ist letzte Woche geprüft ___ und muss noch unterschrieben ___.",
+      "blanks": [
+        { "answers": ["worden"], "hint": "Perfekt bị động" },
+        { "answers": ["werden"], "hint": "bị động với modal" }
+      ],
+      "translation": "Hợp đồng đã được kiểm tra tuần trước và còn phải được ký.",
+      "explanation": "Perfekt bị động dùng \"worden\"; bị động với động từ khuyết thiếu dùng \"werden\" ở cuối.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-1-u01-e-06",
+      "type": "listening",
+      "audioText": "Aufgrund des Fachkräftemangels konnten viele Stellen nicht besetzt werden.",
+      "mode": "choice",
+      "question": "Câu này nói gì?",
+      "options": [
+        "Do thiếu lao động lành nghề, nhiều vị trí không tuyển được người",
+        "Nhiều người mất việc vì khủng hoảng",
+        "Công ty đã tuyển đủ nhân sự",
+        "Lương của lao động lành nghề đã tăng"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"aufgrund des Fachkräftemangels\" = do thiếu nhân lực lành nghề; \"nicht besetzt werden\" = không được lấp đầy.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b2-1-u01-e-07",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Trotz der schwierigen Lage konnte der Umsatz gesteigert werden.",
+      "answers": [
+        "Bất chấp tình hình khó khăn, doanh thu vẫn được nâng lên.",
+        "Dù tình hình khó khăn, doanh thu vẫn tăng được.",
+        "Mặc dù tình hình khó khăn, doanh thu vẫn được nâng cao.",
+        "Bất chấp tình hình khó khăn, doanh thu vẫn tăng."
+      ],
+      "explanation": "Câu gồm cả danh hoá (trotz + Genitiv) và bị động với modal (konnte … gesteigert werden).",
+      "skillTag": "translation"
+    }
+  ]
+}

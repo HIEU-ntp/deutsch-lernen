@@ -1,0 +1,269 @@
+{
+  "id": "a1-1-u08-fragen",
+  "level": "A1.1",
+  "order": 8,
+  "slug": "fragen-stellen",
+  "title": "Fragen stellen",
+  "titleVi": "Đặt câu hỏi",
+  "description": "Hai kiểu câu hỏi tiếng Đức: có từ để hỏi (W-Frage) và câu hỏi có/không (Ja-Nein-Frage). Kèm cách trả lời phủ định bằng \"doch\".",
+  "goals": [
+    "Dùng đúng 8 từ để hỏi thông dụng",
+    "Phân biệt trật tự từ của hai kiểu câu hỏi",
+    "Biết khi nào trả lời \"doch\" thay vì \"ja\""
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u08-v-wer",
+      "de": "wer",
+      "pos": "pronoun",
+      "vi": "ai",
+      "example": { "de": "Wer ist das?", "vi": "Đó là ai?" },
+      "note": "Cẩn thận: \"wer\" nghĩa là AI, không phải \"ở đâu\" như \"where\" tiếng Anh.",
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-was",
+      "de": "was",
+      "pos": "pronoun",
+      "vi": "cái gì",
+      "example": { "de": "Was machst du?", "vi": "Bạn đang làm gì?" },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-wo",
+      "de": "wo",
+      "pos": "adverb",
+      "vi": "ở đâu",
+      "example": { "de": "Wo wohnst du?", "vi": "Bạn sống ở đâu?" },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-wann",
+      "de": "wann",
+      "pos": "adverb",
+      "vi": "khi nào",
+      "example": { "de": "Wann kommst du?", "vi": "Khi nào bạn đến?" },
+      "tags": ["cau-hoi", "thoi-gian"]
+    },
+    {
+      "id": "a1-1-u08-v-wie",
+      "de": "wie",
+      "pos": "adverb",
+      "vi": "như thế nào",
+      "example": { "de": "Wie geht es dir?", "vi": "Bạn khoẻ không?" },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-warum",
+      "de": "warum",
+      "pos": "adverb",
+      "vi": "tại sao",
+      "example": { "de": "Warum lernst du Deutsch?", "vi": "Tại sao bạn học tiếng Đức?" },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-wie-viel",
+      "de": "wie viel",
+      "pos": "phrase",
+      "vi": "bao nhiêu (không đếm được)",
+      "example": { "de": "Wie viel kostet das?", "vi": "Cái đó giá bao nhiêu?" },
+      "note": "Với danh từ đếm được thì dùng \"wie viele\": Wie viele Bücher hast du?",
+      "tags": ["cau-hoi", "so-dem"]
+    },
+    {
+      "id": "a1-1-u08-v-welcher",
+      "de": "welcher",
+      "pos": "pronoun",
+      "vi": "nào (trong một nhóm)",
+      "example": { "de": "Welches Buch nimmst du?", "vi": "Bạn lấy quyển sách nào?" },
+      "note": "Phải biến đuôi theo giống: welcher Mann, welche Frau, welches Kind.",
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-ja",
+      "de": "ja",
+      "pos": "particle",
+      "vi": "vâng, đúng",
+      "example": { "de": "Kommst du? — Ja, gern!", "vi": "Bạn đến chứ? — Có, sẵn lòng!" },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-nein",
+      "de": "nein",
+      "pos": "particle",
+      "vi": "không",
+      "example": { "de": "Bist du müde? — Nein.", "vi": "Bạn mệt à? — Không." },
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-doch",
+      "de": "doch",
+      "pos": "particle",
+      "vi": "có chứ (phản bác câu hỏi phủ định)",
+      "example": { "de": "Kommst du nicht? — Doch, ich komme!", "vi": "Bạn không đến à? — Có chứ, tôi đến!" },
+      "note": "Tiếng Việt và tiếng Anh không có từ tương đương — đây là điểm rất đặc trưng của tiếng Đức.",
+      "tags": ["cau-hoi"]
+    },
+    {
+      "id": "a1-1-u08-v-vielleicht",
+      "de": "vielleicht",
+      "pos": "adverb",
+      "vi": "có lẽ",
+      "example": { "de": "Vielleicht komme ich später.", "vi": "Có lẽ tôi sẽ đến muộn hơn." },
+      "tags": ["cau-hoi"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u08-g-w-frage",
+      "title": "W-Frage und Ja/Nein-Frage",
+      "titleVi": "Hai kiểu câu hỏi và trật tự từ",
+      "summary": "Có từ để hỏi thì động từ ở vị trí 2; không có từ để hỏi thì động từ nhảy lên vị trí 1.",
+      "explanation": "**1. W-Frage** (câu hỏi có từ để hỏi): từ để hỏi đứng đầu, động từ ở vị trí 2, chủ ngữ theo sau.\n\n`Wo | wohnst | du?`\n\n**2. Ja/Nein-Frage** (câu hỏi có/không): không có từ để hỏi, **động từ nhảy lên vị trí 1**.\n\n`Wohnst | du | in Berlin?`\n\nĐây là điểm khác biệt lớn với tiếng Anh — tiếng Đức không cần trợ động từ kiểu \"do/does\":\n\n- Anh: **Do** you speak German?\n- Đức: Sprechen Sie Deutsch? (chỉ cần đảo động từ lên trước)\n\nSo với tiếng Việt cũng khác: tiếng Việt thêm \"…không?\" ở cuối câu, tiếng Đức đổi trật tự từ.",
+      "examples": [
+        { "de": "Woher kommen Sie?", "vi": "Ông/bà đến từ đâu?", "note": "W-Frage: động từ vị trí 2." },
+        { "de": "Kommen Sie aus Deutschland?", "vi": "Ông/bà đến từ Đức phải không?", "note": "Ja/Nein-Frage: động từ vị trí 1." },
+        { "de": "Warum lernst du Deutsch? — Weil ich in Deutschland arbeiten will.", "vi": "Tại sao bạn học tiếng Đức? — Vì tôi muốn làm việc ở Đức." }
+      ],
+      "tables": [
+        {
+          "title": "Từ để hỏi thông dụng",
+          "headers": ["Từ hỏi", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["wer", "ai", "Wer ist das?"],
+            ["was", "cái gì", "Was machst du?"],
+            ["wo", "ở đâu", "Wo wohnst du?"],
+            ["woher", "từ đâu tới", "Woher kommst du?"],
+            ["wohin", "đi đâu", "Wohin gehst du?"],
+            ["wann", "khi nào", "Wann kommst du?"],
+            ["wie", "như thế nào", "Wie heißt du?"],
+            ["warum", "tại sao", "Warum lernst du Deutsch?"],
+            ["wie viel(e)", "bao nhiêu", "Wie viele Kinder hast du?"],
+            ["welch-", "cái nào", "Welches Buch liest du?"]
+          ],
+          "footnote": "Ba từ wo / woher / wohin rất dễ nhầm: ở đâu / từ đâu / đi đâu."
+        }
+      ],
+      "commonMistakes": [
+        "Thêm trợ động từ kiểu tiếng Anh: \"Machst du tun…?\" — tiếng Đức không có \"do\".",
+        "Nhầm \"wer\" (ai) với \"where\" trong tiếng Anh.",
+        "Giữ trật tự câu kể trong câu hỏi Ja/Nein: \"Du kommst?\" chỉ dùng khi ngạc nhiên, câu chuẩn là \"Kommst du?\"."
+      ],
+      "tags": ["word-order", "connectors"]
+    },
+    {
+      "id": "a1-1-u08-g-doch",
+      "title": "Ja, nein oder doch?",
+      "titleVi": "Khi nào trả lời \"doch\"",
+      "summary": "Khi câu hỏi có \"nicht\" hoặc \"kein\" mà bạn muốn phản bác, phải dùng \"doch\" chứ không phải \"ja\".",
+      "explanation": "Với câu hỏi **khẳng định**, trả lời `ja` hoặc `nein` như bình thường.\n\nNhưng với câu hỏi **phủ định** (có `nicht` hoặc `kein`), tiếng Đức có một từ riêng:\n\n- `Nein` = xác nhận điều phủ định đó đúng.\n- `Doch` = phản bác, khẳng định điều ngược lại.\n\nVí dụ: `Kommst du nicht mit?` (Bạn không đi cùng à?)\n\n- `Nein.` = Đúng, tôi không đi.\n- `Doch!` = Có chứ, tôi đi mà!\n\nNếu bạn trả lời `Ja` cho câu hỏi phủ định, người Đức sẽ không hiểu bạn có đi hay không — đây là lỗi rất hay gặp ở người Việt và người Anh.",
+      "examples": [
+        { "de": "Hast du keine Zeit? — Doch, ich habe Zeit.", "vi": "Bạn không có thời gian à? — Có chứ, tôi có thời gian." },
+        { "de": "Hast du keine Zeit? — Nein, ich habe keine Zeit.", "vi": "Bạn không có thời gian à? — Đúng, tôi không có thời gian." },
+        { "de": "Sprichst du Deutsch? — Ja, ein bisschen.", "vi": "Bạn nói tiếng Đức không? — Có, một chút." }
+      ],
+      "tables": [
+        {
+          "title": "Bảng chọn câu trả lời",
+          "headers": ["Câu hỏi", "Ý muốn nói", "Trả lời"],
+          "rows": [
+            ["Kommst du?", "Có, tôi đến", "Ja"],
+            ["Kommst du?", "Không, tôi không đến", "Nein"],
+            ["Kommst du nicht?", "Có chứ, tôi đến", "Doch"],
+            ["Kommst du nicht?", "Đúng, tôi không đến", "Nein"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Trả lời \"Ja\" cho câu hỏi phủ định — người nghe sẽ hiểu nhầm hoặc phải hỏi lại.",
+        "Dùng \"doch\" cho câu hỏi khẳng định — không đúng ngữ cảnh."
+      ],
+      "tags": ["connectors", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u08-e-01",
+      "type": "multiple_choice",
+      "prompt": "___ kommst du? — Aus Hanoi.",
+      "options": ["Woher", "Wo", "Wohin", "Wer"],
+      "answerIndex": 0,
+      "explanation": "Câu trả lời \"Aus Hanoi\" (từ Hà Nội) cho biết đây là câu hỏi về nơi xuất phát → woher.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u08-e-02",
+      "type": "multiple_choice",
+      "prompt": "\"Trinkst du keinen Kaffee?\" — Bạn CÓ uống cà phê. Trả lời thế nào?",
+      "options": ["Doch, ich trinke Kaffee.", "Ja, ich trinke Kaffee.", "Nein, ich trinke Kaffee.", "Ja, ich trinke keinen Kaffee."],
+      "answerIndex": 0,
+      "explanation": "Câu hỏi có \"keinen\" (phủ định) mà bạn muốn phản bác → phải dùng \"doch\".",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "a1-1-u08-e-03",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi Ja/Nein",
+      "answer": ["Sprechen", "Sie", "auch", "Englisch"],
+      "translation": "Ông/bà cũng nói tiếng Anh chứ?",
+      "explanation": "Câu hỏi Ja/Nein không có từ để hỏi, nên động từ \"Sprechen\" nhảy lên vị trí đầu tiên.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u08-e-04",
+      "type": "fill_blank",
+      "sentence": "___ alt bist du? — Ich bin 22. Und ___ wohnst du?",
+      "blanks": [
+        { "answers": ["Wie"], "hint": "… tuổi" },
+        { "answers": ["wo"], "hint": "ở đâu" }
+      ],
+      "translation": "Bạn bao nhiêu tuổi? — Tôi 22. Còn bạn sống ở đâu?",
+      "explanation": "\"Wie alt\" là cụm cố định để hỏi tuổi; \"wo\" hỏi nơi ở.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-1-u08-e-05",
+      "type": "matching",
+      "instruction": "Nối câu hỏi với câu trả lời",
+      "pairs": [
+        { "left": "Wer ist das?", "right": "Das ist Frau Weber." },
+        { "left": "Wann kommst du?", "right": "Um acht Uhr." },
+        { "left": "Warum lernst du Deutsch?", "right": "Für meine Arbeit." },
+        { "left": "Wie viel kostet das?", "right": "Zwölf Euro." }
+      ],
+      "explanation": "Mỗi từ để hỏi đòi một loại thông tin khác nhau: người, thời gian, lý do, số lượng.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-1-u08-e-06",
+      "type": "listening",
+      "audioText": "Entschuldigung, wann fährt der Zug nach München?",
+      "mode": "choice",
+      "question": "Người nói muốn biết gì?",
+      "options": [
+        "Giờ tàu đi München",
+        "Giá vé đi München",
+        "Tàu đi München ở sân ga nào",
+        "München cách đây bao xa"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"wann\" = khi nào → hỏi về thời gian khởi hành.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u08-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Tại sao bạn học tiếng Đức?",
+      "answers": [
+        "Warum lernst du Deutsch?",
+        "Warum lernen Sie Deutsch?",
+        "Warum lernst du Deutsch",
+        "Warum lernen Sie Deutsch"
+      ],
+      "hint": "warum + động từ vị trí 2",
+      "explanation": "Cả thể du và Sie đều được chấp nhận vì câu tiếng Việt không nói rõ mức trang trọng.",
+      "skillTag": "translation"
+    }
+  ]
+}

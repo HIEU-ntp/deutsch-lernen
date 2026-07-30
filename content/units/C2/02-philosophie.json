@@ -1,0 +1,244 @@
+{
+  "id": "c2-u02-philosophie",
+  "level": "C2",
+  "order": 2,
+  "slug": "philosophie-abstraktion",
+  "title": "Philosophie und Abstraktion",
+  "titleVi": "Triết học và tư duy trừu tượng",
+  "description": "Đọc văn bản triết học Đức — nơi ngôn ngữ được đẩy tới giới hạn. Trọng tâm: thuật ngữ trừu tượng, cấu trúc nén cực đại và những phân biệt khái niệm tinh vi.",
+  "goals": [
+    "Đọc hiểu đoạn văn triết học không cần bản dịch",
+    "Phân biệt các cặp khái niệm gần nghĩa",
+    "Tự tạo danh từ trừu tượng đúng quy tắc"
+  ],
+  "vocabulary": [
+    {
+      "id": "c2-u02-v-erkenntnis",
+      "de": "Erkenntnis",
+      "article": "die",
+      "plural": "Erkenntnisse",
+      "pos": "noun",
+      "vi": "nhận thức (kết quả của quá trình nhận thức)",
+      "example": { "de": "Erkenntnis setzt Erfahrung voraus.", "vi": "Nhận thức đòi hỏi phải có trải nghiệm." },
+      "note": "Phân biệt với \"das Wissen\" (tri thức đã có) và \"die Einsicht\" (sự thấu hiểu).",
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-voraussetzung",
+      "de": "Voraussetzung",
+      "article": "die",
+      "plural": "Voraussetzungen",
+      "pos": "noun",
+      "vi": "tiền đề, điều kiện tiên quyết",
+      "example": { "de": "Diese Annahme ist keine notwendige Voraussetzung.", "vi": "Giả định này không phải là tiền đề tất yếu." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-begriff",
+      "de": "Begriff",
+      "article": "der",
+      "plural": "Begriffe",
+      "pos": "noun",
+      "vi": "khái niệm",
+      "example": { "de": "Der Begriff ist unscharf definiert.", "vi": "Khái niệm này được định nghĩa chưa rõ ràng." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-widerspruch",
+      "de": "Widerspruch",
+      "article": "der",
+      "plural": "Widersprüche",
+      "pos": "noun",
+      "vi": "mâu thuẫn",
+      "example": { "de": "Darin liegt ein innerer Widerspruch.", "vi": "Trong đó ẩn chứa một mâu thuẫn nội tại." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-hinterfragen",
+      "de": "hinterfragen",
+      "pos": "verb",
+      "vi": "chất vấn, xét lại tận gốc",
+      "example": { "de": "Man sollte die Prämissen hinterfragen.", "vi": "Nên chất vấn lại các tiền đề." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-schluessig",
+      "de": "schlüssig",
+      "pos": "adjective",
+      "vi": "chặt chẽ về logic",
+      "example": { "de": "Die Argumentation ist nicht schlüssig.", "vi": "Lập luận không chặt chẽ." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-wesentlich",
+      "de": "wesentlich",
+      "pos": "adjective",
+      "vi": "thuộc về bản chất, cốt yếu",
+      "example": { "de": "Das ist kein wesentlicher, sondern ein akzidenteller Unterschied.", "vi": "Đây không phải khác biệt bản chất mà là ngẫu nhiên." },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-mithin",
+      "de": "mithin",
+      "pos": "adverb",
+      "vi": "do đó, từ đó suy ra",
+      "example": { "de": "Der Satz ist mithin nicht allgemeingültig.", "vi": "Do đó mệnh đề này không có tính phổ quát." },
+      "note": "Dạng trang trọng của \"also\", đặc trưng văn bản triết học.",
+      "tags": ["triet-hoc", "lien-tu"]
+    },
+    {
+      "id": "c2-u02-v-inwiefern",
+      "de": "inwiefern",
+      "pos": "adverb",
+      "vi": "ở mức độ nào, xét khía cạnh nào",
+      "example": { "de": "Inwiefern lässt sich das verallgemeinern?", "vi": "Điều đó có thể khái quát hoá ở mức độ nào?" },
+      "tags": ["triet-hoc"]
+    },
+    {
+      "id": "c2-u02-v-tragfaehig",
+      "de": "tragfähig",
+      "pos": "adjective",
+      "vi": "đủ vững để chống đỡ (lập luận)",
+      "example": { "de": "Diese Basis ist nicht tragfähig.", "vi": "Nền tảng này không đủ vững." },
+      "tags": ["triet-hoc"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "c2-u02-g-abstrakta",
+      "title": "Abstrakta bilden",
+      "titleVi": "Tạo danh từ trừu tượng",
+      "summary": "Tiếng Đức cho phép tạo danh từ trừu tượng từ gần như mọi từ loại — nền tảng của ngôn ngữ triết học Đức.",
+      "explanation": "Khả năng tạo danh từ trừu tượng gần như không giới hạn là lý do triết học Đức có thể diễn đạt những phân biệt mà nhiều ngôn ngữ khác phải diễn giải dài dòng.\n\n**Các hậu tố chính và sắc thái của chúng:**\n\n| Hậu tố | Từ gốc | Sắc thái | Ví dụ |\n|---|---|---|---|\n| -heit / -keit | tính từ | trạng thái, phẩm chất | Freiheit, Möglichkeit |\n| -ung | động từ | quá trình hoặc kết quả | Bewegung, Erfahrung |\n| -nis | động từ | kết quả đã kết tinh | Erkenntnis, Ergebnis |\n| -tum | danh từ | tổng thể, phạm vi | Eigentum, Christentum |\n| -schaft | danh từ | tập hợp, quan hệ | Gesellschaft, Wissenschaft |\n\nSắc thái của `-ung` và `-nis` là chỗ tinh tế: `die Erkennung` (hành vi nhận ra, ví dụ nhận diện khuôn mặt) khác hẳn `die Erkenntnis` (nhận thức như một kết quả tư tưởng).\n\n**Nguyên thể danh hoá** — công cụ mạnh nhất:\n\n`das **Sein**` (tồn tại), `das **Werden**` (sự sinh thành), `das **In-der-Welt-Sein**` (Heidegger)\n\nDạng này luôn là **giống trung** và giữ nguyên toàn bộ cấu trúc của động từ, cho phép nén cả một mệnh đề thành một danh từ.\n\n**Ghép từ không giới hạn** cũng là đặc sản: `die Bewusstseinserweiterung`, `die Handlungsfähigkeit`. Khi đọc, hãy tách từ ghép từ **phải sang trái**: thành phần cuối là hạt nhân, các thành phần trước bổ nghĩa cho nó.",
+      "examples": [
+        { "de": "Freiheit ist die Einsicht in die Notwendigkeit.", "vi": "Tự do là sự thấu hiểu tính tất yếu.", "note": "Câu trứ danh của Hegel/Engels." },
+        { "de": "Das Sein bestimmt das Bewusstsein.", "vi": "Tồn tại quyết định ý thức.", "note": "Nguyên thể danh hoá ở cả hai vế." },
+        { "de": "Die Handlungsfähigkeit setzt Erkenntnis voraus.", "vi": "Năng lực hành động đòi hỏi phải có nhận thức." },
+        { "de": "Der Begriff ist mithin nicht tragfähig.", "vi": "Do đó khái niệm này không đủ vững." }
+      ],
+      "tables": [
+        {
+          "title": "Cặp từ gần nghĩa cần phân biệt",
+          "headers": ["Cặp", "Khác biệt"],
+          "rows": [
+            ["Erkennung / Erkenntnis", "hành vi nhận ra / nhận thức như kết quả"],
+            ["Wissen / Erkenntnis", "tri thức đã có / kết quả của quá trình nhận thức"],
+            ["Grund / Ursache", "lý do (lập luận) / nguyên nhân (nhân quả)"],
+            ["Bedingung / Voraussetzung", "điều kiện / tiền đề đã giả định sẵn"],
+            ["wesentlich / erheblich", "thuộc bản chất / đáng kể về lượng"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Coi -ung và -nis là thay thế được cho nhau — sắc thái khác hẳn.",
+        "Đọc từ ghép từ trái sang phải — hạt nhân nghĩa luôn nằm ở thành phần cuối.",
+        "Nhầm \"Grund\" (lý do trong lập luận) với \"Ursache\" (nguyên nhân vật lý)."
+      ],
+      "tags": ["vocabulary", "connectors"]
+    },
+    {
+      "id": "c2-u02-g-praezision",
+      "title": "Präzision und Hedging",
+      "titleVi": "Độ chính xác và cách rào đón",
+      "summary": "Văn bản triết học vừa phải chính xác tuyệt đối, vừa phải rào đón đúng mức — hai yêu cầu tưởng như mâu thuẫn.",
+      "explanation": "**Rào đón (Hedging)** — đánh dấu chính xác phạm vi hiệu lực của một nhận định:\n\n- `weitgehend` (phần lớn), `im Wesentlichen` (về cơ bản), `tendenziell` (có xu hướng)\n- `unter bestimmten Bedingungen` (trong những điều kiện nhất định)\n- `sofern man … voraussetzt` (chừng nào ta giả định rằng…)\n\n**Giới hạn phạm vi** — cấu trúc chuyên dụng của tiếng Đức triết học:\n\n`Die These gilt **insofern**, **als** sie sich auf empirische Fälle beschränkt.`\n(Luận điểm chỉ đúng trong chừng mực nó giới hạn ở các trường hợp thực nghiệm.)\n\n**Đặt câu hỏi mức độ** thay vì câu hỏi có/không — dấu hiệu tư duy triết học:\n\n- Không phải: `Ist das wahr?`\n- Mà là: `**Inwiefern** lässt sich das behaupten?` / `**Unter welchen Bedingungen** gilt das?`\n\n**Bộ liên từ suy luận trang trọng:**\n\n`mithin` (do đó), `folglich` (vì thế), `demnach` (theo đó), `gleichwohl` (tuy vậy), `indes` (trong khi đó), `zumal` (nhất là vì)\n\nSo với `also`, `deshalb` của ngôn ngữ hằng ngày, bộ này đánh dấu văn bản thuộc tầng trang trọng cao.",
+      "examples": [
+        { "de": "Die These gilt insofern, als sie sich auf empirische Fälle beschränkt.", "vi": "Luận điểm chỉ đúng trong chừng mực nó giới hạn ở các trường hợp thực nghiệm." },
+        { "de": "Inwiefern lässt sich diese Erkenntnis verallgemeinern?", "vi": "Nhận thức này có thể khái quát hoá tới mức nào?" },
+        { "de": "Der Schluss ist mithin nicht zwingend.", "vi": "Do đó kết luận này không mang tính tất yếu." },
+        { "de": "Es handelt sich hierbei im Wesentlichen um eine Frage der Definition.", "vi": "Về cơ bản đây là một vấn đề định nghĩa." }
+      ],
+      "tables": [
+        {
+          "title": "Liên từ suy luận theo tầng phong cách",
+          "headers": ["Hằng ngày", "Trang trọng", "Nghĩa"],
+          "rows": [
+            ["also", "mithin / folglich", "do đó"],
+            ["deshalb", "demnach", "theo đó"],
+            ["trotzdem", "gleichwohl / dessen ungeachtet", "tuy vậy"],
+            ["aber", "indes / hingegen", "trong khi đó"],
+            ["besonders weil", "zumal", "nhất là vì"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Khẳng định tuyệt đối trong văn triết học — thiếu rào đón bị coi là ngây thơ.",
+        "Rào đón quá dày khiến nhận định mất hết nội dung.",
+        "Dùng \"also\" trong văn bản trang trọng — nên là \"mithin\" hoặc \"folglich\"."
+      ],
+      "tags": ["connectors", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "c2-u02-e-01",
+      "type": "multiple_choice",
+      "prompt": "Khác biệt giữa \"die Erkennung\" và \"die Erkenntnis\" là gì?",
+      "options": [
+        "Erkennung là hành vi nhận ra, Erkenntnis là nhận thức như một kết quả tư tưởng",
+        "Hai từ hoàn toàn đồng nghĩa",
+        "Erkennung trang trọng hơn Erkenntnis",
+        "Erkenntnis chỉ dùng ở số nhiều"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hậu tố -ung chỉ quá trình/hành vi, -nis chỉ kết quả đã kết tinh.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u02-e-02",
+      "type": "multiple_choice",
+      "prompt": "Từ nào là dạng TRANG TRỌNG của \"also\"?",
+      "options": ["mithin", "sowieso", "eben", "halt"],
+      "answerIndex": 0,
+      "explanation": "\"mithin\" và \"folglich\" thuộc tầng trang trọng cao, đặc trưng văn bản triết học và pháp lý.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c2-u02-e-03",
+      "type": "matching",
+      "instruction": "Nối cặp khái niệm với phân biệt đúng",
+      "pairs": [
+        { "left": "Grund", "right": "lý do trong lập luận" },
+        { "left": "Ursache", "right": "nguyên nhân theo quan hệ nhân quả" },
+        { "left": "Bedingung", "right": "điều kiện phải thoả mãn" },
+        { "left": "Voraussetzung", "right": "tiền đề được giả định sẵn" }
+      ],
+      "explanation": "Bốn từ này đều dịch gần nhau sang tiếng Việt nhưng trong triết học Đức là bốn khái niệm phân biệt.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "c2-u02-e-04",
+      "type": "fill_blank",
+      "sentence": "Die These gilt ___, ___ sie sich auf empirische Fälle beschränkt.",
+      "blanks": [
+        { "answers": ["insofern"], "hint": "trong chừng mực" },
+        { "answers": ["als"], "hint": "vế thứ hai của cặp liên từ" }
+      ],
+      "translation": "Luận điểm chỉ đúng trong chừng mực nó giới hạn ở các trường hợp thực nghiệm.",
+      "explanation": "\"insofern … als …\" là cặp liên từ chuyên dùng để giới hạn phạm vi hiệu lực của một nhận định.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "c2-u02-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu triết học",
+      "answer": ["Der", "Schluss", "ist", "mithin", "nicht", "zwingend"],
+      "translation": "Do đó kết luận này không mang tính tất yếu.",
+      "explanation": "\"mithin\" đứng ở Mittelfeld chứ không ở đầu câu, khác với \"also\" trong văn nói.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "c2-u02-e-06",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Inwiefern die Prämissen tragfähig sind, bleibt gleichwohl zu klären.",
+      "answers": [
+        "Các tiền đề có đủ vững hay không thì tuy vậy vẫn còn phải làm rõ.",
+        "Tuy vậy vẫn còn phải làm rõ các tiền đề vững tới mức nào.",
+        "Việc các tiền đề có đủ vững hay không thì dù sao vẫn cần được làm sáng tỏ."
+      ],
+      "explanation": "Mệnh đề phụ với \"inwiefern\" đứng ở vị trí 1 của câu, kéo động từ \"bleibt\" lên ngay sau đó.",
+      "skillTag": "translation"
+    }
+  ]
+}

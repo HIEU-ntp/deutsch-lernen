@@ -1,0 +1,267 @@
+{
+  "id": "b2-2-u01-kultur",
+  "level": "B2.2",
+  "order": 1,
+  "slug": "kultur-identitaet",
+  "title": "Kultur und Identität",
+  "titleVi": "Văn hoá và bản sắc",
+  "description": "Thảo luận sâu về bản sắc, ngôn ngữ và thuộc về. Ngữ pháp: các dạng thay thế câu bị động và tiểu từ tình thái — thứ làm nên sắc thái rất Đức.",
+  "goals": [
+    "Tranh luận về chủ đề trừu tượng có dẫn chứng",
+    "Dùng các cấu trúc thay thế câu bị động",
+    "Nhận ra sắc thái do Modalpartikeln tạo ra"
+  ],
+  "vocabulary": [
+    {
+      "id": "b2-2-u01-v-identitaet",
+      "de": "Identität",
+      "article": "die",
+      "plural": "Identitäten",
+      "pos": "noun",
+      "vi": "bản sắc, danh tính",
+      "example": { "de": "Sprache prägt die Identität.", "vi": "Ngôn ngữ định hình bản sắc." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-zugehoerigkeit",
+      "de": "Zugehörigkeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "cảm giác thuộc về",
+      "example": { "de": "Das Gefühl der Zugehörigkeit ist wichtig.", "vi": "Cảm giác thuộc về là điều quan trọng." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-praegen",
+      "de": "prägen",
+      "pos": "verb",
+      "vi": "định hình, in dấu",
+      "example": { "de": "Die Kindheit prägt uns ein Leben lang.", "vi": "Tuổi thơ in dấu lên ta suốt đời." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-brauch",
+      "de": "Brauch",
+      "article": "der",
+      "plural": "Bräuche",
+      "pos": "noun",
+      "vi": "tập tục",
+      "example": { "de": "Alte Bräuche verschwinden allmählich.", "vi": "Các tập tục cũ dần biến mất." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-vielfalt",
+      "de": "Vielfalt",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự đa dạng",
+      "example": { "de": "Kulturelle Vielfalt bereichert die Gesellschaft.", "vi": "Đa dạng văn hoá làm giàu cho xã hội." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-bewahren",
+      "de": "bewahren",
+      "pos": "verb",
+      "vi": "gìn giữ",
+      "example": { "de": "Traditionen lassen sich nicht erzwingen, nur bewahren.", "vi": "Truyền thống không thể ép buộc, chỉ có thể gìn giữ." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-entfremdung",
+      "de": "Entfremdung",
+      "article": "die",
+      "pos": "noun",
+      "vi": "sự xa lạ hoá",
+      "example": { "de": "Viele erleben eine Entfremdung von der Heimat.", "vi": "Nhiều người trải qua cảm giác xa lạ với quê nhà." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-wahrnehmen",
+      "de": "wahrnehmen",
+      "pos": "verb",
+      "vi": "nhận thức, cảm nhận",
+      "principalParts": "wahrnehmen, nahm wahr, hat wahrgenommen",
+      "example": { "de": "Jeder nimmt Kultur anders wahr.", "vi": "Mỗi người cảm nhận văn hoá một cách khác nhau." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-stereotyp",
+      "de": "Stereotyp",
+      "article": "das",
+      "plural": "Stereotype",
+      "pos": "noun",
+      "vi": "khuôn mẫu, định kiến rập khuôn",
+      "example": { "de": "Stereotype lassen sich schwer abbauen.", "vi": "Khuôn mẫu rất khó xoá bỏ." },
+      "tags": ["van-hoa"]
+    },
+    {
+      "id": "b2-2-u01-v-ambivalent",
+      "de": "ambivalent",
+      "pos": "adjective",
+      "vi": "hai chiều, mâu thuẫn trong lòng",
+      "example": { "de": "Mein Verhältnis zur Heimat ist ambivalent.", "vi": "Quan hệ của tôi với quê nhà mang tính hai chiều." },
+      "tags": ["van-hoa", "lap-luan"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "b2-2-u01-g-passiversatz",
+      "title": "Passiversatzformen",
+      "titleVi": "Các dạng thay thế câu bị động",
+      "summary": "Bốn cấu trúc mang nghĩa bị động mà không dùng werden — dấu hiệu văn phong trưởng thành.",
+      "explanation": "Ở B2.2, việc dùng đi dùng lại `werden + Partizip II` bị coi là đơn điệu. Tiếng Đức có bốn cách thay thế, mỗi cách mang sắc thái riêng:\n\n**1. `sich lassen` + nguyên thể** = \"có thể được…\"\n`Das Problem **lässt sich** leicht **lösen**.` (= kann gelöst werden)\n\n**2. `sein` + `zu` + nguyên thể** = \"có thể / phải được…\"\n`Der Text **ist** schwer **zu verstehen**.` (= kann schwer verstanden werden)\n`Die Frist **ist einzuhalten**.` (= muss eingehalten werden — sắc thái bắt buộc)\n\n**3. Tính từ đuôi `-bar`** = có thể được…\n`Das Ergebnis ist **nachweisbar**.` (= kann nachgewiesen werden)\n\n**4. `man` + động từ chủ động** — dạng đơn giản nhất, thiên về văn nói\n`**Man kann** das Problem leicht lösen.`\n\nLưu ý sắc thái: `sein + zu + Infinitiv` có thể mang cả nghĩa \"có thể\" lẫn \"phải\" — ngữ cảnh quyết định. Trong văn bản hành chính nó gần như luôn mang nghĩa **bắt buộc**.",
+      "examples": [
+        { "de": "Stereotype lassen sich nur schwer abbauen.", "vi": "Khuôn mẫu rất khó xoá bỏ." },
+        { "de": "Diese Entwicklung ist kaum aufzuhalten.", "vi": "Diễn biến này gần như không thể ngăn được." },
+        { "de": "Der Zusammenhang ist messbar.", "vi": "Mối liên hệ này đo được." },
+        { "de": "Die Unterlagen sind bis Freitag einzureichen.", "vi": "Hồ sơ phải được nộp trước thứ Sáu.", "note": "Sắc thái bắt buộc." }
+      ],
+      "tables": [
+        {
+          "title": "Bốn dạng thay thế",
+          "headers": ["Cấu trúc", "Tương đương", "Ví dụ"],
+          "rows": [
+            ["sich lassen + Inf.", "kann … werden", "lässt sich lösen"],
+            ["sein + zu + Inf.", "kann/muss … werden", "ist zu lösen"],
+            ["tính từ -bar", "kann … werden", "lösbar"],
+            ["man + chủ động", "trung tính", "man kann lösen"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Quên \"sich\": \"Das lässt leicht lösen\" — phải là \"lässt sich\".",
+        "Dùng \"sein + zu\" cho việc đã hoàn thành — cấu trúc này luôn hướng tới khả năng hoặc yêu cầu.",
+        "Tạo tính từ -bar tuỳ tiện: không phải động từ nào cũng có dạng -bar."
+      ],
+      "tags": ["passive", "subordinate-clauses"]
+    },
+    {
+      "id": "b2-2-u01-g-modalpartikeln",
+      "title": "Modalpartikeln",
+      "titleVi": "Tiểu từ tình thái",
+      "summary": "doch, ja, mal, eben, halt, wohl — những từ nhỏ không dịch được nhưng thiếu chúng thì câu nghe \"như người nước ngoài\".",
+      "explanation": "Modalpartikeln là những từ ngắn **không thay đổi nội dung** câu mà thay đổi **thái độ người nói**. Tiếng Việt diễn đạt tương tự bằng \"mà\", \"nhỉ\", \"thôi\", \"chứ\", \"ấy mà\".\n\nĐây là thứ phân biệt rõ nhất người nói B2 với người nói C1.\n\n**Các tiểu từ quan trọng:**\n\n- `doch` — nhấn mạnh, nhắc điều người nghe đã biết: `Du weißt **doch**, wie das ist.` (Bạn biết mà)\n- `ja` — điều hiển nhiên, cả hai cùng biết: `Das ist **ja** interessant!` (Cái này thú vị thật đấy)\n- `mal` — làm mềm yêu cầu: `Komm **mal** her.` (Lại đây tí nào)\n- `eben` / `halt` — chấp nhận sự đã rồi: `So ist es **eben**.` (Thì nó vậy thôi)\n- `wohl` — phỏng đoán: `Er ist **wohl** krank.` (Chắc anh ta ốm)\n- `denn` — làm mềm câu hỏi: `Was machst du **denn** hier?` (Ơ, bạn làm gì ở đây thế?)\n\n**Quy tắc vị trí:** Modalpartikeln luôn nằm ở **Mittelfeld** (giữa câu), sau chủ ngữ và các đại từ, trước phần thông tin mới.\n\nCẩn thận: `denn` là tiểu từ khi ở giữa câu hỏi, nhưng là liên từ (\"vì\") khi nối hai mệnh đề. Tương tự `doch` cũng có nghĩa \"có chứ\" khi đứng riêng.",
+      "examples": [
+        { "de": "Das ist ja interessant!", "vi": "Ồ, cái này thú vị thật đấy!", "note": "ja = ngạc nhiên nhẹ, điều hiển nhiên" },
+        { "de": "Komm doch mal vorbei!", "vi": "Ghé qua chơi đi mà!", "note": "doch + mal = lời mời thân mật, không ép" },
+        { "de": "Was machst du denn hier?", "vi": "Ơ, bạn làm gì ở đây thế?", "note": "denn = tò mò, không phải chất vấn" },
+        { "de": "So ist das Leben halt.", "vi": "Đời thì nó vậy thôi.", "note": "halt = cam chịu, chấp nhận" }
+      ],
+      "tables": [
+        {
+          "title": "Tiểu từ và sắc thái",
+          "headers": ["Tiểu từ", "Sắc thái", "Gần với tiếng Việt"],
+          "rows": [
+            ["doch", "nhắc điều đã biết, nhấn mạnh", "…mà, …chứ"],
+            ["ja", "hiển nhiên, ngạc nhiên nhẹ", "…thật đấy"],
+            ["mal", "làm mềm đề nghị", "…một chút, …tí"],
+            ["eben / halt", "chấp nhận sự đã rồi", "…thôi, …vậy"],
+            ["wohl", "phỏng đoán", "chắc là…"],
+            ["denn", "làm mềm câu hỏi", "…thế, …vậy"]
+          ],
+          "footnote": "Không có bản dịch cố định — phải cảm bằng ngữ cảnh."
+        }
+      ],
+      "commonMistakes": [
+        "Dùng quá nhiều tiểu từ trong một câu — nghe gượng.",
+        "Đặt tiểu từ ở đầu câu — chúng gần như luôn ở giữa câu.",
+        "Dùng Modalpartikeln trong văn viết học thuật — chúng thuộc về văn nói."
+      ],
+      "tags": ["connectors", "word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "b2-2-u01-e-01",
+      "type": "multiple_choice",
+      "prompt": "\"Das Problem kann leicht gelöst werden.\" Cách diễn đạt nào TƯƠNG ĐƯƠNG?",
+      "options": [
+        "Das Problem lässt sich leicht lösen.",
+        "Das Problem lässt leicht lösen.",
+        "Das Problem ist leicht gelöst.",
+        "Das Problem hat sich leicht gelöst."
+      ],
+      "answerIndex": 0,
+      "explanation": "\"sich lassen + nguyên thể\" mang nghĩa \"có thể được…\". Không được bỏ \"sich\".",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-2-u01-e-02",
+      "type": "multiple_choice",
+      "prompt": "\"Die Unterlagen sind bis Freitag einzureichen.\" nghĩa là gì?",
+      "options": [
+        "Hồ sơ phải được nộp trước thứ Sáu",
+        "Hồ sơ đã được nộp hôm thứ Sáu",
+        "Hồ sơ có thể nộp bất cứ lúc nào",
+        "Hồ sơ đang được xử lý"
+      ],
+      "answerIndex": 0,
+      "explanation": "Trong văn bản hành chính, \"sein + zu + Infinitiv\" mang nghĩa bắt buộc.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-2-u01-e-03",
+      "type": "matching",
+      "instruction": "Nối tiểu từ tình thái với sắc thái nó tạo ra",
+      "pairs": [
+        { "left": "doch", "right": "nhắc điều người nghe đã biết" },
+        { "left": "mal", "right": "làm mềm lời đề nghị" },
+        { "left": "wohl", "right": "phỏng đoán" },
+        { "left": "halt", "right": "chấp nhận sự đã rồi" }
+      ],
+      "explanation": "Các tiểu từ này không dịch được sang tiếng Việt bằng một từ cố định.",
+      "skillTag": "connectors"
+    },
+    {
+      "id": "b2-2-u01-e-04",
+      "type": "fill_blank",
+      "sentence": "Stereotype ___ sich nur schwer abbauen, aber sie sind durchaus veränder___.",
+      "blanks": [
+        { "answers": ["lassen"], "hint": "sich lassen + nguyên thể" },
+        { "answers": ["bar"], "hint": "đuôi tính từ mang nghĩa \"có thể được\"" }
+      ],
+      "translation": "Khuôn mẫu rất khó xoá bỏ, nhưng chúng hoàn toàn có thể thay đổi được.",
+      "explanation": "Hai dạng thay thế bị động khác nhau trong cùng một câu: sich lassen và đuôi -bar.",
+      "skillTag": "passive"
+    },
+    {
+      "id": "b2-2-u01-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp câu có tiểu từ tình thái",
+      "answer": ["Komm", "doch", "mal", "bei", "uns", "vorbei"],
+      "translation": "Ghé qua chỗ tụi mình chơi đi mà!",
+      "explanation": "\"doch mal\" đứng ngay sau động từ, làm lời mời trở nên thân mật và không ép buộc.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "b2-2-u01-e-06",
+      "type": "listening",
+      "audioText": "Meine Beziehung zur Heimat ist ambivalent — sie lässt sich nicht in einem Satz beschreiben.",
+      "mode": "choice",
+      "question": "Người nói muốn nói gì?",
+      "options": [
+        "Quan hệ với quê nhà phức tạp, không mô tả gọn trong một câu được",
+        "Người nói không còn quan tâm tới quê nhà",
+        "Người nói yêu quê nhà tuyệt đối",
+        "Người nói đang định về quê"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"ambivalent\" = hai chiều, mâu thuẫn; \"lässt sich nicht beschreiben\" = không thể mô tả được.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "b2-2-u01-e-07",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Diese Entwicklung ist kaum noch aufzuhalten.",
+      "answers": [
+        "Diễn biến này gần như không thể ngăn lại được nữa.",
+        "Xu hướng này hầu như không thể chặn lại nữa.",
+        "Sự phát triển này gần như không thể ngăn chặn được nữa.",
+        "Diễn biến này gần như không còn ngăn được nữa."
+      ],
+      "explanation": "\"sein + zu + Infinitiv\" ở đây mang nghĩa khả năng: \"không thể được ngăn lại\".",
+      "skillTag": "translation"
+    }
+  ]
+}

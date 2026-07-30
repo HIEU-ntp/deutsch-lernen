@@ -1,0 +1,294 @@
+{
+  "id": "a1-1-u06-artikel",
+  "level": "A1.1",
+  "order": 6,
+  "slug": "artikel-gegenstaende",
+  "title": "Im Deutschkurs — Artikel und Plural",
+  "titleVi": "Trong lớp học — Mạo từ và số nhiều",
+  "description": "der, die, das — nỗi ám ảnh lớn nhất của người học tiếng Đức. Bài này cho bạn các dấu hiệu nhận biết giống và quy tắc số nhiều.",
+  "goals": [
+    "Gọi tên đồ vật trong lớp kèm đúng mạo từ",
+    "Nhận biết giống của danh từ qua đuôi từ",
+    "Biết 5 kiểu tạo số nhiều thường gặp"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-1-u06-v-buch",
+      "de": "Buch",
+      "article": "das",
+      "plural": "Bücher",
+      "pos": "noun",
+      "vi": "quyển sách",
+      "example": { "de": "Das Buch liegt auf dem Tisch.", "vi": "Quyển sách nằm trên bàn." },
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-tisch",
+      "de": "Tisch",
+      "article": "der",
+      "plural": "Tische",
+      "pos": "noun",
+      "vi": "cái bàn",
+      "example": { "de": "Der Tisch ist neu.", "vi": "Cái bàn thì mới." },
+      "tags": ["lop-hoc", "do-dac"]
+    },
+    {
+      "id": "a1-1-u06-v-stuhl",
+      "de": "Stuhl",
+      "article": "der",
+      "plural": "Stühle",
+      "pos": "noun",
+      "vi": "cái ghế",
+      "example": { "de": "Bitte nimm den Stuhl.", "vi": "Bạn lấy cái ghế đi." },
+      "tags": ["lop-hoc", "do-dac"]
+    },
+    {
+      "id": "a1-1-u06-v-tafel",
+      "de": "Tafel",
+      "article": "die",
+      "plural": "Tafeln",
+      "pos": "noun",
+      "vi": "cái bảng",
+      "example": { "de": "Die Tafel ist grün.", "vi": "Cái bảng màu xanh lá." },
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-heft",
+      "de": "Heft",
+      "article": "das",
+      "plural": "Hefte",
+      "pos": "noun",
+      "vi": "quyển vở",
+      "example": { "de": "Ich schreibe im Heft.", "vi": "Tôi viết trong vở." },
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-kugelschreiber",
+      "de": "Kugelschreiber",
+      "article": "der",
+      "plural": "Kugelschreiber",
+      "pos": "noun",
+      "vi": "bút bi",
+      "example": { "de": "Hast du einen Kugelschreiber?", "vi": "Bạn có bút bi không?" },
+      "note": "Nói tắt hằng ngày là \"der Kuli\". Số nhiều giống số ít.",
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-handy",
+      "de": "Handy",
+      "article": "das",
+      "plural": "Handys",
+      "pos": "noun",
+      "vi": "điện thoại di động",
+      "example": { "de": "Mein Handy ist kaputt.", "vi": "Điện thoại của tôi hỏng rồi." },
+      "note": "Từ này nghe như tiếng Anh nhưng người Anh/Mỹ không dùng — họ nói \"mobile phone\" / \"cell phone\".",
+      "tags": ["lop-hoc", "do-dac"]
+    },
+    {
+      "id": "a1-1-u06-v-fenster",
+      "de": "Fenster",
+      "article": "das",
+      "plural": "Fenster",
+      "pos": "noun",
+      "vi": "cửa sổ",
+      "example": { "de": "Mach bitte das Fenster auf.", "vi": "Làm ơn mở cửa sổ." },
+      "tags": ["lop-hoc", "nha-o"]
+    },
+    {
+      "id": "a1-1-u06-v-tuer",
+      "de": "Tür",
+      "article": "die",
+      "plural": "Türen",
+      "pos": "noun",
+      "vi": "cái cửa",
+      "example": { "de": "Die Tür ist zu.", "vi": "Cửa đang đóng." },
+      "tags": ["lop-hoc", "nha-o"]
+    },
+    {
+      "id": "a1-1-u06-v-uebung",
+      "de": "Übung",
+      "article": "die",
+      "plural": "Übungen",
+      "pos": "noun",
+      "vi": "bài tập",
+      "example": { "de": "Übung macht den Meister.", "vi": "Có công mài sắt có ngày nên kim." },
+      "note": "Mọi danh từ đuôi -ung đều là giống die — một quy tắc không có ngoại lệ.",
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-wort",
+      "de": "Wörterbuch",
+      "article": "das",
+      "plural": "Wörterbücher",
+      "pos": "noun",
+      "vi": "từ điển",
+      "example": { "de": "Ich brauche ein Wörterbuch.", "vi": "Tôi cần một cuốn từ điển." },
+      "note": "Danh từ ghép lấy giống của từ CUỐI: Wörter + das Buch → das Wörterbuch.",
+      "tags": ["lop-hoc"]
+    },
+    {
+      "id": "a1-1-u06-v-frage",
+      "de": "Frage",
+      "article": "die",
+      "plural": "Fragen",
+      "pos": "noun",
+      "vi": "câu hỏi",
+      "example": { "de": "Ich habe eine Frage.", "vi": "Tôi có một câu hỏi." },
+      "tags": ["lop-hoc"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-1-u06-g-genus",
+      "title": "der, die, das — das Genus",
+      "titleVi": "Giống của danh từ và cách đoán",
+      "summary": "Không có logic tuyệt đối, nhưng có nhiều đuôi từ cho biết giống với độ chính xác rất cao.",
+      "explanation": "Mọi danh từ tiếng Đức đều có một trong ba giống, và **giống không liên quan tới nghĩa**: `das Mädchen` (cô bé) là giống trung, `die Person` (người) luôn là giống cái kể cả khi chỉ đàn ông.\n\nCách học hiệu quả nhất: **luôn học danh từ kèm mạo từ**, đừng bao giờ học \"Tisch = cái bàn\" mà học \"der Tisch\".\n\nDù vậy, nhiều đuôi từ cho biết giống gần như chắc chắn — thuộc bảng dưới là bạn đoán đúng phần lớn danh từ.\n\n**Danh từ ghép** lấy giống của từ đứng CUỐI:\n\n- die Hand + das Tuch = `das` Handtuch (khăn tay)\n- das Wort + die Bildung = `die` Wortbildung\n\nMẹo màu sắc: nhiều người học tô der = xanh dương, die = hồng, das = xanh lá. Ứng dụng này cũng tô màu như vậy ở phần từ vựng.",
+      "examples": [
+        { "de": "die Übung, die Zeitung, die Wohnung", "vi": "Mọi từ đuôi -ung đều là die." },
+        { "de": "das Mädchen, das Brötchen, das Häuschen", "vi": "Mọi từ đuôi -chen đều là das (kể cả khi chỉ người)." },
+        { "de": "der Lehrer, der Fahrer, der Computer", "vi": "Từ đuôi -er chỉ người/máy móc thường là der." }
+      ],
+      "tables": [
+        {
+          "title": "Đuôi từ cho biết giống",
+          "headers": ["Giống", "Đuôi", "Ví dụ"],
+          "rows": [
+            ["der", "-er, -en, -ling, -ismus", "der Lehrer, der Garten, der Frühling"],
+            ["der", "ngày, tháng, mùa, hướng", "der Montag, der Mai, der Sommer, der Norden"],
+            ["die", "-ung, -heit, -keit, -schaft, -ion, -tät", "die Übung, die Freiheit, die Nation"],
+            ["die", "-e (phần lớn)", "die Frage, die Sprache, die Lampe"],
+            ["das", "-chen, -lein (dạng nhỏ)", "das Mädchen, das Fräulein"],
+            ["das", "-um, -ment, -ma", "das Museum, das Dokument, das Thema"],
+            ["das", "động từ dùng như danh từ", "das Essen, das Lernen"]
+          ],
+          "footnote": "Đuôi -e là quy tắc yếu nhất (có ngoại lệ như der Name, das Ende), các đuôi còn lại gần như tuyệt đối."
+        }
+      ],
+      "commonMistakes": [
+        "Học từ vựng mà không kèm mạo từ — sau này sửa lại rất tốn công.",
+        "Suy giống theo nghĩa: \"das Mädchen\" là giống trung dù chỉ bé gái.",
+        "Lấy giống của từ đầu trong danh từ ghép — phải lấy từ cuối."
+      ],
+      "tags": ["noun-gender", "articles"]
+    },
+    {
+      "id": "a1-1-u06-g-plural",
+      "title": "Der Plural",
+      "titleVi": "Số nhiều của danh từ",
+      "summary": "Năm kiểu tạo số nhiều. Ở số nhiều, mọi danh từ đều dùng mạo từ die.",
+      "explanation": "Tin tốt: ở số nhiều **mọi danh từ đều dùng `die`**, không phân biệt giống nữa.\n\nTin kém vui: có tới năm kiểu tạo số nhiều, và phải học thuộc theo từng từ.\n\nMột số xu hướng giúp đoán:\n\n- Danh từ giống cái đuôi `-e` thường thêm `-n`: die Frage → die Frage**n**\n- Danh từ giống đực một âm tiết thường thêm `-e` và có thể biến âm: der Stuhl → die St**ü**hl**e**\n- Danh từ đuôi `-er`, `-en`, `-chen` thường **không đổi**: das Fenster → die Fenster\n- Từ vay mượn tiếng Anh thường thêm `-s`: das Handy → die Handy**s**\n\nTừ điển luôn ghi số nhiều ngay sau danh từ, ví dụ `der Stuhl, -̈e` — dấu ¨ nghĩa là có biến âm.",
+      "examples": [
+        { "de": "das Buch → die Bücher", "vi": "sách (thêm -er và biến âm u → ü)" },
+        { "de": "die Frage → die Fragen", "vi": "câu hỏi (thêm -n)" },
+        { "de": "das Fenster → die Fenster", "vi": "cửa sổ (không đổi)" },
+        { "de": "Wie viele Bücher hast du?", "vi": "Bạn có bao nhiêu quyển sách?" }
+      ],
+      "tables": [
+        {
+          "title": "Năm kiểu số nhiều",
+          "headers": ["Kiểu", "Ví dụ số ít", "Số nhiều"],
+          "rows": [
+            ["-e (± biến âm)", "der Tisch / der Stuhl", "die Tische / die Stühle"],
+            ["-(e)n", "die Frage / die Tür", "die Fragen / die Türen"],
+            ["-er (± biến âm)", "das Buch / das Kind", "die Bücher / die Kinder"],
+            ["không đổi (± biến âm)", "das Fenster / der Vater", "die Fenster / die Väter"],
+            ["-s (từ vay mượn)", "das Handy / das Auto", "die Handys / die Autos"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Thêm -s cho mọi danh từ theo thói quen tiếng Anh: \"die Bucher-s\" là sai hoàn toàn.",
+        "Quên chuyển mạo từ về \"die\" ở số nhiều: \"der Tische\" là sai, phải là \"die Tische\".",
+        "Quên biến âm: \"die Buchen\" thay vì \"die Bücher\"."
+      ],
+      "tags": ["plural", "noun-gender"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-1-u06-e-01",
+      "type": "multiple_choice",
+      "prompt": "___ Wohnung ist sehr schön.",
+      "promptVi": "Căn hộ rất đẹp.",
+      "options": ["Die", "Der", "Das", "Den"],
+      "answerIndex": 0,
+      "explanation": "Mọi danh từ đuôi -ung đều là giống cái → die Wohnung.",
+      "skillTag": "noun-gender"
+    },
+    {
+      "id": "a1-1-u06-e-02",
+      "type": "multiple_choice",
+      "prompt": "Danh từ ghép \"das Wörterbuch\" lấy giống từ đâu?",
+      "options": [
+        "Từ \"Buch\" — từ đứng cuối",
+        "Từ \"Wörter\" — từ đứng đầu",
+        "Từ dài hơn trong hai từ",
+        "Không theo quy tắc nào"
+      ],
+      "answerIndex": 0,
+      "explanation": "Danh từ ghép luôn lấy giống của thành phần cuối: das Buch → das Wörterbuch.",
+      "skillTag": "noun-gender"
+    },
+    {
+      "id": "a1-1-u06-e-03",
+      "type": "matching",
+      "instruction": "Nối danh từ số ít với dạng số nhiều",
+      "pairs": [
+        { "left": "das Buch", "right": "die Bücher" },
+        { "left": "der Stuhl", "right": "die Stühle" },
+        { "left": "die Frage", "right": "die Fragen" },
+        { "left": "das Handy", "right": "die Handys" },
+        { "left": "das Fenster", "right": "die Fenster" }
+      ],
+      "explanation": "Chú ý \"das Fenster\" không đổi ở số nhiều, chỉ mạo từ đổi thành die.",
+      "skillTag": "plural"
+    },
+    {
+      "id": "a1-1-u06-e-04",
+      "type": "fill_blank",
+      "sentence": "___ Tisch ist neu, aber ___ Stühle sind alt.",
+      "blanks": [
+        { "answers": ["Der"], "hint": "số ít, giống đực" },
+        { "answers": ["die"], "hint": "số nhiều" }
+      ],
+      "translation": "Cái bàn thì mới, nhưng những cái ghế thì cũ.",
+      "explanation": "Số nhiều luôn dùng \"die\", bất kể giống của danh từ ở số ít.",
+      "skillTag": "articles"
+    },
+    {
+      "id": "a1-1-u06-e-05",
+      "type": "multiple_choice",
+      "prompt": "Từ nào KHÔNG phải giống das?",
+      "options": ["Zeitung", "Mädchen", "Museum", "Dokument"],
+      "answerIndex": 0,
+      "explanation": "\"die Zeitung\" — đuôi -ung luôn là giống cái. Ba từ còn lại có đuôi -chen, -um, -ment nên là das.",
+      "skillTag": "noun-gender"
+    },
+    {
+      "id": "a1-1-u06-e-06",
+      "type": "listening",
+      "audioText": "Wo ist mein Kugelschreiber? Er liegt auf dem Tisch neben dem Buch.",
+      "mode": "choice",
+      "question": "Cây bút ở đâu?",
+      "options": [
+        "Trên bàn, cạnh quyển sách",
+        "Trong sách",
+        "Dưới bàn",
+        "Cạnh cửa sổ"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"auf dem Tisch\" = trên bàn, \"neben dem Buch\" = cạnh quyển sách.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-1-u06-e-07",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu hỏi",
+      "answer": ["Wie", "heißt", "das", "auf", "Deutsch"],
+      "translation": "Cái đó tiếng Đức gọi là gì?",
+      "explanation": "Câu cực hữu ích trong lớp học. \"auf Deutsch\" = bằng tiếng Đức.",
+      "skillTag": "word-order"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "a1-2-u08-perfekt",
+  "level": "A1.2",
+  "order": 8,
+  "slug": "perfekt",
+  "title": "Das Perfekt",
+  "titleVi": "Thì quá khứ Perfekt",
+  "description": "Thì quá khứ chính trong tiếng Đức nói. Gồm hai phần: trợ động từ haben/sein ở vị trí 2, và Partizip II ở cuối câu.",
+  "goals": [
+    "Tạo Partizip II của động từ đều và bất quy tắc",
+    "Chọn đúng trợ động từ haben hay sein",
+    "Kể lại việc đã làm hôm qua, cuối tuần trước"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u08-v-gemacht",
+      "de": "machen",
+      "pos": "verb",
+      "vi": "làm",
+      "principalParts": "machen, machte, hat gemacht",
+      "example": { "de": "Was hast du gestern gemacht?", "vi": "Hôm qua bạn đã làm gì?" },
+      "note": "Động từ đều: ge + mach + t.",
+      "tags": ["qua-khu", "dong-tu-thuong-dung"]
+    },
+    {
+      "id": "a1-2-u08-v-gefahren",
+      "de": "fahren",
+      "pos": "verb",
+      "vi": "đi (bằng phương tiện), lái",
+      "principalParts": "fahren, fuhr, ist gefahren",
+      "example": { "de": "Ich bin nach Berlin gefahren.", "vi": "Tôi đã đi Berlin." },
+      "note": "Động từ chỉ di chuyển → dùng trợ động từ SEIN.",
+      "tags": ["qua-khu", "di-chuyen"]
+    },
+    {
+      "id": "a1-2-u08-v-gegangen",
+      "de": "gehen",
+      "pos": "verb",
+      "vi": "đi bộ",
+      "principalParts": "gehen, ging, ist gegangen",
+      "example": { "de": "Wir sind ins Kino gegangen.", "vi": "Chúng tôi đã đi xem phim." },
+      "tags": ["qua-khu", "di-chuyen"]
+    },
+    {
+      "id": "a1-2-u08-v-gelesen",
+      "de": "lesen",
+      "pos": "verb",
+      "vi": "đọc",
+      "principalParts": "lesen, las, hat gelesen",
+      "example": { "de": "Ich habe ein Buch gelesen.", "vi": "Tôi đã đọc một quyển sách." },
+      "note": "Hiện tại đổi nguyên âm e → ie: du liest, er liest.",
+      "tags": ["qua-khu", "so-thich"]
+    },
+    {
+      "id": "a1-2-u08-v-getroffen",
+      "de": "treffen",
+      "pos": "verb",
+      "vi": "gặp",
+      "principalParts": "treffen, traf, hat getroffen",
+      "example": { "de": "Ich habe Freunde getroffen.", "vi": "Tôi đã gặp bạn bè." },
+      "tags": ["qua-khu", "xa-hoi"]
+    },
+    {
+      "id": "a1-2-u08-v-geblieben",
+      "de": "bleiben",
+      "pos": "verb",
+      "vi": "ở lại",
+      "principalParts": "bleiben, blieb, ist geblieben",
+      "example": { "de": "Ich bin zu Hause geblieben.", "vi": "Tôi đã ở nhà." },
+      "note": "Một trong ba ngoại lệ dùng sein dù không chỉ di chuyển (bleiben, sein, werden).",
+      "tags": ["qua-khu"]
+    },
+    {
+      "id": "a1-2-u08-v-gearbeitet",
+      "de": "arbeiten",
+      "pos": "verb",
+      "vi": "làm việc",
+      "principalParts": "arbeiten, arbeitete, hat gearbeitet",
+      "example": { "de": "Er hat viel gearbeitet.", "vi": "Anh ấy đã làm việc nhiều." },
+      "note": "Gốc kết thúc bằng -t nên Partizip II thêm -et: gearbeit**et**.",
+      "tags": ["qua-khu", "cong-viec"]
+    },
+    {
+      "id": "a1-2-u08-v-eingekauft",
+      "de": "einkaufen",
+      "pos": "verb",
+      "vi": "đi mua sắm",
+      "principalParts": "einkaufen, kaufte ein, hat eingekauft",
+      "example": { "de": "Ich habe im Supermarkt eingekauft.", "vi": "Tôi đã mua sắm ở siêu thị." },
+      "note": "Động từ tách: \"ge\" chèn vào GIỮA tiền tố và gốc → ein-ge-kauft.",
+      "tags": ["qua-khu", "mua-sam"]
+    },
+    {
+      "id": "a1-2-u08-v-besucht",
+      "de": "besuchen",
+      "pos": "verb",
+      "vi": "thăm",
+      "principalParts": "besuchen, besuchte, hat besucht",
+      "example": { "de": "Ich habe meine Oma besucht.", "vi": "Tôi đã đi thăm bà." },
+      "note": "Động từ có tiền tố không tách (be-) thì KHÔNG thêm ge-: besucht, không phải \"gebesucht\".",
+      "tags": ["qua-khu", "xa-hoi"]
+    },
+    {
+      "id": "a1-2-u08-v-letzte",
+      "de": "letzte",
+      "pos": "adjective",
+      "vi": "vừa rồi, trước",
+      "example": { "de": "Letzte Woche war ich krank.", "vi": "Tuần trước tôi bị ốm." },
+      "tags": ["qua-khu", "thoi-gian"]
+    },
+    {
+      "id": "a1-2-u08-v-schon",
+      "de": "schon",
+      "pos": "adverb",
+      "vi": "đã, rồi",
+      "example": { "de": "Ich habe schon gegessen.", "vi": "Tôi ăn rồi." },
+      "note": "Đừng nhầm với \"schön\" (đẹp) — chỉ khác dấu Umlaut nhưng nghĩa hoàn toàn khác.",
+      "tags": ["qua-khu", "thoi-gian"]
+    },
+    {
+      "id": "a1-2-u08-v-noch-nie",
+      "de": "noch nie",
+      "pos": "phrase",
+      "vi": "chưa bao giờ",
+      "example": { "de": "Ich war noch nie in Deutschland.", "vi": "Tôi chưa bao giờ ở Đức." },
+      "tags": ["qua-khu", "thoi-gian"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u08-g-perfekt-bildung",
+      "title": "Perfekt bilden: haben/sein + Partizip II",
+      "titleVi": "Cách tạo thì Perfekt",
+      "summary": "Trợ động từ chia ở vị trí 2, Partizip II đứng cuối câu — lại là một khung động từ.",
+      "explanation": "Trong tiếng Đức **nói**, quá khứ hầu như luôn dùng Perfekt (Präteritum chủ yếu dùng khi viết, trừ `sein`, `haben` và động từ khuyết thiếu).\n\nCấu trúc: `chủ ngữ + haben/sein (chia) + … + Partizip II (cuối câu)`\n\n`Ich **habe** gestern einen Film **gesehen**.`\n\n**Cách tạo Partizip II:**\n\n1. **Động từ đều**: `ge` + gốc + `t`\n   - machen → **ge**mach**t**, kaufen → **ge**kauf**t**\n   - Gốc kết thúc -t/-d: thêm `-et` → arbeiten → gearbeit**et**\n\n2. **Động từ bất quy tắc**: `ge` + gốc (thường đổi nguyên âm) + `en`\n   - lesen → **ge**les**en**, trinken → **ge**trunk**en**, gehen → **ge**gang**en**\n   - Nhóm này phải học thuộc từng từ.\n\n3. **Động từ tách**: chèn `ge` vào **giữa** tiền tố và gốc\n   - einkaufen → ein**ge**kauft, aufstehen → auf**ge**standen\n\n4. **Động từ có tiền tố không tách (be-, ver-, er-, ent-) và động từ đuôi -ieren**: **KHÔNG** thêm `ge`\n   - besuchen → besucht, verstehen → verstanden, studieren → studiert",
+      "examples": [
+        { "de": "Ich habe gestern viel gearbeitet.", "vi": "Hôm qua tôi làm việc nhiều." },
+        { "de": "Wir sind am Wochenende nach München gefahren.", "vi": "Cuối tuần chúng tôi đã đi München." },
+        { "de": "Hast du schon gegessen?", "vi": "Bạn ăn chưa?" },
+        { "de": "Er hat seine Familie in Vietnam besucht.", "vi": "Anh ấy đã về Việt Nam thăm gia đình.", "note": "besucht — không có ge-." }
+      ],
+      "tables": [
+        {
+          "title": "Bốn kiểu tạo Partizip II",
+          "headers": ["Kiểu động từ", "Nguyên thể", "Partizip II"],
+          "rows": [
+            ["đều", "machen", "gemacht"],
+            ["đều, gốc -t/-d", "arbeiten", "gearbeitet"],
+            ["bất quy tắc", "trinken", "getrunken"],
+            ["bất quy tắc", "gehen", "gegangen"],
+            ["tách", "einkaufen", "eingekauft"],
+            ["không tách (be-, ver-)", "besuchen", "besucht"],
+            ["đuôi -ieren", "studieren", "studiert"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Thêm ge- cho động từ tiền tố không tách: \"gebesucht\" là sai.",
+        "Đặt Partizip II ở giữa câu: \"Ich habe gesehen einen Film\" — phải ở cuối.",
+        "Quên chèn ge vào giữa với động từ tách: \"geeinkauft\" thay vì \"eingekauft\"."
+      ],
+      "tags": ["tenses", "verb-conjugation", "word-order"]
+    },
+    {
+      "id": "a1-2-u08-g-haben-oder-sein",
+      "title": "haben oder sein?",
+      "titleVi": "Chọn trợ động từ haben hay sein",
+      "summary": "Khoảng 90% động từ dùng haben. Dùng sein khi động từ chỉ di chuyển hoặc thay đổi trạng thái.",
+      "explanation": "Mặc định là **haben**. Chỉ dùng **sein** trong ba nhóm:\n\n**1. Động từ chỉ di chuyển từ A đến B:**\n\n- gehen, fahren, fliegen, kommen, laufen, reisen, steigen\n- `Ich **bin** nach Hause **gegangen**.`\n\n**2. Động từ chỉ thay đổi trạng thái:**\n\n- aufstehen, einschlafen, aufwachen, sterben, wachsen\n- `Ich **bin** um sechs Uhr **aufgestanden**.`\n\n**3. Ba ngoại lệ phải học thuộc:** `sein`, `bleiben`, `werden`\n\n- `Ich **bin** in Berlin **gewesen**.` (tôi đã ở Berlin)\n- `Ich **bin** zu Hause **geblieben**.`\n\nMẹo phân biệt tinh tế: cùng động từ `fahren` nhưng nếu có tân ngữ trực tiếp thì lại dùng haben:\n\n- `Ich **bin** nach Berlin gefahren.` (tôi đi Berlin — di chuyển)\n- `Ich **habe** das Auto gefahren.` (tôi lái chiếc xe — có tân ngữ)\n\nỞ trình độ A1 bạn chỉ cần nhớ nhóm 1 và 3 là đủ dùng.",
+      "examples": [
+        { "de": "Ich bin gestern früh aufgestanden.", "vi": "Hôm qua tôi dậy sớm.", "note": "thay đổi trạng thái → sein" },
+        { "de": "Wir sind ins Kino gegangen und haben einen Film gesehen.", "vi": "Chúng tôi đi xem phim và đã xem một bộ phim.", "note": "gehen → sein, sehen → haben" },
+        { "de": "Ich habe zu Hause gearbeitet.", "vi": "Tôi đã làm việc ở nhà.", "note": "không di chuyển → haben" },
+        { "de": "Warst du schon mal in Deutschland?", "vi": "Bạn từng ở Đức chưa?", "note": "sein thường dùng Präteritum \"war\" cho gọn." }
+      ],
+      "tables": [
+        {
+          "title": "haben hay sein",
+          "headers": ["Nhóm", "Ví dụ động từ", "Trợ động từ"],
+          "rows": [
+            ["mặc định (~90%)", "machen, lesen, essen, kaufen", "haben"],
+            ["di chuyển A→B", "gehen, fahren, fliegen, kommen", "sein"],
+            ["đổi trạng thái", "aufstehen, einschlafen, aufwachen", "sein"],
+            ["ba ngoại lệ", "sein, bleiben, werden", "sein"],
+            ["có tân ngữ trực tiếp", "Ich habe das Auto gefahren.", "haben"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng haben cho động từ di chuyển: \"Ich habe nach Berlin gefahren\" — phải là \"bin\".",
+        "Quên ba ngoại lệ: \"Ich habe zu Hause geblieben\" — phải là \"bin geblieben\".",
+        "Dịch từng chữ từ tiếng Việt \"tôi đã có đi\" — tiếng Đức chọn trợ động từ theo loại động từ, không theo nghĩa."
+      ],
+      "tags": ["tenses", "verb-conjugation"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u08-e-01",
+      "type": "fill_blank",
+      "sentence": "Gestern ___ ich einen Film ___.",
+      "blanks": [
+        { "answers": ["habe"], "hint": "trợ động từ" },
+        { "answers": ["gesehen"], "hint": "sehen → Partizip II" }
+      ],
+      "translation": "Hôm qua tôi đã xem một bộ phim.",
+      "explanation": "sehen không phải động từ di chuyển → haben. Partizip II bất quy tắc: gesehen.",
+      "skillTag": "tenses"
+    },
+    {
+      "id": "a1-2-u08-e-02",
+      "type": "multiple_choice",
+      "prompt": "Ich ___ nach Berlin gefahren.",
+      "options": ["bin", "habe", "war", "hatte"],
+      "answerIndex": 0,
+      "explanation": "fahren là động từ chỉ di chuyển → dùng trợ động từ sein: ich bin gefahren.",
+      "skillTag": "tenses"
+    },
+    {
+      "id": "a1-2-u08-e-03",
+      "type": "matching",
+      "instruction": "Nối nguyên thể với Partizip II",
+      "pairs": [
+        { "left": "machen", "right": "gemacht" },
+        { "left": "trinken", "right": "getrunken" },
+        { "left": "einkaufen", "right": "eingekauft" },
+        { "left": "besuchen", "right": "besucht" },
+        { "left": "gehen", "right": "gegangen" }
+      ],
+      "explanation": "besuchen không có ge- (tiền tố be- không tách); einkaufen chèn ge vào giữa.",
+      "skillTag": "tenses"
+    },
+    {
+      "id": "a1-2-u08-e-04",
+      "type": "multiple_choice",
+      "prompt": "Partizip II của \"besuchen\" là gì?",
+      "options": ["besucht", "gebesucht", "besuchen", "gebesuch"],
+      "answerIndex": 0,
+      "explanation": "Động từ có tiền tố không tách (be-, ver-, er-, ent-) không thêm ge-.",
+      "skillTag": "tenses"
+    },
+    {
+      "id": "a1-2-u08-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu ở thì Perfekt",
+      "answer": ["Am", "Wochenende", "habe", "ich", "meine", "Familie", "besucht"],
+      "translation": "Cuối tuần tôi đã đi thăm gia đình.",
+      "explanation": "\"Am Wochenende\" ở vị trí 1, trợ động từ \"habe\" ở vị trí 2, Partizip II \"besucht\" ở cuối cùng.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u08-e-06",
+      "type": "conjugation",
+      "verb": "sein (Präteritum)",
+      "verbVi": "thì, là, ở — dạng quá khứ",
+      "tense": "praeteritum",
+      "tenseLabel": "Präteritum (quá khứ đơn)",
+      "rows": [
+        { "pronoun": "ich", "answer": "war", "prefilled": true },
+        { "pronoun": "du", "answer": "warst" },
+        { "pronoun": "er/sie/es", "answer": "war" },
+        { "pronoun": "wir", "answer": "waren" },
+        { "pronoun": "ihr", "answer": "wart" },
+        { "pronoun": "sie/Sie", "answer": "waren" }
+      ],
+      "note": "Với sein, người Đức dùng Präteritum (war) thay vì Perfekt (bin gewesen) ngay cả khi nói.",
+      "explanation": "war – warst – war – waren – wart – waren.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u08-e-07",
+      "type": "listening",
+      "audioText": "Am Samstag bin ich früh aufgestanden und habe im Supermarkt eingekauft.",
+      "mode": "choice",
+      "question": "Người nói đã làm gì hôm thứ Bảy?",
+      "options": [
+        "Dậy sớm và đi mua sắm ở siêu thị",
+        "Ngủ dậy muộn rồi ở nhà",
+        "Đi làm rồi về nhà nấu ăn",
+        "Đi thăm gia đình"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"bin früh aufgestanden\" (dậy sớm — sein) và \"habe eingekauft\" (mua sắm — haben).",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u08-e-08",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Hôm qua bạn đã làm gì?",
+      "answers": [
+        "Was hast du gestern gemacht?",
+        "Was haben Sie gestern gemacht?",
+        "Was hast du gestern gemacht",
+        "Gestern, was hast du gemacht?"
+      ],
+      "hint": "Was … Perfekt …?",
+      "explanation": "Câu hỏi W: \"Was\" vị trí 1, \"hast\" vị trí 2, \"gemacht\" ở cuối.",
+      "skillTag": "translation"
+    }
+  ]
+}

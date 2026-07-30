@@ -1,0 +1,276 @@
+{
+  "id": "a1-2-u09-freizeit",
+  "level": "A1.2",
+  "order": 9,
+  "slug": "freizeit",
+  "title": "Freizeit und Hobbys",
+  "titleVi": "Thời gian rảnh và sở thích",
+  "description": "Nói về sở thích, rủ rê và từ chối lời mời — kèm cách diễn đạt mức độ thích bằng gern / lieber / am liebsten.",
+  "goals": [
+    "Nói về sở thích và mức độ yêu thích",
+    "Rủ ai đó đi chơi và đáp lại lời mời",
+    "Dùng đúng trật tự trạng ngữ thời gian – cách thức – nơi chốn"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u09-v-freizeit",
+      "de": "Freizeit",
+      "article": "die",
+      "pos": "noun",
+      "vi": "thời gian rảnh",
+      "example": { "de": "In meiner Freizeit lese ich gern.", "vi": "Lúc rảnh tôi thích đọc sách." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-hobby",
+      "de": "Hobby",
+      "article": "das",
+      "plural": "Hobbys",
+      "pos": "noun",
+      "vi": "sở thích",
+      "example": { "de": "Mein Hobby ist Fotografieren.", "vi": "Sở thích của tôi là chụp ảnh." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-sport",
+      "de": "Sport",
+      "article": "der",
+      "pos": "noun",
+      "vi": "thể thao",
+      "example": { "de": "Ich mache dreimal pro Woche Sport.", "vi": "Tôi tập thể thao ba lần một tuần." },
+      "note": "Nói \"Sport machen\" hoặc \"Sport treiben\", không nói \"Sport spielen\".",
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-musik",
+      "de": "Musik",
+      "article": "die",
+      "pos": "noun",
+      "vi": "âm nhạc",
+      "example": { "de": "Ich höre gern Musik.", "vi": "Tôi thích nghe nhạc." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-kino",
+      "de": "Kino",
+      "article": "das",
+      "plural": "Kinos",
+      "pos": "noun",
+      "vi": "rạp chiếu phim",
+      "example": { "de": "Gehen wir ins Kino?", "vi": "Chúng ta đi xem phim nhé?" },
+      "note": "\"ins Kino\" = in das Kino (Akkusativ vì có di chuyển tới đó).",
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-schwimmbad",
+      "de": "Schwimmbad",
+      "article": "das",
+      "plural": "Schwimmbäder",
+      "pos": "noun",
+      "vi": "bể bơi",
+      "example": { "de": "Am Sonntag gehe ich ins Schwimmbad.", "vi": "Chủ nhật tôi đi bể bơi." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-reisen",
+      "de": "reisen",
+      "pos": "verb",
+      "vi": "đi du lịch",
+      "principalParts": "reisen, reiste, ist gereist",
+      "example": { "de": "Ich reise gern nach Italien.", "vi": "Tôi thích đi du lịch Ý." },
+      "tags": ["so-thich", "du-lich"]
+    },
+    {
+      "id": "a1-2-u09-v-kochen",
+      "de": "kochen",
+      "pos": "verb",
+      "vi": "nấu ăn",
+      "example": { "de": "Am Wochenende koche ich vietnamesisch.", "vi": "Cuối tuần tôi nấu món Việt." },
+      "tags": ["so-thich", "an-uong"]
+    },
+    {
+      "id": "a1-2-u09-v-lieber",
+      "de": "lieber",
+      "pos": "adverb",
+      "vi": "thích hơn",
+      "example": { "de": "Ich trinke lieber Tee als Kaffee.", "vi": "Tôi thích uống trà hơn cà phê." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-am-liebsten",
+      "de": "am liebsten",
+      "pos": "adverb",
+      "vi": "thích nhất",
+      "example": { "de": "Am liebsten spiele ich Gitarre.", "vi": "Tôi thích nhất là chơi ghi-ta." },
+      "tags": ["so-thich"]
+    },
+    {
+      "id": "a1-2-u09-v-einladen",
+      "de": "einladen",
+      "pos": "verb",
+      "vi": "mời",
+      "principalParts": "einladen, lud ein, hat eingeladen",
+      "example": { "de": "Ich lade dich zum Essen ein.", "vi": "Tôi mời bạn đi ăn." },
+      "note": "Động từ tách, và đổi nguyên âm: du lädst ein, er lädt ein.",
+      "tags": ["so-thich", "xa-hoi"]
+    },
+    {
+      "id": "a1-2-u09-v-langweilig",
+      "de": "langweilig",
+      "pos": "adjective",
+      "vi": "chán, buồn tẻ",
+      "example": { "de": "Der Film war langweilig.", "vi": "Bộ phim chán." },
+      "note": "Trái nghĩa: interessant (thú vị), spannend (hấp dẫn).",
+      "tags": ["so-thich"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u09-g-gern",
+      "title": "gern — lieber — am liebsten",
+      "titleVi": "Ba mức độ yêu thích",
+      "summary": "Tiếng Đức không có động từ \"thích làm gì\" — dùng động từ chính cộng thêm gern.",
+      "explanation": "Tiếng Việt nói \"tôi **thích** đọc sách\", tiếng Anh nói \"I **like** reading\". Tiếng Đức thì gắn trạng từ `gern` vào chính động từ hành động:\n\n`Ich lese **gern**.` (nghĩa đen: tôi đọc một cách thích thú)\n\nBa mức độ tăng dần:\n\n- `gern` — thích\n- `lieber` — thích hơn (so sánh hai thứ, dùng với `als`)\n- `am liebsten` — thích nhất\n\nVí dụ chuỗi đầy đủ:\n\n`Ich trinke **gern** Tee, ich trinke **lieber** Kaffee, aber **am liebsten** trinke ich Wasser.`\n\n**Phân biệt với `mögen`:** `mögen` đi với **danh từ**, `gern` đi với **động từ**.\n\n- `Ich **mag** Kaffee.` (danh từ)\n- `Ich trinke **gern** Kaffee.` (động từ)\n- ❌ `Ich mag Kaffee trinken` — nghe không tự nhiên.\n\nVị trí của `gern`: thường sau động từ và sau tân ngữ là đại từ, nhưng trước tân ngữ là danh từ.",
+      "examples": [
+        { "de": "Was machst du gern in deiner Freizeit?", "vi": "Lúc rảnh bạn thích làm gì?" },
+        { "de": "Ich koche lieber, als ich putze.", "vi": "Tôi thích nấu ăn hơn là dọn dẹp." },
+        { "de": "Am liebsten fahre ich Fahrrad.", "vi": "Tôi thích nhất là đạp xe." },
+        { "de": "Ich mag klassische Musik.", "vi": "Tôi thích nhạc cổ điển.", "note": "mögen + danh từ." }
+      ],
+      "tables": [
+        {
+          "title": "Ba mức độ",
+          "headers": ["Mức", "Từ", "Ví dụ"],
+          "rows": [
+            ["thích", "gern", "Ich spiele gern Fußball."],
+            ["thích hơn", "lieber (… als …)", "Ich spiele lieber Tennis als Fußball."],
+            ["thích nhất", "am liebsten", "Am liebsten spiele ich Badminton."],
+            ["không thích", "nicht gern", "Ich putze nicht gern."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng mögen với động từ: \"Ich mag lesen\" — nên nói \"Ich lese gern\".",
+        "Nói \"Ich gern lese\" — gern không bao giờ đứng trước động từ chia.",
+        "Quên \"als\" khi so sánh: \"Ich trinke lieber Tee wie Kaffee\" — phải là \"als\"."
+      ],
+      "tags": ["vocabulary", "word-order"]
+    },
+    {
+      "id": "a1-2-u09-g-te-ka-mo-lo",
+      "title": "Wortstellung: TeKaMoLo",
+      "titleVi": "Trật tự trạng ngữ trong câu",
+      "summary": "Khi câu có nhiều trạng ngữ, thứ tự là: Thời gian – Nguyên nhân – Cách thức – Nơi chốn.",
+      "explanation": "Khi một câu có nhiều thông tin bổ sung, tiếng Đức có thứ tự khá cố định, viết tắt là **TeKaMoLo**:\n\n- **Te**mporal — khi nào? (heute, um 8 Uhr, am Montag)\n- **Ka**usal — vì sao? (wegen des Wetters)\n- **Mo**dal — như thế nào? (mit dem Bus, gern, schnell)\n- **Lo**kal — ở đâu / đi đâu? (in Berlin, ins Kino)\n\n`Ich fahre **morgen** *(Te)* **mit dem Zug** *(Mo)* **nach Berlin** *(Lo)*.`\n\nSo với tiếng Việt — \"Mai tôi đi Berlin bằng tàu\" — thì thứ tự phương tiện và nơi chốn bị đảo lại. Đây là lỗi rất hay gặp.\n\nỞ trình độ A1 chỉ cần nhớ hai điều:\n\n1. Thời gian đứng trước nơi chốn.\n2. Phương tiện (mit dem Bus) đứng trước nơi đến.\n\nBạn cũng có thể đưa một trạng ngữ lên vị trí 1 để nhấn mạnh — khi đó chủ ngữ nhảy ra sau động từ, còn các trạng ngữ còn lại giữ nguyên thứ tự.",
+      "examples": [
+        { "de": "Ich gehe heute Abend mit Freunden ins Kino.", "vi": "Tối nay tôi đi xem phim với bạn bè.", "note": "Te – Mo – Lo" },
+        { "de": "Wir fahren am Wochenende mit dem Auto nach München.", "vi": "Cuối tuần chúng tôi đi München bằng ô tô." },
+        { "de": "Heute Abend gehe ich mit Freunden ins Kino.", "vi": "Tối nay tôi đi xem phim với bạn bè.", "note": "Đưa thời gian lên đầu, chủ ngữ ra sau động từ." }
+      ],
+      "tables": [
+        {
+          "title": "TeKaMoLo",
+          "headers": ["Thứ tự", "Loại", "Câu hỏi", "Ví dụ"],
+          "rows": [
+            ["1", "Temporal", "wann?", "morgen, um 8 Uhr"],
+            ["2", "Kausal", "warum?", "wegen der Arbeit"],
+            ["3", "Modal", "wie?", "mit dem Bus, gern"],
+            ["4", "Lokal", "wo? wohin?", "in Berlin, ins Kino"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Đặt nơi chốn trước thời gian: \"Ich fahre nach Berlin morgen\" — nên là \"morgen nach Berlin\".",
+        "Đặt phương tiện sau nơi đến: \"Ich fahre nach Berlin mit dem Zug\" — thứ tự chuẩn là \"mit dem Zug nach Berlin\"."
+      ],
+      "tags": ["word-order"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u09-e-01",
+      "type": "multiple_choice",
+      "prompt": "Câu nào tự nhiên nhất trong tiếng Đức?",
+      "options": [
+        "Ich lese gern Bücher.",
+        "Ich mag Bücher lesen.",
+        "Ich gern lese Bücher.",
+        "Ich like Bücher lesen."
+      ],
+      "answerIndex": 0,
+      "explanation": "Với động từ dùng \"gern\", và gern đứng sau động từ chia.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u09-e-02",
+      "type": "fill_blank",
+      "sentence": "Ich trinke ___ Tee, aber ___ trinke ich Kaffee.",
+      "blanks": [
+        { "answers": ["gern"], "hint": "mức 1: thích" },
+        { "answers": ["lieber"], "hint": "mức 2: thích hơn" }
+      ],
+      "translation": "Tôi thích uống trà, nhưng tôi thích cà phê hơn.",
+      "explanation": "gern → lieber → am liebsten là ba mức tăng dần.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u09-e-03",
+      "type": "reorder",
+      "instruction": "Sắp xếp theo trật tự TeKaMoLo",
+      "answer": ["Ich", "fahre", "morgen", "mit", "dem", "Zug", "nach", "Berlin"],
+      "alternatives": [["Morgen", "fahre", "ich", "mit", "dem", "Zug", "nach", "Berlin"]],
+      "translation": "Ngày mai tôi đi Berlin bằng tàu.",
+      "explanation": "Thời gian (morgen) → phương tiện (mit dem Zug) → nơi đến (nach Berlin).",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u09-e-04",
+      "type": "matching",
+      "instruction": "Nối lời rủ với câu đáp",
+      "pairs": [
+        { "left": "Gehen wir ins Kino?", "right": "Ja, gern!" },
+        { "left": "Hast du Lust auf Kaffee?", "right": "Ja, gute Idee!" },
+        { "left": "Kommst du mit?", "right": "Tut mir leid, ich habe keine Zeit." },
+        { "left": "Wollen wir schwimmen gehen?", "right": "Leider kann ich nicht." }
+      ],
+      "explanation": "\"Lust haben auf\" = có hứng làm gì; \"Tut mir leid\" là cách từ chối lịch sự.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u09-e-05",
+      "type": "listening",
+      "audioText": "In meiner Freizeit spiele ich gern Fußball, aber am liebsten gehe ich schwimmen.",
+      "mode": "choice",
+      "question": "Người nói thích nhất hoạt động nào?",
+      "options": ["Bơi", "Đá bóng", "Cả hai như nhau", "Không thích cái nào"],
+      "answerIndex": 0,
+      "explanation": "\"am liebsten\" = thích nhất, gắn với \"schwimmen gehen\".",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u09-e-06",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Lúc rảnh bạn thích làm gì?",
+      "answers": [
+        "Was machst du gern in deiner Freizeit?",
+        "Was machst du in deiner Freizeit gern?",
+        "Was machen Sie gern in Ihrer Freizeit?",
+        "Was machst du gern in deiner Freizeit"
+      ],
+      "hint": "Was … gern …?",
+      "explanation": "Câu hỏi rất thường dùng khi làm quen. \"in deiner Freizeit\" có thể đứng trước hoặc sau \"gern\".",
+      "skillTag": "translation"
+    },
+    {
+      "id": "a1-2-u09-e-07",
+      "type": "multiple_choice",
+      "prompt": "Ich spiele ___ Tennis ___ Fußball.",
+      "promptVi": "Tôi thích chơi tennis hơn bóng đá.",
+      "options": ["lieber … als", "gern … als", "lieber … wie", "am liebsten … als"],
+      "answerIndex": 0,
+      "explanation": "So sánh hai thứ dùng \"lieber … als …\". Dùng \"wie\" thay \"als\" là lỗi phổ biến ngay cả với người bản xứ.",
+      "skillTag": "vocabulary"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "a1-2-u07-wohnen",
+  "level": "A1.2",
+  "order": 7,
+  "slug": "wohnen",
+  "title": "Meine Wohnung",
+  "titleVi": "Căn hộ của tôi",
+  "description": "Mô tả nhà cửa, đồ đạc và vị trí đồ vật. Đây cũng là lần đầu bạn gặp cách Dativ qua các giới từ chỉ nơi chốn.",
+  "goals": [
+    "Gọi tên các phòng và đồ đạc trong nhà",
+    "Nói vị trí đồ vật bằng giới từ + Dativ",
+    "Mô tả căn hộ của mình bằng vài câu liền mạch"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u07-v-wohnung",
+      "de": "Wohnung",
+      "article": "die",
+      "plural": "Wohnungen",
+      "pos": "noun",
+      "vi": "căn hộ",
+      "example": { "de": "Meine Wohnung hat drei Zimmer.", "vi": "Căn hộ của tôi có ba phòng." },
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-zimmer",
+      "de": "Zimmer",
+      "article": "das",
+      "plural": "Zimmer",
+      "pos": "noun",
+      "vi": "phòng",
+      "example": { "de": "Das Zimmer ist hell.", "vi": "Căn phòng sáng sủa." },
+      "note": "Số nhiều giống số ít. Ở Đức, \"3-Zimmer-Wohnung\" nghĩa là 3 phòng KHÔNG kể bếp và nhà tắm.",
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-kueche",
+      "de": "Küche",
+      "article": "die",
+      "plural": "Küchen",
+      "pos": "noun",
+      "vi": "nhà bếp",
+      "example": { "de": "Ich koche in der Küche.", "vi": "Tôi nấu ăn trong bếp." },
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-schlafzimmer",
+      "de": "Schlafzimmer",
+      "article": "das",
+      "plural": "Schlafzimmer",
+      "pos": "noun",
+      "vi": "phòng ngủ",
+      "example": { "de": "Das Schlafzimmer ist klein.", "vi": "Phòng ngủ thì nhỏ." },
+      "note": "Danh từ ghép: schlafen + das Zimmer → das Schlafzimmer.",
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-bad",
+      "de": "Bad",
+      "article": "das",
+      "plural": "Bäder",
+      "pos": "noun",
+      "vi": "phòng tắm",
+      "example": { "de": "Das Bad ist neben der Küche.", "vi": "Phòng tắm ở cạnh bếp." },
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-bett",
+      "de": "Bett",
+      "article": "das",
+      "plural": "Betten",
+      "pos": "noun",
+      "vi": "cái giường",
+      "example": { "de": "Das Bett steht am Fenster.", "vi": "Cái giường kê cạnh cửa sổ." },
+      "tags": ["nha-o", "do-dac"]
+    },
+    {
+      "id": "a1-2-u07-v-schrank",
+      "de": "Schrank",
+      "article": "der",
+      "plural": "Schränke",
+      "pos": "noun",
+      "vi": "tủ",
+      "example": { "de": "Die Kleidung ist im Schrank.", "vi": "Quần áo ở trong tủ." },
+      "tags": ["nha-o", "do-dac"]
+    },
+    {
+      "id": "a1-2-u07-v-sofa",
+      "de": "Sofa",
+      "article": "das",
+      "plural": "Sofas",
+      "pos": "noun",
+      "vi": "ghế sofa",
+      "example": { "de": "Wir sitzen auf dem Sofa.", "vi": "Chúng tôi ngồi trên sofa." },
+      "tags": ["nha-o", "do-dac"]
+    },
+    {
+      "id": "a1-2-u07-v-miete",
+      "de": "Miete",
+      "article": "die",
+      "plural": "Mieten",
+      "pos": "noun",
+      "vi": "tiền thuê nhà",
+      "example": { "de": "Die Miete ist zu hoch.", "vi": "Tiền thuê nhà cao quá." },
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-hell",
+      "de": "hell",
+      "pos": "adjective",
+      "vi": "sáng sủa",
+      "example": { "de": "Das Wohnzimmer ist sehr hell.", "vi": "Phòng khách rất sáng." },
+      "note": "Trái nghĩa: dunkel (tối).",
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-gemuetlich",
+      "de": "gemütlich",
+      "pos": "adjective",
+      "vi": "ấm cúng, dễ chịu",
+      "example": { "de": "Die Wohnung ist sehr gemütlich.", "vi": "Căn hộ rất ấm cúng." },
+      "note": "Từ rất \"Đức\" — khó dịch chính xác, gần với \"ấm cúng, thoải mái, dễ chịu\".",
+      "tags": ["nha-o"]
+    },
+    {
+      "id": "a1-2-u07-v-stehen",
+      "de": "stehen",
+      "pos": "verb",
+      "vi": "đứng, được đặt (thẳng đứng)",
+      "principalParts": "stehen, stand, hat gestanden",
+      "example": { "de": "Der Schrank steht im Schlafzimmer.", "vi": "Cái tủ đặt trong phòng ngủ." },
+      "note": "Tiếng Đức phân biệt stehen (đứng), liegen (nằm), hängen (treo) khi mô tả vị trí đồ vật.",
+      "tags": ["nha-o", "dong-tu-thuong-dung"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u07-g-dativ-ort",
+      "title": "Wo? — Präpositionen mit Dativ",
+      "titleVi": "Hỏi \"ở đâu\" — giới từ với Dativ",
+      "summary": "Khi trả lời câu hỏi \"wo?\" (ở đâu, không di chuyển), giới từ đi với Dativ: der→dem, die→der, das→dem.",
+      "explanation": "Đây là lần đầu bạn gặp **Dativ**. Ở cấp A1 chỉ cần nắm một tình huống: mô tả **vị trí tĩnh** (trả lời câu hỏi `wo?`).\n\nMạo từ ở Dativ:\n\n- der → **dem** (der Schrank → in **dem** Schrank)\n- das → **dem** (das Bad → in **dem** Bad)\n- die → **der** (die Küche → in **der** Küche)\n- số nhiều → **den** + danh từ thêm **-n** (die Zimmer → in **den** Zimmer**n**)\n\n**Dạng rút gọn** rất thông dụng, người Đức dùng gần như luôn luôn:\n\n- in dem → `im` (im Schrank, im Bad)\n- an dem → `am` (am Fenster)\n- zu dem → `zum`, zu der → `zur`\n\nCác giới từ chỉ vị trí hay dùng: `in` (trong), `an` (sát cạnh, tiếp xúc), `auf` (trên bề mặt), `unter` (dưới), `neben` (bên cạnh), `zwischen` (giữa), `hinter` (phía sau), `vor` (phía trước), `über` (phía trên).\n\nLưu ý: những giới từ này gọi là Wechselpräpositionen — chúng đi với Dativ khi trả lời `wo?` và với Akkusativ khi trả lời `wohin?`. Phần `wohin?` bạn sẽ học kỹ ở A2.",
+      "examples": [
+        { "de": "Das Buch liegt auf dem Tisch.", "vi": "Quyển sách nằm trên bàn.", "note": "der Tisch → dem Tisch." },
+        { "de": "Ich bin in der Küche.", "vi": "Tôi đang ở trong bếp.", "note": "die Küche → der Küche." },
+        { "de": "Das Bett steht am Fenster.", "vi": "Cái giường kê sát cửa sổ.", "note": "an dem → am." },
+        { "de": "Das Bad ist neben dem Schlafzimmer.", "vi": "Phòng tắm ở cạnh phòng ngủ." }
+      ],
+      "tables": [
+        {
+          "title": "Mạo từ ở ba cách đã học",
+          "headers": ["Giống", "Nominativ", "Akkusativ", "Dativ"],
+          "rows": [
+            ["đực", "der / ein", "den / einen", "dem / einem"],
+            ["cái", "die / eine", "die / eine", "der / einer"],
+            ["trung", "das / ein", "das / ein", "dem / einem"],
+            ["số nhiều", "die", "die", "den (+ -n)"]
+          ],
+          "footnote": "Ở Dativ, die (giống cái) thành der — đây là chỗ dễ nhầm nhất."
+        },
+        {
+          "title": "Giới từ chỉ vị trí",
+          "headers": ["Giới từ", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["in", "trong", "in der Küche"],
+            ["auf", "trên (bề mặt)", "auf dem Tisch"],
+            ["an", "sát, cạnh (tiếp xúc)", "am Fenster"],
+            ["unter", "dưới", "unter dem Bett"],
+            ["neben", "bên cạnh", "neben dem Sofa"],
+            ["zwischen", "ở giữa", "zwischen dem Bett und dem Schrank"],
+            ["hinter", "phía sau", "hinter dem Haus"],
+            ["vor", "phía trước", "vor der Tür"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Dùng Akkusativ cho vị trí tĩnh: \"Ich bin in die Küche\" — phải là \"in der Küche\".",
+        "Quên rằng die (giống cái) thành der ở Dativ: \"in dem Küche\" là sai.",
+        "Bỏ dạng rút gọn: \"in dem Bad\" không sai nhưng người Đức luôn nói \"im Bad\"."
+      ],
+      "tags": ["cases", "prepositions"]
+    },
+    {
+      "id": "a1-2-u07-g-es-gibt",
+      "title": "„es gibt\" und Positionsverben",
+      "titleVi": "Cấu trúc \"es gibt\" và các động từ chỉ tư thế",
+      "summary": "es gibt + Akkusativ để nói \"có\"; stehen/liegen/hängen để nói đồ vật được đặt thế nào.",
+      "explanation": "**es gibt** = \"có\" (tồn tại). Luôn đi với **Akkusativ** và luôn ở dạng `es gibt`, không đổi theo số nhiều:\n\n- `In meiner Wohnung **gibt es einen** Balkon.` (có một ban công)\n- `**Gibt es** hier ein Restaurant?` (Ở đây có nhà hàng không?)\n\nChú ý: không nói \"es gibt sind\" hay \"sie gibt\" — luôn là `es gibt`.\n\n**Động từ chỉ tư thế** — tiếng Việt chỉ nói \"ở\", tiếng Đức phân biệt vật đó **nằm** hay **đứng**:\n\n- `stehen` — vật cao hơn rộng, đứng thẳng: der Schrank steht, die Flasche steht\n- `liegen` — vật nằm ngang, phẳng: das Buch liegt, der Teppich liegt\n- `hängen` — vật treo: das Bild hängt an der Wand\n- `sitzen` — người/động vật ngồi\n\nDùng sai không gây hiểu nhầm nhưng nghe rất \"không Đức\".",
+      "examples": [
+        { "de": "In der Küche gibt es einen Kühlschrank.", "vi": "Trong bếp có một cái tủ lạnh." },
+        { "de": "Gibt es in der Nähe einen Supermarkt?", "vi": "Gần đây có siêu thị không?" },
+        { "de": "Das Buch liegt auf dem Tisch, die Lampe steht daneben.", "vi": "Quyển sách nằm trên bàn, cái đèn đứng bên cạnh." },
+        { "de": "Das Bild hängt über dem Sofa.", "vi": "Bức tranh treo phía trên sofa." }
+      ],
+      "tables": [
+        {
+          "title": "Chọn động từ tư thế",
+          "headers": ["Động từ", "Dùng cho", "Ví dụ"],
+          "rows": [
+            ["stehen", "vật đứng thẳng, có chân", "der Tisch, der Schrank, die Flasche"],
+            ["liegen", "vật nằm ngang, phẳng", "das Buch, der Teppich, das Handy"],
+            ["hängen", "vật treo", "das Bild, die Lampe, die Jacke"],
+            ["sitzen", "người, động vật", "Ich sitze auf dem Sofa."]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Nói \"es gibt ein Balkon\" — es gibt đi với Akkusativ nên phải là \"einen Balkon\".",
+        "Chia es gibt theo số nhiều: \"es geben zwei Zimmer\" — luôn là \"es gibt\".",
+        "Dùng \"ist\" cho mọi vị trí: \"Das Buch ist auf dem Tisch\" không sai nhưng \"liegt\" tự nhiên hơn."
+      ],
+      "tags": ["cases", "vocabulary"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u07-e-01",
+      "type": "multiple_choice",
+      "prompt": "Ich bin in ___ Küche.",
+      "options": ["der", "die", "dem", "den"],
+      "answerIndex": 0,
+      "explanation": "\"wo?\" → Dativ. \"die Küche\" ở Dativ thành \"der Küche\".",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u07-e-02",
+      "type": "fill_blank",
+      "sentence": "Das Buch liegt auf ___ Tisch und die Jacke hängt in ___ Schrank.",
+      "blanks": [
+        { "answers": ["dem"], "hint": "der Tisch → Dativ" },
+        { "answers": ["dem"], "hint": "der Schrank → Dativ" }
+      ],
+      "translation": "Quyển sách nằm trên bàn và cái áo khoác treo trong tủ.",
+      "explanation": "Cả hai đều là danh từ giống đực → dem. Người Đức thường rút gọn \"in dem\" thành \"im\".",
+      "skillTag": "cases"
+    },
+    {
+      "id": "a1-2-u07-e-03",
+      "type": "multiple_choice",
+      "prompt": "In meiner Wohnung gibt ___ einen Balkon.",
+      "options": ["es", "sie", "sind", "ist"],
+      "answerIndex": 0,
+      "explanation": "\"es gibt\" là cấu trúc cố định, không đổi theo số nhiều hay giống.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u07-e-04",
+      "type": "matching",
+      "instruction": "Nối đồ vật với động từ tư thế phù hợp",
+      "pairs": [
+        { "left": "der Schrank", "right": "steht" },
+        { "left": "das Buch", "right": "liegt" },
+        { "left": "das Bild", "right": "hängt" },
+        { "left": "die Katze", "right": "sitzt" }
+      ],
+      "explanation": "Vật cao đứng thẳng → stehen; vật phẳng nằm ngang → liegen; vật treo → hängen.",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u07-e-05",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu mô tả vị trí",
+      "answer": ["Das", "Bad", "ist", "neben", "dem", "Schlafzimmer"],
+      "translation": "Phòng tắm ở cạnh phòng ngủ.",
+      "explanation": "\"neben\" trả lời câu hỏi wo? nên đi với Dativ: das Schlafzimmer → dem Schlafzimmer.",
+      "skillTag": "prepositions"
+    },
+    {
+      "id": "a1-2-u07-e-06",
+      "type": "listening",
+      "audioText": "Meine Wohnung hat drei Zimmer. Das Wohnzimmer ist sehr hell und die Küche ist klein.",
+      "mode": "choice",
+      "question": "Điều nào ĐÚNG theo lời người nói?",
+      "options": [
+        "Phòng khách sáng, bếp nhỏ",
+        "Phòng khách nhỏ, bếp sáng",
+        "Căn hộ có hai phòng",
+        "Bếp rất sáng và rộng"
+      ],
+      "answerIndex": 0,
+      "explanation": "\"Das Wohnzimmer ist sehr hell\" và \"die Küche ist klein\".",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u07-e-07",
+      "type": "translate",
+      "direction": "de-vi",
+      "source": "Die Miete ist leider zu hoch.",
+      "answers": [
+        "Tiếc là tiền thuê nhà cao quá.",
+        "Đáng tiếc là tiền thuê quá cao.",
+        "Tiếc là giá thuê nhà quá cao.",
+        "Tiền thuê nhà tiếc là cao quá."
+      ],
+      "explanation": "\"leider\" = tiếc là; \"zu hoch\" = cao quá (mang nghĩa tiêu cực).",
+      "skillTag": "translation"
+    }
+  ]
+}

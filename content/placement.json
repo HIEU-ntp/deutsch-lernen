@@ -1,0 +1,185 @@
+{
+  "passRatio": 0.6,
+  "questions": [
+    {
+      "id": "pl-a11-01",
+      "level": "A1.1",
+      "prompt": "Wie ___ du?",
+      "promptVi": "Bạn tên là gì?",
+      "options": ["heißt", "heiße", "heißen", "heiß"],
+      "answerIndex": 0,
+      "explanation": "Với chủ ngữ \"du\", động từ heißen chia thành \"heißt\"."
+    },
+    {
+      "id": "pl-a11-02",
+      "level": "A1.1",
+      "prompt": "___ kommst du? — Aus Vietnam.",
+      "promptVi": "Bạn đến từ đâu? — Từ Việt Nam.",
+      "options": ["Woher", "Wohin", "Wer", "Wann"],
+      "answerIndex": 0,
+      "explanation": "\"Woher\" hỏi nơi xuất phát; \"wohin\" hỏi nơi đến."
+    },
+    {
+      "id": "pl-a12-01",
+      "level": "A1.2",
+      "prompt": "Ich habe ___ Bruder.",
+      "promptVi": "Tôi có một người anh/em trai.",
+      "options": ["einen", "ein", "eine", "einem"],
+      "answerIndex": 0,
+      "explanation": "\"haben\" đi với Akkusativ; danh từ giống đực ở Akkusativ dùng \"einen\"."
+    },
+    {
+      "id": "pl-a12-02",
+      "level": "A1.2",
+      "prompt": "Gestern ___ ich Pizza gegessen.",
+      "promptVi": "Hôm qua tôi đã ăn pizza.",
+      "options": ["habe", "bin", "war", "hatte"],
+      "answerIndex": 0,
+      "explanation": "Thì Perfekt của \"essen\" dùng trợ động từ \"haben\"."
+    },
+    {
+      "id": "pl-a21-01",
+      "level": "A2.1",
+      "prompt": "Ich fahre ___ dem Bus zur Arbeit.",
+      "promptVi": "Tôi đi làm bằng xe buýt.",
+      "options": ["mit", "für", "ohne", "durch"],
+      "answerIndex": 0,
+      "explanation": "\"mit\" luôn đi với Dativ và dùng để chỉ phương tiện."
+    },
+    {
+      "id": "pl-a21-02",
+      "level": "A2.1",
+      "prompt": "Ich bleibe zu Hause, weil ich krank ___.",
+      "promptVi": "Tôi ở nhà vì tôi bị ốm.",
+      "options": ["bin", "bin ich", "ist", "sein"],
+      "answerIndex": 0,
+      "explanation": "Sau \"weil\", động từ chia bị đẩy xuống cuối mệnh đề."
+    },
+    {
+      "id": "pl-a22-01",
+      "level": "A2.2",
+      "prompt": "München ist ___ als Berlin.",
+      "promptVi": "München nhỏ hơn Berlin.",
+      "options": ["kleiner", "klein", "am kleinsten", "die kleinste"],
+      "answerIndex": 0,
+      "explanation": "So sánh hơn: tính từ + -er, đi kèm \"als\"."
+    },
+    {
+      "id": "pl-a22-02",
+      "level": "A2.2",
+      "prompt": "Als Kind ___ ich oft im Park.",
+      "promptVi": "Hồi nhỏ tôi hay chơi ở công viên.",
+      "options": ["spielte", "gespielt", "spiele", "spielen"],
+      "answerIndex": 0,
+      "explanation": "Kể chuyện quá khứ trong văn viết dùng Präteritum: spielen → spielte."
+    },
+    {
+      "id": "pl-b11-01",
+      "level": "B1.1",
+      "prompt": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "promptVi": "Đó là người đàn ông mà hôm qua tôi đã gặp.",
+      "options": ["den", "der", "dem", "das"],
+      "answerIndex": 0,
+      "explanation": "Đại từ quan hệ mang cách của nó trong mệnh đề phụ: \"treffen\" + Akkusativ → den."
+    },
+    {
+      "id": "pl-b11-02",
+      "level": "B1.1",
+      "prompt": "Die Tür ___ jeden Abend geschlossen.",
+      "promptVi": "Cửa được đóng mỗi tối.",
+      "options": ["wird", "ist", "hat", "werden"],
+      "answerIndex": 0,
+      "explanation": "Câu bị động ở hiện tại: werden + Partizip II."
+    },
+    {
+      "id": "pl-b12-01",
+      "level": "B1.2",
+      "prompt": "Wenn ich mehr Zeit ___, würde ich mehr lesen.",
+      "promptVi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ đọc nhiều hơn.",
+      "options": ["hätte", "habe", "hatte", "haben"],
+      "answerIndex": 0,
+      "explanation": "Câu điều kiện không có thật dùng Konjunktiv II: haben → hätte."
+    },
+    {
+      "id": "pl-b12-02",
+      "level": "B1.2",
+      "prompt": "Er sagte, er ___ keine Zeit.",
+      "promptVi": "Anh ấy nói rằng anh ấy không có thời gian.",
+      "options": ["habe", "hat", "hatte gehabt", "haben"],
+      "answerIndex": 0,
+      "explanation": "Lời nói gián tiếp trong văn viết dùng Konjunktiv I: haben → habe."
+    },
+    {
+      "id": "pl-b21-01",
+      "level": "B2.1",
+      "prompt": "___ des schlechten Wetters fand das Fest statt.",
+      "promptVi": "Mặc dù thời tiết xấu, lễ hội vẫn diễn ra.",
+      "options": ["Trotz", "Wegen", "Während", "Statt"],
+      "answerIndex": 0,
+      "explanation": "\"trotz\" (+ Genitiv) mang nghĩa nhượng bộ; \"wegen\" chỉ nguyên nhân nên sai logic ở đây."
+    },
+    {
+      "id": "pl-b21-02",
+      "level": "B2.1",
+      "prompt": "Das Problem lässt sich leicht ___.",
+      "promptVi": "Vấn đề này có thể giải quyết dễ dàng.",
+      "options": ["lösen", "gelöst", "zu lösen", "löst"],
+      "answerIndex": 0,
+      "explanation": "\"sich lassen + nguyên thể\" là một cách thay thế câu bị động mang nghĩa \"có thể được…\"."
+    },
+    {
+      "id": "pl-b22-01",
+      "level": "B2.2",
+      "prompt": "Er tut so, ___ er alles wüsste.",
+      "promptVi": "Anh ta làm như thể anh ta biết hết mọi thứ.",
+      "options": ["als ob", "wenn", "obwohl", "damit"],
+      "answerIndex": 0,
+      "explanation": "\"als ob\" + Konjunktiv II diễn tả điều giả định trái thực tế."
+    },
+    {
+      "id": "pl-b22-02",
+      "level": "B2.2",
+      "prompt": "Der von der Regierung ___ Plan wurde heftig kritisiert.",
+      "promptVi": "Bản kế hoạch do chính phủ đệ trình đã bị chỉ trích gay gắt.",
+      "options": ["vorgelegte", "vorlegen", "vorgelegt", "vorlegende"],
+      "answerIndex": 0,
+      "explanation": "Partizip II làm định ngữ phải biến đuôi như tính từ: der … vorgelegte Plan."
+    },
+    {
+      "id": "pl-c1-01",
+      "level": "C1",
+      "prompt": "Ihm ___ nichts anderes übrig, als das Angebot abzulehnen.",
+      "promptVi": "Anh ta không còn lựa chọn nào khác ngoài việc từ chối lời đề nghị.",
+      "options": ["blieb", "war", "hatte", "gab"],
+      "answerIndex": 0,
+      "explanation": "Thành ngữ cố định: \"jemandem bleibt nichts anderes übrig, als …\"."
+    },
+    {
+      "id": "pl-c1-02",
+      "level": "C1",
+      "prompt": "Diese Statistik ist mit Vorsicht zu ___.",
+      "promptVi": "Số liệu thống kê này cần được tiếp nhận một cách dè dặt.",
+      "options": ["genießen", "nehmen", "sehen", "lesen"],
+      "answerIndex": 0,
+      "explanation": "Thành ngữ \"mit Vorsicht zu genießen\" = cần thận trọng khi tin vào."
+    },
+    {
+      "id": "pl-c2-01",
+      "level": "C2",
+      "prompt": "Er nahm kein Blatt vor den ___ und sagte klar seine Meinung.",
+      "promptVi": "Anh ấy nói thẳng không rào đón và nêu rõ quan điểm.",
+      "options": ["Mund", "Kopf", "Augen", "Tisch"],
+      "answerIndex": 0,
+      "explanation": "\"kein Blatt vor den Mund nehmen\" = nói thẳng, không vòng vo."
+    },
+    {
+      "id": "pl-c2-02",
+      "level": "C2",
+      "prompt": "Diese Begründung ist doch an den ___ herbeigezogen.",
+      "promptVi": "Lý lẽ này rõ ràng là khiên cưỡng, gượng ép.",
+      "options": ["Haaren", "Händen", "Ohren", "Beinen"],
+      "answerIndex": 0,
+      "explanation": "\"an den Haaren herbeigezogen\" = gượng ép, không thuyết phục."
+    }
+  ]
+}

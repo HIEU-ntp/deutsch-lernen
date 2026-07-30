@@ -1,0 +1,142 @@
+[
+  {
+    "code": "A1.1",
+    "title": "A1.1 — Những bước đầu tiên",
+    "cefr": "A1",
+    "descriptionVi": "Bảng chữ cái, chào hỏi, giới thiệu bản thân, số đếm và những câu giao tiếp tối giản. Không cần biết gì trước đó.",
+    "canDo": [
+      "Đánh vần tên và địa chỉ email bằng tiếng Đức",
+      "Chào hỏi, tạm biệt đúng ngữ cảnh trang trọng/thân mật",
+      "Giới thiệu tên, tuổi, quốc tịch, nghề nghiệp",
+      "Đếm và nói số điện thoại, giá tiền đơn giản",
+      "Hỏi và trả lời những câu W-Frage cơ bản"
+    ],
+    "estimatedHours": 60
+  },
+  {
+    "code": "A1.2",
+    "title": "A1.2 — Giao tiếp hằng ngày",
+    "cefr": "A1",
+    "descriptionVi": "Gia đình, thời gian, mua sắm, đồ ăn, nhà ở. Bắt đầu dùng Akkusativ, động từ khuyết thiếu và thì quá khứ Perfekt.",
+    "canDo": [
+      "Kể về gia đình và người thân",
+      "Nói giờ, hẹn gặp, mô tả lịch trình trong ngày",
+      "Đi chợ, gọi món, hỏi giá và trả tiền",
+      "Mô tả căn hộ và đồ đạc trong nhà",
+      "Kể lại việc đã làm hôm qua bằng thì Perfekt"
+    ],
+    "estimatedHours": 60
+  },
+  {
+    "code": "A2.1",
+    "title": "A2.1 — Mở rộng đời sống",
+    "cefr": "A2",
+    "descriptionVi": "Sức khoẻ, đi lại, thời tiết, sở thích. Làm chủ Dativ, giới từ đi với Akkusativ/Dativ và câu ghép với weil/dass.",
+    "canDo": [
+      "Đặt lịch khám và mô tả triệu chứng",
+      "Hỏi đường, mua vé, dùng phương tiện công cộng",
+      "Nói về thời tiết và kế hoạch cuối tuần",
+      "Giải thích lý do bằng weil / denn",
+      "Dùng đúng giới từ Wechselpräpositionen"
+    ],
+    "estimatedHours": 80
+  },
+  {
+    "code": "A2.2",
+    "title": "A2.2 — Kể chuyện và so sánh",
+    "cefr": "A2",
+    "descriptionVi": "Công việc, du lịch, truyền thông. So sánh hơn/nhất, Präteritum của động từ thường gặp, câu điều kiện đơn giản.",
+    "canDo": [
+      "Kể lại một chuyến đi bằng quá khứ",
+      "So sánh hai lựa chọn và nêu ý kiến",
+      "Viết email ngắn kiểu bán trang trọng",
+      "Mô tả công việc và kinh nghiệm làm việc",
+      "Diễn đạt mong muốn bằng würde / hätte gern"
+    ],
+    "estimatedHours": 80
+  },
+  {
+    "code": "B1.1",
+    "title": "B1.1 — Tự chủ trong giao tiếp",
+    "cefr": "B1",
+    "descriptionVi": "Học tập, môi trường, quan hệ xã hội. Tính từ biến đuôi đầy đủ, mệnh đề quan hệ, câu bị động ở thì hiện tại.",
+    "canDo": [
+      "Trình bày quan điểm có lập luận trong hội thoại",
+      "Viết thư khiếu nại, thư xin lỗi",
+      "Dùng mệnh đề quan hệ để mô tả chi tiết",
+      "Hiểu bản tin ngắn và tóm tắt lại",
+      "Dùng câu bị động để mô tả quy trình"
+    ],
+    "estimatedHours": 100
+  },
+  {
+    "code": "B1.2",
+    "title": "B1.2 — Lập luận và tường thuật",
+    "cefr": "B1",
+    "descriptionVi": "Truyền thông, sức khoẻ tinh thần, hội nhập. Konjunktiv II, lời nói gián tiếp, danh hoá và liên từ hai vế.",
+    "canDo": [
+      "Đưa lời khuyên lịch sự bằng Konjunktiv II",
+      "Tường thuật lời người khác",
+      "Viết bài luận ngắn nêu ưu và nhược điểm",
+      "Dùng liên từ đôi (nicht nur … sondern auch)",
+      "Trình bày ngắn về một chủ đề xã hội"
+    ],
+    "estimatedHours": 100
+  },
+  {
+    "code": "B2.1",
+    "title": "B2.1 — Ngôn ngữ chuyên sâu",
+    "cefr": "B2",
+    "descriptionVi": "Kinh tế, khoa học, thị trường lao động. Cấu trúc danh hoá, Partizipialattribute, câu bị động mọi thì.",
+    "canDo": [
+      "Hiểu bài báo chuyên ngành phổ thông",
+      "Tranh luận và bảo vệ quan điểm",
+      "Viết văn bản có bố cục rõ ràng, mạch lạc",
+      "Dùng cấu trúc danh hoá thay mệnh đề",
+      "Diễn đạt sắc thái bằng Modalpartikeln"
+    ],
+    "estimatedHours": 120
+  },
+  {
+    "code": "B2.2",
+    "title": "B2.2 — Thành thạo chức năng",
+    "cefr": "B2",
+    "descriptionVi": "Văn hoá, đạo đức, toàn cầu hoá. Konjunktiv I trong văn viết, cấu trúc thay thế bị động, thành ngữ và văn phong.",
+    "canDo": [
+      "Trình bày và điều phối một buổi thảo luận",
+      "Viết báo cáo, bài phân tích có dẫn chứng",
+      "Nhận ra sắc thái mỉa mai, ẩn dụ trong văn bản",
+      "Dùng Konjunktiv I khi trích dẫn",
+      "Chuyển đổi linh hoạt giữa các văn phong"
+    ],
+    "estimatedHours": 120
+  },
+  {
+    "code": "C1",
+    "title": "C1 — Học thuật và nghề nghiệp",
+    "cefr": "C1",
+    "descriptionVi": "Ngôn ngữ học thuật, nghiên cứu, chính sách. Cấu trúc phức hợp, văn phong khoa học, sắc thái tinh tế.",
+    "canDo": [
+      "Viết tiểu luận học thuật có trích dẫn",
+      "Thuyết trình về đề tài chuyên môn",
+      "Hiểu văn bản dài và ẩn ý",
+      "Dùng thành ngữ và collocation tự nhiên",
+      "Thương lượng và phản biện trong môi trường chuyên nghiệp"
+    ],
+    "estimatedHours": 160
+  },
+  {
+    "code": "C2",
+    "title": "C2 — Gần như người bản ngữ",
+    "cefr": "C2",
+    "descriptionVi": "Văn học, triết học, tranh luận học thuật. Sắc thái tinh vi, phong cách cá nhân, tiếng Đức chuyên ngành hẹp.",
+    "canDo": [
+      "Đọc hiểu văn học và văn bản triết học",
+      "Viết với phong cách riêng, chính xác về sắc thái",
+      "Tranh luận học thuật ở trình độ cao",
+      "Nhận diện phương ngữ và biến thể vùng miền",
+      "Diễn đạt hàm ý, chơi chữ, hài hước tinh tế"
+    ],
+    "estimatedHours": 200
+  }
+]

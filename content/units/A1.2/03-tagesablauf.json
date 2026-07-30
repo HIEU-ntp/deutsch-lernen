@@ -1,0 +1,295 @@
+{
+  "id": "a1-2-u03-tagesablauf",
+  "level": "A1.2",
+  "order": 3,
+  "slug": "tagesablauf",
+  "title": "Der Tagesablauf — trennbare Verben",
+  "titleVi": "Lịch trình một ngày — động từ tách",
+  "description": "Động từ tách là một trong những nét lạ nhất của tiếng Đức: tiền tố bị bắn xuống cuối câu, có khi cách động từ cả chục từ.",
+  "goals": [
+    "Kể lại lịch trình một ngày của mình",
+    "Nhận biết và chia đúng động từ tách",
+    "Đặt tiền tố đúng vị trí cuối câu"
+  ],
+  "vocabulary": [
+    {
+      "id": "a1-2-u03-v-aufstehen",
+      "de": "aufstehen",
+      "pos": "verb",
+      "vi": "thức dậy, đứng dậy",
+      "principalParts": "aufstehen, stand auf, ist aufgestanden",
+      "example": { "de": "Ich stehe um sechs Uhr auf.", "vi": "Tôi dậy lúc sáu giờ." },
+      "note": "Động từ tách: auf | stehen. Khi chia, \"auf\" bay xuống cuối câu.",
+      "tags": ["hang-ngay", "dong-tu-tach"]
+    },
+    {
+      "id": "a1-2-u03-v-anfangen",
+      "de": "anfangen",
+      "pos": "verb",
+      "vi": "bắt đầu",
+      "principalParts": "anfangen, fing an, hat angefangen",
+      "example": { "de": "Der Kurs fängt um neun an.", "vi": "Khoá học bắt đầu lúc chín giờ." },
+      "note": "Vừa tách vừa đổi nguyên âm: du fängst an, er fängt an.",
+      "tags": ["hang-ngay", "dong-tu-tach"]
+    },
+    {
+      "id": "a1-2-u03-v-einkaufen",
+      "de": "einkaufen",
+      "pos": "verb",
+      "vi": "đi mua sắm",
+      "example": { "de": "Am Samstag kaufe ich ein.", "vi": "Thứ Bảy tôi đi mua sắm." },
+      "tags": ["hang-ngay", "dong-tu-tach", "mua-sam"]
+    },
+    {
+      "id": "a1-2-u03-v-fernsehen",
+      "de": "fernsehen",
+      "pos": "verb",
+      "vi": "xem TV",
+      "principalParts": "fernsehen, sah fern, hat ferngesehen",
+      "example": { "de": "Abends sehe ich fern.", "vi": "Buổi tối tôi xem TV." },
+      "tags": ["hang-ngay", "dong-tu-tach", "so-thich"]
+    },
+    {
+      "id": "a1-2-u03-v-aufraeumen",
+      "de": "aufräumen",
+      "pos": "verb",
+      "vi": "dọn dẹp",
+      "example": { "de": "Ich räume mein Zimmer auf.", "vi": "Tôi dọn phòng của mình." },
+      "tags": ["hang-ngay", "dong-tu-tach", "nha-o"]
+    },
+    {
+      "id": "a1-2-u03-v-anrufen",
+      "de": "anrufen",
+      "pos": "verb",
+      "vi": "gọi điện",
+      "principalParts": "anrufen, rief an, hat angerufen",
+      "example": { "de": "Ich rufe dich später an.", "vi": "Lát nữa tôi gọi cho bạn." },
+      "tags": ["hang-ngay", "dong-tu-tach", "lien-lac"]
+    },
+    {
+      "id": "a1-2-u03-v-fruehstuecken",
+      "de": "frühstücken",
+      "pos": "verb",
+      "vi": "ăn sáng",
+      "example": { "de": "Ich frühstücke um sieben.", "vi": "Tôi ăn sáng lúc bảy giờ." },
+      "note": "Đây KHÔNG phải động từ tách, dù nhìn dài — không có tiền tố tách nào cả.",
+      "tags": ["hang-ngay", "an-uong"]
+    },
+    {
+      "id": "a1-2-u03-v-schlafen",
+      "de": "schlafen",
+      "pos": "verb",
+      "vi": "ngủ",
+      "principalParts": "schlafen, schlief, hat geschlafen",
+      "example": { "de": "Er schläft acht Stunden.", "vi": "Anh ấy ngủ tám tiếng." },
+      "note": "Đổi nguyên âm a → ä: du schläfst, er schläft.",
+      "tags": ["hang-ngay"]
+    },
+    {
+      "id": "a1-2-u03-v-arbeit",
+      "de": "Arbeit",
+      "article": "die",
+      "plural": "Arbeiten",
+      "pos": "noun",
+      "vi": "công việc",
+      "example": { "de": "Ich fahre zur Arbeit.", "vi": "Tôi đi làm." },
+      "tags": ["cong-viec"]
+    },
+    {
+      "id": "a1-2-u03-v-dann",
+      "de": "dann",
+      "pos": "adverb",
+      "vi": "sau đó",
+      "example": { "de": "Dann trinke ich Kaffee.", "vi": "Sau đó tôi uống cà phê." },
+      "note": "Đứng đầu câu thì đẩy chủ ngữ ra sau động từ.",
+      "tags": ["thoi-gian", "lien-tu"]
+    },
+    {
+      "id": "a1-2-u03-v-zuerst",
+      "de": "zuerst",
+      "pos": "adverb",
+      "vi": "trước tiên",
+      "example": { "de": "Zuerst dusche ich, dann frühstücke ich.", "vi": "Trước tiên tôi tắm, sau đó ăn sáng." },
+      "tags": ["thoi-gian", "lien-tu"]
+    },
+    {
+      "id": "a1-2-u03-v-muede",
+      "de": "müde",
+      "pos": "adjective",
+      "vi": "mệt, buồn ngủ",
+      "example": { "de": "Am Abend bin ich müde.", "vi": "Buổi tối tôi mệt." },
+      "tags": ["hang-ngay"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "a1-2-u03-g-trennbare",
+      "title": "Trennbare Verben",
+      "titleVi": "Động từ tách",
+      "summary": "Tiền tố tách ra và nhảy xuống cuối câu khi động từ được chia — nghe hết câu mới biết nghĩa.",
+      "explanation": "Nhiều động từ tiếng Đức gồm **tiền tố + động từ gốc**: `auf` + `stehen` = `aufstehen` (thức dậy).\n\nKhi chia ở thì hiện tại, tiền tố **tách ra và nhảy xuống cuối câu**:\n\n`Ich **stehe** um sechs Uhr **auf**.`\n\nCâu càng dài thì tiền tố càng xa động từ:\n\n`Ich **rufe** meine Mutter in Vietnam am Sonntagabend **an**.`\n\nĐiều này có hệ quả thực tế: **phải nghe hết câu mới biết nghĩa**. `Ich rufe…` có thể thành \"gọi điện\" (anrufen), \"gọi to\" (ausrufen) hoặc chỉ đơn giản là \"gọi\" (rufen).\n\n**Tiền tố nào tách, tiền tố nào không?**\n\n- Tách được (luôn mang trọng âm): `auf-, an-, aus-, ein-, mit-, ab-, zu-, vor-, nach-, weg-, zurück-, fern-`\n- Không tách (không mang trọng âm): `be-, ge-, er-, ver-, zer-, ent-, emp-, miss-`\n\nSo sánh: `**ver**stehen` (hiểu) không tách → Ich verstehe das. Còn `**auf**stehen` tách → Ich stehe auf.\n\nMẹo nhận biết khi nghe: nếu trọng âm rơi vào tiền tố (**AUF**stehen) thì tách; nếu rơi vào gốc (ver**STE**hen) thì không tách.",
+      "examples": [
+        { "de": "Ich stehe jeden Tag um sechs Uhr auf.", "vi": "Ngày nào tôi cũng dậy lúc sáu giờ." },
+        { "de": "Wann fängt der Film an?", "vi": "Phim bắt đầu lúc mấy giờ?", "note": "Trong câu hỏi, tiền tố vẫn ở cuối." },
+        { "de": "Am Samstag kaufe ich im Supermarkt ein.", "vi": "Thứ Bảy tôi đi mua sắm ở siêu thị." },
+        { "de": "Ich verstehe die Frage nicht.", "vi": "Tôi không hiểu câu hỏi.", "note": "ver- không tách." }
+      ],
+      "tables": [
+        {
+          "title": "Vị trí của tiền tố",
+          "headers": ["Kiểu câu", "Ví dụ"],
+          "rows": [
+            ["Câu kể", "Ich stehe um 6 Uhr auf."],
+            ["Câu kể (đảo)", "Um 6 Uhr stehe ich auf."],
+            ["Câu hỏi W", "Wann stehst du auf?"],
+            ["Câu hỏi Ja/Nein", "Stehst du früh auf?"],
+            ["Mệnh lệnh", "Steh bitte auf!"]
+          ],
+          "footnote": "Trong mọi trường hợp trên, tiền tố đều nằm ở cuối."
+        },
+        {
+          "title": "Tiền tố thường gặp",
+          "headers": ["Tiền tố", "Nghĩa gợi ý", "Ví dụ"],
+          "rows": [
+            ["auf-", "lên, mở", "aufstehen, aufmachen"],
+            ["an-", "bắt đầu, hướng tới", "anfangen, anrufen"],
+            ["aus-", "ra, tắt", "ausgehen, ausmachen"],
+            ["ein-", "vào", "einkaufen, einsteigen"],
+            ["mit-", "cùng", "mitkommen, mitbringen"],
+            ["ab-", "đi khỏi", "abfahren, abholen"],
+            ["zurück-", "trở lại", "zurückkommen"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Quên tiền tố ở cuối câu: \"Ich stehe um sechs Uhr\" — thiếu \"auf\", nghĩa thành \"tôi đứng lúc sáu giờ\".",
+        "Không tách khi phải tách: \"Ich aufstehe um sechs\" — sai hoàn toàn.",
+        "Tách nhầm tiền tố không tách: \"Ich stehe das ver\" thay vì \"Ich verstehe das\"."
+      ],
+      "tags": ["verb-conjugation", "word-order"]
+    },
+    {
+      "id": "a1-2-u03-g-tagesablauf-reihenfolge",
+      "title": "Reihenfolge beschreiben",
+      "titleVi": "Diễn tả trình tự các việc",
+      "summary": "zuerst, dann, danach, später, zum Schluss — và nhớ rằng chúng đẩy chủ ngữ ra sau động từ.",
+      "explanation": "Khi kể lịch trình, dùng các trạng từ nối:\n\n`zuerst` (trước tiên) → `dann` / `danach` (sau đó) → `später` (muộn hơn) → `zum Schluss` (cuối cùng)\n\nĐiểm dễ sai: các từ này chiếm **vị trí 1** trong câu, nên động từ vẫn phải ở vị trí 2 và chủ ngữ nhảy ra sau:\n\n- ✅ `Dann **frühstücke ich**.`\n- ❌ `Dann ich frühstücke.`\n\nNếu kết hợp với động từ tách thì câu có hai \"đầu\": động từ ở vị trí 2, tiền tố ở cuối.\n\n`Dann **räume** ich mein Zimmer **auf**.`",
+      "examples": [
+        { "de": "Zuerst stehe ich auf, dann dusche ich.", "vi": "Trước tiên tôi dậy, sau đó tôi tắm." },
+        { "de": "Danach frühstücke ich und fahre zur Arbeit.", "vi": "Sau đó tôi ăn sáng và đi làm." },
+        { "de": "Zum Schluss sehe ich fern und gehe ins Bett.", "vi": "Cuối cùng tôi xem TV rồi đi ngủ." }
+      ],
+      "tables": [
+        {
+          "title": "Từ nối trình tự",
+          "headers": ["Từ", "Nghĩa"],
+          "rows": [
+            ["zuerst", "trước tiên"],
+            ["dann", "rồi, sau đó"],
+            ["danach", "sau đó"],
+            ["später", "muộn hơn"],
+            ["zum Schluss", "cuối cùng"],
+            ["jeden Tag", "mỗi ngày"],
+            ["manchmal", "thỉnh thoảng"]
+          ]
+        }
+      ],
+      "commonMistakes": [
+        "Giữ chủ ngữ trước động từ sau \"dann\": \"Dann ich gehe\" — sai.",
+        "Quên rằng \"und\" KHÔNG chiếm vị trí 1: \"und ich gehe\" là đúng, không đảo."
+      ],
+      "tags": ["word-order", "connectors"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "a1-2-u03-e-01",
+      "type": "reorder",
+      "instruction": "Sắp xếp thành câu đúng (động từ tách!)",
+      "answer": ["Ich", "stehe", "um", "sechs", "Uhr", "auf"],
+      "translation": "Tôi dậy lúc sáu giờ.",
+      "explanation": "Động từ chia \"stehe\" ở vị trí 2, tiền tố \"auf\" ở cuối cùng.",
+      "skillTag": "word-order"
+    },
+    {
+      "id": "a1-2-u03-e-02",
+      "type": "fill_blank",
+      "sentence": "Der Deutschkurs ___ um neun Uhr ___.",
+      "blanks": [
+        { "answers": ["fängt"], "hint": "anfangen, ngôi er/sie/es" },
+        { "answers": ["an"], "hint": "tiền tố" }
+      ],
+      "translation": "Khoá tiếng Đức bắt đầu lúc chín giờ.",
+      "explanation": "anfangen vừa tách vừa đổi nguyên âm: er fängt … an.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u03-e-03",
+      "type": "multiple_choice",
+      "prompt": "Động từ nào KHÔNG tách?",
+      "options": ["verstehen", "aufstehen", "einkaufen", "anrufen"],
+      "answerIndex": 0,
+      "explanation": "ver- là tiền tố không tách. Ba từ còn lại có tiền tố auf-, ein-, an- đều tách được.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u03-e-04",
+      "type": "conjugation",
+      "verb": "aufstehen",
+      "verbVi": "thức dậy",
+      "tense": "praesens",
+      "tenseLabel": "Präsens — chỉ điền phần động từ chia (tiền tố \"auf\" ở cuối câu)",
+      "rows": [
+        { "pronoun": "ich … auf", "answer": "stehe", "prefilled": true },
+        { "pronoun": "du … auf", "answer": "stehst" },
+        { "pronoun": "er/sie/es … auf", "answer": "steht" },
+        { "pronoun": "wir … auf", "answer": "stehen" },
+        { "pronoun": "ihr … auf", "answer": "steht" },
+        { "pronoun": "sie/Sie … auf", "answer": "stehen" }
+      ],
+      "note": "Chỉ phần \"stehen\" được chia; \"auf\" luôn nằm cuối câu.",
+      "explanation": "Với động từ tách, bạn chia phần gốc như động từ bình thường rồi đẩy tiền tố xuống cuối.",
+      "skillTag": "verb-conjugation"
+    },
+    {
+      "id": "a1-2-u03-e-05",
+      "type": "matching",
+      "instruction": "Nối động từ tách với nghĩa",
+      "pairs": [
+        { "left": "aufstehen", "right": "thức dậy" },
+        { "left": "einkaufen", "right": "đi mua sắm" },
+        { "left": "fernsehen", "right": "xem TV" },
+        { "left": "anrufen", "right": "gọi điện" },
+        { "left": "aufräumen", "right": "dọn dẹp" }
+      ],
+      "explanation": "Tiền tố thường gợi ý nghĩa: ein- (vào), auf- (lên/mở), fern- (xa).",
+      "skillTag": "vocabulary"
+    },
+    {
+      "id": "a1-2-u03-e-06",
+      "type": "listening",
+      "audioText": "Ich stehe um halb sieben auf und frühstücke um sieben. Um acht fahre ich zur Arbeit.",
+      "mode": "choice",
+      "question": "Người nói thức dậy lúc mấy giờ?",
+      "options": ["6:30", "7:00", "7:30", "8:00"],
+      "answerIndex": 0,
+      "explanation": "\"halb sieben\" = 6:30. Bảy giờ là lúc ăn sáng, tám giờ là lúc đi làm.",
+      "skillTag": "listening"
+    },
+    {
+      "id": "a1-2-u03-e-07",
+      "type": "translate",
+      "direction": "vi-de",
+      "source": "Lát nữa tôi sẽ gọi cho bạn.",
+      "answers": [
+        "Ich rufe dich später an.",
+        "Später rufe ich dich an.",
+        "Ich rufe dich später an",
+        "Ich rufe später dich an."
+      ],
+      "hint": "anrufen là động từ tách",
+      "explanation": "Tiền tố \"an\" phải nằm ở cuối câu, sau tân ngữ và trạng ngữ.",
+      "skillTag": "word-order"
+    }
+  ]
+}
