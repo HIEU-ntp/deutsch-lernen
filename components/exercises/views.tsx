@@ -407,6 +407,22 @@ function ReorderView({ exercise, onChange, result }: ViewProps<ReorderExercise>)
         ))}
       </div>
 
+      {/*
+        Sắp xếp câu là loại bài mà người học cần thấy đáp án đúng nhất — trật tự từ
+        tiếng Đức không đoán được. Chỉ tô viền đỏ thì họ vẫn không biết sai ở đâu.
+      */}
+      {result && !result.correct ? (
+        <div className="mt-3 rounded-xl bg-emerald-50 p-3 text-sm">
+          <span className="font-semibold text-emerald-800">Trật tự đúng: </span>
+          <span className="de text-emerald-900">{exercise.answer.join(' ')}</span>
+          {exercise.alternatives.length > 0 ? (
+            <p className="mt-1 text-xs text-emerald-700">
+              Cũng đúng: {exercise.alternatives.map((alt) => alt.join(' ')).join(' · ')}
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+
       {exercise.translation ? (
         <p className="text-ink-500 mt-3 text-sm">{exercise.translation}</p>
       ) : null}
